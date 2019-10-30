@@ -3,12 +3,12 @@
 ## Usage
 
 ```hcl-terraform
-module "aws-managed-policies" {
-  source = "yukihira1992/aws-managed-policies/aws"
+module "managed-policies" {
+  source = "yukihira1992/managed-policies/aws"
 }
 
 data "aws_iam_policy" "ec2_full_access" {
-  arn = module.aws-managed-policies.AmazonEC2FullAccess
+  arn = module.managed-policies.AmazonEC2FullAccess
 }
 ```
 
