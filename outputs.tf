@@ -54,6 +54,14 @@ output "AWSBackupAdminPolicy" {
   value = "arn:aws:iam::aws:policy/AWSBackupAdminPolicy"
 }
 
+output "AWSBackupFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSBackupFullAccess"
+}
+
+output "AWSBackupOperatorAccess" {
+  value = "arn:aws:iam::aws:policy/AWSBackupOperatorAccess"
+}
+
 output "AWSBackupOperatorPolicy" {
   value = "arn:aws:iam::aws:policy/AWSBackupOperatorPolicy"
 }
@@ -212,6 +220,22 @@ output "AWSConfigUserAccess" {
 
 output "AWSConnector" {
   value = "arn:aws:iam::aws:policy/AWSConnector"
+}
+
+output "AWSDataExchangeFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSDataExchangeFullAccess"
+}
+
+output "AWSDataExchangeProviderFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess"
+}
+
+output "AWSDataExchangeReadOnly" {
+  value = "arn:aws:iam::aws:policy/AWSDataExchangeReadOnly"
+}
+
+output "AWSDataExchangeSubscriberFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSDataExchangeSubscriberFullAccess"
 }
 
 output "AWSDataPipeline_FullAccess" {
@@ -462,6 +486,10 @@ output "AWSMarketplaceMeteringFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSMarketplaceMeteringFullAccess"
 }
 
+output "AWSMarketplaceMeteringRegisterUsage" {
+  value = "arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage"
+}
+
 output "AWSMarketplaceProcurementSystemAdminFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSMarketplaceProcurementSystemAdminFullAccess"
 }
@@ -492,6 +520,14 @@ output "AWSMobileHub_FullAccess" {
 
 output "AWSMobileHub_ReadOnly" {
   value = "arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly"
+}
+
+output "AWSNetworkManagerFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
+}
+
+output "AWSNetworkManagerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
 }
 
 output "AWSOpsWorksCMInstanceProfileRole" {
@@ -546,6 +582,14 @@ output "AWSResourceAccessManagerFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess"
 }
 
+output "AWSResourceAccessManagerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AWSResourceAccessManagerReadOnlyAccess"
+}
+
+output "AWSResourceAccessManagerResourceShareParticipantAccess" {
+  value = "arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess"
+}
+
 output "AWSResourceGroupsReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AWSResourceGroupsReadOnlyAccess"
 }
@@ -580,6 +624,14 @@ output "AWSSSOMemberAccountAdministrator" {
 
 output "AWSSSOReadOnly" {
   value = "arn:aws:iam::aws:policy/AWSSSOReadOnly"
+}
+
+output "AWSSavingsPlansFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess"
+}
+
+output "AWSSavingsPlansReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess"
 }
 
 output "AWSSecurityHubFullAccess" {
@@ -698,6 +750,14 @@ output "AmazonAthenaFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonAthenaFullAccess"
 }
 
+output "AmazonAugmentedAIFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess"
+}
+
+output "AmazonAugmentedAIHumanLoopFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess"
+}
+
 output "AmazonChimeFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonChimeFullAccess"
 }
@@ -716,6 +776,22 @@ output "AmazonCloudDirectoryFullAccess" {
 
 output "AmazonCloudDirectoryReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonCloudDirectoryReadOnlyAccess"
+}
+
+output "AmazonCodeGuruProfilerFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
+}
+
+output "AmazonCodeGuruProfilerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess"
+}
+
+output "AmazonCodeGuruReviewerFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonCodeGuruReviewerFullAccess"
+}
+
+output "AmazonCodeGuruReviewerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess"
 }
 
 output "AmazonCognitoDeveloperAuthenticatedIdentities" {
@@ -794,12 +870,20 @@ output "AmazonEC2ReportsAccess" {
   value = "arn:aws:iam::aws:policy/AmazonEC2ReportsAccess"
 }
 
+output "AmazonEC2RolePolicyForLaunchWizard" {
+  value = "arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard"
+}
+
 output "AmazonECS_FullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonECS_FullAccess"
 }
 
 output "AmazonEKSClusterPolicy" {
   value = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+}
+
+output "AmazonEKSFargatePodExecutionRolePolicy" {
+  value = "arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy"
 }
 
 output "AmazonEKSServicePolicy" {
@@ -870,6 +954,14 @@ output "AmazonEventBridgeReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess"
 }
 
+output "AmazonEventBridgeSchemasFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess"
+}
+
+output "AmazonEventBridgeSchemasReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess"
+}
+
 output "AmazonFSxConsoleFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonFSxConsoleFullAccess"
 }
@@ -888,6 +980,10 @@ output "AmazonFSxReadOnlyAccess" {
 
 output "AmazonForecastFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonForecastFullAccess"
+}
+
+output "AmazonFraudDetectorFullAccessPolicy" {
+  value = "arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
 }
 
 output "AmazonFreeRTOSFullAccess" {
@@ -916,6 +1012,14 @@ output "AmazonInspectorFullAccess" {
 
 output "AmazonInspectorReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonInspectorReadOnlyAccess"
+}
+
+output "AmazonKendraFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonKendraFullAccess"
+}
+
+output "AmazonKendraReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess"
 }
 
 output "AmazonKinesisAnalyticsFullAccess" {
@@ -950,6 +1054,10 @@ output "AmazonKinesisVideoStreamsReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess"
 }
 
+output "AmazonLaunchWizardFullaccess" {
+  value = "arn:aws:iam::aws:policy/AmazonLaunchWizardFullaccess"
+}
+
 output "AmazonLexFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonLexFullAccess"
 }
@@ -960,6 +1068,14 @@ output "AmazonLexReadOnly" {
 
 output "AmazonLexRunBotsOnly" {
   value = "arn:aws:iam::aws:policy/AmazonLexRunBotsOnly"
+}
+
+output "AmazonMCSFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonMCSFullAccess"
+}
+
+output "AmazonMCSReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess"
 }
 
 output "AmazonMQApiFullAccess" {
@@ -1194,6 +1310,10 @@ output "AmazonSageMakerFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonSageMakerFullAccess"
 }
 
+output "AmazonSageMakerMechanicalTurkAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
+}
+
 output "AmazonSageMakerReadOnly" {
   value = "arn:aws:iam::aws:policy/AmazonSageMakerReadOnly"
 }
@@ -1338,6 +1458,14 @@ output "CloudWatchReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess"
 }
 
+output "CloudWatchSyntheticsFullAccess" {
+  value = "arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
+}
+
+output "CloudWatchSyntheticsReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
+}
+
 output "ComprehendFullAccess" {
   value = "arn:aws:iam::aws:policy/ComprehendFullAccess"
 }
@@ -1352,6 +1480,10 @@ output "ComprehendReadOnly" {
 
 output "EC2InstanceConnect" {
   value = "arn:aws:iam::aws:policy/EC2InstanceConnect"
+}
+
+output "EC2InstanceProfileForImageBuilder" {
+  value = "arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilder"
 }
 
 output "ElasticLoadBalancingFullAccess" {
@@ -1376,6 +1508,14 @@ output "GlobalAcceleratorReadOnlyAccess" {
 
 output "IAMAccessAdvisorReadOnly" {
   value = "arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly"
+}
+
+output "IAMAccessAnalyzerFullAccess" {
+  value = "arn:aws:iam::aws:policy/IAMAccessAnalyzerFullAccess"
+}
+
+output "IAMAccessAnalyzerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
 }
 
 output "IAMFullAccess" {
@@ -1490,6 +1630,10 @@ output "AWSApplicationAutoscalingAppStreamFleetPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy"
 }
 
+output "AWSApplicationAutoscalingComprehendEndpointPolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy"
+}
+
 output "AWSApplicationAutoscalingDynamoDBTablePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy"
 }
@@ -1522,12 +1666,20 @@ output "AWSAutoScalingPlansEC2AutoScalingPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy"
 }
 
+output "AWSChatbotServiceLinkedRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
+}
+
 output "AWSCloud9ServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSCloud9ServiceRolePolicy"
 }
 
 output "AWSCloudFrontLogger" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontLogger"
+}
+
+output "AWSCodeStarNotificationsServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy"
 }
 
 output "AWSConfigMultiAccountSetupPolicy" {
@@ -1558,6 +1710,10 @@ output "AWSElasticBeanstalkMaintenance" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkMaintenance"
 }
 
+output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
+}
+
 output "AWSElasticBeanstalkServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkServiceRolePolicy"
 }
@@ -1586,6 +1742,10 @@ output "AWSIQPermissionServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSIQPermissionServiceRolePolicy"
 }
 
+output "AWSIoTSiteWiseMonitorServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy"
+}
+
 output "AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy"
 }
@@ -1606,6 +1766,10 @@ output "AWSLicenseManagerServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerServiceRolePolicy"
 }
 
+output "AWSNetworkManagerServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerServiceRolePolicy"
+}
+
 output "AWSOrganizationsServiceTrustPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSOrganizationsServiceTrustPolicy"
 }
@@ -1622,16 +1786,20 @@ output "AWSSSOServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSSSOServiceRolePolicy"
 }
 
-output "AWSSchemasServiceRolePolicy" {
-  value = "arn:aws:iam::aws:policy/aws-service-role/AWSSchemasServiceRolePolicy"
-}
-
 output "AWSSecurityHubServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSSecurityHubServiceRolePolicy"
 }
 
+output "AWSServiceRoleForAmazonEKSNodegroup" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
+}
+
 output "AWSServiceRoleForEC2ScheduledInstances" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForEC2ScheduledInstances"
+}
+
+output "AWSServiceRoleForImageBuilder" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder"
 }
 
 output "AWSServiceRoleForIoTSiteWise" {
@@ -1654,6 +1822,10 @@ output "AWSSystemsManagerAccountDiscoveryServicePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy"
 }
 
+output "AWSTrustedAdvisorReportingServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy"
+}
+
 output "AWSTrustedAdvisorServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorServiceRolePolicy"
 }
@@ -1664,6 +1836,10 @@ output "AWSVPCS2SVpnServiceRolePolicy" {
 
 output "AWSVPCTransitGatewayServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSVPCTransitGatewayServiceRolePolicy"
+}
+
+output "AccessAnalyzerServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy"
 }
 
 output "AlexaForBusinessNetworkProfileServicePolicy" {
@@ -1678,6 +1854,10 @@ output "AmazonChimeVoiceConnectorServiceLinkedRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy"
 }
 
+output "AmazonCodeGuruReviewerServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
+}
+
 output "AmazonCognitoIdpEmailServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpEmailServiceRolePolicy"
 }
@@ -1690,12 +1870,24 @@ output "AmazonECSServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonECSServiceRolePolicy"
 }
 
+output "AmazonEKSForFargateServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy"
+}
+
 output "AmazonEMRCleanupPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEMRCleanupPolicy"
 }
 
+output "AmazonElasticFileSystemServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
+}
+
 output "AmazonElasticsearchServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonElasticsearchServiceRolePolicy"
+}
+
+output "AmazonEventBridgeSchemasServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
 }
 
 output "AmazonFSxServiceRolePolicy" {
@@ -1758,6 +1950,14 @@ output "ClientVPNServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceRolePolicy"
 }
 
+output "CloudFormationStackSetsOrgAdminServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy"
+}
+
+output "CloudFormationStackSetsOrgMemberServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy"
+}
+
 output "CloudHSMServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/CloudHSMServiceRolePolicy"
 }
@@ -1778,12 +1978,20 @@ output "CloudwatchApplicationInsightsServiceLinkedRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/CloudwatchApplicationInsightsServiceLinkedRolePolicy"
 }
 
+output "ComputeOptimizerServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy"
+}
+
 output "ConfigConformsServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/ConfigConformsServiceRolePolicy"
 }
 
 output "DAXServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/DAXServiceRolePolicy"
+}
+
+output "DynamoDBCloudWatchContributorInsightsServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy"
 }
 
 output "DynamoDBReplicationServiceRolePolicy" {
@@ -1848,6 +2056,10 @@ output "WAFLoggingServiceRolePolicy" {
 
 output "WAFRegionalLoggingServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy"
+}
+
+output "WAFV2LoggingServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy"
 }
 
 output "Billing" {
@@ -2265,3 +2477,4 @@ output "ServerMigrationServiceRole" {
 output "VMImportExportRoleForAWSConnector" {
   value = "arn:aws:iam::aws:policy/service-role/VMImportExportRoleForAWSConnector"
 }
+
