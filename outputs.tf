@@ -50,20 +50,12 @@ output "AWSB9InternalServicePolicy" {
   value = "arn:aws:iam::aws:policy/AWSB9InternalServicePolicy"
 }
 
-output "AWSBackupAdminPolicy" {
-  value = "arn:aws:iam::aws:policy/AWSBackupAdminPolicy"
-}
-
 output "AWSBackupFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSBackupFullAccess"
 }
 
 output "AWSBackupOperatorAccess" {
   value = "arn:aws:iam::aws:policy/AWSBackupOperatorAccess"
-}
-
-output "AWSBackupOperatorPolicy" {
-  value = "arn:aws:iam::aws:policy/AWSBackupOperatorPolicy"
 }
 
 output "AWSBatchFullAccess" {
@@ -380,6 +372,14 @@ output "AWSHealthFullAccess" {
 
 output "AWSIQFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSIQFullAccess"
+}
+
+output "AWSImageBuilderFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSImageBuilderFullAccess"
+}
+
+output "AWSImageBuilderReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
 }
 
 output "AWSImportExportFullAccess" {
@@ -866,10 +866,6 @@ output "AmazonEC2ReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess"
 }
 
-output "AmazonEC2ReportsAccess" {
-  value = "arn:aws:iam::aws:policy/AmazonEC2ReportsAccess"
-}
-
 output "AmazonEC2RolePolicyForLaunchWizard" {
   value = "arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard"
 }
@@ -1210,6 +1206,10 @@ output "AmazonRedshiftReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonRedshiftReadOnlyAccess"
 }
 
+output "AmazonRekognitionCustomLabelsFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess"
+}
+
 output "AmazonRekognitionFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonRekognitionFullAccess"
 }
@@ -1344,6 +1344,10 @@ output "AmazonVPCFullAccess" {
 
 output "AmazonVPCReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonVPCReadOnlyAccess"
+}
+
+output "AmazonWorkDocsReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonWorkDocsReadOnlyAccess"
 }
 
 output "AmazonWorkLinkFullAccess" {
@@ -1998,6 +2002,10 @@ output "DynamoDBReplicationServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/DynamoDBReplicationServiceRolePolicy"
 }
 
+output "EC2FleetTimeShiftableServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/EC2FleetTimeShiftableServiceRolePolicy"
+}
+
 output "ElastiCacheServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/ElastiCacheServiceRolePolicy"
 }
@@ -2008,6 +2016,10 @@ output "FMSServiceRolePolicy" {
 
 output "FSxDeleteServiceLinkedRoleAccess" {
   value = "arn:aws:iam::aws:policy/aws-service-role/FSxDeleteServiceLinkedRoleAccess"
+}
+
+output "Health_OrganizationsServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy"
 }
 
 output "KafkaServiceRolePolicy" {
