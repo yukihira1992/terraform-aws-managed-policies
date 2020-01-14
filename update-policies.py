@@ -45,9 +45,9 @@ def format_policies(policies):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--profile', default='default', help='AWS named profile.')
+    parser.add_argument('-p', '--profile', help='AWS named profile.')
     args = parser.parse_args()
-    if args.profile != 'default':
+    if args.profile is not None:
         os.environ.setdefault('AWS_PROFILE', args.profile)
 
     policies = get_managed_policies()
