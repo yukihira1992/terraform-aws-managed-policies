@@ -914,6 +914,18 @@ output "AmazonElastiCacheReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonElastiCacheReadOnlyAccess"
 }
 
+output "AmazonElasticFileSystemClientFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess"
+}
+
+output "AmazonElasticFileSystemClientReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadOnlyAccess"
+}
+
+output "AmazonElasticFileSystemClientReadWriteAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
+}
+
 output "AmazonElasticFileSystemFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonElasticFileSystemFullAccess"
 }
@@ -2360,10 +2372,6 @@ output "AmazonEC2RoleforSSM" {
 
 output "AmazonEC2SpotFleetAutoscaleRole" {
   value = "arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetAutoscaleRole"
-}
-
-output "AmazonEC2SpotFleetRole" {
-  value = "arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetRole"
 }
 
 output "AmazonEC2SpotFleetTaggingRole" {
