@@ -47,7 +47,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--profile', default='default', help='AWS named profile.')
     args = parser.parse_args()
-    os.environ.setdefault('AWS_PROFILE', args.profile)
+    if args.profile != 'default':
+        os.environ.setdefault('AWS_PROFILE', args.profile)
 
     policies = get_managed_policies()
     outputs = format_policies(policies)
