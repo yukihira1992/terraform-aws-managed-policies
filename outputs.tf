@@ -1926,6 +1926,10 @@ output "AmazonMacieServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonMacieServiceRolePolicy"
 }
 
+output "AmazonManagedBlockchainServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy"
+}
+
 output "AmazonRDSBetaServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonRDSBetaServiceRolePolicy"
 }
