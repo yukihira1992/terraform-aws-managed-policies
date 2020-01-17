@@ -2314,6 +2314,10 @@ output "AWSQuickSightListIAM" {
   value = "arn:aws:iam::aws:policy/service-role/AWSQuickSightListIAM"
 }
 
+output "AWSQuickSightSageMakerPolicy" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy"
+}
+
 output "AWSQuicksightAthenaAccess" {
   value = "arn:aws:iam::aws:policy/service-role/AWSQuicksightAthenaAccess"
 }
