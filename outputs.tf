@@ -1642,6 +1642,10 @@ output "AWSAppMeshServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshServiceRolePolicy"
 }
 
+output "AWSAppSyncServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy"
+}
+
 output "AWSApplicationAutoScalingCustomResourcePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoScalingCustomResourcePolicy"
 }
