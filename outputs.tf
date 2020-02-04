@@ -770,6 +770,10 @@ output "AmazonChimeReadOnly" {
   value = "arn:aws:iam::aws:policy/AmazonChimeReadOnly"
 }
 
+output "AmazonChimeSDK" {
+  value = "arn:aws:iam::aws:policy/AmazonChimeSDK"
+}
+
 output "AmazonChimeUserManagement" {
   value = "arn:aws:iam::aws:policy/AmazonChimeUserManagement"
 }
