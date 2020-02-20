@@ -422,6 +422,10 @@ output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
 }
 
+output "AWSIoTDeviceTesterForGreengrassFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess"
+}
+
 output "AWSIoTEventsFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSIoTEventsFullAccess"
 }
