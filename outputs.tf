@@ -1910,6 +1910,10 @@ output "AmazonEKSForFargateServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy"
 }
 
+output "AmazonEKSServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
+}
+
 output "AmazonEMRCleanupPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonEMRCleanupPolicy"
 }
