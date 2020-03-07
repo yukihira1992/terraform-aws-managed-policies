@@ -1510,6 +1510,10 @@ output "ComprehendReadOnly" {
   value = "arn:aws:iam::aws:policy/ComprehendReadOnly"
 }
 
+output "ComputeOptimizerReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess"
+}
+
 output "EC2InstanceConnect" {
   value = "arn:aws:iam::aws:policy/EC2InstanceConnect"
 }
