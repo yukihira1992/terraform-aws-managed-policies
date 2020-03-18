@@ -1670,6 +1670,10 @@ output "AWSApplicationAutoscalingAppStreamFleetPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy"
 }
 
+output "AWSApplicationAutoscalingCassandraTablePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy"
+}
+
 output "AWSApplicationAutoscalingComprehendEndpointPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy"
 }
