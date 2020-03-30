@@ -1078,6 +1078,10 @@ output "AmazonKinesisVideoStreamsReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess"
 }
 
+output "AmazonLambdaRolePolicyForLaunchWizardSAP" {
+  value = "arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP"
+}
+
 output "AmazonLaunchWizardFullaccess" {
   value = "arn:aws:iam::aws:policy/AmazonLaunchWizardFullaccess"
 }
