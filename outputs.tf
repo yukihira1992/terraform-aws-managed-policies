@@ -1538,6 +1538,10 @@ output "ElementalAppliancesSoftwareFullAccess" {
   value = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess"
 }
 
+output "ElementalAppliancesSoftwareReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
+}
+
 output "GlobalAcceleratorFullAccess" {
   value = "arn:aws:iam::aws:policy/GlobalAcceleratorFullAccess"
 }
