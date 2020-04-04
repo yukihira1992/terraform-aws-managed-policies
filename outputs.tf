@@ -1542,6 +1542,10 @@ output "ElementalAppliancesSoftwareReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
 }
 
+output "GameLiftGameServerGroupPolicy" {
+  value = "arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy"
+}
+
 output "GlobalAcceleratorFullAccess" {
   value = "arn:aws:iam::aws:policy/GlobalAcceleratorFullAccess"
 }
