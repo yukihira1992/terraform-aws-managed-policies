@@ -694,6 +694,14 @@ output "AWSSupportAccess" {
   value = "arn:aws:iam::aws:policy/AWSSupportAccess"
 }
 
+output "AWSWAFConsoleFullAccess" {
+  value = "arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess"
+}
+
+output "AWSWAFConsoleReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess"
+}
+
 output "AWSWAFFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSWAFFullAccess"
 }
