@@ -1386,6 +1386,10 @@ output "AmazonVPCReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonVPCReadOnlyAccess"
 }
 
+output "AmazonWorkDocsFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
+}
+
 output "AmazonWorkDocsReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonWorkDocsReadOnlyAccess"
 }
