@@ -778,6 +778,10 @@ output "AmazonAugmentedAIHumanLoopFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess"
 }
 
+output "AmazonAugmentedAIIntegratedAPIAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
+}
+
 output "AmazonChimeFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonChimeFullAccess"
 }
