@@ -1058,6 +1058,14 @@ output "AmazonKendraReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess"
 }
 
+output "AmazonKeyspacesFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess"
+}
+
+output "AmazonKeyspacesReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
+}
+
 output "AmazonKinesisAnalyticsFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonKinesisAnalyticsFullAccess"
 }
