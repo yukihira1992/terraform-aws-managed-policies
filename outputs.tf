@@ -846,6 +846,10 @@ output "AmazonDRSVPCManagement" {
   value = "arn:aws:iam::aws:policy/AmazonDRSVPCManagement"
 }
 
+output "AmazonDetectiveFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonDetectiveFullAccess"
+}
+
 output "AmazonDocDBConsoleFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonDocDBConsoleFullAccess"
 }
