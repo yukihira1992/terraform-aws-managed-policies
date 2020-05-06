@@ -582,6 +582,10 @@ output "AWSPrivateMarketplaceRequests" {
   value = "arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests"
 }
 
+output "AWSPurchaseOrdersServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy"
+}
+
 output "AWSQuickSightIoTAnalyticsAccess" {
   value = "arn:aws:iam::aws:policy/AWSQuickSightIoTAnalyticsAccess"
 }
