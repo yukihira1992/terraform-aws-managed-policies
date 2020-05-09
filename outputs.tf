@@ -1658,6 +1658,10 @@ output "ServerMigrationConnector" {
   value = "arn:aws:iam::aws:policy/ServerMigrationConnector"
 }
 
+output "ServerMigrationServiceConsoleFullAccess" {
+  value = "arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess"
+}
+
 output "ServiceQuotasFullAccess" {
   value = "arn:aws:iam::aws:policy/ServiceQuotasFullAccess"
 }
