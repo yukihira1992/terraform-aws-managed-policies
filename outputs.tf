@@ -1758,6 +1758,10 @@ output "AWSAutoScalingPlansEC2AutoScalingPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy"
 }
 
+output "AWSBackupServiceLinkedRolePolicyForBackupTest" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest"
+}
+
 output "AWSChatbotServiceLinkedRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
 }
