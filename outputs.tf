@@ -1362,6 +1362,10 @@ output "AmazonSSMManagedInstanceCore" {
   value = "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore"
 }
 
+output "AmazonSSMPatchAssociation" {
+  value = "arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
+}
+
 output "AmazonSSMReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonSSMReadOnlyAccess"
 }
