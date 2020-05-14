@@ -98,6 +98,10 @@ output "AWSCloud9EnvironmentMember" {
   value = "arn:aws:iam::aws:policy/AWSCloud9EnvironmentMember"
 }
 
+output "AWSCloud9SSMInstanceProfile" {
+  value = "arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile"
+}
+
 output "AWSCloud9User" {
   value = "arn:aws:iam::aws:policy/AWSCloud9User"
 }
