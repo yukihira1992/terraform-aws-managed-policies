@@ -2242,6 +2242,10 @@ output "AWSCodeDeployRole" {
   value = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRole"
 }
 
+output "AWSCodeDeployRoleForCloudFormation" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation"
+}
+
 output "AWSCodeDeployRoleForLambda" {
   value = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambda"
 }
