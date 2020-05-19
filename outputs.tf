@@ -2346,6 +2346,10 @@ output "AWSIoTRuleActions" {
   value = "arn:aws:iam::aws:policy/service-role/AWSIoTRuleActions"
 }
 
+output "AWSIoTSiteWiseMonitorPortalAccess" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess"
+}
+
 output "AWSIoTThingsRegistration" {
   value = "arn:aws:iam::aws:policy/service-role/AWSIoTThingsRegistration"
 }
