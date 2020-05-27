@@ -702,6 +702,38 @@ output "AWSSupportAccess" {
   value = "arn:aws:iam::aws:policy/AWSSupportAccess"
 }
 
+output "AWSThinkboxAWSPortalAdminPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
+}
+
+output "AWSThinkboxAWSPortalGatewayPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy"
+}
+
+output "AWSThinkboxAWSPortalWorkerPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
+}
+
+output "AWSThinkboxAssetServerPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy"
+}
+
+output "AWSThinkboxDeadlineResourceTrackerAccessPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAccessPolicy"
+}
+
+output "AWSThinkboxDeadlineResourceTrackerAdminPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
+}
+
+output "AWSThinkboxDeadlineSpotEventPluginAdminPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy"
+}
+
+output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
+  value = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
+}
+
 output "AWSWAFConsoleFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess"
 }
