@@ -798,6 +798,14 @@ output "AmazonAPIGatewayInvokeFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonAPIGatewayInvokeFullAccess"
 }
 
+output "AmazonAppFlowFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
+}
+
+output "AmazonAppFlowReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess"
+}
+
 output "AmazonAppStreamFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonAppStreamFullAccess"
 }
@@ -1796,6 +1804,10 @@ output "AWSApplicationAutoscalingSageMakerEndpointPolicy" {
 
 output "AWSAutoScalingPlansEC2AutoScalingPolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy"
+}
+
+output "AWSBackupServiceLinkedRolePolicyForBackup" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackup"
 }
 
 output "AWSBackupServiceLinkedRolePolicyForBackupTest" {
