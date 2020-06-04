@@ -782,6 +782,10 @@ output "AlexaForBusinessGatewayExecution" {
   value = "arn:aws:iam::aws:policy/AlexaForBusinessGatewayExecution"
 }
 
+output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
+  value = "arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
+}
+
 output "AlexaForBusinessPolyDelegatedAccessPolicy" {
   value = "arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy"
 }
