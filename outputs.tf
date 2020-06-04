@@ -1618,6 +1618,10 @@ output "ElasticLoadBalancingReadOnly" {
   value = "arn:aws:iam::aws:policy/ElasticLoadBalancingReadOnly"
 }
 
+output "ElementalActivationsFullAccess" {
+  value = "arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
+}
+
 output "ElementalAppliancesSoftwareFullAccess" {
   value = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess"
 }
