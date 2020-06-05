@@ -2110,6 +2110,10 @@ output "AutoScalingServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy"
 }
 
+output "CheesepuffsServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/CheesepuffsServiceRolePolicy"
+}
+
 output "ClientVPNServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceRolePolicy"
 }
@@ -2340,6 +2344,30 @@ output "AWSDeepRacerServiceRolePolicy" {
 
 output "AWSElasticBeanstalkEnhancedHealth" {
   value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkEnhancedHealth"
+}
+
+output "AWSElasticBeanstalkRoleCWL" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL"
+}
+
+output "AWSElasticBeanstalkRoleCore" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore"
+}
+
+output "AWSElasticBeanstalkRoleECS" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleECS"
+}
+
+output "AWSElasticBeanstalkRoleRDS" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS"
+}
+
+output "AWSElasticBeanstalkRoleSNS" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS"
+}
+
+output "AWSElasticBeanstalkRoleWorkerTier" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier"
 }
 
 output "AWSElasticBeanstalkService" {
