@@ -146,6 +146,10 @@ output "AWSCloudTrailReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess"
 }
 
+output "AWSCodeArtifactAdminAccess" {
+  value = "arn:aws:iam::aws:policy/AWSCodeArtifactAdminAccess"
+}
+
 output "AWSCodeBuildAdminAccess" {
   value = "arn:aws:iam::aws:policy/AWSCodeBuildAdminAccess"
 }
