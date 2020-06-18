@@ -2506,6 +2506,10 @@ output "AWSQuicksightAthenaAccess" {
   value = "arn:aws:iam::aws:policy/service-role/AWSQuicksightAthenaAccess"
 }
 
+output "AWSServiceRoleForThorInternalDevPolicy" {
+  value = "arn:aws:iam::aws:policy/service-role/AWSServiceRoleForThorInternalDevPolicy"
+}
+
 output "AWSShieldDRTAccessPolicy" {
   value = "arn:aws:iam::aws:policy/service-role/AWSShieldDRTAccessPolicy"
 }
