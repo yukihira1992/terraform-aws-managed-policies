@@ -150,6 +150,10 @@ output "AWSCodeArtifactAdminAccess" {
   value = "arn:aws:iam::aws:policy/AWSCodeArtifactAdminAccess"
 }
 
+output "AWSCodeArtifactReadOnlyAccess.json" {
+  value = "arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess.json"
+}
+
 output "AWSCodeBuildAdminAccess" {
   value = "arn:aws:iam::aws:policy/AWSCodeBuildAdminAccess"
 }
