@@ -682,10 +682,6 @@ output "AWSServiceCatalogEndUserReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess"
 }
 
-output "AWSServiceRoleForGammaInternalAmazonEKSNodegroup" {
-  value = "arn:aws:iam::aws:policy/AWSServiceRoleForGammaInternalAmazonEKSNodegroup"
-}
-
 output "AWSStepFunctionsConsoleFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSStepFunctionsConsoleFullAccess"
 }
