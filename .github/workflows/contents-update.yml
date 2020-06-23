@@ -27,6 +27,14 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           python update-policies.py > outputs.tf
+      - name: 'Terraform Init'
+        uses: hashicorp/terraform-github-actions@master
+        with:
+          tf_actions_subcommand: 'init'
+      - name: 'Terraform Validate'
+        uses: hashicorp/terraform-github-actions@master
+        with:
+          tf_actions_subcommand: 'validate'
       - name: Create patch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
