@@ -36,12 +36,15 @@ jobs:
       - name: 'Terraform Init'
         uses: hashicorp/terraform-github-actions@master
         with:
+          tf_actions_version: 'latest'
           tf_actions_subcommand: 'init'
       - name: 'Terraform Validate'
         uses: hashicorp/terraform-github-actions@master
         with:
+          tf_actions_version: 'latest'
           tf_actions_subcommand: 'validate'
       - name: Create patch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
         run: ./create-patch.sh
