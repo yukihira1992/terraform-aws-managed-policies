@@ -1,5 +1,6 @@
 import argparse
 import os
+import re
 
 import boto3
 
@@ -32,9 +33,10 @@ def format_policies(policies):
     ])
     outputs = []
     arn2name = dict()
+    invalid_chars = re.compile(r'[^0-9A-Za-z_-]')
 
     for policy in policies:
-        arn2name[policy['Arn']] = policy['PolicyName']
+        arn2name[policy['Arn']] = invalid_chars.sub('_', policy['PolicyName'])
 
     for arn in sorted(arn2name.keys()):
         name = arn2name[arn]
