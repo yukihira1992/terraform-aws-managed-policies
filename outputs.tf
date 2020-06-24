@@ -1106,6 +1106,30 @@ output "AmazonGuardDutyReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AmazonGuardDutyReadOnlyAccess"
 }
 
+output "AmazonHoneycodeFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess"
+}
+
+output "AmazonHoneycodeReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess"
+}
+
+output "AmazonHoneycodeTeamAssociationFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess"
+}
+
+output "AmazonHoneycodeTeamAssociationReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess"
+}
+
+output "AmazonHoneycodeWorkbookFullAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess"
+}
+
+output "AmazonHoneycodeWorkbookReadOnlyAccess" {
+  value = "arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess"
+}
+
 output "AmazonInspectorFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonInspectorFullAccess"
 }
