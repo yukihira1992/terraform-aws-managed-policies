@@ -686,6 +686,10 @@ output "AWSServiceCatalogEndUserReadOnlyAccess" {
   value = "arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess"
 }
 
+output "AWSServiceRoleForCodeGuruProfiler" {
+  value = "arn:aws:iam::aws:policy/AWSServiceRoleForCodeGuruProfiler"
+}
+
 output "AWSStepFunctionsConsoleFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSStepFunctionsConsoleFullAccess"
 }
