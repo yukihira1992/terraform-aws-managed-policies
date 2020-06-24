@@ -58,6 +58,10 @@ output "AWSBackupOperatorAccess" {
   value = "arn:aws:iam::aws:policy/AWSBackupOperatorAccess"
 }
 
+output "AWSBackupOrganizationAdminAccess" {
+  value = "arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
+}
+
 output "AWSBatchFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSBatchFullAccess"
 }
