@@ -2146,6 +2146,10 @@ output "AutoScalingServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy"
 }
 
+output "CertificateManagerServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy"
+}
+
 output "ClientVPNServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceRolePolicy"
 }
