@@ -2054,6 +2054,10 @@ output "AmazonCognitoIdpEmailServiceRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpEmailServiceRolePolicy"
 }
 
+output "AmazonCognitoIdpServiceRolePolicy" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
+}
+
 output "AmazonConnectServiceLinkedRolePolicy" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AmazonConnectServiceLinkedRolePolicy"
 }
