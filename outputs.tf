@@ -1982,6 +1982,10 @@ output "AWSServiceRoleForAmazonEKSNodegroup" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
 }
 
+output "AWSServiceRoleForCodeGuru-Profiler" {
+  value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
+}
+
 output "AWSServiceRoleForEC2ScheduledInstances" {
   value = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForEC2ScheduledInstances"
 }
