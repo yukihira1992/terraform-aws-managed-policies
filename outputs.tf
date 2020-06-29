@@ -2634,10 +2634,6 @@ output "AmazonFreeRTOSOTAUpdate" {
   value = "arn:aws:iam::aws:policy/service-role/AmazonFreeRTOSOTAUpdate"
 }
 
-output "AmazonMachineLearningRoleforRedshiftDataSourceV2" {
-  value = "arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV2"
-}
-
 output "AmazonMachineLearningRoleforRedshiftDataSourceV3" {
   value = "arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3"
 }
