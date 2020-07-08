@@ -334,6 +334,10 @@ output "AWSElementalMediaConvertReadOnly" {
   value = "arn:aws:iam::aws:policy/AWSElementalMediaConvertReadOnly"
 }
 
+output "AWSElementalMediaLiveReadOnly" {
+  value = "arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly"
+}
+
 output "AWSElementalMediaPackageFullAccess" {
   value = "arn:aws:iam::aws:policy/AWSElementalMediaPackageFullAccess"
 }
