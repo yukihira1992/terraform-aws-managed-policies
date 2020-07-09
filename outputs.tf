@@ -1462,6 +1462,10 @@ output "AmazonSageMakerFullAccess" {
   value = "arn:aws:iam::aws:policy/AmazonSageMakerFullAccess"
 }
 
+output "AmazonSageMakerGroundTruthExecution" {
+  value = "arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution"
+}
+
 output "AmazonSageMakerMechanicalTurkAccess" {
   value = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
 }
