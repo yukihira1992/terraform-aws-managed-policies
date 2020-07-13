@@ -2570,6 +2570,10 @@ output "AmazonAppStreamServiceAccess" {
   value = "arn:aws:iam::aws:policy/service-role/AmazonAppStreamServiceAccess"
 }
 
+output "AmazonCirrusGammaRoleForInstaller" {
+  value = "arn:aws:iam::aws:policy/service-role/AmazonCirrusGammaRoleForInstaller"
+}
+
 output "AmazonDMSCloudWatchLogsRole" {
   value = "arn:aws:iam::aws:policy/service-role/AmazonDMSCloudWatchLogsRole"
 }
