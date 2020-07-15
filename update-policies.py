@@ -27,22 +27,21 @@ def get_managed_policies():
 def format_policies(policies):
     template = '\n'.join([
         'output "{}" {{',
-        '  value = "{}"',
+        '  value       = "{}"',
+        '  description = "https://console.aws.amazon.com/iam/home?#/policies/{}"',
         '}}',
         ''
     ])
-    outputs = []
-    arn2name = dict()
     invalid_chars = re.compile(r'[^0-9A-Za-z_-]')
 
-    for policy in policies:
-        arn2name[policy['Arn']] = invalid_chars.sub('_', policy['PolicyName'])
-
-    for arn in sorted(arn2name.keys()):
-        name = arn2name[arn]
-        outputs.append(template.format(name, arn))
-
-    return outputs
+    return [
+        template.format(
+            invalid_chars.sub('_', policy['PolicyName']),
+            policy['Arn'],
+            policy['Arn'],
+        )
+        for policy in policies
+    ]
 
 
 if __name__ == '__main__':
