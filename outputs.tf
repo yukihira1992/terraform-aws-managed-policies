@@ -3158,6 +3158,11 @@ output "AWSResourceAccessManagerResourceShareParticipantAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess"
 }
 
+output "ServerMigrationServiceRoleForInstanceValidation" {
+  value       = "arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation"
+}
+
 output "AWSBackupFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupFullAccess"
