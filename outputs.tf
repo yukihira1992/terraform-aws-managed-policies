@@ -3123,6 +3123,11 @@ output "AmazonEKSServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
 }
 
+output "AWS_Config_Role" {
+  value       = "arn:aws:iam::aws:policy/AWS_Config_Role"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS_Config_Role"
+}
+
 output "AWSConfigMultiAccountSetupPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
