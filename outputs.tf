@@ -2453,6 +2453,11 @@ output "AWSOrganizationsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOrganizationsFullAccess"
 }
 
+output "AWSCodePipeline_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess"
+}
+
 output "AmazonAugmentedAIIntegratedAPIAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
@@ -2926,6 +2931,11 @@ output "AmazonQLDBReadOnly" {
 output "AWSChatbotServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
+}
+
+output "AWSCodePipeline_ReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
 }
 
 output "ServerMigrationServiceConsoleFullAccess" {
