@@ -2913,6 +2913,11 @@ output "ComputeOptimizerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy"
 }
 
+output "AWSLakeFormationCrossAccountManager" {
+  value       = "arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
+}
+
 output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
