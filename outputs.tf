@@ -3303,6 +3303,11 @@ output "AWSServiceRoleForImageBuilder" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder"
 }
 
+output "AmazonBraketServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
+}
+
 output "AmazonCodeGuruReviewerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
