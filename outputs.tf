@@ -2468,6 +2468,11 @@ output "AmazonFraudDetectorFullAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
 }
 
+output "AmazonLaunchWizard_Fullaccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"
+}
+
 output "AmazonChimeSDK" {
   value       = "arn:aws:iam::aws:policy/AmazonChimeSDK"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeSDK"
