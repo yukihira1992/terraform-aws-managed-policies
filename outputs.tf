@@ -2923,6 +2923,11 @@ output "AWSLakeFormationCrossAccountManager" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
 }
 
+output "AmazonBraketFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBraketFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess"
+}
+
 output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
