@@ -2658,11 +2658,6 @@ output "AWSIQContractServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
 }
 
-output "AmazonLaunchWizardFullaccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonLaunchWizardFullaccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizardFullaccess"
-}
-
 output "AWSBackupOrganizationAdminAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
