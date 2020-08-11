@@ -2743,6 +2743,11 @@ output "ServiceQuotasServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy"
 }
 
+output "AWSLambdaMSKExecutionRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
+}
+
 output "ComputeOptimizerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess"
@@ -3441,6 +3446,11 @@ output "AmazonAppFlowFullAccess" {
 output "AWSThinkboxAWSPortalWorkerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
+}
+
+output "AWSCompromisedKeyQuarantine" {
+  value       = "arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
 }
 
 output "AWSAppMeshEnvoyAccess" {
