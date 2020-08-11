@@ -1918,11 +1918,6 @@ output "AmazonESFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonESFullAccess"
 }
 
-output "ServerMigrationServiceRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRole"
-}
-
 output "ApplicationDiscoveryServiceContinuousExportServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy"
@@ -3326,6 +3321,11 @@ output "AmazonBraketServiceRolePolicy" {
 output "AmazonCodeGuruReviewerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
+}
+
+output "ServerMigration_ServiceRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole"
 }
 
 output "AWSAppMeshPreviewEnvoyAccess" {
