@@ -2478,6 +2478,11 @@ output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
 }
 
+output "Route53ResolverServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy"
+}
+
 output "WAFV2LoggingServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy"
