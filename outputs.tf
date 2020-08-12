@@ -3448,6 +3448,11 @@ output "EC2InstanceConnect" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect"
 }
 
+output "ClientVPNServiceConnectionsRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
+}
+
 output "AmazonAppFlowFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
