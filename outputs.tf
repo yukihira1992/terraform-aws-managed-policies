@@ -3433,6 +3433,11 @@ output "AWSElasticBeanstalkRoleSNS" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS"
 }
 
+output "AmazonEKSVPCResourceController" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
+}
+
 output "EC2InstanceConnect" {
   value       = "arn:aws:iam::aws:policy/EC2InstanceConnect"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect"
