@@ -2568,6 +2568,11 @@ output "AWSThinkboxAWSPortalAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
 }
 
+output "AWSCodeDeployRoleForLambdaLimited" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited"
+}
+
 output "CloudWatchSyntheticsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
