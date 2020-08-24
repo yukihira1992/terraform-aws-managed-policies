@@ -2793,6 +2793,11 @@ output "AWSThinkboxAWSPortalGatewayPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy"
 }
 
+output "AWSApplicationAutoscalingKafkaClusterPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
+}
+
 output "AmazonCodeGuruProfilerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
