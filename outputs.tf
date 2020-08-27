@@ -3203,6 +3203,11 @@ output "AWSResourceAccessManagerResourceShareParticipantAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess"
 }
 
+output "AWSBillingReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess"
+}
+
 output "ServerMigrationServiceRoleForInstanceValidation" {
   value       = "arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation"
