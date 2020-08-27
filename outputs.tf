@@ -2988,6 +2988,11 @@ output "AmazonDetectiveFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveFullAccess"
 }
 
+output "AWSTransferReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess"
+}
+
 output "ServiceQuotasReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess"
