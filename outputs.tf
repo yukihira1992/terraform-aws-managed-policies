@@ -3028,6 +3028,11 @@ output "AmazonEKSForFargateServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy"
 }
 
+output "ElementalActivationsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess"
+}
+
 output "MigrationHubSMSAccessServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy"
