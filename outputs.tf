@@ -3233,6 +3233,11 @@ output "AmazonCodeGuruProfilerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess"
 }
 
+output "ElementalActivationsGenerateLicenses" {
+  value       = "arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
+}
+
 output "AWSNetworkManagerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
