@@ -2983,6 +2983,11 @@ output "AWSCloud9SSMInstanceProfile" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile"
 }
 
+output "ElementalActivationsDownloadSoftwareAccess" {
+  value       = "arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess"
+}
+
 output "AmazonDetectiveFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonDetectiveFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveFullAccess"
