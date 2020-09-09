@@ -3523,3 +3523,8 @@ output "AWSCodeArtifactReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess"
 }
 
+output "AmazonRedshiftDataFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess"
+}
+
