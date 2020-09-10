@@ -2743,6 +2743,11 @@ output "AmazonMCSReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess"
 }
 
+output "AWSRoboMaker_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess"
+}
+
 output "AWSAppMeshPreviewServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy"
