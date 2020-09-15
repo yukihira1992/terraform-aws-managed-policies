@@ -3528,6 +3528,11 @@ output "AmazonKendraReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess"
 }
 
+output "AWS_ConfigRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
+}
+
 output "AWSCodeArtifactReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess"
