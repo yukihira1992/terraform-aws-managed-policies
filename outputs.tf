@@ -1058,11 +1058,6 @@ output "AWSMigrationHubSMSAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMigrationHubSMSAccess"
 }
 
-output "AWSB9InternalServicePolicy" {
-  value       = "arn:aws:iam::aws:policy/AWSB9InternalServicePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSB9InternalServicePolicy"
-}
-
 output "AWSConfigUserAccess" {
   value       = "arn:aws:iam::aws:policy/AWSConfigUserAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSConfigUserAccess"
