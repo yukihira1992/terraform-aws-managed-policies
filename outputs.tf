@@ -2868,6 +2868,11 @@ output "AmazonHoneycodeWorkbookReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess"
 }
 
+output "MediaPackageServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy"
+}
+
 output "IAMAccessAnalyzerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
