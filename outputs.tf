@@ -1633,11 +1633,6 @@ output "AmazonLexReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLexReadOnly"
 }
 
-output "TagPoliciesServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/TagPoliciesServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagPoliciesServiceRolePolicy"
-}
-
 output "AmazonChimeUserManagement" {
   value       = "arn:aws:iam::aws:policy/AmazonChimeUserManagement"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeUserManagement"
