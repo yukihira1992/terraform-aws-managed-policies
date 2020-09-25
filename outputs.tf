@@ -2483,6 +2483,11 @@ output "AWSNetworkManagerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
 }
 
+output "AWSMarketplaceAmiIngestion" {
+  value       = "arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion"
+}
+
 output "AWSPrivateMarketplaceRequests" {
   value       = "arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests"
