@@ -3178,6 +3178,11 @@ output "AmazonWorkSpacesServiceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess"
 }
 
+output "AmazonElasticFileSystemsUtils" {
+  value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils"
+}
+
 output "AmazonEKSServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
