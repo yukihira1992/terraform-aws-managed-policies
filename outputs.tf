@@ -3203,6 +3203,11 @@ output "AmazonElasticFileSystemClientReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadOnlyAccess"
 }
 
+output "AmazonElasticMapReducePlacementGroupPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy"
+}
+
 output "AmazonCognitoIdpServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
