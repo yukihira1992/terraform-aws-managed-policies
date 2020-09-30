@@ -2498,6 +2498,11 @@ output "AmazonSageMakerMechanicalTurkAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
 }
 
+output "AmazonTimestreamConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess"
+}
+
 output "AWSWAFConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess"
@@ -2598,6 +2603,11 @@ output "AmazonAppFlowReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess"
 }
 
+output "AWSQuickSightTimestreamPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
+}
+
 output "AmazonManagedBlockchainFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess"
@@ -2606,6 +2616,11 @@ output "AmazonManagedBlockchainFullAccess" {
 output "ServiceQuotasFullAccess" {
   value       = "arn:aws:iam::aws:policy/ServiceQuotasFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasFullAccess"
+}
+
+output "AmazonTimestreamFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonTimestreamFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamFullAccess"
 }
 
 output "ElementalAppliancesSoftwareReadOnlyAccess" {
@@ -2956,6 +2971,11 @@ output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
 output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
+}
+
+output "AmazonTimestreamReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
 }
 
 output "AmazonQLDBReadOnly" {
