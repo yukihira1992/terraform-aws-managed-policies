@@ -3518,6 +3518,11 @@ output "AmazonAppFlowFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
 }
 
+output "Ec2ImageBuilderCrossAccountDistributionAccess" {
+  value       = "arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess"
+}
+
 output "AWSThinkboxAWSPortalWorkerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
