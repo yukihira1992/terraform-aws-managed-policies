@@ -3288,6 +3288,11 @@ output "AWSNetworkManagerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
 }
 
+output "AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy"
+}
+
 output "CloudWatchSyntheticsFullAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
