@@ -3558,6 +3558,11 @@ output "AWSThinkboxAWSPortalWorkerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy"
 }
 
+output "AmazonS3OutpostsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess"
+}
+
 output "AWSCompromisedKeyQuarantine" {
   value       = "arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
