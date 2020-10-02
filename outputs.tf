@@ -2543,6 +2543,11 @@ output "AmazonKendraFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess"
 }
 
+output "AmazonS3OutpostsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess"
+}
+
 output "AWSQuickSightElasticsearchPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
