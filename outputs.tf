@@ -3098,6 +3098,11 @@ output "CloudWatchAutomaticDashboardsAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess"
 }
 
+output "AWSDeepRacerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDeepRacerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerFullAccess"
+}
+
 output "AmazonWorkMailEventsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonWorkMailEventsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkMailEventsServiceRolePolicy"
