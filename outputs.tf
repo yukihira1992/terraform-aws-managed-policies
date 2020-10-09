@@ -2588,6 +2588,11 @@ output "CloudWatchSyntheticsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
 }
 
+output "AWSCloudTrail_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess"
+}
+
 output "AccessAnalyzerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy"
