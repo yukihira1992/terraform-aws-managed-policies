@@ -428,11 +428,6 @@ output "AmazonEC2ContainerRegistryReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
 }
 
-output "AWSRoboMakerFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSRoboMakerFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRoboMakerFullAccess"
-}
-
 output "AmazonElasticMapReduceforEC2Role" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforEC2Role"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforEC2Role"
