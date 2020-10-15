@@ -2473,6 +2473,11 @@ output "WAFV2LoggingServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy"
 }
 
+output "AWSBudgetsActionsWithAWSResourceControlAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess"
+}
+
 output "AWSNetworkManagerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
@@ -2746,6 +2751,11 @@ output "AWSCertificateManagerPrivateCAPrivilegedUser" {
 output "AmazonSSMPatchAssociation" {
   value       = "arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
+}
+
+output "AWSBudgetsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess"
 }
 
 output "AWSOpsWorksRegisterCLI_OnPremises" {
@@ -3186,6 +3196,11 @@ output "AWSBackupOperatorAccess" {
 output "AWSApplicationAutoscalingLambdaConcurrencyPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy"
+}
+
+output "AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM" {
+  value       = "arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM"
 }
 
 output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {
