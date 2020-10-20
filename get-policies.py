@@ -1,6 +1,6 @@
 import argparse
 import os
-import re
+import pickle
 
 import boto3
 
@@ -24,33 +24,18 @@ def get_managed_policies():
     return policies
 
 
-def format_policies(policies):
-    template = '\n'.join([
-        'output "{}" {{',
-        '  value       = "{}"',
-        '  description = "https://console.aws.amazon.com/iam/home?#/policies/{}"',
-        '}}',
-        ''
-    ])
-    invalid_chars = re.compile(r'[^0-9A-Za-z_-]')
-
-    return [
-        template.format(
-            invalid_chars.sub('_', policy['PolicyName']),
-            policy['Arn'],
-            policy['Arn'],
-        )
-        for policy in policies
-    ]
-
-
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('outfile', help='Output file path.')
     parser.add_argument('-p', '--profile', help='AWS named profile.')
     args = parser.parse_args()
     if args.profile is not None:
         os.environ.setdefault('AWS_PROFILE', args.profile)
 
     policies = get_managed_policies()
-    outputs = format_policies(policies)
-    print('\n'.join(outputs))
+    with open(args.outfile, 'wb') as f:
+        pickle.dump(policies, f, pickle.HIGHEST_PROTOCOL)
+
+
+if __name__ == '__main__':
+    main()
