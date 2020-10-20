@@ -25,14 +25,21 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Update policies
+      - name: Get policies
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_DEFAULT_OUTPUT: ${{ secrets.AWS_DEFAULT_OUTPUT }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
-          python update-policies.py > outputs.tf
+          python get-policies.py policies.pickle
+      - name: Update outputs.tf
+        run: |
+          python format-policies.py policies.pickle --type outputs.tf > outputs.tf
+      - name: Update README.md
+        run: |
+          cat README.tpl.md > README.md
+          python format-policies.py policies.pickle --type README.md >> README.md
       - name: 'Terraform Init'
         uses: hashicorp/terraform-github-actions@master
         with:
@@ -43,6 +50,8 @@ jobs:
         with:
           tf_actions_version: 'latest'
           tf_actions_subcommand: 'validate'
+      - name: Show diff
+        run: git --no-pager diff
       - name: Create patch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

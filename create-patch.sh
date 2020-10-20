@@ -7,6 +7,7 @@ if [[ -n "$(git status --porcelain)" ]]; then
     python next_patch.py `cat version.txt` > version.txt
     git add outputs.tf
     git add version.txt
+    git add README.md
     NEW_VERSION=`cat version.txt`
     git commit -m "Updated policies and bumped version ${NEW_VERSION}."
     git tag v${NEW_VERSION}
