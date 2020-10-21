@@ -3353,6 +3353,11 @@ output "AWSQuickSightSageMakerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy"
 }
 
+output "AWSDataLifecycleManagerServiceRoleForAMIManagement" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement"
+}
+
 output "AmazonWorkSpacesSelfServiceAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess"
