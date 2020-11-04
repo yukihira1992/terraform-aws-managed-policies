@@ -3268,6 +3268,11 @@ output "AmazonCognitoIdpServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
 }
 
+output "AmazonMQServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
+}
+
 output "AmazonKeyspacesReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
