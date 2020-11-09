@@ -708,6 +708,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonCodeGuruReviewerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy |
 | ServerMigration_ServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole |
 | AWSAppMeshPreviewEnvoyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshPreviewEnvoyAccess |
+| AWSOutpostsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy |
 | AmazonLambdaRolePolicyForLaunchWizardSAP | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP |
 | AmazonEC2RoleforAWSCodeDeployLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited |
 | MigrationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy |

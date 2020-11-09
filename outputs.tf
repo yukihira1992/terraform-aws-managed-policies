@@ -3458,6 +3458,11 @@ output "AWSAppMeshPreviewEnvoyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshPreviewEnvoyAccess"
 }
 
+output "AWSOutpostsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy"
+}
+
 output "AmazonLambdaRolePolicyForLaunchWizardSAP" {
   value       = "arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP"
