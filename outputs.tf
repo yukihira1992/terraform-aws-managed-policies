@@ -2458,6 +2458,11 @@ output "AmazonChimeSDK" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeSDK"
 }
 
+output "AwsGlueDataBrewFullAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy"
+}
+
 output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
