@@ -504,6 +504,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSLicenseManagerMemberAccountRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerMemberAccountRolePolicy |
 | AWSOrganizationsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOrganizationsFullAccess |
 | AWSCodePipeline_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess |
+| DynamoDBKinesisReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy |
 | AmazonAugmentedAIIntegratedAPIAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess |
 | AmazonFraudDetectorFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy |
 | AmazonLaunchWizard_Fullaccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess |

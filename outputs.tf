@@ -2438,6 +2438,11 @@ output "AWSCodePipeline_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess"
 }
 
+output "DynamoDBKinesisReplicationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy"
+}
+
 output "AmazonAugmentedAIIntegratedAPIAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
