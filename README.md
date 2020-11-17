@@ -550,6 +550,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTSiteWiseMonitorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy |
 | AmazonHoneycodeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess |
 | AWSCloudFormationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess |
+| AWSNetworkFirewallServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy |
 | ElementalAppliancesSoftwareFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess |
 | AmazonMachineLearningRoleforRedshiftDataSourceV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3 |
 | AmazonAugmentedAIHumanLoopFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess |
