@@ -3023,6 +3023,11 @@ output "AWSChatbotServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
 }
 
+output "AWSLambda_ReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSLambda_ReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_ReadOnlyAccess"
+}
+
 output "AWSCodePipeline_ReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
@@ -3576,6 +3581,11 @@ output "AWSLakeFormationDataAdmin" {
 output "AWSElasticBeanstalkRoleCore" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore"
+}
+
+output "AWSLambda_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSLambda_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_FullAccess"
 }
 
 output "AWSDenyAll" {
