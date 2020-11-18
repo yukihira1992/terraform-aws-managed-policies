@@ -3038,6 +3038,11 @@ output "AWSCodePipeline_ReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
 }
 
+output "S3StorageLensServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy"
+}
+
 output "ServerMigrationServiceConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess"
