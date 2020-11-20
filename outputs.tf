@@ -2518,6 +2518,11 @@ output "AWSWAFConsoleFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess"
 }
 
+output "AWSGlueSchemaRegistryReadonlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSGlueSchemaRegistryReadonlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryReadonlyAccess"
+}
+
 output "AWSNetworkManagerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerServiceRolePolicy"
@@ -2946,6 +2951,11 @@ output "AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction" {
 output "AmazonQLDBConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonQLDBConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBConsoleFullAccess"
+}
+
+output "AWSGlueSchemaRegistryFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess"
 }
 
 output "AmazonElasticFileSystemClientReadWriteAccess" {
