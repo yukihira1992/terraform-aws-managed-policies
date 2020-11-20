@@ -178,7 +178,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticFileSystemReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemReadOnlyAccess |
 | AWSCloudMapDiscoverInstanceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudMapDiscoverInstanceAccess |
 | CloudFrontFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudFrontFullAccess |
-| AmazonConnectFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnectFullAccess |
 | AWSCloud9Administrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9Administrator |
 | AWSApplicationAutoscalingEMRInstanceGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingEMRInstanceGroupPolicy |
 | AmazonTextractFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTextractFullAccess |

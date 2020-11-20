@@ -808,11 +808,6 @@ output "CloudFrontFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudFrontFullAccess"
 }
 
-output "AmazonConnectFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonConnectFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnectFullAccess"
-}
-
 output "AWSCloud9Administrator" {
   value       = "arn:aws:iam::aws:policy/AWSCloud9Administrator"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9Administrator"
