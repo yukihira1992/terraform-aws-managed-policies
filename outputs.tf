@@ -3183,6 +3183,11 @@ output "GameLiftGameServerGroupPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy"
 }
 
+output "AmazonConnect_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
+}
+
 output "AWSElementalMediaLiveFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess"
