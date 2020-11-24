@@ -2498,6 +2498,11 @@ output "AWSPrivateMarketplaceRequests" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests"
 }
 
+output "CloudWatchApplicationInsightsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess"
+}
+
 output "AmazonSageMakerMechanicalTurkAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
@@ -3436,6 +3441,11 @@ output "AWSDataExchangeFullAccess" {
 output "AWSDataExchangeProviderFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess"
+}
+
+output "CloudWatchApplicationInsightsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess"
 }
 
 output "AWSControlTowerServiceRolePolicy" {
