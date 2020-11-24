@@ -3178,6 +3178,11 @@ output "GameLiftGameServerGroupPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy"
 }
 
+output "AmazonMWAAServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy"
+}
+
 output "AmazonConnect_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
