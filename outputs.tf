@@ -2723,6 +2723,11 @@ output "AWSIoTSiteWiseMonitorPortalAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess"
 }
 
+output "ElementalSupportCenterFullAccess" {
+  value       = "arn:aws:iam::aws:policy/ElementalSupportCenterFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalSupportCenterFullAccess"
+}
+
 output "AmazonHoneycodeFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess"
