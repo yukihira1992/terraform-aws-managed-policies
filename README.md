@@ -713,6 +713,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogAppRegistryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryFullAccess |
 | LakeFormationDataAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/LakeFormationDataAccessServiceRolePolicy |
 | AmazonChimeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy |
+| AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy |
 | AWSTrustedAdvisorReportingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy |
 | AWSOpsWorksRegisterCLI_EC2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2 |
 | AWSWAFConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess |
