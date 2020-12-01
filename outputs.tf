@@ -3358,6 +3358,11 @@ output "AWSBackupFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupFullAccess"
 }
 
+output "AmazonDevOpsGuruServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy"
+}
+
 output "AWSElasticBeanstalkRoleWorkerTier" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier"
