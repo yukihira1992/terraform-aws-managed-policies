@@ -2858,6 +2858,11 @@ output "IAMAccessAdvisorReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly"
 }
 
+output "AmazonSageMakerFeatureStoreAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess"
+}
+
 output "AmazonCodeGuruReviewerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess"
@@ -3671,6 +3676,11 @@ output "AWSDenyAll" {
 output "AWSIQFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIQFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIQFullAccess"
+}
+
+output "AmazonElasticContainerRegistryPublicPowerUser" {
+  value       = "arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser"
 }
 
 output "AWSElasticBeanstalkRoleSNS" {

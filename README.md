@@ -588,6 +588,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSFargatePodExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy |
 | AWSThinkboxDeadlineResourceTrackerAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy |
 | IAMAccessAdvisorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly |
+| AmazonSageMakerFeatureStoreAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess |
 | AmazonCodeGuruReviewerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess |
 | AWSThinkboxAWSPortalGatewayPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy |
 | AWSApplicationAutoscalingKafkaClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy |
@@ -751,6 +752,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSLambda_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_FullAccess |
 | AWSDenyAll | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDenyAll |
 | AWSIQFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIQFullAccess |
+| AmazonElasticContainerRegistryPublicPowerUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser |
 | AWSElasticBeanstalkRoleSNS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS |
 | AmazonEKSVPCResourceController | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController |
 | EC2InstanceConnect | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect |
