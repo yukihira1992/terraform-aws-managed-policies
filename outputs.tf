@@ -2463,6 +2463,11 @@ output "AwsGlueDataBrewFullAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy"
 }
 
+output "AmazonElasticContainerRegistryPublicReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicReadOnly"
+}
+
 output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
@@ -2576,6 +2581,11 @@ output "AWSApplicationAutoscalingCassandraTablePolicy" {
 output "AWSSystemsManagerAccountDiscoveryServicePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy"
+}
+
+output "AmazonDevOpsGuruFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess"
 }
 
 output "AWSResourceAccessManagerReadOnlyAccess" {
@@ -2801,6 +2811,11 @@ output "AWSOpsWorksRegisterCLI_OnPremises" {
 output "Health_OrganizationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy"
+}
+
+output "AmazonElasticContainerRegistryPublicFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess"
 }
 
 output "AmazonMCSReadOnlyAccess" {
@@ -3196,6 +3211,11 @@ output "AmazonWorkMailEventsServiceRolePolicy" {
 output "AmazonHoneycodeTeamAssociationFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess"
+}
+
+output "AmazonDevOpsGuruReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess"
 }
 
 output "AmazonEventBridgeSchemasReadOnlyAccess" {
