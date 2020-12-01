@@ -2678,6 +2678,11 @@ output "AWSCloudFormationFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess"
 }
 
+output "AWSPanoramaApplianceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
+}
+
 output "AWSNetworkFirewallServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"
@@ -2913,6 +2918,11 @@ output "AWSElasticBeanstalkRoleRDS" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS"
 }
 
+output "AWSPanoramaServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
+}
+
 output "AWSServiceRoleForCodeGuru-Profiler" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
@@ -3033,6 +3043,11 @@ output "AmazonTimestreamReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
 }
 
+output "AWSPanoramaFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPanoramaFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess"
+}
+
 output "AmazonQLDBReadOnly" {
   value       = "arn:aws:iam::aws:policy/AmazonQLDBReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBReadOnly"
@@ -3081,6 +3096,11 @@ output "AWSCloud9SSMInstanceProfile" {
 output "ElementalActivationsDownloadSoftwareAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess"
+}
+
+output "AWSPanoramaGreengrassGroupRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy"
 }
 
 output "AmazonDetectiveFullAccess" {
@@ -3556,6 +3576,11 @@ output "AmazonEC2RoleforAWSCodeDeployLimited" {
 output "MigrationHubServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
+}
+
+output "AWSPanoramaSageMakerRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
 }
 
 output "AWSImageBuilderReadOnlyAccess" {
