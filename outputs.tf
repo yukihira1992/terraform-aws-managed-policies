@@ -2488,6 +2488,11 @@ output "AWSBudgetsActionsWithAWSResourceControlAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess"
 }
 
+output "AdministratorAccess-Amplify" {
+  value       = "arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
+}
+
 output "AWSNetworkManagerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"

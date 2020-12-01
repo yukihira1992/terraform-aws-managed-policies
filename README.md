@@ -514,6 +514,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | Route53ResolverServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy |
 | WAFV2LoggingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy |
 | AWSBudgetsActionsWithAWSResourceControlAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess |
+| AdministratorAccess-Amplify | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify |
 | AWSNetworkManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess |
 | AWSMarketplaceAmiIngestion | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion |
 | AWSPrivateMarketplaceRequests | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests |
