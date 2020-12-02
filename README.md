@@ -712,6 +712,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogAdminReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAdminReadOnlyAccess |
 | AWSQuickSightSageMakerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy |
 | AWSDataLifecycleManagerServiceRoleForAMIManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement |
+| AmazonMonitronFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess |
 | AmazonWorkSpacesSelfServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess |
 | AmazonManagedBlockchainServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy |
 | AWSThinkboxDeadlineSpotEventPluginAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy |
