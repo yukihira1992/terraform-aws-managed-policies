@@ -3608,6 +3608,11 @@ output "MigrationHubServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
 }
 
+output "AWSServiceRoleForMonitronPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy"
+}
+
 output "AWSPanoramaSageMakerRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
