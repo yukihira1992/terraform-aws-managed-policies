@@ -562,6 +562,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonAugmentedAIHumanLoopFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess |
 | AWSDataExchangeReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeReadOnly |
 | AWSMarketplaceSellerProductsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsFullAccess |
+| AWSMarketplaceLicenseManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy |
 | AWSIQContractServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy |
 | AWSBackupOrganizationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess |
 | AWSIoTSiteWiseMonitorPortalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess |

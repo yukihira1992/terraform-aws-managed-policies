@@ -2728,6 +2728,11 @@ output "AWSMarketplaceSellerProductsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsFullAccess"
 }
 
+output "AWSMarketplaceLicenseManagementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy"
+}
+
 output "AWSIQContractServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
