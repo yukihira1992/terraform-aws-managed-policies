@@ -137,3 +137,5 @@ dmypy.json
 # Pickle dump
 *.pickle
 
+# Terraform lock file
+.terraform.lock.hcl
