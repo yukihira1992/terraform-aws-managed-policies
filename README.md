@@ -626,6 +626,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAppMeshReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshReadOnly |
 | ComputeOptimizerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy |
 | AWSLakeFormationCrossAccountManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager |
+| AWSGlueDataBrewServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSGlueDataBrewServiceRole |
 | AmazonBraketFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess |
 | AWSElasticBeanstalkManagedUpdatesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy |
 | AlexaForBusinessLifesizeDelegatedAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy |
