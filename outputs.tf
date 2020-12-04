@@ -838,11 +838,6 @@ output "AmazonMobileAnalyticsNon-financialReportAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMobileAnalyticsNon-financialReportAccess"
 }
 
-output "AWSCloudTrailFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSCloudTrailFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrailFullAccess"
-}
-
 output "AmazonCognitoDeveloperAuthenticatedIdentities" {
   value       = "arn:aws:iam::aws:policy/AmazonCognitoDeveloperAuthenticatedIdentities"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoDeveloperAuthenticatedIdentities"
