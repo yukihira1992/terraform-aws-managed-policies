@@ -3613,6 +3613,11 @@ output "AmazonEC2RoleforAWSCodeDeployLimited" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
 }
 
+output "ECRReplicationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy"
+}
+
 output "MigrationHubServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
