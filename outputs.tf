@@ -3448,6 +3448,11 @@ output "AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy"
 }
 
+output "IVSRecordToS3" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3"
+}
+
 output "CloudWatchSyntheticsFullAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"

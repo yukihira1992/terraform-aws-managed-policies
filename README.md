@@ -706,6 +706,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
 | AWSServiceCatalogAppRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess |
 | AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy |
+| IVSRecordToS3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3 |
 | CloudWatchSyntheticsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess |
 | AWSDataExchangeSubscriberFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeSubscriberFullAccess |
 | IAMAccessAnalyzerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerFullAccess |
