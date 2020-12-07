@@ -3538,6 +3538,11 @@ output "AmazonRoute53ResolverFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess"
 }
 
+output "AWSSystemsManagerChangeManagementServicePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerChangeManagementServicePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerChangeManagementServicePolicy"
+}
+
 output "AWSServiceCatalogAppRegistryFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryFullAccess"

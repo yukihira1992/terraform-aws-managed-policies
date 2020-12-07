@@ -724,6 +724,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSControlTowerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy |
 | AmazonSageMakerNotebooksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy |
 | AmazonRoute53ResolverFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess |
+| AWSSystemsManagerChangeManagementServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerChangeManagementServicePolicy |
 | AWSServiceCatalogAppRegistryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryFullAccess |
 | LakeFormationDataAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/LakeFormationDataAccessServiceRolePolicy |
 | AmazonChimeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy |
