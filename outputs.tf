@@ -2678,6 +2678,11 @@ output "AmazonHoneycodeServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy"
 }
 
+output "AmazonSageMakerEdgeDeviceFleetPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerEdgeDeviceFleetPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerEdgeDeviceFleetPolicy"
+}
+
 output "AWSIoTSiteWiseMonitorServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy"
