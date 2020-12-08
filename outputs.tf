@@ -2608,6 +2608,11 @@ output "AWSCodeDeployRoleForLambdaLimited" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited"
 }
 
+output "AWSAuditManagerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy"
+}
+
 output "CloudWatchSyntheticsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"

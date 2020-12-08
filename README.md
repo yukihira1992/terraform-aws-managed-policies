@@ -538,6 +538,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess |
 | AWSThinkboxAWSPortalAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy |
 | AWSCodeDeployRoleForLambdaLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited |
+| AWSAuditManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy |
 | CloudWatchSyntheticsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess |
 | AWSCloudTrail_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess |
 | AccessAnalyzerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy |
