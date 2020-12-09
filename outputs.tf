@@ -3733,6 +3733,11 @@ output "AWSLambda_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_FullAccess"
 }
 
+output "AmazonEMRContainersServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy"
+}
+
 output "AWSDenyAll" {
   value       = "arn:aws:iam::aws:policy/AWSDenyAll"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDenyAll"

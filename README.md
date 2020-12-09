@@ -763,6 +763,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSLakeFormationDataAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationDataAdmin |
 | AWSElasticBeanstalkRoleCore | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore |
 | AWSLambda_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_FullAccess |
+| AmazonEMRContainersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy |
 | AWSDenyAll | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDenyAll |
 | AWSIQFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIQFullAccess |
 | AmazonElasticContainerRegistryPublicPowerUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser |
