@@ -2603,6 +2603,11 @@ output "AWSThinkboxAWSPortalAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
 }
 
+output "EC2InstanceProfileForImageBuilderECRContainerBuilds" {
+  value       = "arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
+}
+
 output "AWSCodeDeployRoleForLambdaLimited" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited"
@@ -2751,6 +2756,11 @@ output "AWSBackupOrganizationAdminAccess" {
 output "AWSIoTSiteWiseMonitorPortalAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess"
+}
+
+output "AWSAuditManagerAdministratorAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess"
 }
 
 output "ElementalSupportCenterFullAccess" {
