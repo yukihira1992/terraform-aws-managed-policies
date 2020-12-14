@@ -3313,6 +3313,11 @@ output "AWSForWordPressPluginPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy"
 }
 
+output "AWSTransferFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTransferFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferFullAccess"
+}
+
 output "AWSServiceRoleForAmazonEKSNodegroup" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
@@ -3361,6 +3366,11 @@ output "AmazonWorkSpacesServiceAccess" {
 output "AmazonElasticFileSystemsUtils" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils"
+}
+
+output "AWSTransferConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess"
 }
 
 output "AmazonEKSServiceRolePolicy" {

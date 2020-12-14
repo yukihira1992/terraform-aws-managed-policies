@@ -679,6 +679,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction |
 | AWSThinkboxAssetServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy |
 | AWSForWordPressPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy |
+| AWSTransferFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferFullAccess |
 | AWSServiceRoleForAmazonEKSNodegroup | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup |
 | AWSBackupOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOperatorAccess |
 | AWSApplicationAutoscalingLambdaConcurrencyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy |
@@ -689,6 +690,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHoneycodeTeamAssociationReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess |
 | AmazonWorkSpacesServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess |
 | AmazonElasticFileSystemsUtils | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils |
+| AWSTransferConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess |
 | AmazonEKSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy |
 | AWS_Config_Role | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS_Config_Role |
 | AWSConfigMultiAccountSetupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy |
