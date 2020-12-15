@@ -624,6 +624,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTFleetHubFederationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess |
 | AmazonElasticFileSystemClientReadWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess |
 | AWSApplicationAutoscalingComprehendEndpointPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy |
+| AWSCloudShellFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudShellFullAccess |
 | AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction |
 | AWSIoTWirelessDataAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess |
 | AmazonQLDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBFullAccess |

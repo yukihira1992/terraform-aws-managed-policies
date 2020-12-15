@@ -3038,6 +3038,11 @@ output "AWSApplicationAutoscalingComprehendEndpointPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy"
 }
 
+output "AWSCloudShellFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCloudShellFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudShellFullAccess"
+}
+
 output "AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
