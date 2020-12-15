@@ -3018,6 +3018,11 @@ output "AWSGlueSchemaRegistryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess"
 }
 
+output "AWSIoTFleetHubFederationAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess"
+}
+
 output "AmazonElasticFileSystemClientReadWriteAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
