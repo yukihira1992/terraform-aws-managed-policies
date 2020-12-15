@@ -2888,6 +2888,11 @@ output "AmazonEKSFargatePodExecutionRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy"
 }
 
+output "AWSIoTWirelessReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess"
+}
+
 output "AWSThinkboxDeadlineResourceTrackerAdminPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
@@ -3036,6 +3041,11 @@ output "AWSApplicationAutoscalingComprehendEndpointPolicy" {
 output "AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
+}
+
+output "AWSIoTWirelessDataAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess"
 }
 
 output "AmazonQLDBFullAccess" {
@@ -3263,6 +3273,11 @@ output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
 }
 
+output "AWSIoTWirelessFullPublishAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess"
+}
+
 output "GameLiftGameServerGroupPolicy" {
   value       = "arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy"
@@ -3383,6 +3398,11 @@ output "AmazonEKSServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
 }
 
+output "AWSIoTWirelessLogging" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessLogging"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessLogging"
+}
+
 output "AWS_Config_Role" {
   value       = "arn:aws:iam::aws:policy/AWS_Config_Role"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS_Config_Role"
@@ -3391,6 +3411,11 @@ output "AWS_Config_Role" {
 output "AWSConfigMultiAccountSetupPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
+}
+
+output "AWSIoTWirelessFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessFullAccess"
 }
 
 output "AWSElementalMediaLiveReadOnly" {
@@ -3676,6 +3701,11 @@ output "AWSServiceRoleForMonitronPolicy" {
 output "AWSPanoramaSageMakerRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
+}
+
+output "AWSIoTWirelessGatewayCertManager" {
+  value       = "arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
 }
 
 output "AWSImageBuilderReadOnlyAccess" {
