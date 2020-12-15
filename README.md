@@ -779,6 +779,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDenyAll | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDenyAll |
 | AWSIQFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIQFullAccess |
 | AmazonElasticContainerRegistryPublicPowerUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser |
+| AmazonPrometheusConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess |
 | AWSElasticBeanstalkRoleSNS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS |
 | AmazonEKSVPCResourceController | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController |
 | EC2InstanceConnect | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect |
@@ -790,6 +791,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCompromisedKeyQuarantine | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine |
 | AWSAppMeshEnvoyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess |
 | AmazonKendraReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess |
+| AmazonPrometheusFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess |
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |
 | AWSCodeArtifactReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess |
 | AmazonRedshiftDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess |

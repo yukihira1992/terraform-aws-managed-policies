@@ -3813,6 +3813,11 @@ output "AmazonElasticContainerRegistryPublicPowerUser" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser"
 }
 
+output "AmazonPrometheusConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess"
+}
+
 output "AWSElasticBeanstalkRoleSNS" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS"
@@ -3866,6 +3871,11 @@ output "AWSAppMeshEnvoyAccess" {
 output "AmazonKendraReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess"
+}
+
+output "AmazonPrometheusFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonPrometheusFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess"
 }
 
 output "AWS_ConfigRole" {
