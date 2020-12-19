@@ -2983,6 +2983,11 @@ output "AmazonChimeVoiceConnectorServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy"
 }
 
+output "AmazonPrometheusQueryAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess"
+}
+
 output "AmazonWorkDocsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
@@ -3261,6 +3266,11 @@ output "AmazonWorkMailEventsServiceRolePolicy" {
 output "AmazonHoneycodeTeamAssociationFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess"
+}
+
+output "AmazonPrometheusRemoteWriteAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonPrometheusRemoteWriteAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusRemoteWriteAccess"
 }
 
 output "AmazonDevOpsGuruReadOnlyAccess" {
