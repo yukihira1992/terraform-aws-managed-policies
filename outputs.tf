@@ -3283,6 +3283,11 @@ output "AmazonEventBridgeSchemasReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess"
 }
 
+output "AmazonFISServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
+}
+
 output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
@@ -3576,6 +3581,11 @@ output "AmazonWorkSpacesSelfServiceAccess" {
 output "AmazonManagedBlockchainServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy"
+}
+
+output "AmazonSageMakerCoreServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"
 }
 
 output "AWSThinkboxDeadlineSpotEventPluginAdminPolicy" {
