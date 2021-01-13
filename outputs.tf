@@ -2743,6 +2743,11 @@ output "AWSMarketplaceLicenseManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy"
 }
 
+output "AmazonLexV2BotPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
+}
+
 output "AWSIQContractServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
@@ -3106,6 +3111,11 @@ output "AmazonBraketFullAccess" {
 output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
+}
+
+output "AmazonLexChannelsAccess" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess"
 }
 
 output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
