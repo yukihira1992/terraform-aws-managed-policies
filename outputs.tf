@@ -3743,6 +3743,11 @@ output "AWSIoTWirelessGatewayCertManager" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
 }
 
+output "AWSDirectConnectServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
+}
+
 output "AWSImageBuilderReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
