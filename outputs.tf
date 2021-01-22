@@ -2508,6 +2508,11 @@ output "CloudWatchApplicationInsightsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess"
 }
 
+output "AdministratorAccess-AWSElasticBeanstalk" {
+  value       = "arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk"
+}
+
 output "AmazonSageMakerMechanicalTurkAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
@@ -2601,6 +2606,11 @@ output "AmazonEventBridgeFullAccess" {
 output "AWSThinkboxAWSPortalAdminPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
+}
+
+output "AWSElasticBeanstalkReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
 }
 
 output "EC2InstanceProfileForImageBuilderECRContainerBuilds" {
