@@ -2708,6 +2708,11 @@ output "AWSPanoramaApplianceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
 }
 
+output "AWSOpsWorks_FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
+}
+
 output "AWSNetworkFirewallServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"

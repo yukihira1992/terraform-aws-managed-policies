@@ -558,6 +558,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHoneycodeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess |
 | AWSCloudFormationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess |
 | AWSPanoramaApplianceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy |
+| AWSOpsWorks_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess |
 | AWSNetworkFirewallServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy |
 | ElementalAppliancesSoftwareFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess |
 | AmazonMachineLearningRoleforRedshiftDataSourceV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3 |
