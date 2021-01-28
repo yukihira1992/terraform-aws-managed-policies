@@ -3558,6 +3558,11 @@ output "IVSRecordToS3" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3"
 }
 
+output "AmazonWorkMailMessageFlowReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess"
+}
+
 output "CloudWatchSyntheticsFullAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess"
