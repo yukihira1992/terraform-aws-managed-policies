@@ -1413,11 +1413,6 @@ output "AWSCodeCommitReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeCommitReadOnly"
 }
 
-output "AmazonEC2ContainerServiceFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonEC2ContainerServiceFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerServiceFullAccess"
-}
-
 output "AmazonFreeRTOSFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonFreeRTOSFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFreeRTOSFullAccess"

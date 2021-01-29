@@ -299,7 +299,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSFMAdminReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMAdminReadOnlyAccess |
 | AmazonSSMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMFullAccess |
 | AWSCodeCommitReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeCommitReadOnly |
-| AmazonEC2ContainerServiceFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerServiceFullAccess |
 | AmazonFreeRTOSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFreeRTOSFullAccess |
 | AmazonTextractServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonTextractServiceRole |
 | AmazonCognitoReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoReadOnly |
