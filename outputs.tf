@@ -3703,6 +3703,11 @@ output "AmazonBraketServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
 }
 
+output "AmazonCodeGuruProfilerAgentAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess"
+}
+
 output "AmazonCodeGuruReviewerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy"
