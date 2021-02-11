@@ -2988,6 +2988,11 @@ output "AWSPanoramaServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
 }
 
+output "AmazonEventBridgeApiDestinationsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
+}
+
 output "AWSServiceRoleForCodeGuru-Profiler" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
