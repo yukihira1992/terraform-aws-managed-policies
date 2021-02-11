@@ -780,6 +780,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHoneycodeWorkbookFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess |
 | AWSIoTDeviceTesterForGreengrassFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess |
 | AWSElasticBeanstalkRoleECS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleECS |
+| AmazonWorkMailMessageFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess |
 | AWSServiceRoleForSMS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS |
 | AWSThinkboxDeadlineResourceTrackerAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAccessPolicy |
 | CloudWatch-CrossAccountAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess |

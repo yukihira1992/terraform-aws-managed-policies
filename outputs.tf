@@ -3818,6 +3818,11 @@ output "AWSElasticBeanstalkRoleECS" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleECS"
 }
 
+output "AmazonWorkMailMessageFlowFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess"
+}
+
 output "AWSServiceRoleForSMS" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS"
