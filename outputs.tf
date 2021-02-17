@@ -3603,6 +3603,11 @@ output "AmazonMonitronFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess"
 }
 
+output "AmazonHealthLakeReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess"
+}
+
 output "AmazonWorkSpacesSelfServiceAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess"

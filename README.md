@@ -737,6 +737,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSightSageMakerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy |
 | AWSDataLifecycleManagerServiceRoleForAMIManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement |
 | AmazonMonitronFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess |
+| AmazonHealthLakeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess |
 | AmazonWorkSpacesSelfServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess |
 | AmazonManagedBlockchainServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy |
 | AmazonSageMakerCoreServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy |
