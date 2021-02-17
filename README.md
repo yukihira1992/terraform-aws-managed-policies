@@ -569,6 +569,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceLicenseManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy |
 | AmazonLexV2BotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy |
 | AWSIQContractServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy |
+| AWSStorageGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy |
 | AWSBackupOrganizationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess |
 | AWSIoTSiteWiseMonitorPortalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess |
 | AWSAuditManagerAdministratorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess |
@@ -605,6 +606,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSThinkboxAWSPortalGatewayPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy |
 | AWSApplicationAutoscalingKafkaClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy |
 | AmazonCodeGuruProfilerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess |
+| AWSProtonDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess |
 | AmazonElasticFileSystemServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
 | AWSResourceAccessManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess |

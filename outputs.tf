@@ -2763,6 +2763,11 @@ output "AWSIQContractServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
 }
 
+output "AWSStorageGatewayServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy"
+}
+
 output "AWSBackupOrganizationAdminAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
@@ -2941,6 +2946,11 @@ output "AWSApplicationAutoscalingKafkaClusterPolicy" {
 output "AmazonCodeGuruProfilerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
+}
+
+output "AWSProtonDeveloperAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSProtonDeveloperAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess"
 }
 
 output "AmazonElasticFileSystemServiceRolePolicy" {
