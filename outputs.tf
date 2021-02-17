@@ -3793,6 +3793,11 @@ output "AmazonRekognitionCustomLabelsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess"
 }
 
+output "AmazonHealthLakeFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess"
+}
+
 output "AWSBackupServiceLinkedRolePolicyForBackup" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackup"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackup"
