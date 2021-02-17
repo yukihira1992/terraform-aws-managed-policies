@@ -2753,6 +2753,11 @@ output "AWSMarketplaceLicenseManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy"
 }
 
+output "AWSProtonReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
+}
+
 output "AmazonLexV2BotPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
@@ -3196,6 +3201,11 @@ output "AWSAppSyncServiceRolePolicy" {
 output "AWSAppMeshFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
+}
+
+output "AWSProtonFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSProtonFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonFullAccess"
 }
 
 output "AWSCloud9SSMInstanceProfile" {
