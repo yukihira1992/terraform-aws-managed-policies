@@ -613,6 +613,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResourceAccessManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess |
 | CertificateManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy |
 | AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction |
+| AWSGrafanaWorkspacePermissionManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement |
 | AWSElasticBeanstalkRoleCWL | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL |
 | DynamoDBCloudWatchContributorInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy |
 | AWSElasticBeanstalkRoleRDS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS |
@@ -698,6 +699,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSForWordPressPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy |
 | AWSTransferFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferFullAccess |
 | AWSServiceRoleForAmazonEKSNodegroup | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup |
+| AWSGrafanaAccountAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator |
 | AWSBackupOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOperatorAccess |
 | AWSApplicationAutoscalingLambdaConcurrencyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy |
 | AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM |
@@ -777,6 +779,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTWirelessGatewayCertManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager |
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
 | AWSImageBuilderReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess |
+| AWSGrafanaConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess |
 | AWSMarketplaceMeteringRegisterUsage | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage |
 | AmazonManagedBlockchainReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainReadOnlyAccess |
 | AmazonRekognitionCustomLabelsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess |

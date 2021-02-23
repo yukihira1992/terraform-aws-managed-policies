@@ -2983,6 +2983,11 @@ output "AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction"
 }
 
+output "AWSGrafanaWorkspacePermissionManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement"
+}
+
 output "AWSElasticBeanstalkRoleCWL" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL"
@@ -3408,6 +3413,11 @@ output "AWSServiceRoleForAmazonEKSNodegroup" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup"
 }
 
+output "AWSGrafanaAccountAdministrator" {
+  value       = "arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator"
+}
+
 output "AWSBackupOperatorAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupOperatorAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOperatorAccess"
@@ -3801,6 +3811,11 @@ output "AWSDirectConnectServiceRolePolicy" {
 output "AWSImageBuilderReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
+}
+
+output "AWSGrafanaConsoleReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess"
 }
 
 output "AWSMarketplaceMeteringRegisterUsage" {
