@@ -79,7 +79,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticTranscoder_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticTranscoder_FullAccess |
 | AmazonCloudDirectoryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudDirectoryReadOnlyAccess |
 | CloudWatchAgentAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAgentAdminPolicy |
-| AWSOpsWorksFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksFullAccess |
 | AWSOpsWorksCMInstanceProfileRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole |
 | AWSBatchServiceEventTargetRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBatchServiceEventTargetRole |
 | AWSCodePipelineApproverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess |
@@ -89,7 +88,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | ElasticLoadBalancingFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElasticLoadBalancingFullAccess |
 | AmazonRoute53DomainsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53DomainsReadOnlyAccess |
 | AmazonSSMAutomationApproverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMAutomationApproverAccess |
-| AWSOpsWorksRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSOpsWorksRole |
 | AWSSecurityHubReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityHubReadOnlyAccess |
 | AWSConfigRoleForOrganizations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSConfigRoleForOrganizations |
 | ApplicationAutoScalingForAmazonAppStreamAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ApplicationAutoScalingForAmazonAppStreamAccess |

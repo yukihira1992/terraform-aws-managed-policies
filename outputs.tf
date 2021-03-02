@@ -313,11 +313,6 @@ output "CloudWatchAgentAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAgentAdminPolicy"
 }
 
-output "AWSOpsWorksFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksFullAccess"
-}
-
 output "AWSOpsWorksCMInstanceProfileRole" {
   value       = "arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole"
@@ -361,11 +356,6 @@ output "AmazonRoute53DomainsReadOnlyAccess" {
 output "AmazonSSMAutomationApproverAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSSMAutomationApproverAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMAutomationApproverAccess"
-}
-
-output "AWSOpsWorksRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/AWSOpsWorksRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSOpsWorksRole"
 }
 
 output "AWSSecurityHubReadOnlyAccess" {
