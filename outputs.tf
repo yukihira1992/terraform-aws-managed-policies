@@ -2468,6 +2468,11 @@ output "AWSBudgetsActionsWithAWSResourceControlAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess"
 }
 
+output "AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy"
+}
+
 output "AdministratorAccess-Amplify" {
   value       = "arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
