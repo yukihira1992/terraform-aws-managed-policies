@@ -711,7 +711,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSTransferConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess |
 | AmazonEKSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy |
 | AWSIoTWirelessLogging | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessLogging |
-| AWS_Config_Role | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS_Config_Role |
 | AWSConfigMultiAccountSetupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy |
 | AWSIoTWirelessFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessFullAccess |
 | AWSElementalMediaLiveReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly |
