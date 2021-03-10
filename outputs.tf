@@ -2678,6 +2678,11 @@ output "AWSCodeDeployRoleForCloudFormation" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation"
 }
 
+output "BatchServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/BatchServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BatchServiceRolePolicy"
+}
+
 output "AmazonHoneycodeServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy"
