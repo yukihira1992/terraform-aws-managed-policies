@@ -618,6 +618,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | DynamoDBCloudWatchContributorInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy |
 | AWSElasticBeanstalkRoleRDS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS |
 | AWSPanoramaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy |
+| AmazonEMRReadOnlyAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2 |
 | AmazonEventBridgeApiDestinationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy |
 | AWSServiceRoleForCodeGuru-Profiler | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler |
 | AmazonChimeVoiceConnectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy |
@@ -730,6 +731,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonCodeGuruProfilerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess |
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
+| AmazonEMRServicePolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2 |
 | AWSServiceCatalogAppRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess |
 | AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy |
 | IVSRecordToS3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3 |

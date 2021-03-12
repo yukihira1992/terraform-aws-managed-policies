@@ -3008,6 +3008,11 @@ output "AWSPanoramaServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
 }
 
+output "AmazonEMRReadOnlyAccessPolicy_v2" {
+  value       = "arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
+}
+
 output "AmazonEventBridgeApiDestinationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
@@ -3566,6 +3571,11 @@ output "ElementalActivationsGenerateLicenses" {
 output "AWSNetworkManagerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
+}
+
+output "AmazonEMRServicePolicy_v2" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
 }
 
 output "AWSServiceCatalogAppRegistryReadOnlyAccess" {
