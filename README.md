@@ -528,6 +528,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess |
 | AWSCodeStarNotificationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy |
 | AmazonKendraFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess |
+| AmazonEMRFullAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 |
 | AmazonS3OutpostsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess |
 | AWSQuickSightElasticsearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy |
 | AWSApplicationAutoscalingCassandraTablePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy |

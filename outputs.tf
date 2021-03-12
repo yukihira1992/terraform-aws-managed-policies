@@ -2558,6 +2558,11 @@ output "AmazonKendraFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess"
 }
 
+output "AmazonEMRFullAccessPolicy_v2" {
+  value       = "arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2"
+}
+
 output "AmazonS3OutpostsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess"
