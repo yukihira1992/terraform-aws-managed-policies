@@ -50,7 +50,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | FMSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/FMSServiceRolePolicy |
 | AmazonSQSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSQSFullAccess |
 | AlexaForBusinessReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessReadOnlyAccess |
-| AWSLambdaFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaFullAccess |
 | AWSIoTLogging | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTLogging |
 | AmazonEC2RoleforSSM | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforSSM |
 | AlexaForBusinessNetworkProfileServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AlexaForBusinessNetworkProfileServicePolicy |
@@ -379,7 +378,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSFMAdminFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMAdminFullAccess |
 | AmazonChimeReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeReadOnly |
 | AmazonZocaloFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonZocaloFullAccess |
-| AWSLambdaReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaReadOnlyAccess |
 | AWSIoTSiteWiseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTSiteWiseReadOnlyAccess |
 | AWSAccountUsageReportAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountUsageReportAccess |
 | AWSIoTOTAUpdate | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTOTAUpdate |

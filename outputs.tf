@@ -168,11 +168,6 @@ output "AlexaForBusinessReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessReadOnlyAccess"
 }
 
-output "AWSLambdaFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSLambdaFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaFullAccess"
-}
-
 output "AWSIoTLogging" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTLogging"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTLogging"
@@ -1811,11 +1806,6 @@ output "AmazonChimeReadOnly" {
 output "AmazonZocaloFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonZocaloFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonZocaloFullAccess"
-}
-
-output "AWSLambdaReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSLambdaReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaReadOnlyAccess"
 }
 
 output "AWSIoTSiteWiseReadOnlyAccess" {
