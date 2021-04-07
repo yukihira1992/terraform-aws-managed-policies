@@ -2708,6 +2708,11 @@ output "AWSPanoramaApplianceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
 }
 
+output "AWSApplicationMigrationAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy"
+}
+
 output "AWSOpsWorks_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
@@ -3128,6 +3133,11 @@ output "ComputeOptimizerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess"
+}
+
 output "AWSLakeFormationCrossAccountManager" {
   value       = "arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
@@ -3443,6 +3453,11 @@ output "AWSBackupServiceLinkedRolePolicyForBackupTest" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest"
 }
 
+output "AWSApplicationMigrationMGHAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess"
+}
+
 output "AWSPurchaseOrdersServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy"
@@ -3518,6 +3533,11 @@ output "AmazonMQServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
+}
+
 output "AmazonKeyspacesReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
@@ -3576,6 +3596,11 @@ output "AWSNetworkManagerReadOnlyAccess" {
 output "AmazonEMRServicePolicy_v2" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
+}
+
+output "AWSApplicationMigrationReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess"
 }
 
 output "AWSServiceCatalogAppRegistryReadOnlyAccess" {
@@ -3813,6 +3838,11 @@ output "AWSDirectConnectServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationEC2Access" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
+}
+
 output "AWSImageBuilderReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
@@ -3851,6 +3881,11 @@ output "AWSBackupServiceLinkedRolePolicyForBackup" {
 output "AmazonManagedBlockchainConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess"
+}
+
+output "AWSApplicationMigrationConversionServerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy"
 }
 
 output "AWSSavingsPlansReadOnlyAccess" {

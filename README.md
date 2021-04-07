@@ -558,6 +558,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHoneycodeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess |
 | AWSCloudFormationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess |
 | AWSPanoramaApplianceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy |
+| AWSApplicationMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy |
 | AWSOpsWorks_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess |
 | AWSNetworkFirewallServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy |
 | ElementalAppliancesSoftwareFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess |
@@ -642,6 +643,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction |
 | AWSAppMeshReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshReadOnly |
 | ComputeOptimizerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy |
+| AWSApplicationMigrationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess |
 | AWSLakeFormationCrossAccountManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager |
 | AWSGlueDataBrewServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSGlueDataBrewServiceRole |
 | AmazonBraketFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess |
@@ -705,6 +707,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM |
 | AWSIoTDeviceDefenderUpdateCACertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction |
 | AWSBackupServiceLinkedRolePolicyForBackupTest | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest |
+| AWSApplicationMigrationMGHAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess |
 | AWSPurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy |
 | AmazonHoneycodeTeamAssociationReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess |
 | AmazonWorkSpacesServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess |
@@ -720,6 +723,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticMapReducePlacementGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy |
 | AmazonCognitoIdpServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy |
 | AmazonMQServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy |
+| AWSApplicationMigrationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy |
 | AmazonKeyspacesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess |
 | CloudFormationStackSetsOrgMemberServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy |
 | AWSResourceAccessManagerResourceShareParticipantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess |
@@ -732,6 +736,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
 | AmazonEMRServicePolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2 |
+| AWSApplicationMigrationReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess |
 | AWSServiceCatalogAppRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess |
 | AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy |
 | IVSRecordToS3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3 |
@@ -779,6 +784,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPanoramaSageMakerRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy |
 | AWSIoTWirelessGatewayCertManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager |
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
+| AWSApplicationMigrationEC2Access | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access |
 | AWSImageBuilderReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess |
 | AWSGrafanaConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess |
 | AWSMarketplaceMeteringRegisterUsage | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage |
@@ -787,6 +793,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHealthLakeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess |
 | AWSBackupServiceLinkedRolePolicyForBackup | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackup |
 | AmazonManagedBlockchainConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess |
+| AWSApplicationMigrationConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy |
 | AWSSavingsPlansReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess |
 | AmazonHoneycodeWorkbookFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess |
 | AWSIoTDeviceTesterForGreengrassFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess |
