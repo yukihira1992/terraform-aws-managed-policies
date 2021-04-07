@@ -825,3 +825,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |
 | AWSCodeArtifactReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess |
 | AmazonRedshiftDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess |
+| AWSApplicationMigrationReplicationServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationReplicationServerPolicy |

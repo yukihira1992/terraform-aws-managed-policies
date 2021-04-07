@@ -4043,3 +4043,8 @@ output "AmazonRedshiftDataFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess"
 }
 
+output "AWSApplicationMigrationReplicationServerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationReplicationServerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationReplicationServerPolicy"
+}
+
