@@ -3458,6 +3458,11 @@ output "AWSApplicationMigrationMGHAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess"
 }
 
+output "AmazonLookoutEquipmentFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess"
+}
+
 output "AWSPurchaseOrdersServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy"
