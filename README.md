@@ -34,7 +34,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | SecretsManagerReadWrite | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SecretsManagerReadWrite |
 | AWSIoTThingsRegistration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTThingsRegistration |
 | AmazonDocDBReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBReadOnlyAccess |
-| AWSElasticBeanstalkReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnlyAccess |
 | AmazonMQApiFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMQApiFullAccess |
 | AWSElementalMediaStoreReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaStoreReadOnly |
 | AWSCertificateManagerReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerReadOnly |
@@ -247,7 +246,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCloudMapFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudMapFullAccess |
 | AWSDataLifecycleManagerServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRole |
 | AmazonS3ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess |
-| AWSElasticBeanstalkFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkFullAccess |
 | AmazonWorkSpacesAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesAdmin |
 | AWSCodeDeployRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRole |
 | AmazonSESFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSESFullAccess |

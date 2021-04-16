@@ -88,11 +88,6 @@ output "AmazonDocDBReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBReadOnlyAccess"
 }
 
-output "AWSElasticBeanstalkReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnlyAccess"
-}
-
 output "AmazonMQApiFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonMQApiFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMQApiFullAccess"
@@ -1151,11 +1146,6 @@ output "AWSDataLifecycleManagerServiceRole" {
 output "AmazonS3ReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
-}
-
-output "AWSElasticBeanstalkFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkFullAccess"
 }
 
 output "AmazonWorkSpacesAdmin" {
