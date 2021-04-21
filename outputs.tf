@@ -3978,6 +3978,11 @@ output "EC2InstanceConnect" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect"
 }
 
+output "AWSCompromisedKeyQuarantineV2" {
+  value       = "arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2"
+}
+
 output "ClientVPNServiceConnectionsRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
