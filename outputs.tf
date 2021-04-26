@@ -2938,6 +2938,11 @@ output "AWSApplicationAutoscalingKafkaClusterPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
 }
 
+output "AWSSystemsManagerOpsDataSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy"
+}
+
 output "AmazonCodeGuruProfilerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
