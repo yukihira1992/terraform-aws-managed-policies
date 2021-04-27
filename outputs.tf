@@ -3348,6 +3348,11 @@ output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
 }
 
+output "AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy"
+}
+
 output "AWSIoTWirelessFullPublishAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess"
