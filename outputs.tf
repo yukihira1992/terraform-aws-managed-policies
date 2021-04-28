@@ -2608,6 +2608,11 @@ output "CloudWatchSyntheticsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
 }
 
+output "AmazonNimbleStudio-StudioUser" {
+  value       = "arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser"
+}
+
 output "AWSCloudTrail_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess"
@@ -2981,6 +2986,11 @@ output "AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction" {
 output "AWSGrafanaWorkspacePermissionManagement" {
   value       = "arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement"
+}
+
+output "AmazonNimbleStudio-LaunchProfileWorker" {
+  value       = "arn:aws:iam::aws:policy/AmazonNimbleStudio-LaunchProfileWorker"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-LaunchProfileWorker"
 }
 
 output "AWSElasticBeanstalkRoleCWL" {
@@ -4041,6 +4051,11 @@ output "AmazonPrometheusFullAccess" {
 output "AWS_ConfigRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
+}
+
+output "AmazonNimbleStudio-StudioAdmin" {
+  value       = "arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin"
 }
 
 output "AWSCodeArtifactReadOnlyAccess" {

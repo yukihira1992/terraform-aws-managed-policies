@@ -538,6 +538,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCodeDeployRoleForLambdaLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited |
 | AWSAuditManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy |
 | CloudWatchSyntheticsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess |
+| AmazonNimbleStudio-StudioUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser |
 | AWSCloudTrail_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess |
 | AccessAnalyzerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy |
 | AmazonRoute53ResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess |
@@ -613,6 +614,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | CertificateManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy |
 | AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction |
 | AWSGrafanaWorkspacePermissionManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement |
+| AmazonNimbleStudio-LaunchProfileWorker | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-LaunchProfileWorker |
 | AWSElasticBeanstalkRoleCWL | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL |
 | DynamoDBCloudWatchContributorInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy |
 | AWSElasticBeanstalkRoleRDS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS |
@@ -825,6 +827,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonKendraReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess |
 | AmazonPrometheusFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess |
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |
+| AmazonNimbleStudio-StudioAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin |
 | AWSCodeArtifactReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess |
 | AmazonRedshiftDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess |
 | AWSApplicationMigrationReplicationServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationReplicationServerPolicy |
