@@ -2733,6 +2733,11 @@ output "AmazonAugmentedAIHumanLoopFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess"
 }
 
+output "AmazonLookoutEquipmentReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
+}
+
 output "AWSDataExchangeReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSDataExchangeReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeReadOnly"
