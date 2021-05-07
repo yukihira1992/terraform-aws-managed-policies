@@ -2703,6 +2703,11 @@ output "AWSPanoramaApplianceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
 }
 
+output "AmazonLookoutMetricsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
+}
+
 output "AWSApplicationMigrationAgentPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy"
@@ -3706,6 +3711,11 @@ output "AmazonSageMakerCoreServiceRolePolicy" {
 output "AWSThinkboxDeadlineSpotEventPluginAdminPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy"
+}
+
+output "AmazonLookoutMetricsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess"
 }
 
 output "AWSDataExchangeFullAccess" {
