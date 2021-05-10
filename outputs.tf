@@ -2843,6 +2843,11 @@ output "AWSImageBuilderFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderFullAccess"
 }
 
+output "AWSIncidentManagerResolverAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess"
+}
+
 output "AWSCertificateManagerPrivateCAPrivilegedUser" {
   value       = "arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser"

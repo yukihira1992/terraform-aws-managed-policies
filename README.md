@@ -585,6 +585,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonCodeGuruReviewerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruReviewerFullAccess |
 | AWSVPCS2SVpnServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCS2SVpnServiceRolePolicy |
 | AWSImageBuilderFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderFullAccess |
+| AWSIncidentManagerResolverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess |
 | AWSCertificateManagerPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser |
 | AmazonSSMPatchAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation |
 | AWSBudgetsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess |
