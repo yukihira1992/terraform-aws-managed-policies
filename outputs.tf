@@ -3233,6 +3233,11 @@ output "AWSAppMeshFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
 }
 
+output "AWSIncidentManagerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIncidentManagerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIncidentManagerServiceRolePolicy"
+}
+
 output "AWSProtonFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSProtonFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonFullAccess"

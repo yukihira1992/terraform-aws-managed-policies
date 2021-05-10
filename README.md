@@ -663,6 +663,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | ServerMigrationServiceConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess |
 | AWSAppSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy |
 | AWSAppMeshFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess |
+| AWSIncidentManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIncidentManagerServiceRolePolicy |
 | AWSProtonFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonFullAccess |
 | AWSCloud9SSMInstanceProfile | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile |
 | ElementalActivationsDownloadSoftwareAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess |
