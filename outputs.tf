@@ -3903,6 +3903,11 @@ output "AmazonManagedBlockchainReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainReadOnlyAccess"
 }
 
+output "AmazonLookoutVisionReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionReadOnlyAccess"
+}
+
 output "AmazonRekognitionCustomLabelsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess"
