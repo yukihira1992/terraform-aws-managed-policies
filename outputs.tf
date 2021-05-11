@@ -2638,6 +2638,11 @@ output "AmazonAppFlowReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess"
 }
 
+output "AmazonLookoutVisionConsoleReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess"
+}
+
 output "AWSQuickSightTimestreamPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
@@ -2661,6 +2666,11 @@ output "AmazonTimestreamFullAccess" {
 output "ElementalAppliancesSoftwareReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
+}
+
+output "AmazonLookoutVisionFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess"
 }
 
 output "AWSCodeDeployRoleForCloudFormation" {
@@ -3816,6 +3826,11 @@ output "AmazonBraketServiceRolePolicy" {
 output "AmazonCodeGuruProfilerAgentAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess"
+}
+
+output "AmazonLookoutVisionConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess"
 }
 
 output "AmazonCodeGuruReviewerServiceRolePolicy" {
