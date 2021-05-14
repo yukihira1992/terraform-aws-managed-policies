@@ -2938,6 +2938,11 @@ output "AWSIoTWirelessReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess"
 }
 
+output "AppRunnerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"
+}
+
 output "AWSThinkboxDeadlineResourceTrackerAdminPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
@@ -3631,6 +3636,11 @@ output "AmazonCodeGuruProfilerReadOnlyAccess" {
 output "ElementalActivationsGenerateLicenses" {
   value       = "arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
+}
+
+output "AWSAppRunnerServicePolicyForECRAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess"
 }
 
 output "AWSNetworkManagerReadOnlyAccess" {
