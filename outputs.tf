@@ -3108,6 +3108,11 @@ output "AWSGlueSchemaRegistryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess"
 }
 
+output "AWSServiceCatalogAppRegistryServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy"
+}
+
 output "AWSIoTFleetHubFederationAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess"
