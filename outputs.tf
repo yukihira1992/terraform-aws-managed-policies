@@ -3508,6 +3508,11 @@ output "AWSApplicationMigrationMGHAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess"
 }
 
+output "AWSDeviceFarmTestGridServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
+}
+
 output "AmazonLookoutEquipmentFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess"
