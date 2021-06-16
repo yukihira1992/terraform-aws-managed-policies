@@ -3288,6 +3288,11 @@ output "AmazonDetectiveFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveFullAccess"
 }
 
+output "AWSSSMOpsInsightsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSSMOpsInsightsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSSMOpsInsightsServiceRolePolicy"
+}
+
 output "AWSTransferReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess"

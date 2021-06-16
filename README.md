@@ -674,6 +674,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | ElementalActivationsDownloadSoftwareAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess |
 | AWSPanoramaGreengrassGroupRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy |
 | AmazonDetectiveFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveFullAccess |
+| AWSSSMOpsInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSSMOpsInsightsServiceRolePolicy |
 | AWSTransferReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess |
 | ServiceQuotasReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess |
 | EC2FleetTimeShiftableServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EC2FleetTimeShiftableServiceRolePolicy |
