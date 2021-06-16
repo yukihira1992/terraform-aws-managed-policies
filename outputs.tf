@@ -4028,6 +4028,11 @@ output "AmazonEMRContainersServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy"
 }
 
+output "AWSKeyManagementServiceMultiRegionKeysServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSKeyManagementServiceMultiRegionKeysServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSKeyManagementServiceMultiRegionKeysServiceRolePolicy"
+}
+
 output "AWSDenyAll" {
   value       = "arn:aws:iam::aws:policy/AWSDenyAll"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDenyAll"
