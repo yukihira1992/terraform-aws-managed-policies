@@ -747,6 +747,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkRoleWorkerTier | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier |
 | AmazonCodeGuruProfilerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess |
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
+| AWSBugBustServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy |
 | AWSAppRunnerServicePolicyForECRAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess |
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
 | AmazonEMRServicePolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2 |
@@ -771,6 +772,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonLookoutMetricsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess |
 | AWSDataExchangeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeFullAccess |
 | AWSDataExchangeProviderFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess |
+| AWSBugBustFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustFullAccess |
 | CloudWatchApplicationInsightsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess |
 | AWSControlTowerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy |
 | AmazonSageMakerNotebooksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy |

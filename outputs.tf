@@ -3653,6 +3653,11 @@ output "ElementalActivationsGenerateLicenses" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
 }
 
+output "AWSBugBustServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy"
+}
+
 output "AWSAppRunnerServicePolicyForECRAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess"
@@ -3771,6 +3776,11 @@ output "AWSDataExchangeFullAccess" {
 output "AWSDataExchangeProviderFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess"
+}
+
+output "AWSBugBustFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBugBustFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustFullAccess"
 }
 
 output "CloudWatchApplicationInsightsFullAccess" {
