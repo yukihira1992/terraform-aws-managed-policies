@@ -2688,6 +2688,11 @@ output "AmazonHoneycodeServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy"
 }
 
+output "AWSBugBustPlayerAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBugBustPlayerAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustPlayerAccess"
+}
+
 output "AmazonSageMakerEdgeDeviceFleetPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerEdgeDeviceFleetPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerEdgeDeviceFleetPolicy"
