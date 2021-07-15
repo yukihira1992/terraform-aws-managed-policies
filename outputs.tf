@@ -3333,6 +3333,11 @@ output "AWSIQPermissionServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQPermissionServiceRolePolicy"
 }
 
+output "Route53RecoveryReadinessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/Route53RecoveryReadinessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53RecoveryReadinessServiceRolePolicy"
+}
+
 output "AmazonEKSForFargateServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy"
