@@ -2943,6 +2943,11 @@ output "AWSIoTWirelessReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess"
 }
 
+output "AmazonSageMakerPipelinesIntegrations" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerPipelinesIntegrations"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPipelinesIntegrations"
+}
+
 output "AppRunnerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"

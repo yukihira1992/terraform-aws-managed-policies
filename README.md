@@ -605,6 +605,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceProcurementSystemAdminFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceProcurementSystemAdminFullAccess |
 | AmazonEKSFargatePodExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy |
 | AWSIoTWirelessReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess |
+| AmazonSageMakerPipelinesIntegrations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPipelinesIntegrations |
 | AppRunnerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy |
 | AWSThinkboxDeadlineResourceTrackerAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy |
 | IAMAccessAdvisorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly |
