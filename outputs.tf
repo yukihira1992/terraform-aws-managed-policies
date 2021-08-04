@@ -2733,6 +2733,11 @@ output "AWSOpsWorks_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
 }
 
+output "AmazonChimeTranscriptionServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonChimeTranscriptionServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeTranscriptionServiceLinkedRolePolicy"
+}
+
 output "AWSNetworkFirewallServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy"
