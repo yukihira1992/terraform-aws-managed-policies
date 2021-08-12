@@ -3568,6 +3568,11 @@ output "AmazonElasticFileSystemsUtils" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils"
 }
 
+output "AWSLicenseManagerConsumptionPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy"
+}
+
 output "AWSTransferConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess"
