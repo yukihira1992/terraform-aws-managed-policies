@@ -841,6 +841,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSVPCResourceController | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController |
 | EC2InstanceConnect | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect |
 | AWSCompromisedKeyQuarantineV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2 |
+| AmazonS3ObjectLambdaExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy |
 | ClientVPNServiceConnectionsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy |
 | AmazonAppFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess |
 | Ec2ImageBuilderCrossAccountDistributionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess |
