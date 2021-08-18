@@ -2463,6 +2463,11 @@ output "AdministratorAccess-Amplify" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
 }
 
+output "AmazonRoute53RecoveryReadinessFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
+}
+
 output "AWSNetworkManagerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
