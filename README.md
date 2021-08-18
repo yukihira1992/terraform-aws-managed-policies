@@ -529,6 +529,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEMRFullAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 |
 | AmazonS3OutpostsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess |
 | AWSQuickSightElasticsearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy |
+| AmazonRoute53RecoveryControlConfigFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess |
 | AWSApplicationAutoscalingCassandraTablePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy |
 | AWSSystemsManagerAccountDiscoveryServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy |
 | AmazonDevOpsGuruFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess |
@@ -565,6 +566,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonLookoutMetricsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess |
 | AWSApplicationMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy |
 | AWSOpsWorks_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess |
+| AmazonRoute53RecoveryControlConfigReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess |
 | AmazonChimeTranscriptionServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeTranscriptionServiceLinkedRolePolicy |
 | AWSNetworkFirewallServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy |
 | ElementalAppliancesSoftwareFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess |
@@ -763,6 +765,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogAppRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess |
 | AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy |
 | IVSRecordToS3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3 |
+| AmazonRoute53RecoveryReadinessReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessReadOnlyAccess |
 | AmazonWorkMailMessageFlowReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess |
 | CloudWatchSyntheticsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess |
 | AWSDataExchangeSubscriberFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeSubscriberFullAccess |
@@ -850,6 +853,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3OutpostsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess |
 | AWSCompromisedKeyQuarantine | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine |
 | AWSAppMeshEnvoyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess |
+| AmazonRoute53RecoveryClusterReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess |
 | AmazonKendraReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess |
 | AmazonPrometheusFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess |
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |

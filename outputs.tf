@@ -2563,6 +2563,11 @@ output "AWSQuickSightElasticsearchPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
 }
 
+output "AmazonRoute53RecoveryControlConfigFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess"
+}
+
 output "AWSApplicationAutoscalingCassandraTablePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy"
@@ -2741,6 +2746,11 @@ output "AWSApplicationMigrationAgentPolicy" {
 output "AWSOpsWorks_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
+}
+
+output "AmazonRoute53RecoveryControlConfigReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess"
 }
 
 output "AmazonChimeTranscriptionServiceLinkedRolePolicy" {
@@ -3733,6 +3743,11 @@ output "IVSRecordToS3" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3"
 }
 
+output "AmazonRoute53RecoveryReadinessReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessReadOnlyAccess"
+}
+
 output "AmazonWorkMailMessageFlowReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess"
@@ -4166,6 +4181,11 @@ output "AWSCompromisedKeyQuarantine" {
 output "AWSAppMeshEnvoyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess"
+}
+
+output "AmazonRoute53RecoveryClusterReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess"
 }
 
 output "AmazonKendraReadOnlyAccess" {
