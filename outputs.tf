@@ -3808,6 +3808,11 @@ output "AmazonManagedBlockchainServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy"
 }
 
+output "AmazonRoute53RecoveryClusterFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterFullAccess"
+}
+
 output "AmazonSageMakerCoreServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"

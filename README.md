@@ -778,6 +778,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHealthLakeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess |
 | AmazonWorkSpacesSelfServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess |
 | AmazonManagedBlockchainServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy |
+| AmazonRoute53RecoveryClusterFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterFullAccess |
 | AmazonSageMakerCoreServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy |
 | AWSThinkboxDeadlineSpotEventPluginAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy |
 | AmazonLookoutMetricsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess |
