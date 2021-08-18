@@ -2398,6 +2398,11 @@ output "DynamoDBKinesisReplicationServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy"
 }
 
+output "AWSApplicationAutoscalingElastiCacheRGPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingElastiCacheRGPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingElastiCacheRGPolicy"
+}
+
 output "AmazonAugmentedAIIntegratedAPIAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
