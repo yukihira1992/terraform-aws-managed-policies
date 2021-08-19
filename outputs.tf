@@ -3843,6 +3843,11 @@ output "AWSBugBustFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustFullAccess"
 }
 
+output "AWSServiceRolePolicyForBackupReports" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupReports"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupReports"
+}
+
 output "CloudWatchApplicationInsightsFullAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess"
