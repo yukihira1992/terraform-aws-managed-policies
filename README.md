@@ -540,6 +540,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | EC2InstanceProfileForImageBuilderECRContainerBuilds | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds |
 | AWSCodeDeployRoleForLambdaLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited |
 | AWSAuditManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy |
+| AWSBackupAuditAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupAuditAccess |
 | CloudWatchSyntheticsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess |
 | AmazonNimbleStudio-StudioUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser |
 | AWSCloudTrail_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess |

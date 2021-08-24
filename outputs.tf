@@ -2618,6 +2618,11 @@ output "AWSAuditManagerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy"
 }
 
+output "AWSBackupAuditAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupAuditAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupAuditAccess"
+}
+
 output "CloudWatchSyntheticsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess"
