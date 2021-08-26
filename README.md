@@ -801,6 +801,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSWAFConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess |
 | AWSSavingsPlansFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess |
 | AWSServiceRoleForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder |
+| AmazonOpenSearchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy |
 | AmazonBraketServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy |
 | AmazonCodeGuruProfilerAgentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess |
 | AmazonLookoutVisionConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess |

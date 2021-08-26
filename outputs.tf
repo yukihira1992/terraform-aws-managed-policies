@@ -3923,6 +3923,11 @@ output "AWSServiceRoleForImageBuilder" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder"
 }
 
+output "AmazonOpenSearchServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy"
+}
+
 output "AmazonBraketServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
