@@ -3688,6 +3688,11 @@ output "ServerMigrationServiceRoleForInstanceValidation" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation"
 }
 
+output "AWSApplicationAutoscalingNeptuneClusterPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingNeptuneClusterPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingNeptuneClusterPolicy"
+}
+
 output "AWSBackupFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupFullAccess"

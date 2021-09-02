@@ -754,6 +754,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResourceAccessManagerResourceShareParticipantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess |
 | AWSBillingReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess |
 | ServerMigrationServiceRoleForInstanceValidation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation |
+| AWSApplicationAutoscalingNeptuneClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingNeptuneClusterPolicy |
 | AWSBackupFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupFullAccess |
 | AmazonDevOpsGuruServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy |
 | AWSElasticBeanstalkRoleWorkerTier | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier |
