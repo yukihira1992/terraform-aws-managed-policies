@@ -3248,6 +3248,11 @@ output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
 }
 
+output "AmazonOpenSearchServiceCognitoAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess"
+}
+
 output "AmazonTimestreamReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"

@@ -666,6 +666,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkManagedUpdatesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy |
 | AmazonLexChannelsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess |
 | AlexaForBusinessLifesizeDelegatedAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy |
+| AmazonOpenSearchServiceCognitoAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess |
 | AmazonTimestreamReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess |
 | AWSPanoramaFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess |
 | AmazonQLDBReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBReadOnly |
