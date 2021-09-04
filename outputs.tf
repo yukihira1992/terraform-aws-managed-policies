@@ -3148,6 +3148,11 @@ output "AWSGlueSchemaRegistryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess"
 }
 
+output "AmazonEKSConnectorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSConnectorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSConnectorServiceRolePolicy"
+}
+
 output "AWSServiceCatalogAppRegistryServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy"
