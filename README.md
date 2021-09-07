@@ -721,6 +721,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction |
 | AWSThinkboxAssetServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy |
 | AWSForWordPressPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy |
+| KafkaConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KafkaConnectServiceRolePolicy |
 | AWSTransferFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferFullAccess |
 | AWSServiceRoleForAmazonEKSNodegroup | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup |
 | AWSGrafanaAccountAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator |

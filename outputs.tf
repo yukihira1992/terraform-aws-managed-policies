@@ -3523,6 +3523,11 @@ output "AWSForWordPressPluginPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy"
 }
 
+output "KafkaConnectServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/KafkaConnectServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KafkaConnectServiceRolePolicy"
+}
+
 output "AWSTransferFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSTransferFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferFullAccess"
