@@ -2928,6 +2928,11 @@ output "AmazonMCSReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess"
 }
 
+output "AmazonOpenSearchServiceFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchServiceFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceFullAccess"
+}
+
 output "AWSRoboMaker_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess"
@@ -4246,6 +4251,11 @@ output "AmazonPrometheusFullAccess" {
 output "AWS_ConfigRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
+}
+
+output "AmazonOpenSearchServiceReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
 }
 
 output "AmazonNimbleStudio-StudioAdmin" {

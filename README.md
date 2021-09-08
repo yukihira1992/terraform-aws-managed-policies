@@ -602,6 +602,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | Health_OrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy |
 | AmazonElasticContainerRegistryPublicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess |
 | AmazonMCSReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess |
+| AmazonOpenSearchServiceFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceFullAccess |
 | AWSRoboMaker_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess |
 | AWSAppMeshPreviewServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy |
 | ServiceQuotasServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy |
@@ -866,6 +867,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonKendraReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess |
 | AmazonPrometheusFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess |
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |
+| AmazonOpenSearchServiceReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess |
 | AmazonNimbleStudio-StudioAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin |
 | AWSCodeArtifactReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess |
 | AmazonRedshiftDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess |
