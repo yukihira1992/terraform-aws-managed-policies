@@ -3918,6 +3918,11 @@ output "LakeFormationDataAccessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/LakeFormationDataAccessServiceRolePolicy"
 }
 
+output "AWSMediaTailorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMediaTailorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaTailorServiceRolePolicy"
+}
+
 output "AmazonChimeServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy"
