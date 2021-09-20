@@ -3933,6 +3933,11 @@ output "AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy"
 }
 
+output "AmazonMSKConnectReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonMSKConnectReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMSKConnectReadOnlyAccess"
+}
+
 output "AWSTrustedAdvisorReportingServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy"
