@@ -4268,6 +4268,11 @@ output "AmazonOpenSearchServiceReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
 }
 
+output "AmazonConnectCampaignsServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonConnectCampaignsServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonConnectCampaignsServiceLinkedRolePolicy"
+}
+
 output "AmazonNimbleStudio-StudioAdmin" {
   value       = "arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin"
