@@ -3088,6 +3088,11 @@ output "AWSElasticBeanstalkRoleRDS" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS"
 }
 
+output "AmazonRedshiftQueryEditorV2ReadSharing" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing"
+}
+
 output "AWSPanoramaServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
@@ -3423,6 +3428,11 @@ output "AWSMarketplaceSellerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerFullAccess"
 }
 
+output "AmazonRedshiftQueryEditorV2NoSharing" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2NoSharing"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2NoSharing"
+}
+
 output "CloudWatchAutomaticDashboardsAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess"
@@ -3701,6 +3711,11 @@ output "CloudFormationStackSetsOrgMemberServiceRolePolicy" {
 output "AWSResourceAccessManagerResourceShareParticipantAccess" {
   value       = "arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess"
+}
+
+output "AmazonRedshiftQueryEditorV2ReadWriteSharing" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadWriteSharing"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadWriteSharing"
 }
 
 output "AWSBillingReadOnlyAccess" {
