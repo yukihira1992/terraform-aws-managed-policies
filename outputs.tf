@@ -2558,6 +2558,11 @@ output "AmazonS3OutpostsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess"
 }
 
+output "AmazonRedshiftQueryEditorV2FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2FullAccess"
+}
+
 output "AWSQuickSightElasticsearchPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"

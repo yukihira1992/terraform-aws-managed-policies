@@ -528,6 +528,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonKendraFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess |
 | AmazonEMRFullAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 |
 | AmazonS3OutpostsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess |
+| AmazonRedshiftQueryEditorV2FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2FullAccess |
 | AWSQuickSightElasticsearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy |
 | AmazonRoute53RecoveryControlConfigFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess |
 | AWSApplicationAutoscalingCassandraTablePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy |
