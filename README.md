@@ -589,6 +589,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHoneycodeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess |
 | AmazonWorkDocsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsReadOnlyAccess |
 | CloudWatchLambdaInsightsExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy |
+| AmazonConnectVoiceIDFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnectVoiceIDFullAccess |
 | AWSGlobalAcceleratorSLRPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSGlobalAcceleratorSLRPolicy |
 | EC2InstanceProfileForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilder |
 | AWSServiceRoleForLogDeliveryPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForLogDeliveryPolicy |
