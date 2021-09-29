@@ -660,6 +660,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTWirelessDataAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess |
 | AmazonQLDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBFullAccess |
 | AmazonAugmentedAIFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess |
+| AWSEC2CapacityReservationFleetRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy |
 | AmazonKeyspacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess |
 | AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction |
 | AWSAppMeshReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshReadOnly |

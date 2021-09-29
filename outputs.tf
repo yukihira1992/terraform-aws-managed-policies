@@ -3218,6 +3218,11 @@ output "AmazonAugmentedAIFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess"
 }
 
+output "AWSEC2CapacityReservationFleetRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
+}
+
 output "AmazonKeyspacesFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess"
