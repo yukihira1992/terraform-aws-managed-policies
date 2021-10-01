@@ -2978,6 +2978,11 @@ output "AWSMarketplaceProcurementSystemAdminFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceProcurementSystemAdminFullAccess"
 }
 
+output "AWSAccountManagementReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountManagementReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountManagementReadOnlyAccess"
+}
+
 output "AmazonEKSFargatePodExecutionRolePolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy"
@@ -4011,6 +4016,11 @@ output "AmazonCodeGuruProfilerAgentAccess" {
 output "AmazonLookoutVisionConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess"
+}
+
+output "AWSAccountManagementFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountManagementFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountManagementFullAccess"
 }
 
 output "AmazonCodeGuruReviewerServiceRolePolicy" {
