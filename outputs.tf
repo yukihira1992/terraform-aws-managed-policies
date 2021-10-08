@@ -2758,6 +2758,11 @@ output "AWSOpsWorks_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
 }
 
+output "AmazonRDSCustomPreviewServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomPreviewServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomPreviewServiceRolePolicy"
+}
+
 output "AmazonRoute53RecoveryControlConfigReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess"
@@ -2926,6 +2931,11 @@ output "AWSOpsWorksRegisterCLI_OnPremises" {
 output "Health_OrganizationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy"
+}
+
+output "AmazonRDSCustomServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy"
 }
 
 output "AmazonElasticContainerRegistryPublicFullAccess" {
