@@ -3208,6 +3208,11 @@ output "AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction"
 }
 
+output "AmazonMemoryDBReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonMemoryDBReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBReadOnlyAccess"
+}
+
 output "AWSIoTWirelessDataAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess"
@@ -3711,6 +3716,11 @@ output "AmazonMQServiceRolePolicy" {
 output "AWSApplicationMigrationServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
+}
+
+output "AmazonMemoryDBFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess"
 }
 
 output "AmazonKeyspacesReadOnlyAccess" {
