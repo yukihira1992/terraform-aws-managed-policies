@@ -765,6 +765,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationMigrationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy |
 | AmazonMemoryDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess |
 | AmazonKeyspacesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess |
+| AWSMigrationHubStrategyCollector | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector |
 | CloudFormationStackSetsOrgMemberServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy |
 | AWSResourceAccessManagerResourceShareParticipantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess |
 | AmazonRedshiftQueryEditorV2ReadWriteSharing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadWriteSharing |
@@ -832,6 +833,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSOutpostsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy |
 | AmazonLambdaRolePolicyForLaunchWizardSAP | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP |
 | AmazonEC2RoleforAWSCodeDeployLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited |
+| AWSMigrationHubStrategyConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess |
 | ECRReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy |
 | MigrationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy |
 | AWSServiceRoleForMonitronPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy |

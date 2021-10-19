@@ -3743,6 +3743,11 @@ output "AmazonKeyspacesReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
 }
 
+output "AWSMigrationHubStrategyCollector" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector"
+}
+
 output "CloudFormationStackSetsOrgMemberServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy"
@@ -4076,6 +4081,11 @@ output "AmazonLambdaRolePolicyForLaunchWizardSAP" {
 output "AmazonEC2RoleforAWSCodeDeployLimited" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
+}
+
+output "AWSMigrationHubStrategyConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess"
 }
 
 output "ECRReplicationServiceRolePolicy" {
