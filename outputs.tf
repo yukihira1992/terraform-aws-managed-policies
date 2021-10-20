@@ -2583,6 +2583,11 @@ output "AWSSystemsManagerAccountDiscoveryServicePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy"
 }
 
+output "AWSPanoramaServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSPanoramaServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPanoramaServiceLinkedRolePolicy"
+}
+
 output "AmazonDevOpsGuruFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess"
@@ -4106,6 +4111,11 @@ output "AWSServiceRoleForMonitronPolicy" {
 output "AWSPanoramaSageMakerRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
+}
+
+output "AWSPanoramaApplianceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy"
 }
 
 output "AWSIoTWirelessGatewayCertManager" {
