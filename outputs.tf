@@ -2543,6 +2543,11 @@ output "AWSCodeStarNotificationsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy"
 }
 
+output "AWSMarketplacePurchaseOrdersServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy"
+}
+
 output "AmazonKendraFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKendraFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess"
