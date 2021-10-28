@@ -3253,6 +3253,11 @@ output "AmazonAugmentedAIFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess"
 }
 
+output "AWSDeepRacerAccountAdminAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess"
+}
+
 output "AWSEC2CapacityReservationFleetRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
@@ -3336,6 +3341,11 @@ output "AmazonQLDBReadOnly" {
 output "AWSChatbotServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy"
+}
+
+output "AWSDeepRacerDefaultMultiUserAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDeepRacerDefaultMultiUserAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerDefaultMultiUserAccess"
 }
 
 output "AWSLambda_ReadOnlyAccess" {
