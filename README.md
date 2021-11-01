@@ -754,6 +754,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkSpacesServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess |
 | AWSSecurityHubOrganizationsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess |
 | AmazonElasticFileSystemsUtils | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils |
+| AWSCostAndUsageReportAutomationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCostAndUsageReportAutomationPolicy |
 | MemoryDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MemoryDBServiceRolePolicy |
 | AWSLicenseManagerConsumptionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy |
 | AWSTransferConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess |
