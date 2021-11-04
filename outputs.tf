@@ -3033,6 +3033,11 @@ output "AWSThinkboxDeadlineResourceTrackerAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
 }
 
+output "AmazonRedshiftAllCommandsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess"
+}
+
 output "IAMAccessAdvisorReadOnly" {
   value       = "arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly"

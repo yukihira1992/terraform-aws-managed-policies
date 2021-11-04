@@ -623,6 +623,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerPipelinesIntegrations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPipelinesIntegrations |
 | AppRunnerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy |
 | AWSThinkboxDeadlineResourceTrackerAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy |
+| AmazonRedshiftAllCommandsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess |
 | IAMAccessAdvisorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly |
 | AmazonSageMakerFeatureStoreAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess |
 | AmazonCodeGuruReviewerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess |
