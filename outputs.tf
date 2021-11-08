@@ -2948,6 +2948,11 @@ output "AWSMigrationHubStrategyServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubStrategyServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationVCenterClientPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy"
+}
+
 output "AmazonRDSCustomServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy"

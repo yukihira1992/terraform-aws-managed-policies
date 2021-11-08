@@ -606,6 +606,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSOpsWorksRegisterCLI_OnPremises | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises |
 | Health_OrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy |
 | AWSMigrationHubStrategyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubStrategyServiceRolePolicy |
+| AWSApplicationMigrationVCenterClientPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy |
 | AmazonRDSCustomServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy |
 | AmazonElasticContainerRegistryPublicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess |
 | AmazonMCSReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess |
