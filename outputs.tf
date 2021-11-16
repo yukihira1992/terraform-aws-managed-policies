@@ -3853,6 +3853,11 @@ output "AWSNetworkManagerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
 }
 
+output "AmazonDevOpsGuruOrganizationsAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDevOpsGuruOrganizationsAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruOrganizationsAccess"
+}
+
 output "AmazonEMRServicePolicy_v2" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"

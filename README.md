@@ -787,6 +787,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBugBustServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy |
 | AWSAppRunnerServicePolicyForECRAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess |
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
+| AmazonDevOpsGuruOrganizationsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruOrganizationsAccess |
 | AmazonEMRServicePolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2 |
 | AWSApplicationMigrationReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess |
 | AWSServiceCatalogAppRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess |
