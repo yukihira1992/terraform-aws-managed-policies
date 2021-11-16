@@ -526,6 +526,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess |
 | AWSCodeStarNotificationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy |
 | AWSMarketplacePurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy |
+| AmazonInspector2ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy |
 | AmazonKendraFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess |
 | AmazonEMRFullAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 |
 | AmazonS3OutpostsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess |

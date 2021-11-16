@@ -2548,6 +2548,11 @@ output "AWSMarketplacePurchaseOrdersServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy"
 }
 
+output "AmazonInspector2ServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy"
+}
+
 output "AmazonKendraFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKendraFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess"
