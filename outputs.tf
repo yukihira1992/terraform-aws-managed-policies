@@ -3883,6 +3883,11 @@ output "ElementalActivationsGenerateLicenses" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
 }
 
+output "AWSShieldServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy"
+}
+
 output "AWSBugBustServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy"

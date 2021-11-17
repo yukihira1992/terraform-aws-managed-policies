@@ -793,6 +793,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkRoleWorkerTier | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier |
 | AmazonCodeGuruProfilerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess |
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
+| AWSShieldServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy |
 | AWSBugBustServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy |
 | AWSAppRunnerServicePolicyForECRAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess |
 | AWSNetworkManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess |
