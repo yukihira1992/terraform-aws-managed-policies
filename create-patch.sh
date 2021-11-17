@@ -10,6 +10,7 @@ if [[ -n "$(git status --porcelain)" ]]; then
         echo "Failed to bump version."
         exit 1
     fi
+    echo $NEW_VERSION > version.txt
     git add outputs.tf
     git add version.txt
     git add README.md
