@@ -648,6 +648,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkRoleRDS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS |
 | AmazonRedshiftQueryEditorV2ReadSharing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing |
 | AWSPanoramaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy |
+| AWSElasticDisasterRecoveryConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy |
 | AmazonEMRReadOnlyAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2 |
 | AmazonEventBridgeApiDestinationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy |
 | AWSServiceRoleForCodeGuru-Profiler | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler |
@@ -893,6 +894,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3ObjectLambdaExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy |
 | ClientVPNServiceConnectionsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy |
 | AmazonAppFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess |
+| AWSElasticDisasterRecoveryReplicationServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy |
 | Ec2ImageBuilderCrossAccountDistributionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess |
 | AWSThinkboxAWSPortalWorkerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy |
 | AmazonS3OutpostsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess |

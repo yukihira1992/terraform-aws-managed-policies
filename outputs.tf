@@ -3158,6 +3158,11 @@ output "AWSPanoramaServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
 }
 
+output "AWSElasticDisasterRecoveryConversionServerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy"
+}
+
 output "AmazonEMRReadOnlyAccessPolicy_v2" {
   value       = "arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
@@ -4381,6 +4386,11 @@ output "ClientVPNServiceConnectionsRolePolicy" {
 output "AmazonAppFlowFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess"
+}
+
+output "AWSElasticDisasterRecoveryReplicationServerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy"
 }
 
 output "Ec2ImageBuilderCrossAccountDistributionAccess" {
