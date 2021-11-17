@@ -2408,6 +2408,11 @@ output "AmazonAugmentedAIIntegratedAPIAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess"
 }
 
+output "AWSElasticDisasterRecoveryReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess"
+}
+
 output "AmazonFraudDetectorFullAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
@@ -3068,6 +3073,11 @@ output "AWSThinkboxAWSPortalGatewayPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy"
 }
 
+output "AWSElasticDisasterRecoveryFailbackPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy"
+}
+
 output "AWSApplicationAutoscalingKafkaClusterPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
@@ -3231,6 +3241,11 @@ output "AWSIoTFleetHubFederationAccess" {
 output "AmazonElasticFileSystemClientReadWriteAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
+}
+
+output "AWSElasticDisasterRecoveryServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy"
 }
 
 output "AWSApplicationAutoscalingComprehendEndpointPolicy" {
@@ -3403,6 +3418,11 @@ output "AWSProtonFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonFullAccess"
 }
 
+output "AWSElasticDisasterRecoveryAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryAgentPolicy"
+}
+
 output "AWSCloud9SSMInstanceProfile" {
   value       = "arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile"
@@ -3571,6 +3591,11 @@ output "AmazonMWAAServiceRolePolicy" {
 output "AWSQuicksightOpenSearchPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy"
+}
+
+output "AWSElasticDisasterRecoveryFailbackInstallationPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy"
 }
 
 output "AmazonConnect_FullAccess" {
@@ -3758,6 +3783,11 @@ output "AmazonElasticMapReducePlacementGroupPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy"
 }
 
+output "AWSElasticDisasterRecoveryConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess"
+}
+
 output "AmazonCognitoIdpServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
@@ -3781,6 +3811,11 @@ output "AmazonMemoryDBFullAccess" {
 output "AmazonKeyspacesReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
+}
+
+output "AWSElasticDisasterRecoveryAgentInstallationPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy"
 }
 
 output "AWSMigrationHubStrategyCollector" {
@@ -4071,6 +4106,11 @@ output "AWSSavingsPlansFullAccess" {
 output "AWSServiceRoleForImageBuilder" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder"
+}
+
+output "AWSElasticDisasterRecoveryRecoveryInstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy"
 }
 
 output "AmazonOpenSearchServiceRolePolicy" {

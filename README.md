@@ -498,6 +498,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | DynamoDBKinesisReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy |
 | AWSApplicationAutoscalingElastiCacheRGPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingElastiCacheRGPolicy |
 | AmazonAugmentedAIIntegratedAPIAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess |
+| AWSElasticDisasterRecoveryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess |
 | AmazonFraudDetectorFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy |
 | AmazonLaunchWizard_Fullaccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess |
 | AmazonChimeSDK | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeSDK |
@@ -630,6 +631,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerFeatureStoreAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess |
 | AmazonCodeGuruReviewerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess |
 | AWSThinkboxAWSPortalGatewayPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy |
+| AWSElasticDisasterRecoveryFailbackPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy |
 | AWSApplicationAutoscalingKafkaClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy |
 | AWSSystemsManagerOpsDataSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy |
 | AmazonCodeGuruProfilerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess |
@@ -663,6 +665,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogAppRegistryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy |
 | AWSIoTFleetHubFederationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess |
 | AmazonElasticFileSystemClientReadWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess |
+| AWSElasticDisasterRecoveryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy |
 | AWSApplicationAutoscalingComprehendEndpointPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy |
 | AWSCloudShellFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudShellFullAccess |
 | AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction |
@@ -697,6 +700,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAppMeshFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess |
 | AWSIncidentManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIncidentManagerServiceRolePolicy |
 | AWSProtonFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonFullAccess |
+| AWSElasticDisasterRecoveryAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryAgentPolicy |
 | AWSCloud9SSMInstanceProfile | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile |
 | ElementalActivationsDownloadSoftwareAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess |
 | AWSPanoramaGreengrassGroupRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy |
@@ -731,6 +735,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | GameLiftGameServerGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy |
 | AmazonMWAAServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy |
 | AWSQuicksightOpenSearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy |
+| AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
 | AWSElementalMediaLiveFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess |
 | AWSMarketplaceSellerProductsReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly |
@@ -768,11 +773,13 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElementalMediaLiveReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly |
 | AmazonElasticFileSystemClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadOnlyAccess |
 | AmazonElasticMapReducePlacementGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy |
+| AWSElasticDisasterRecoveryConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess |
 | AmazonCognitoIdpServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy |
 | AmazonMQServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy |
 | AWSApplicationMigrationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy |
 | AmazonMemoryDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess |
 | AmazonKeyspacesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess |
+| AWSElasticDisasterRecoveryAgentInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy |
 | AWSMigrationHubStrategyCollector | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector |
 | CloudFormationStackSetsOrgMemberServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy |
 | AWSResourceAccessManagerResourceShareParticipantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess |
@@ -831,6 +838,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSWAFConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess |
 | AWSSavingsPlansFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess |
 | AWSServiceRoleForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder |
+| AWSElasticDisasterRecoveryRecoveryInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy |
 | AmazonOpenSearchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy |
 | AmazonBraketServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy |
 | AmazonCodeGuruProfilerAgentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess |
