@@ -3208,6 +3208,11 @@ output "IAMAccessAnalyzerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
 }
 
+output "AmazonCloudWatchRUMServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchRUMServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchRUMServiceRolePolicy"
+}
+
 output "AmazonEventBridgeSchemasServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
