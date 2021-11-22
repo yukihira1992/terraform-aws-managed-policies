@@ -3208,6 +3208,11 @@ output "MediaPackageServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy"
 }
 
+output "AmazonGrafanaAthenaAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess"
+}
+
 output "IAMAccessAnalyzerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess"
