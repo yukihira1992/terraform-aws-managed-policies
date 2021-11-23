@@ -527,6 +527,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess |
 | AWSCodeStarNotificationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy |
 | AWSMarketplacePurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy |
+| AWSElementalMediaTailorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorReadOnly |
 | AmazonInspector2ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy |
 | AmazonKendraFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraFullAccess |
 | AmazonEMRFullAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 |
@@ -855,6 +856,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSOutpostsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy |
 | AmazonLambdaRolePolicyForLaunchWizardSAP | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP |
 | AmazonEC2RoleforAWSCodeDeployLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited |
+| AWSElementalMediaTailorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorFullAccess |
 | AWSMigrationHubStrategyConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess |
 | ECRReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy |
 | MigrationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy |

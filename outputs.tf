@@ -2553,6 +2553,11 @@ output "AWSMarketplacePurchaseOrdersServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy"
 }
 
+output "AWSElementalMediaTailorReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaTailorReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorReadOnly"
+}
+
 output "AmazonInspector2ServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ServiceRolePolicy"
@@ -4191,6 +4196,11 @@ output "AmazonLambdaRolePolicyForLaunchWizardSAP" {
 output "AmazonEC2RoleforAWSCodeDeployLimited" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
+}
+
+output "AWSElementalMediaTailorFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaTailorFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorFullAccess"
 }
 
 output "AWSMigrationHubStrategyConsoleFullAccess" {
