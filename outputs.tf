@@ -3263,6 +3263,11 @@ output "AWSIoTFleetHubFederationAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess"
 }
 
+output "AWSProtonSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSProtonSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSProtonSyncServiceRolePolicy"
+}
+
 output "AmazonElasticFileSystemClientReadWriteAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
