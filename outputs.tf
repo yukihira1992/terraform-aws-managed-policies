@@ -3433,11 +3433,6 @@ output "AWSAppSyncServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy"
 }
 
-output "AWSECRPullThroughCacheServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCacheServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCacheServiceRolePolicy"
-}
-
 output "AWSAppMeshFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
