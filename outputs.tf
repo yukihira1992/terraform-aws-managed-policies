@@ -2678,6 +2678,11 @@ output "AmazonRoute53ResolverReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess"
 }
 
+output "AmazonBraketJobsExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy"
+}
+
 output "AmazonEC2RolePolicyForLaunchWizard" {
   value       = "arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard"

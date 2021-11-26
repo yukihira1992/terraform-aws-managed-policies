@@ -552,6 +552,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCloudTrail_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess |
 | AccessAnalyzerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy |
 | AmazonRoute53ResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess |
+| AmazonBraketJobsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy |
 | AmazonEC2RolePolicyForLaunchWizard | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard |
 | AmazonAppFlowReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess |
 | AmazonLookoutVisionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess |
