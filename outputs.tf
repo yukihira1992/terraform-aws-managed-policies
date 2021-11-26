@@ -3168,6 +3168,11 @@ output "AmazonRedshiftQueryEditorV2ReadSharing" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing"
 }
 
+output "AWSECRPullThroughCache_ServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy"
+}
+
 output "AWSPanoramaServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy"
