@@ -3208,6 +3208,11 @@ output "AmazonPrometheusQueryAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess"
 }
 
+output "AmazonGrafanaRedshiftAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess"
+}
+
 output "AmazonWorkDocsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
