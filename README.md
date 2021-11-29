@@ -884,6 +884,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonManagedBlockchainConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess |
 | AWSApplicationMigrationConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy |
 | AWSSavingsPlansReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess |
+| AWSMigrationHubRefactorSpacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess |
 | AmazonHoneycodeWorkbookFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess |
 | AWSIoTDeviceTesterForGreengrassFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess |
 | AWSElasticBeanstalkRoleECS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleECS |

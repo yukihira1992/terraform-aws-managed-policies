@@ -4338,6 +4338,11 @@ output "AWSSavingsPlansReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess"
 }
 
+output "AWSMigrationHubRefactorSpacesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess"
+}
+
 output "AmazonHoneycodeWorkbookFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess"
