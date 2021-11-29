@@ -560,6 +560,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonManagedBlockchainFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess |
 | ServiceQuotasFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasFullAccess |
 | AmazonTimestreamFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamFullAccess |
+| AmazonInspector2FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess |
 | ElementalAppliancesSoftwareReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess |
 | AmazonLookoutVisionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess |
 | AWSCodeDeployRoleForCloudFormation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation |

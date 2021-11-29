@@ -2718,6 +2718,11 @@ output "AmazonTimestreamFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamFullAccess"
 }
 
+output "AmazonInspector2FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonInspector2FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess"
+}
+
 output "ElementalAppliancesSoftwareReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
