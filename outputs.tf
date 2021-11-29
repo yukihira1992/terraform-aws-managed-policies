@@ -3518,6 +3518,11 @@ output "AWSServiceCatalogEndUserReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess"
 }
 
+output "AWSIotRoboRunnerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess"
+}
+
 output "ElementalActivationsFullAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
@@ -4226,6 +4231,11 @@ output "AWSElementalMediaTailorFullAccess" {
 output "AWSMigrationHubStrategyConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess"
+}
+
+output "AWSIotRoboRunnerReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly"
 }
 
 output "ECRReplicationServiceRolePolicy" {
