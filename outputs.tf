@@ -2943,6 +2943,11 @@ output "AWSCertificateManagerPrivateCAPrivilegedUser" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser"
 }
 
+output "AmazonCloudWatchEvidentlyReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
+}
+
 output "AmazonSSMPatchAssociation" {
   value       = "arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
@@ -4281,6 +4286,11 @@ output "AWSDirectConnectServiceRolePolicy" {
 output "AWSApplicationMigrationEC2Access" {
   value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
+}
+
+output "AmazonCloudWatchEvidentlyFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
 }
 
 output "AWSImageBuilderReadOnlyAccess" {

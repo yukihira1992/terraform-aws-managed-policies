@@ -605,6 +605,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSImageBuilderFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderFullAccess |
 | AWSIncidentManagerResolverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess |
 | AWSCertificateManagerPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser |
+| AmazonCloudWatchEvidentlyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess |
 | AmazonSSMPatchAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation |
 | AWSBudgetsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess |
 | AWSOpsWorksRegisterCLI_OnPremises | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises |
@@ -873,6 +874,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTWirelessGatewayCertManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager |
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
 | AWSApplicationMigrationEC2Access | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access |
+| AmazonCloudWatchEvidentlyFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess |
 | AWSImageBuilderReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess |
 | AWSGrafanaConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess |
 | AWSMarketplaceMeteringRegisterUsage | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage |
