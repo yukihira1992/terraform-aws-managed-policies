@@ -2828,6 +2828,11 @@ output "AmazonLookoutEquipmentReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
 }
 
+output "AmazonCloudWatchRUMFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess"
+}
+
 output "AWSDataExchangeReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSDataExchangeReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeReadOnly"
@@ -4061,6 +4066,11 @@ output "AmazonRoute53RecoveryClusterFullAccess" {
 output "AmazonSageMakerCoreServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy"
+}
+
+output "AmazonCloudWatchRUMReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess"
 }
 
 output "AWSThinkboxDeadlineSpotEventPluginAdminPolicy" {
