@@ -3338,6 +3338,11 @@ output "AmazonQLDBFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBFullAccess"
 }
 
+output "AmazonWorkSpacesWebReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly"
+}
+
 output "AmazonAugmentedAIFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess"
