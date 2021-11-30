@@ -3653,6 +3653,11 @@ output "AmazonMWAAServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy"
 }
 
+output "AmazonWorkSpacesWebServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesWebServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesWebServiceRolePolicy"
+}
+
 output "AWSQuicksightOpenSearchPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy"
