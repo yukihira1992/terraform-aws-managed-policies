@@ -732,6 +732,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | ElementalActivationsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess |
 | MigrationHubSMSAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy |
 | CloudFormationStackSetsOrgAdminServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy |
+| AWSIPAMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMServiceRolePolicy |
 | AmazonEventBridgeSchemasFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess |
 | AWSMarketplaceSellerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerFullAccess |
 | AmazonRedshiftQueryEditorV2NoSharing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2NoSharing |

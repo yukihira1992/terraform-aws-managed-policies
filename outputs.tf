@@ -3578,6 +3578,11 @@ output "CloudFormationStackSetsOrgAdminServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy"
 }
 
+output "AWSIPAMServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIPAMServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMServiceRolePolicy"
+}
+
 output "AmazonEventBridgeSchemasFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess"
