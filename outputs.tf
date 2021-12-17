@@ -3453,6 +3453,11 @@ output "AWSCodePipeline_ReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess"
 }
 
+output "AWSPrivateNetworksServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSPrivateNetworksServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPrivateNetworksServiceRolePolicy"
+}
+
 output "S3StorageLensServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy"

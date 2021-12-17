@@ -707,6 +707,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeepRacerDefaultMultiUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerDefaultMultiUserAccess |
 | AWSLambda_ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_ReadOnlyAccess |
 | AWSCodePipeline_ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess |
+| AWSPrivateNetworksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPrivateNetworksServiceRolePolicy |
 | S3StorageLensServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy |
 | ServerMigrationServiceConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess |
 | AWSAppSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy |
