@@ -3228,6 +3228,11 @@ output "AmazonGrafanaRedshiftAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess"
 }
 
+output "AmazonDevOpsGuruConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess"
+}
+
 output "AmazonWorkDocsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"

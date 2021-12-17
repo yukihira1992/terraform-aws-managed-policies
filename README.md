@@ -662,6 +662,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonChimeVoiceConnectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy |
 | AmazonPrometheusQueryAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess |
 | AmazonGrafanaRedshiftAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess |
+| AmazonDevOpsGuruConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess |
 | AmazonWorkDocsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess |
 | AmazonHoneycodeWorkbookReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess |
 | MediaPackageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy |
