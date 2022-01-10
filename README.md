@@ -912,6 +912,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticContainerRegistryPublicPowerUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser |
 | AmazonPrometheusConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess |
 | AWSElasticBeanstalkRoleSNS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS |
+| EC2FastLaunchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EC2FastLaunchServiceRolePolicy |
 | AmazonEKSVPCResourceController | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController |
 | EC2InstanceConnect | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect |
 | AWSCompromisedKeyQuarantineV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2 |

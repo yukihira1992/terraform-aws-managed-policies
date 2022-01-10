@@ -4478,6 +4478,11 @@ output "AWSElasticBeanstalkRoleSNS" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS"
 }
 
+output "EC2FastLaunchServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/EC2FastLaunchServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EC2FastLaunchServiceRolePolicy"
+}
+
 output "AmazonEKSVPCResourceController" {
   value       = "arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
