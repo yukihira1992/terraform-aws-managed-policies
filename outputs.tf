@@ -2718,6 +2718,11 @@ output "AmazonTimestreamFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamFullAccess"
 }
 
+output "AWSAppRunnerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAppRunnerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppRunnerFullAccess"
+}
+
 output "AmazonInspector2FullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonInspector2FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess"
