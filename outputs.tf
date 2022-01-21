@@ -3443,6 +3443,11 @@ output "AWSPanoramaFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess"
 }
 
+output "AmazonInspector2ReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonInspector2ReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ReadOnlyAccess"
+}
+
 output "AmazonQLDBReadOnly" {
   value       = "arn:aws:iam::aws:policy/AmazonQLDBReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBReadOnly"

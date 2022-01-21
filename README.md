@@ -705,6 +705,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonOpenSearchServiceCognitoAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess |
 | AmazonTimestreamReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess |
 | AWSPanoramaFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess |
+| AmazonInspector2ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ReadOnlyAccess |
 | AmazonQLDBReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBReadOnly |
 | AWSChatbotServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy |
 | AWSDeepRacerDefaultMultiUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerDefaultMultiUserAccess |
