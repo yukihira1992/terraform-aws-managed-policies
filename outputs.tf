@@ -4278,11 +4278,6 @@ output "AWSOutpostsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy"
 }
 
-output "AmazonLambdaRolePolicyForLaunchWizardSAP" {
-  value       = "arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP"
-}
-
 output "AmazonEC2RoleforAWSCodeDeployLimited" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited"
