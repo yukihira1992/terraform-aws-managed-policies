@@ -2723,6 +2723,11 @@ output "AmazonTimestreamFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamFullAccess"
 }
 
+output "AWSBackupServiceRolePolicyForS3Backup" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Backup"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Backup"
+}
+
 output "AWSAppRunnerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppRunnerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppRunnerFullAccess"
@@ -3806,6 +3811,11 @@ output "AWSApplicationMigrationMGHAccess" {
 output "AWSDeviceFarmTestGridServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
+}
+
+output "AWSBackupServiceRolePolicyForS3Restore" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore"
 }
 
 output "AmazonLookoutEquipmentFullAccess" {
