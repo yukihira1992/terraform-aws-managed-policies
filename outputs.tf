@@ -2478,6 +2478,11 @@ output "AWSNetworkManagerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
 }
 
+output "AmazonSageMakerServiceCatalogProductsEventsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsEventsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsEventsServiceRolePolicy"
+}
+
 output "AWSMarketplaceAmiIngestion" {
   value       = "arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion"
@@ -2738,6 +2743,11 @@ output "AmazonInspector2FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess"
 }
 
+output "AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy"
+}
+
 output "ElementalAppliancesSoftwareReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
@@ -2846,6 +2856,11 @@ output "AmazonAugmentedAIHumanLoopFullAccess" {
 output "AmazonLookoutEquipmentReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
+}
+
+output "AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy"
 }
 
 output "AmazonCloudWatchRUMFullAccess" {
@@ -2971,6 +2986,11 @@ output "AWSCertificateManagerPrivateCAPrivilegedUser" {
 output "AmazonCloudWatchEvidentlyReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
+}
+
+output "AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy"
 }
 
 output "AmazonSSMPatchAssociation" {
