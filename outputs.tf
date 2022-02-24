@@ -4583,6 +4583,11 @@ output "AWSAppMeshEnvoyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess"
 }
 
+output "AWSAppRunnerReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAppRunnerReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppRunnerReadOnlyAccess"
+}
+
 output "AmazonRoute53RecoveryClusterReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess"
