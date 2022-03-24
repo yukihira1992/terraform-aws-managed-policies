@@ -599,6 +599,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSStorageGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy |
 | AWSBackupOrganizationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess |
 | AWSIoTSiteWiseMonitorPortalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess |
+| AWSIdentitySyncReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncReadOnlyAccess |
 | AWSAuditManagerAdministratorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess |
 | ElementalSupportCenterFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalSupportCenterFullAccess |
 | AmazonHoneycodeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess |
@@ -614,6 +615,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIncidentManagerResolverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess |
 | AWSCertificateManagerPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser |
 | AmazonCloudWatchEvidentlyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess |
+| AWSIdentitySyncFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess |
 | AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy |
 | AmazonSSMPatchAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation |
 | AWSBudgetsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess |

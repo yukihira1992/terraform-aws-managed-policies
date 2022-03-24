@@ -2913,6 +2913,11 @@ output "AWSIoTSiteWiseMonitorPortalAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess"
 }
 
+output "AWSIdentitySyncReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIdentitySyncReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncReadOnlyAccess"
+}
+
 output "AWSAuditManagerAdministratorAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess"
@@ -2986,6 +2991,11 @@ output "AWSCertificateManagerPrivateCAPrivilegedUser" {
 output "AmazonCloudWatchEvidentlyReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
+}
+
+output "AWSIdentitySyncFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess"
 }
 
 output "AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy" {
