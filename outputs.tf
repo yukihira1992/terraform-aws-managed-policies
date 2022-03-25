@@ -2593,6 +2593,11 @@ output "AmazonRedshiftQueryEditorV2FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2FullAccess"
 }
 
+output "AmazonSageMakerServiceCatalogProductsCloudformationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCloudformationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCloudformationServiceRolePolicy"
+}
+
 output "AWSQuickSightElasticsearchPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
@@ -3526,6 +3531,11 @@ output "ServerMigrationServiceConsoleFullAccess" {
 output "AWSAppSyncServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy"
+}
+
+output "AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy"
 }
 
 output "AWSAppMeshFullAccess" {
@@ -4591,6 +4601,11 @@ output "AWSCompromisedKeyQuarantine" {
 output "AWSAppMeshEnvoyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess"
+}
+
+output "AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy"
 }
 
 output "AWSAppRunnerReadOnlyAccess" {
