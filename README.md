@@ -618,6 +618,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCertificateManagerPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser |
 | AmazonCloudWatchEvidentlyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess |
 | AWSIdentitySyncFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess |
+| AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy |
 | AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy |
 | AmazonSSMPatchAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation |
 | AWSBudgetsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess |

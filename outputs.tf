@@ -3008,6 +3008,11 @@ output "AWSIdentitySyncFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess"
 }
 
+output "AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy"
+}
+
 output "AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy"
