@@ -569,6 +569,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy |
 | ElementalAppliancesSoftwareReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess |
 | AmazonLookoutVisionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess |
+| AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy |
 | AWSCodeDeployRoleForCloudFormation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation |
 | BatchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BatchServiceRolePolicy |
 | AmazonHoneycodeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy |

@@ -2763,6 +2763,11 @@ output "AmazonLookoutVisionFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess"
 }
 
+output "AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy"
+}
+
 output "AWSCodeDeployRoleForCloudFormation" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation"
