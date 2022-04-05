@@ -4078,6 +4078,11 @@ output "AmazonDevOpsGuruOrganizationsAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruOrganizationsAccess"
 }
 
+output "AmazonRDSPerformanceInsightsReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsReadOnly"
+}
+
 output "AmazonEMRServicePolicy_v2" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2"
