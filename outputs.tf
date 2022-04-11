@@ -3428,6 +3428,11 @@ output "AmazonKeyspacesFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess"
 }
 
+output "ROSAManageSubscription" {
+  value       = "arn:aws:iam::aws:policy/ROSAManageSubscription"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSAManageSubscription"
+}
+
 output "AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction"

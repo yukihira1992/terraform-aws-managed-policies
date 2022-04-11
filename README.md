@@ -702,6 +702,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeepRacerAccountAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess |
 | AWSEC2CapacityReservationFleetRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy |
 | AmazonKeyspacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess |
+| ROSAManageSubscription | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSAManageSubscription |
 | AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction |
 | AWSAppMeshReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshReadOnly |
 | ComputeOptimizerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy |
