@@ -2798,6 +2798,11 @@ output "AWSIoTSiteWiseMonitorServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy"
 }
 
+output "AWSBillingConductorReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBillingConductorReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingConductorReadOnlyAccess"
+}
+
 output "AmazonHoneycodeReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess"
@@ -2816,6 +2821,11 @@ output "AWSPanoramaApplianceRolePolicy" {
 output "AmazonLookoutMetricsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
+}
+
+output "AWSBillingConductorFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBillingConductorFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingConductorFullAccess"
 }
 
 output "AWSApplicationMigrationAgentPolicy" {
