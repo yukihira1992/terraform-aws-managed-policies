@@ -4168,6 +4168,11 @@ output "AWSDataLifecycleManagerServiceRoleForAMIManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement"
 }
 
+output "AwsGlueSessionUserRestrictedPolicy" {
+  value       = "arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedPolicy"
+}
+
 output "AmazonMonitronFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonMonitronFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess"
@@ -4306,6 +4311,11 @@ output "AWSWAFConsoleReadOnlyAccess" {
 output "AWSSavingsPlansFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess"
+}
+
+output "AwsGlueSessionUserRestrictedServiceRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedServiceRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedServiceRole"
 }
 
 output "AWSServiceRoleForImageBuilder" {

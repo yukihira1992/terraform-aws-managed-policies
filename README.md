@@ -850,6 +850,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogAdminReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAdminReadOnlyAccess |
 | AWSQuickSightSageMakerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy |
 | AWSDataLifecycleManagerServiceRoleForAMIManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement |
+| AwsGlueSessionUserRestrictedPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedPolicy |
 | AmazonMonitronFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess |
 | AmazonHealthLakeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess |
 | AmazonWorkSpacesSelfServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess |
@@ -878,6 +879,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSOpsWorksRegisterCLI_EC2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2 |
 | AWSWAFConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess |
 | AWSSavingsPlansFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess |
+| AwsGlueSessionUserRestrictedServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedServiceRole |
 | AWSServiceRoleForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder |
 | AWSElasticDisasterRecoveryRecoveryInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy |
 | AmazonOpenSearchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy |
