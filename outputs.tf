@@ -2648,6 +2648,11 @@ output "AWSElasticBeanstalkReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
 }
 
+output "AwsGlueSessionUserRestrictedNotebookPolicy" {
+  value       = "arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedNotebookPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedNotebookPolicy"
+}
+
 output "EC2InstanceProfileForImageBuilderECRContainerBuilds" {
   value       = "arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
@@ -3276,6 +3281,11 @@ output "AmazonEMRReadOnlyAccessPolicy_v2" {
 output "AmazonEventBridgeApiDestinationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
+}
+
+output "AwsGlueSessionUserRestrictedNotebookServiceRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedNotebookServiceRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedNotebookServiceRole"
 }
 
 output "AWSServiceRoleForCodeGuru-Profiler" {
