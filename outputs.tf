@@ -2918,6 +2918,11 @@ output "AmazonLexV2BotPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
 }
 
+output "AWSMigrationHubOrchestratorInstanceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy"
+}
+
 output "AWSIQContractServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
@@ -2931,6 +2936,11 @@ output "AWSStorageGatewayServiceRolePolicy" {
 output "AWSBackupOrganizationAdminAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess"
+}
+
+output "AWSMigrationHubOrchestratorPlugin" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorPlugin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorPlugin"
 }
 
 output "AWSIoTSiteWiseMonitorPortalAccess" {
@@ -3793,6 +3803,11 @@ output "AmazonConnect_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
 }
 
+output "AWSMigrationHubOrchestratorConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
+}
+
 output "AWSElementalMediaLiveFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess"
@@ -4061,6 +4076,11 @@ output "AWSBackupFullAccess" {
 output "AmazonDevOpsGuruServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy"
+}
+
+output "AWSMigrationHubOrchestratorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubOrchestratorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubOrchestratorServiceRolePolicy"
 }
 
 output "AWSElasticBeanstalkRoleWorkerTier" {

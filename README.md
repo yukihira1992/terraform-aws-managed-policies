@@ -600,9 +600,11 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceLicenseManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy |
 | AWSProtonReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess |
 | AmazonLexV2BotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy |
+| AWSMigrationHubOrchestratorInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy |
 | AWSIQContractServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy |
 | AWSStorageGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy |
 | AWSBackupOrganizationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess |
+| AWSMigrationHubOrchestratorPlugin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorPlugin |
 | AWSIoTSiteWiseMonitorPortalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess |
 | AWSIdentitySyncReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncReadOnlyAccess |
 | AWSAuditManagerAdministratorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess |
@@ -775,6 +777,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuicksightOpenSearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy |
 | AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
+| AWSMigrationHubOrchestratorConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess |
 | AWSElementalMediaLiveFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess |
 | AWSMarketplaceSellerProductsReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly |
 | AmazonMCSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSFullAccess |
@@ -829,6 +832,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationAutoscalingNeptuneClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingNeptuneClusterPolicy |
 | AWSBackupFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupFullAccess |
 | AmazonDevOpsGuruServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy |
+| AWSMigrationHubOrchestratorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubOrchestratorServiceRolePolicy |
 | AWSElasticBeanstalkRoleWorkerTier | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier |
 | AmazonCodeGuruProfilerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess |
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
