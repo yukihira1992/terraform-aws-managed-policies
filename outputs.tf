@@ -1253,11 +1253,6 @@ output "AmazonVPCCrossAccountNetworkInterfaceOperations" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCCrossAccountNetworkInterfaceOperations"
 }
 
-output "AmazonMacieSetupRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/AmazonMacieSetupRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMacieSetupRole"
-}
-
 output "AmazonPollyReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonPollyReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPollyReadOnlyAccess"

@@ -267,7 +267,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | LightsailExportAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/LightsailExportAccess |
 | AmazonAPIGatewayAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAPIGatewayAdministrator |
 | AmazonVPCCrossAccountNetworkInterfaceOperations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCCrossAccountNetworkInterfaceOperations |
-| AmazonMacieSetupRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMacieSetupRole |
 | AmazonPollyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPollyReadOnlyAccess |
 | AmazonRDSDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSDataFullAccess |
 | AmazonMobileAnalyticsWriteOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMobileAnalyticsWriteOnlyAccess |
