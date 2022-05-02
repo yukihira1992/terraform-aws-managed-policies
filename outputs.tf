@@ -3038,6 +3038,11 @@ output "AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy"
 }
 
+output "MonitronServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/MonitronServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MonitronServiceRolePolicy"
+}
+
 output "AmazonSSMPatchAssociation" {
   value       = "arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"

@@ -624,6 +624,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIdentitySyncFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIdentitySyncFullAccess |
 | AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMediaPipelinesServiceLinkedRolePolicy |
 | AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsFirehoseServiceRolePolicy |
+| MonitronServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MonitronServiceRolePolicy |
 | AmazonSSMPatchAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation |
 | AWSBudgetsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess |
 | AWSOpsWorksRegisterCLI_OnPremises | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises |
