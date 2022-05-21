@@ -683,6 +683,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDevOpsGuruConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess |
 | AmazonWorkDocsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess |
 | AmazonHoneycodeWorkbookReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess |
+| AmazonEMRServerlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRServerlessServiceRolePolicy |
 | MediaPackageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy |
 | AmazonGrafanaAthenaAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess |
 | IAMAccessAnalyzerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess |
