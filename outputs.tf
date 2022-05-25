@@ -2433,6 +2433,11 @@ output "AmazonElasticContainerRegistryPublicReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicReadOnly"
 }
 
+output "AWSBudgetsActions_RolePolicyForResourceAdministrationWithSSM" {
+  value       = "arn:aws:iam::aws:policy/AWSBudgetsActions_RolePolicyForResourceAdministrationWithSSM"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActions_RolePolicyForResourceAdministrationWithSSM"
+}
+
 output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
