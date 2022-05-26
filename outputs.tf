@@ -2913,6 +2913,11 @@ output "AWSMarketplaceLicenseManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy"
 }
 
+output "AWSElasticDisasterRecoveryEc2InstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryEc2InstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryEc2InstancePolicy"
+}
+
 output "AWSProtonReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
