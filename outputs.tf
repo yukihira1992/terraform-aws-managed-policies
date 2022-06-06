@@ -3163,6 +3163,11 @@ output "AmazonSageMakerPipelinesIntegrations" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPipelinesIntegrations"
 }
 
+output "AWSApplicationMigrationAgentPolicy_v2" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationAgentPolicy_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationAgentPolicy_v2"
+}
+
 output "AppRunnerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy"
