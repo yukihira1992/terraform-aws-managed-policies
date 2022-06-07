@@ -4738,6 +4738,11 @@ output "AmazonOpenSearchServiceReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
 }
 
+output "AWSM2ServicePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSM2ServicePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSM2ServicePolicy"
+}
+
 output "AmazonConnectCampaignsServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonConnectCampaignsServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonConnectCampaignsServiceLinkedRolePolicy"
