@@ -508,6 +508,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | Route53ResolverServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy |
 | WAFV2LoggingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy |
 | AWSBudgetsActionsWithAWSResourceControlAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess |
+| AWSManagedServicesDeploymentToolkitPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServicesDeploymentToolkitPolicy |
 | AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy |
 | AdministratorAccess-Amplify | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify |
 | AWSElasticDisasterRecoveryStagingAccountPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryStagingAccountPolicy |
