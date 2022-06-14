@@ -4503,6 +4503,11 @@ output "AWSImageBuilderReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
 }
 
+output "AWSCloudTrail_ReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCloudTrail_ReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_ReadOnlyAccess"
+}
+
 output "AWSGrafanaConsoleReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess"
