@@ -3913,11 +3913,6 @@ output "AWSApplicationAutoscalingLambdaConcurrencyPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy"
 }
 
-output "AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM" {
-  value       = "arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM"
-}
-
 output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
