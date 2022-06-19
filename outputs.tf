@@ -2723,6 +2723,11 @@ output "AmazonAppFlowReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess"
 }
 
+output "AWSApplicationMigrationAgentInstallationPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationAgentInstallationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentInstallationPolicy"
+}
+
 output "AmazonLookoutVisionConsoleReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess"

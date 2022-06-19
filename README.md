@@ -561,6 +561,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBraketJobsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy |
 | AmazonEC2RolePolicyForLaunchWizard | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard |
 | AmazonAppFlowReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess |
+| AWSApplicationMigrationAgentInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentInstallationPolicy |
 | AmazonLookoutVisionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess |
 | AWSQuickSightTimestreamPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy |
 | AmazonManagedBlockchainFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess |
