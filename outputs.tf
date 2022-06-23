@@ -4038,6 +4038,11 @@ output "AmazonCognitoIdpServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy"
 }
 
+output "AWSWellArchitectedOrganizationsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedOrganizationsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedOrganizationsServiceRolePolicy"
+}
+
 output "AmazonMQServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"

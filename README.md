@@ -824,6 +824,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticMapReducePlacementGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy |
 | AWSElasticDisasterRecoveryConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess |
 | AmazonCognitoIdpServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy |
+| AWSWellArchitectedOrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedOrganizationsServiceRolePolicy |
 | AmazonMQServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy |
 | AWSApplicationMigrationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy |
 | AmazonMemoryDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess |
