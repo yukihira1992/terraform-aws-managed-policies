@@ -823,6 +823,11 @@ output "AmazonCognitoDeveloperAuthenticatedIdentities" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoDeveloperAuthenticatedIdentities"
 }
 
+output "AWSConfigRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSConfigRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSConfigRole"
+}
+
 output "AWSSSOMemberAccountAdministrator" {
   value       = "arn:aws:iam::aws:policy/AWSSSOMemberAccountAdministrator"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSSOMemberAccountAdministrator"

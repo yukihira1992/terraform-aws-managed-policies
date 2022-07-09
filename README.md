@@ -181,6 +181,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDocDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBFullAccess |
 | AmazonMobileAnalyticsNon-financialReportAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMobileAnalyticsNon-financialReportAccess |
 | AmazonCognitoDeveloperAuthenticatedIdentities | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoDeveloperAuthenticatedIdentities |
+| AWSConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSConfigRole |
 | AWSSSOMemberAccountAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSSOMemberAccountAdministrator |
 | AWSApplicationAutoscalingAppStreamFleetPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy |
 | AWSCertificateManagerPrivateCAFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAFullAccess |
