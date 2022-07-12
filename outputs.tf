@@ -3433,6 +3433,11 @@ output "AmazonElasticFileSystemClientReadWriteAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess"
 }
 
+output "AWSNetworkManagerCloudWANServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerCloudWANServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerCloudWANServiceRolePolicy"
+}
+
 output "AWSElasticDisasterRecoveryServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticDisasterRecoveryServiceRolePolicy"
