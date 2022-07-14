@@ -150,7 +150,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonTranscribeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTranscribeFullAccess |
 | AWSDirectoryServiceFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceFullAccess |
 | AmazonFreeRTOSOTAUpdate | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonFreeRTOSOTAUpdate |
-| AmazonWorkLinkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkLinkServiceRolePolicy |
 | AmazonDynamoDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess |
 | AmazonSESReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSESReadOnlyAccess |
 | AmazonRedshiftQueryEditor | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditor |

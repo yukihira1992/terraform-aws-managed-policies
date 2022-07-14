@@ -668,11 +668,6 @@ output "AmazonFreeRTOSOTAUpdate" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonFreeRTOSOTAUpdate"
 }
 
-output "AmazonWorkLinkServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonWorkLinkServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkLinkServiceRolePolicy"
-}
-
 output "AmazonDynamoDBFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess"
