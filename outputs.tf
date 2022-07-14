@@ -233,11 +233,6 @@ output "AmazonForecastFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonForecastFullAccess"
 }
 
-output "AmazonWorkLinkReadOnly" {
-  value       = "arn:aws:iam::aws:policy/AmazonWorkLinkReadOnly"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkLinkReadOnly"
-}
-
 output "TranslateFullAccess" {
   value       = "arn:aws:iam::aws:policy/TranslateFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/TranslateFullAccess"
@@ -1836,11 +1831,6 @@ output "AmazonAppStreamFullAccess" {
 output "AWSIoTDataAccess" {
   value       = "arn:aws:iam::aws:policy/AWSIoTDataAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDataAccess"
-}
-
-output "AmazonWorkLinkFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonWorkLinkFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkLinkFullAccess"
 }
 
 output "AmazonTranscribeReadOnlyAccess" {

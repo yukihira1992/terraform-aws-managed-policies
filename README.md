@@ -63,7 +63,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy |
 | AutoScalingReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AutoScalingReadOnlyAccess |
 | AmazonForecastFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonForecastFullAccess |
-| AmazonWorkLinkReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkLinkReadOnly |
 | TranslateFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/TranslateFullAccess |
 | AutoScalingFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AutoScalingFullAccess |
 | AmazonEC2RoleforAWSCodeDeploy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeploy |
@@ -384,7 +383,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEC2ContainerServiceforEC2Role | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role |
 | AmazonAppStreamFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppStreamFullAccess |
 | AWSIoTDataAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDataAccess |
-| AmazonWorkLinkFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkLinkFullAccess |
 | AmazonTranscribeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTranscribeReadOnlyAccess |
 | AmazonESFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonESFullAccess |
 | ApplicationDiscoveryServiceContinuousExportServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy |
