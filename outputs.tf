@@ -2923,6 +2923,11 @@ output "AmazonLexV2BotPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy"
 }
 
+output "AmazonGuardDutyMalwareProtectionServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyMalwareProtectionServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyMalwareProtectionServiceRolePolicy"
+}
+
 output "AWSMigrationHubOrchestratorInstanceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy"
