@@ -502,6 +502,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonElasticContainerRegistryPublicReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicReadOnly |
 | AWSBudgetsActions_RolePolicyForResourceAdministrationWithSSM | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActions_RolePolicyForResourceAdministrationWithSSM |
 | AWSIoTDeviceTesterForFreeRTOSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess |
+| AWSVendorInsightsAssessorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsAssessorFullAccess |
 | Route53ResolverServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy |
 | WAFV2LoggingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy |
 | AWSBudgetsActionsWithAWSResourceControlAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess |
@@ -569,6 +570,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess |
 | AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy |
 | ElementalAppliancesSoftwareReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess |
+| AWSVendorInsightsVendorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsVendorFullAccess |
 | AmazonLookoutVisionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess |
 | AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsLambdaServiceRolePolicy |
 | AWSCodeDeployRoleForCloudFormation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation |
@@ -876,6 +878,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDataExchangeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeFullAccess |
 | AWSDataExchangeProviderFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess |
 | AWSBugBustFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustFullAccess |
+| AWSVendorInsightsAssessorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsAssessorReadOnly |
 | AWSServiceRolePolicyForBackupReports | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupReports |
 | CloudWatchApplicationInsightsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess |
 | AWSControlTowerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy |
@@ -895,6 +898,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AwsGlueSessionUserRestrictedServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedServiceRole |
 | AWSServiceRoleForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder |
 | AWSElasticDisasterRecoveryRecoveryInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy |
+| AWSVendorInsightsVendorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsVendorReadOnly |
 | AmazonOpenSearchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy |
 | AmazonBraketServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy |
 | AmazonCodeGuruProfilerAgentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess |

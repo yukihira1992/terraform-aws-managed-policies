@@ -2428,6 +2428,11 @@ output "AWSIoTDeviceTesterForFreeRTOSFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess"
 }
 
+output "AWSVendorInsightsAssessorFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSVendorInsightsAssessorFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsAssessorFullAccess"
+}
+
 output "Route53ResolverServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy"
@@ -2761,6 +2766,11 @@ output "AmazonSageMakerServiceCatalogProductsCodePipelineServiceRolePolicy" {
 output "ElementalAppliancesSoftwareReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess"
+}
+
+output "AWSVendorInsightsVendorFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSVendorInsightsVendorFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsVendorFullAccess"
 }
 
 output "AmazonLookoutVisionFullAccess" {
@@ -4298,6 +4308,11 @@ output "AWSBugBustFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBugBustFullAccess"
 }
 
+output "AWSVendorInsightsAssessorReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSVendorInsightsAssessorReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsAssessorReadOnly"
+}
+
 output "AWSServiceRolePolicyForBackupReports" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupReports"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupReports"
@@ -4391,6 +4406,11 @@ output "AWSServiceRoleForImageBuilder" {
 output "AWSElasticDisasterRecoveryRecoveryInstancePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy"
+}
+
+output "AWSVendorInsightsVendorReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSVendorInsightsVendorReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsVendorReadOnly"
 }
 
 output "AmazonOpenSearchServiceRolePolicy" {
