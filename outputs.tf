@@ -3803,6 +3803,11 @@ output "AmazonFISServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
 }
 
+output "AWSTrustedAdvisorPriorityReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
+}
+
 output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
