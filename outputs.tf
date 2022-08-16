@@ -2468,6 +2468,11 @@ output "AWSElasticDisasterRecoveryStagingAccountPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryStagingAccountPolicy"
 }
 
+output "AWSApplicationDiscoveryAgentlessCollectorAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentlessCollectorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentlessCollectorAccess"
+}
+
 output "AmazonRoute53RecoveryReadinessFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"

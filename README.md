@@ -510,6 +510,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy |
 | AdministratorAccess-Amplify | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-Amplify |
 | AWSElasticDisasterRecoveryStagingAccountPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryStagingAccountPolicy |
+| AWSApplicationDiscoveryAgentlessCollectorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentlessCollectorAccess |
 | AmazonRoute53RecoveryReadinessFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess |
 | AWSNetworkManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess |
 | AmazonSageMakerServiceCatalogProductsEventsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsEventsServiceRolePolicy |
