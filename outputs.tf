@@ -3808,6 +3808,11 @@ output "AmazonFISServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
 }
 
+output "AWSSupportAppReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSupportAppReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppReadOnlyAccess"
+}
+
 output "AWSTrustedAdvisorPriorityReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
@@ -4541,6 +4546,11 @@ output "AWSApplicationMigrationEC2Access" {
 output "AmazonCloudWatchEvidentlyFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
+}
+
+output "AWSSupportAppFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSupportAppFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppFullAccess"
 }
 
 output "AWSImageBuilderReadOnlyAccess" {

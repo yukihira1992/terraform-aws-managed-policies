@@ -778,6 +778,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDevOpsGuruReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess |
 | AmazonEventBridgeSchemasReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess |
 | AmazonFISServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy |
+| AWSSupportAppReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppReadOnlyAccess |
 | AWSTrustedAdvisorPriorityReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess |
 | AWSThinkboxDeadlineSpotEventPluginWorkerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy |
 | AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy |
@@ -925,6 +926,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
 | AWSApplicationMigrationEC2Access | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access |
 | AmazonCloudWatchEvidentlyFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess |
+| AWSSupportAppFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppFullAccess |
 | AWSImageBuilderReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess |
 | AWSCloudTrail_ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_ReadOnlyAccess |
 | AWSGrafanaConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess |
