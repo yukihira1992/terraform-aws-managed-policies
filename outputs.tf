@@ -2368,6 +2368,11 @@ output "AWSOrganizationsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOrganizationsFullAccess"
 }
 
+output "AmazonEKSLocalOutpostServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSLocalOutpostServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSLocalOutpostServiceRolePolicy"
+}
+
 output "AWSCodePipeline_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess"
