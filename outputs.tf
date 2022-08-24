@@ -3368,6 +3368,11 @@ output "AmazonDevOpsGuruConsoleFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess"
 }
 
+output "AmazonEKSLocalOutpostClusterPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSLocalOutpostClusterPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSLocalOutpostClusterPolicy"
+}
+
 output "AmazonWorkDocsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
