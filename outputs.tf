@@ -4518,6 +4518,11 @@ output "MigrationHubServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy"
 }
 
+output "AmazonSageMakerCanvasForecastAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess"
+}
+
 output "AWSServiceRoleForMonitronPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy"
