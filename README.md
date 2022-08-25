@@ -584,6 +584,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBillingConductorReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingConductorReadOnlyAccess |
 | AmazonHoneycodeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess |
 | AWSCloudFormationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess |
+| GroundTruthSyntheticConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess |
 | AWSPanoramaApplianceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy |
 | AmazonLookoutMetricsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess |
 | AWSBillingConductorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingConductorFullAccess |
@@ -966,6 +967,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCompromisedKeyQuarantineV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2 |
 | AmazonS3ObjectLambdaExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy |
 | ClientVPNServiceConnectionsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy |
+| GroundTruthSyntheticConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess |
 | AmazonAppFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess |
 | AWSElasticDisasterRecoveryReplicationServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy |
 | Ec2ImageBuilderCrossAccountDistributionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess |

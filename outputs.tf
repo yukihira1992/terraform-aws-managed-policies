@@ -2838,6 +2838,11 @@ output "AWSCloudFormationFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudFormationFullAccess"
 }
 
+output "GroundTruthSyntheticConsoleReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess"
+}
+
 output "AWSPanoramaApplianceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
@@ -4746,6 +4751,11 @@ output "AmazonS3ObjectLambdaExecutionRolePolicy" {
 output "ClientVPNServiceConnectionsRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy"
+}
+
+output "GroundTruthSyntheticConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess"
 }
 
 output "AmazonAppFlowFullAccess" {
