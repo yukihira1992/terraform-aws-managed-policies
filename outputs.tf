@@ -4178,6 +4178,11 @@ output "AmazonCodeGuruProfilerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess"
 }
 
+output "AmazonSSMManagedEC2InstanceDefaultPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy"
+}
+
 output "ElementalActivationsGenerateLicenses" {
   value       = "arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses"
