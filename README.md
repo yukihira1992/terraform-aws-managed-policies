@@ -310,7 +310,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSSODirectoryReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSSODirectoryReadOnly |
 | AmazonMachineLearningCreateOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMachineLearningCreateOnlyAccess |
 | AmazonKinesisVideoStreamsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess |
-| AWSCloudTrailReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess |
 | WAFRegionalLoggingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy |
 | AWSLambdaExecute | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaExecute |
 | AWSGlueConsoleSageMakerNotebookFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueConsoleSageMakerNotebookFullAccess |

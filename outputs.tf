@@ -1468,11 +1468,6 @@ output "AmazonKinesisVideoStreamsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess"
 }
 
-output "AWSCloudTrailReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess"
-}
-
 output "WAFRegionalLoggingServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy"
