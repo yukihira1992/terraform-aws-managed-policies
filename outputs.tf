@@ -4088,6 +4088,11 @@ output "AmazonMQServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
 }
 
+output "AmazonSageMakerCanvasFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess"
+}
+
 output "AWSApplicationMigrationServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy"
