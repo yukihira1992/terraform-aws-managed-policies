@@ -4083,6 +4083,11 @@ output "AWSWellArchitectedOrganizationsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedOrganizationsServiceRolePolicy"
 }
 
+output "AmazonCloudWatchEvidentlyServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy"
+}
+
 output "AmazonMQServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
