@@ -646,6 +646,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSRoboMaker_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess |
 | AWSAppMeshPreviewServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy |
 | ServiceQuotasServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy |
+| AWSDeviceFarmServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmServiceRolePolicy |
 | AWSLambdaMSKExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole |
 | ComputeOptimizerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess |
 | AlexaForBusinessPolyDelegatedAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy |

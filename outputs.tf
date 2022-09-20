@@ -3148,6 +3148,11 @@ output "ServiceQuotasServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy"
 }
 
+output "AWSDeviceFarmServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmServiceRolePolicy"
+}
+
 output "AWSLambdaMSKExecutionRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
