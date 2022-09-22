@@ -3208,6 +3208,11 @@ output "AWSThinkboxDeadlineResourceTrackerAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy"
 }
 
+output "AWSIoTFleetwiseServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIoTFleetwiseServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTFleetwiseServiceRolePolicy"
+}
+
 output "AmazonRedshiftAllCommandsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess"
