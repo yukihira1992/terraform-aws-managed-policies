@@ -3503,6 +3503,11 @@ output "AmazonQLDBFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBFullAccess"
 }
 
+output "AWSSupportPlansReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSupportPlansReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportPlansReadOnlyAccess"
+}
+
 output "AmazonWorkSpacesWebReadOnly" {
   value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly"
@@ -3886,6 +3891,11 @@ output "AmazonConnect_FullAccess" {
 output "AWSMigrationHubOrchestratorConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
+}
+
+output "AWSSupportPlansFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSupportPlansFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportPlansFullAccess"
 }
 
 output "AWSElementalMediaLiveFullAccess" {

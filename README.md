@@ -717,6 +717,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMemoryDBReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBReadOnlyAccess |
 | AWSIoTWirelessDataAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess |
 | AmazonQLDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBFullAccess |
+| AWSSupportPlansReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportPlansReadOnlyAccess |
 | AmazonWorkSpacesWebReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly |
 | AmazonAugmentedAIFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess |
 | AWSDeepRacerAccountAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess |
@@ -794,6 +795,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
 | AWSMigrationHubOrchestratorConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess |
+| AWSSupportPlansFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportPlansFullAccess |
 | AWSElementalMediaLiveFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess |
 | AWSMarketplaceSellerProductsReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly |
 | AmazonMCSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSFullAccess |
