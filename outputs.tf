@@ -3353,6 +3353,11 @@ output "AwsGlueSessionUserRestrictedNotebookServiceRole" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedNotebookServiceRole"
 }
 
+output "AppIntegrationsServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy"
+}
+
 output "AWSServiceRoleForCodeGuru-Profiler" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
