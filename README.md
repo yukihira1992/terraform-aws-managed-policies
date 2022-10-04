@@ -122,7 +122,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMobileAnalyticsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMobileAnalyticsFullAccess |
 | AWSMobileHub_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMobileHub_FullAccess |
 | AmazonAPIGatewayPushToCloudWatchLogs | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs |
-| AWSDataPipelineRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataPipelineRole |
 | CloudWatchFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchFullAccess |
 | AmazonMQApiReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMQApiReadOnlyAccess |
 | AWSDeepLensLambdaFunctionAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepLensLambdaFunctionAccessPolicy |

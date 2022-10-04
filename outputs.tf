@@ -528,11 +528,6 @@ output "AmazonAPIGatewayPushToCloudWatchLogs" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
 }
 
-output "AWSDataPipelineRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/AWSDataPipelineRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataPipelineRole"
-}
-
 output "CloudWatchFullAccess" {
   value       = "arn:aws:iam::aws:policy/CloudWatchFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchFullAccess"
