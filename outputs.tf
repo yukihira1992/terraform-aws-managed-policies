@@ -3578,6 +3578,11 @@ output "AmazonLexChannelsAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess"
 }
 
+output "AmazonAppStreamPCAAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonAppStreamPCAAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAppStreamPCAAccess"
+}
+
 output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
