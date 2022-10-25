@@ -795,6 +795,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuicksightOpenSearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy |
 | AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
+| AWSResourceExplorerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResourceExplorerServiceRolePolicy |
 | AWSMigrationHubOrchestratorConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess |
 | AWSSupportPlansFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportPlansFullAccess |
 | AWSElementalMediaLiveFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess |

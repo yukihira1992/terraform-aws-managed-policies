@@ -3893,6 +3893,11 @@ output "AmazonConnect_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
 }
 
+output "AWSResourceExplorerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSResourceExplorerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResourceExplorerServiceRolePolicy"
+}
+
 output "AWSMigrationHubOrchestratorConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorConsoleFullAccess"
