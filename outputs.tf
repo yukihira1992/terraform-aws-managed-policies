@@ -2598,6 +2598,11 @@ output "AWSQuickSightElasticsearchPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
 }
 
+output "AWSRefactoringToolkitFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSRefactoringToolkitFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRefactoringToolkitFullAccess"
+}
+
 output "AmazonRoute53RecoveryControlConfigFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigFullAccess"
@@ -4086,6 +4091,11 @@ output "AmazonElasticFileSystemClientReadOnlyAccess" {
 output "AmazonElasticMapReducePlacementGroupPolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy"
+}
+
+output "AWSRefactoringToolkitSidecarPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSRefactoringToolkitSidecarPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRefactoringToolkitSidecarPolicy"
 }
 
 output "AWSElasticDisasterRecoveryConsoleFullAccess" {
