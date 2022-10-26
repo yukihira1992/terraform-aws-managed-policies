@@ -2498,9 +2498,19 @@ output "AdministratorAccess-AWSElasticBeanstalk" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk"
 }
 
+output "AWSFaultInjectionSimulatorNetworkAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess"
+}
+
 output "AmazonSageMakerMechanicalTurkAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
+}
+
+output "AWSFaultInjectionSimulatorEKSAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEKSAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEKSAccess"
 }
 
 output "AmazonTimestreamConsoleFullAccess" {
@@ -3848,6 +3858,16 @@ output "AWSTrustedAdvisorPriorityReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
 }
 
+output "AWSFaultInjectionSimulatorRDSAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorRDSAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorRDSAccess"
+}
+
+output "AWSFaultInjectionSimulatorEC2Access" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEC2Access"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEC2Access"
+}
+
 output "AWSThinkboxDeadlineSpotEventPluginWorkerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy"
@@ -4591,6 +4611,11 @@ output "AWSServiceRoleForMonitronPolicy" {
 output "AWSPanoramaSageMakerRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
+}
+
+output "AWSFaultInjectionSimulatorECSAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess"
 }
 
 output "AWSPanoramaApplianceServiceRolePolicy" {

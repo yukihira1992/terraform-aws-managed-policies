@@ -516,7 +516,9 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateMarketplaceRequests | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests |
 | CloudWatchApplicationInsightsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess |
 | AdministratorAccess-AWSElasticBeanstalk | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk |
+| AWSFaultInjectionSimulatorNetworkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess |
 | AmazonSageMakerMechanicalTurkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess |
+| AWSFaultInjectionSimulatorEKSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEKSAccess |
 | AmazonTimestreamConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess |
 | AWSWAFConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess |
 | AWSGlueSchemaRegistryReadonlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGlueSchemaRegistryReadonlyAccess |
@@ -786,6 +788,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonFISServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy |
 | AWSSupportAppReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppReadOnlyAccess |
 | AWSTrustedAdvisorPriorityReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess |
+| AWSFaultInjectionSimulatorRDSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorRDSAccess |
+| AWSFaultInjectionSimulatorEC2Access | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEC2Access |
 | AWSThinkboxDeadlineSpotEventPluginWorkerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy |
 | AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy |
 | AWSIoTWirelessFullPublishAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess |
@@ -935,6 +939,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCanvasForecastAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess |
 | AWSServiceRoleForMonitronPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy |
 | AWSPanoramaSageMakerRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy |
+| AWSFaultInjectionSimulatorECSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess |
 | AWSPanoramaApplianceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy |
 | AWSIoTWirelessGatewayCertManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager |
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
