@@ -3398,6 +3398,11 @@ output "AmazonWorkDocsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess"
 }
 
+output "AWSResourceExplorerReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSResourceExplorerReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerReadOnlyAccess"
+}
+
 output "AmazonHoneycodeWorkbookReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess"
@@ -4441,6 +4446,11 @@ output "AWSControlTowerServiceRolePolicy" {
 output "AmazonSageMakerNotebooksServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy"
+}
+
+output "AWSResourceExplorerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSResourceExplorerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerFullAccess"
 }
 
 output "AmazonRoute53ResolverFullAccess" {
