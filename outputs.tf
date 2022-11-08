@@ -3093,6 +3093,11 @@ output "AmazonSSMPatchAssociation" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMPatchAssociation"
 }
 
+output "AmazonWorkspacesPCAAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkspacesPCAAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkspacesPCAAccess"
+}
+
 output "AWSBudgetsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess"
