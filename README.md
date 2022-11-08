@@ -699,6 +699,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkDocsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess |
 | AWSResourceExplorerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerReadOnlyAccess |
 | AmazonHoneycodeWorkbookReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess |
+| AmazonGrafanaServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGrafanaServiceLinkedRolePolicy |
 | AmazonEMRServerlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRServerlessServiceRolePolicy |
 | MediaPackageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy |
 | AmazonGrafanaAthenaAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess |

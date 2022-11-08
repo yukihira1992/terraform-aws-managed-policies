@@ -3413,6 +3413,11 @@ output "AmazonHoneycodeWorkbookReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess"
 }
 
+output "AmazonGrafanaServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonGrafanaServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGrafanaServiceLinkedRolePolicy"
+}
+
 output "AmazonEMRServerlessServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEMRServerlessServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRServerlessServiceRolePolicy"
