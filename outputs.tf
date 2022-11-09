@@ -4463,6 +4463,11 @@ output "AWSResourceExplorerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerFullAccess"
 }
 
+output "AWSProtonCodeBuildProvisioningBasicAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSProtonCodeBuildProvisioningBasicAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonCodeBuildProvisioningBasicAccess"
+}
+
 output "AmazonRoute53ResolverFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess"
