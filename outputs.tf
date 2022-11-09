@@ -2848,6 +2848,11 @@ output "AWSPanoramaApplianceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
 }
 
+output "AWSProtonCodeBuildProvisioningServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSProtonCodeBuildProvisioningServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSProtonCodeBuildProvisioningServiceRolePolicy"
+}
+
 output "AmazonLookoutMetricsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
