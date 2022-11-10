@@ -3358,6 +3358,11 @@ output "AmazonEMRReadOnlyAccessPolicy_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
 }
 
+output "AWSBackupDataTransferAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupDataTransferAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupDataTransferAccess"
+}
+
 output "AmazonEventBridgeApiDestinationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
@@ -4026,6 +4031,11 @@ output "AWSApplicationAutoscalingLambdaConcurrencyPolicy" {
 output "AmazonEventBridgeSchedulerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess"
+}
+
+output "AWSBackupRestoreAccessForSAPHANA" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupRestoreAccessForSAPHANA"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupRestoreAccessForSAPHANA"
 }
 
 output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {

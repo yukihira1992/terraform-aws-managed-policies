@@ -688,6 +688,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPanoramaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy |
 | AWSElasticDisasterRecoveryConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy |
 | AmazonEMRReadOnlyAccessPolicy_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2 |
+| AWSBackupDataTransferAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupDataTransferAccess |
 | AmazonEventBridgeApiDestinationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy |
 | AwsGlueSessionUserRestrictedNotebookServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedNotebookServiceRole |
 | AppIntegrationsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy |
@@ -822,6 +823,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMigrationHubRefactorSpacesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubRefactorSpacesServiceRolePolicy |
 | AWSApplicationAutoscalingLambdaConcurrencyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy |
 | AmazonEventBridgeSchedulerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess |
+| AWSBackupRestoreAccessForSAPHANA | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupRestoreAccessForSAPHANA |
 | AWSIoTDeviceDefenderUpdateCACertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction |
 | AWSBackupServiceLinkedRolePolicyForBackupTest | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest |
 | AmazonEventBridgeSchedulerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess |
