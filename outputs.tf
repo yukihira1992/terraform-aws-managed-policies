@@ -4023,6 +4023,11 @@ output "AWSApplicationAutoscalingLambdaConcurrencyPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy"
 }
 
+output "AmazonEventBridgeSchedulerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess"
+}
+
 output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
@@ -4031,6 +4036,11 @@ output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {
 output "AWSBackupServiceLinkedRolePolicyForBackupTest" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest"
+}
+
+output "AmazonEventBridgeSchedulerReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess"
 }
 
 output "AWSApplicationMigrationMGHAccess" {
