@@ -4063,6 +4063,11 @@ output "AWSDeviceFarmTestGridServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
 }
 
+output "AWSServiceCatalogSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogSyncServiceRolePolicy"
+}
+
 output "AWSBackupServiceRolePolicyForS3Restore" {
   value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore"

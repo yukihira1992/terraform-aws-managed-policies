@@ -829,6 +829,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeSchedulerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess |
 | AWSApplicationMigrationMGHAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess |
 | AWSDeviceFarmTestGridServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy |
+| AWSServiceCatalogSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogSyncServiceRolePolicy |
 | AWSBackupServiceRolePolicyForS3Restore | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore |
 | AmazonLookoutEquipmentFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess |
 | AWSPurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy |
