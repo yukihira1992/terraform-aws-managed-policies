@@ -2463,6 +2463,11 @@ output "AWSApplicationDiscoveryAgentlessCollectorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentlessCollectorAccess"
 }
 
+output "AWSSSMForSAPServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSSMForSAPServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSSMForSAPServiceLinkedRolePolicy"
+}
+
 output "AmazonRoute53RecoveryReadinessFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
