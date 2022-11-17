@@ -2613,6 +2613,11 @@ output "AWSQuickSightElasticsearchPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy"
 }
 
+output "AWSSystemsManagerForSAPReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerForSAPReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerForSAPReadOnlyAccess"
+}
+
 output "AWSRefactoringToolkitFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSRefactoringToolkitFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRefactoringToolkitFullAccess"
@@ -3631,6 +3636,11 @@ output "AmazonAppStreamPCAAccess" {
 output "AlexaForBusinessLifesizeDelegatedAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy"
+}
+
+output "AWSSystemsManagerForSAPFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerForSAPFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerForSAPFullAccess"
 }
 
 output "AmazonOpenSearchServiceCognitoAccess" {
