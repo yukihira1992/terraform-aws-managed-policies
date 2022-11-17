@@ -127,7 +127,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeepLensLambdaFunctionAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepLensLambdaFunctionAccessPolicy |
 | AmazonGuardDutyFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess |
 | AmazonRDSDirectoryServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonRDSDirectoryServiceAccess |
-| AWSCodePipelineReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineReadOnlyAccess |
 | ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReadOnlyAccess |
 | AWSAppSyncInvokeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppSyncInvokeFullAccess |
 | AmazonMachineLearningBatchPredictionsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMachineLearningBatchPredictionsAccess |

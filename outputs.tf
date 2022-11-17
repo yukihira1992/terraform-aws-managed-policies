@@ -553,11 +553,6 @@ output "AmazonRDSDirectoryServiceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonRDSDirectoryServiceAccess"
 }
 
-output "AWSCodePipelineReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSCodePipelineReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineReadOnlyAccess"
-}
-
 output "ReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReadOnlyAccess"
