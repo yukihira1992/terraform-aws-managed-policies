@@ -401,7 +401,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSStepFunctionsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSStepFunctionsReadOnlyAccess |
 | AWSMarketplaceRead-only | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceRead-only |
 | AWSApplicationAutoscalingDynamoDBTablePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy |
-| AWSCodePipelineFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineFullAccess |
 | AWSCloud9User | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9User |
 | AWSGreengrassResourceAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSGreengrassResourceAccessRolePolicy |
 | AmazonMacieServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMacieServiceRolePolicy |

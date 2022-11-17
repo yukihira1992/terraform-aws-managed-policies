@@ -1923,11 +1923,6 @@ output "AWSApplicationAutoscalingDynamoDBTablePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy"
 }
 
-output "AWSCodePipelineFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSCodePipelineFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineFullAccess"
-}
-
 output "AWSCloud9User" {
   value       = "arn:aws:iam::aws:policy/AWSCloud9User"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloud9User"
