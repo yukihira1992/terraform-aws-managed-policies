@@ -4248,6 +4248,11 @@ output "AWSBillingReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess"
 }
 
+output "AmazonOpenSearchIngestionServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchIngestionServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchIngestionServiceRolePolicy"
+}
+
 output "AWSTrustedAdvisorPriorityFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityFullAccess"
