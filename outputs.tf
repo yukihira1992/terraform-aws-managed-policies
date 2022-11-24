@@ -4103,6 +4103,11 @@ output "AmazonWorkSpacesServiceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess"
 }
 
+output "AmazonOpenSearchServerlessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServerlessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServerlessServiceRolePolicy"
+}
+
 output "AWSSecurityHubOrganizationsAccess" {
   value       = "arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess"

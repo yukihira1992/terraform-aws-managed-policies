@@ -837,6 +837,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy |
 | AmazonHoneycodeTeamAssociationReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess |
 | AmazonWorkSpacesServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess |
+| AmazonOpenSearchServerlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServerlessServiceRolePolicy |
 | AWSSecurityHubOrganizationsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess |
 | AmazonElasticFileSystemsUtils | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils |
 | AWSCostAndUsageReportAutomationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCostAndUsageReportAutomationPolicy |
