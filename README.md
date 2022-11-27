@@ -622,6 +622,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkDocsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkDocsReadOnlyAccess |
 | CloudWatchLambdaInsightsExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy |
 | AmazonConnectVoiceIDFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnectVoiceIDFullAccess |
+| AWSApplicationMigrationSSMAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationSSMAccess |
 | AWSLicenseManagerUserSubscriptionsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerUserSubscriptionsServiceRolePolicy |
 | AWSGlobalAcceleratorSLRPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSGlobalAcceleratorSLRPolicy |
 | EC2InstanceProfileForImageBuilder | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilder |

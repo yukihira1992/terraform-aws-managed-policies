@@ -3028,6 +3028,11 @@ output "AmazonConnectVoiceIDFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnectVoiceIDFullAccess"
 }
 
+output "AWSApplicationMigrationSSMAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationSSMAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationSSMAccess"
+}
+
 output "AWSLicenseManagerUserSubscriptionsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerUserSubscriptionsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerUserSubscriptionsServiceRolePolicy"
