@@ -2653,6 +2653,11 @@ output "AWSThinkboxAWSPortalAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
 }
 
+output "OAMReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/OAMReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/OAMReadOnlyAccess"
+}
+
 output "AWSElasticBeanstalkReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
@@ -3448,6 +3453,11 @@ output "MediaPackageServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy"
 }
 
+output "OAMFullAccess" {
+  value       = "arn:aws:iam::aws:policy/OAMFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/OAMFullAccess"
+}
+
 output "AmazonGrafanaAthenaAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess"
@@ -3586,6 +3596,11 @@ output "ROSAManageSubscription" {
 output "AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction"
+}
+
+output "AWSXrayCrossAccountSharingConfiguration" {
+  value       = "arn:aws:iam::aws:policy/AWSXrayCrossAccountSharingConfiguration"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXrayCrossAccountSharingConfiguration"
 }
 
 output "AWSAppMeshReadOnly" {
@@ -4668,6 +4683,11 @@ output "AWSIotRoboRunnerReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly"
 }
 
+output "CloudWatchLogsCrossAccountSharingConfiguration" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchLogsCrossAccountSharingConfiguration"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLogsCrossAccountSharingConfiguration"
+}
+
 output "ECRReplicationServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy"
@@ -4936,6 +4956,11 @@ output "AWSThinkboxAWSPortalWorkerPolicy" {
 output "AmazonS3OutpostsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess"
+}
+
+output "CloudWatchCrossAccountSharingConfiguration" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchCrossAccountSharingConfiguration"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchCrossAccountSharingConfiguration"
 }
 
 output "AWSCompromisedKeyQuarantine" {

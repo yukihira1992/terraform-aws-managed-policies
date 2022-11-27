@@ -547,6 +547,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResourceAccessManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerReadOnlyAccess |
 | AmazonEventBridgeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess |
 | AWSThinkboxAWSPortalAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy |
+| OAMReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/OAMReadOnlyAccess |
 | AWSElasticBeanstalkReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly |
 | AwsGlueSessionUserRestrictedNotebookPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedNotebookPolicy |
 | EC2InstanceProfileForImageBuilderECRContainerBuilds | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds |
@@ -706,6 +707,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonGrafanaServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGrafanaServiceLinkedRolePolicy |
 | AmazonEMRServerlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRServerlessServiceRolePolicy |
 | MediaPackageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy |
+| OAMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/OAMFullAccess |
 | AmazonGrafanaAthenaAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess |
 | IAMAccessAnalyzerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess |
 | AmazonCloudWatchRUMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchRUMServiceRolePolicy |
@@ -734,6 +736,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonKeyspacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess |
 | ROSAManageSubscription | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSAManageSubscription |
 | AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction |
+| AWSXrayCrossAccountSharingConfiguration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXrayCrossAccountSharingConfiguration |
 | AWSAppMeshReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshReadOnly |
 | ComputeOptimizerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy |
 | AWSApplicationMigrationFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess |
@@ -950,6 +953,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElementalMediaTailorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorFullAccess |
 | AWSMigrationHubStrategyConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyConsoleFullAccess |
 | AWSIotRoboRunnerReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly |
+| CloudWatchLogsCrossAccountSharingConfiguration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLogsCrossAccountSharingConfiguration |
 | ECRReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy |
 | MigrationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy |
 | AmazonSageMakerCanvasForecastAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess |
@@ -1004,6 +1008,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | Ec2ImageBuilderCrossAccountDistributionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess |
 | AWSThinkboxAWSPortalWorkerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy |
 | AmazonS3OutpostsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess |
+| CloudWatchCrossAccountSharingConfiguration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchCrossAccountSharingConfiguration |
 | AWSCompromisedKeyQuarantine | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine |
 | AWSAppMeshEnvoyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess |
 | AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy |
