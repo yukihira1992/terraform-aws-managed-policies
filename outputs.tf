@@ -4758,6 +4758,11 @@ output "AWSImageBuilderReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess"
 }
 
+output "AWSWickrFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSWickrFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWickrFullAccess"
+}
+
 output "AWSCloudTrail_ReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCloudTrail_ReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_ReadOnlyAccess"
