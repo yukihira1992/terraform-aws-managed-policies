@@ -2533,6 +2533,11 @@ output "AWSAppMeshServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshServiceRolePolicy"
 }
 
+output "AmazonSecurityLakePermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonSecurityLakePermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSecurityLakePermissionsBoundary"
+}
+
 output "AWSConfigRemediationServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSConfigRemediationServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigRemediationServiceRolePolicy"
