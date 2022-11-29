@@ -3288,6 +3288,11 @@ output "AmazonCodeGuruProfilerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess"
 }
 
+output "AWSVPCVerifiedAccessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy"
+}
+
 output "AWSProtonDeveloperAccess" {
   value       = "arn:aws:iam::aws:policy/AWSProtonDeveloperAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess"

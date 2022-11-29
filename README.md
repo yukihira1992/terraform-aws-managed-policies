@@ -674,6 +674,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationAutoscalingKafkaClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy |
 | AWSSystemsManagerOpsDataSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy |
 | AmazonCodeGuruProfilerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess |
+| AWSVPCVerifiedAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy |
 | AWSProtonDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess |
 | AmazonElasticFileSystemServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
