@@ -557,6 +557,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchSyntheticsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess |
 | AmazonNimbleStudio-StudioUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser |
 | AWSCloudTrail_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess |
+| AmazonOmicsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsReadOnlyAccess |
 | AccessAnalyzerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy |
 | AmazonRoute53ResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess |
 | AmazonBraketJobsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy |

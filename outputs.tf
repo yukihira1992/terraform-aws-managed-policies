@@ -2703,6 +2703,11 @@ output "AWSCloudTrail_FullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess"
 }
 
+output "AmazonOmicsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOmicsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsReadOnlyAccess"
+}
+
 output "AccessAnalyzerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy"
