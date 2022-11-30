@@ -3978,6 +3978,11 @@ output "AWSQuicksightOpenSearchPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy"
 }
 
+output "AmazonSageMakerModelGovernanceUseAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerModelGovernanceUseAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelGovernanceUseAccess"
+}
+
 output "AWSElasticDisasterRecoveryFailbackInstallationPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy"

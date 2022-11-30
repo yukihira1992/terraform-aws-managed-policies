@@ -812,6 +812,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMWAAServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy |
 | AmazonWorkSpacesWebServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesWebServiceRolePolicy |
 | AWSQuicksightOpenSearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy |
+| AmazonSageMakerModelGovernanceUseAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelGovernanceUseAccess |
 | AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
 | CloudWatchInternetMonitorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchInternetMonitorServiceRolePolicy |
