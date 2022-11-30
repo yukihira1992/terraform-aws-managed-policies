@@ -2563,6 +2563,11 @@ output "AWSMarketplacePurchaseOrdersServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy"
 }
 
+output "AWSVpcLatticeServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSVpcLatticeServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVpcLatticeServiceRolePolicy"
+}
+
 output "AWSElementalMediaTailorReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSElementalMediaTailorReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaTailorReadOnly"
