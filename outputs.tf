@@ -3938,6 +3938,11 @@ output "AWSTrustedAdvisorPriorityReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess"
 }
 
+output "AmazonDocDB-ElasticServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonDocDB-ElasticServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDocDB-ElasticServiceRolePolicy"
+}
+
 output "AWSFaultInjectionSimulatorRDSAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorRDSAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorRDSAccess"
