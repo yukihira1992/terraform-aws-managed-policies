@@ -656,6 +656,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAppMeshPreviewServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy |
 | ServiceQuotasServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy |
 | AWSDeviceFarmServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmServiceRolePolicy |
+| AmazonSageMakerGeospatialFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialFullAccess |
 | AWSLambdaMSKExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole |
 | ComputeOptimizerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess |
 | AlexaForBusinessPolyDelegatedAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy |
@@ -890,6 +891,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSSMManagedEC2InstanceDefaultPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy |
 | ElementalActivationsGenerateLicenses | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses |
 | AWSShieldServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy |
+| AmazonSageMakerGeospatialExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialExecutionRole |
 | AWSBugBustServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBugBustServiceRolePolicy |
 | AWSAppRunnerServicePolicyForECRAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess |
 | AWSFaultInjectionSimulatorSSMAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorSSMAccess |

@@ -3198,6 +3198,11 @@ output "AWSDeviceFarmServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmServiceRolePolicy"
 }
 
+output "AmazonSageMakerGeospatialFullAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialFullAccess"
+}
+
 output "AWSLambdaMSKExecutionRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole"
@@ -4366,6 +4371,11 @@ output "ElementalActivationsGenerateLicenses" {
 output "AWSShieldServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSShieldServiceRolePolicy"
+}
+
+output "AmazonSageMakerGeospatialExecutionRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialExecutionRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialExecutionRole"
 }
 
 output "AWSBugBustServiceRolePolicy" {
