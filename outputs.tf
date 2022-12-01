@@ -2453,6 +2453,11 @@ output "AWSApplicationDiscoveryAgentlessCollectorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentlessCollectorAccess"
 }
 
+output "AmazonEventBridgePipesReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEventBridgePipesReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesReadOnlyAccess"
+}
+
 output "AWSSSMForSAPServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSSMForSAPServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSSMForSAPServiceLinkedRolePolicy"
@@ -3193,6 +3198,11 @@ output "AWSAppMeshPreviewServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy"
 }
 
+output "AmazonEventBridgePipesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEventBridgePipesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesFullAccess"
+}
+
 output "ServiceQuotasServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy"
@@ -3326,6 +3336,11 @@ output "AWSProtonDeveloperAccess" {
 output "AmazonElasticFileSystemServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
+}
+
+output "AmazonEventBridgePipesOperatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess"
 }
 
 output "AmazonSageMakerGroundTruthExecution" {
