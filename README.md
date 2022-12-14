@@ -651,6 +651,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMigrationHubStrategyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubStrategyServiceRolePolicy |
 | AWSApplicationMigrationVCenterClientPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy |
 | AmazonRDSCustomServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy |
+| AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy |
 | AmazonElasticContainerRegistryPublicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess |
 | AmazonMCSReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess |
 | AmazonOpenSearchServiceFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceFullAccess |

@@ -3173,6 +3173,11 @@ output "AmazonRDSCustomServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy"
 }
 
+output "AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy"
+}
+
 output "AmazonElasticContainerRegistryPublicFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess"
