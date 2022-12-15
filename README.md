@@ -786,6 +786,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | EC2FleetTimeShiftableServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EC2FleetTimeShiftableServiceRolePolicy |
 | AmazonEBSCSIDriverPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy |
 | MigrationHubDMSAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubDMSAccessServiceRolePolicy |
+| AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync |
 | AWSServiceCatalogEndUserReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess |
 | AWSIotRoboRunnerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess |
 | ElementalActivationsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsFullAccess |

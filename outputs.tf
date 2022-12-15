@@ -3848,6 +3848,11 @@ output "MigrationHubDMSAccessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubDMSAccessServiceRolePolicy"
 }
 
+output "AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync"
+}
+
 output "AWSServiceCatalogEndUserReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess"
