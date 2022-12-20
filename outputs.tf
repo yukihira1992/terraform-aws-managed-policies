@@ -4228,6 +4228,11 @@ output "AWSTransferConsoleFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess"
 }
 
+output "AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy"
+}
+
 output "AmazonEKSServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy"

@@ -862,6 +862,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | MemoryDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MemoryDBServiceRolePolicy |
 | AWSLicenseManagerConsumptionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy |
 | AWSTransferConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess |
+| AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy |
 | AmazonEKSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy |
 | AWSIoTWirelessLogging | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessLogging |
 | AWSRolesAnywhereServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSRolesAnywhereServicePolicy |
