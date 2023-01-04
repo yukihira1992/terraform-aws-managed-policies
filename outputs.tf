@@ -4808,6 +4808,11 @@ output "AWSPanoramaApplianceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy"
 }
 
+output "AWSOutpostsAuthorizeServerPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSOutpostsAuthorizeServerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOutpostsAuthorizeServerPolicy"
+}
+
 output "AWSIoTWirelessGatewayCertManager" {
   value       = "arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
