@@ -569,6 +569,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonAppFlowReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess |
 | AWSApplicationMigrationAgentInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentInstallationPolicy |
 | AmazonLookoutVisionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess |
+| ResourceGroupsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ResourceGroupsServiceRolePolicy |
 | AWSQuickSightTimestreamPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy |
 | AmazonManagedBlockchainFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess |
 | ServiceQuotasFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasFullAccess |

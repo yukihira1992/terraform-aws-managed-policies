@@ -2763,6 +2763,11 @@ output "AmazonLookoutVisionConsoleReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess"
 }
 
+output "ResourceGroupsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/ResourceGroupsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ResourceGroupsServiceRolePolicy"
+}
+
 output "AWSQuickSightTimestreamPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy"
