@@ -3318,6 +3318,11 @@ output "AWSThinkboxAWSPortalGatewayPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy"
 }
 
+output "AWSCleanRoomsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCleanRoomsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsReadOnlyAccess"
+}
+
 output "AWSElasticDisasterRecoveryFailbackPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy"
@@ -3723,6 +3728,11 @@ output "AmazonOpenSearchServiceCognitoAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess"
 }
 
+output "AWSCleanRoomsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCleanRoomsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsFullAccess"
+}
+
 output "AmazonTimestreamReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
@@ -3876,6 +3886,11 @@ output "AWSIotRoboRunnerFullAccess" {
 output "ElementalActivationsFullAccess" {
   value       = "arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
+}
+
+output "AWSCleanRoomsFullAccessNoQuerying" {
+  value       = "arn:aws:iam::aws:policy/AWSCleanRoomsFullAccessNoQuerying"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsFullAccessNoQuerying"
 }
 
 output "AWSIQPermissionServiceRolePolicy" {
