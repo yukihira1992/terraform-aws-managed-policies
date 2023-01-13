@@ -2668,6 +2668,11 @@ output "AmazonEventBridgeFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess"
 }
 
+output "AWSHealth_EventProcessorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSHealth_EventProcessorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealth_EventProcessorServiceRolePolicy"
+}
+
 output "AWSThinkboxAWSPortalAdminPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy"
