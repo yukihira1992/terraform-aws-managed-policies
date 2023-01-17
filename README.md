@@ -491,6 +491,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationAutoscalingElastiCacheRGPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingElastiCacheRGPolicy |
 | AmazonAugmentedAIIntegratedAPIAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess |
 | AWSElasticDisasterRecoveryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess |
+| AmazonDetectiveMemberAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveMemberAccess |
 | AmazonFraudDetectorFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy |
 | AmazonLaunchWizard_Fullaccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess |
 | AmazonChimeSDK | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeSDK |
@@ -855,6 +856,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgeSchedulerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess |
 | AWSApplicationMigrationMGHAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess |
 | AWSDeviceFarmTestGridServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy |
+| AmazonDetectiveInvestigatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveInvestigatorAccess |
 | AWSServiceCatalogSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogSyncServiceRolePolicy |
 | AWSBackupServiceRolePolicyForS3Restore | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForS3Restore |
 | AmazonLookoutEquipmentFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess |

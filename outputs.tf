@@ -2373,6 +2373,11 @@ output "AWSElasticDisasterRecoveryReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess"
 }
 
+output "AmazonDetectiveMemberAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDetectiveMemberAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveMemberAccess"
+}
+
 output "AmazonFraudDetectorFullAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
@@ -4191,6 +4196,11 @@ output "AWSApplicationMigrationMGHAccess" {
 output "AWSDeviceFarmTestGridServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy"
+}
+
+output "AmazonDetectiveInvestigatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDetectiveInvestigatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveInvestigatorAccess"
 }
 
 output "AWSServiceCatalogSyncServiceRolePolicy" {
