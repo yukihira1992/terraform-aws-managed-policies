@@ -1043,6 +1043,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonRoute53RecoveryClusterReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterReadOnlyAccess |
 | AmazonKendraReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess |
 | AmazonPrometheusFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess |
+| Ec2InstanceConnectEndpoint | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Ec2InstanceConnectEndpoint |
 | AWS_ConfigRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole |
 | AmazonOpenSearchServiceReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess |
 | AWSM2ServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSM2ServicePolicy |

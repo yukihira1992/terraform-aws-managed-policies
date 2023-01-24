@@ -5133,6 +5133,11 @@ output "AmazonPrometheusFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusFullAccess"
 }
 
+output "Ec2InstanceConnectEndpoint" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/Ec2InstanceConnectEndpoint"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Ec2InstanceConnectEndpoint"
+}
+
 output "AWS_ConfigRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
