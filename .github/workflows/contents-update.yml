@@ -16,16 +16,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v1
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.8
-      - name: Install dependencies
+          python-version: '3.11'
+      - name: cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: v1-${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            v1-${{ runner.os }}-pip-
+      - name: install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Get policies
+      - name: get policies
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_DEFAULT_OUTPUT: ${{ secrets.AWS_DEFAULT_OUTPUT }}
@@ -33,26 +40,26 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           python get-policies.py policies.pickle
-      - name: Update outputs.tf
+      - name: update outputs.tf
         run: |
           python format-policies.py policies.pickle --type outputs.tf > outputs.tf
-      - name: Update README.md
+      - name: update README.md
         run: |
           cat README.tpl.md > README.md
           python format-policies.py policies.pickle --type README.md >> README.md
-      - name: 'Terraform Init'
+      - name: terraform init
         uses: hashicorp/terraform-github-actions@master
         with:
           tf_actions_version: 'latest'
           tf_actions_subcommand: 'init'
-      - name: 'Terraform Validate'
+      - name: terraform validate
         uses: hashicorp/terraform-github-actions@master
         with:
           tf_actions_version: 'latest'
           tf_actions_subcommand: 'validate'
-      - name: Show diff
+      - name: show diff
         run: git --no-pager diff
-      - name: Create patch
+      - name: create batch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: github.ref == 'refs/heads/master'
