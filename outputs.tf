@@ -5078,6 +5078,11 @@ output "AWSElasticDisasterRecoveryReplicationServerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy"
 }
 
+output "AmazonCognitoUnauthenticatedIdentities" {
+  value       = "arn:aws:iam::aws:policy/AmazonCognitoUnauthenticatedIdentities"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoUnauthenticatedIdentities"
+}
+
 output "Ec2ImageBuilderCrossAccountDistributionAccess" {
   value       = "arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess"

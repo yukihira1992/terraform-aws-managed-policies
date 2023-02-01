@@ -1032,6 +1032,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | GroundTruthSyntheticConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess |
 | AmazonAppFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAppFlowFullAccess |
 | AWSElasticDisasterRecoveryReplicationServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryReplicationServerPolicy |
+| AmazonCognitoUnauthenticatedIdentities | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoUnauthenticatedIdentities |
 | Ec2ImageBuilderCrossAccountDistributionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess |
 | AWSThinkboxAWSPortalWorkerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy |
 | AmazonS3OutpostsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess |
