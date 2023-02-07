@@ -3448,6 +3448,11 @@ output "AmazonEMRReadOnlyAccessPolicy_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
 }
 
+output "AWSManagedServices_EventsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_EventsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_EventsServiceRolePolicy"
+}
+
 output "AWSBackupDataTransferAccess" {
   value       = "arn:aws:iam::aws:policy/AWSBackupDataTransferAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupDataTransferAccess"
