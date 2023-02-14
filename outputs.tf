@@ -2668,6 +2668,11 @@ output "AWSResourceAccessManagerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerReadOnlyAccess"
 }
 
+output "AWSPrivateCAFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAFullAccess"
+}
+
 output "AmazonEventBridgeFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess"
@@ -3443,6 +3448,11 @@ output "AWSElasticDisasterRecoveryConversionServerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy"
 }
 
+output "AWSPrivateCAPrivilegedUser" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAPrivilegedUser"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAPrivilegedUser"
+}
+
 output "AmazonEMRReadOnlyAccessPolicy_v2" {
   value       = "arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2"
@@ -3461,6 +3471,11 @@ output "AWSBackupDataTransferAccess" {
 output "AmazonEventBridgeApiDestinationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy"
+}
+
+output "AWSPrivateCAUser" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAUser"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAUser"
 }
 
 output "AwsGlueSessionUserRestrictedNotebookServiceRole" {
@@ -4863,6 +4878,11 @@ output "AWSIoTWirelessGatewayCertManager" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager"
 }
 
+output "AWSPrivateCAAuditor" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAAuditor"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAAuditor"
+}
+
 output "AWSDirectConnectServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
@@ -5051,6 +5071,11 @@ output "AmazonEKSVPCResourceController" {
 output "EC2InstanceConnect" {
   value       = "arn:aws:iam::aws:policy/EC2InstanceConnect"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect"
+}
+
+output "AWSPrivateCAReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAReadOnly"
 }
 
 output "AWSCompromisedKeyQuarantineV2" {
