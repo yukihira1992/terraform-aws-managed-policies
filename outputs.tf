@@ -5003,6 +5003,11 @@ output "AWSThinkboxDeadlineResourceTrackerAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAccessPolicy"
 }
 
+output "AWSIotRoboRunnerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy"
+}
+
 output "CloudWatch-CrossAccountAccess" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess"

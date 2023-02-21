@@ -1017,6 +1017,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkMailMessageFlowFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess |
 | AWSServiceRoleForSMS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS |
 | AWSThinkboxDeadlineResourceTrackerAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAccessPolicy |
+| AWSIotRoboRunnerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy |
 | CloudWatch-CrossAccountAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess |
 | AWSLakeFormationDataAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationDataAdmin |
 | AWSElasticBeanstalkRoleCore | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore |
