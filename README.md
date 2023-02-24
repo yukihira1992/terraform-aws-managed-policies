@@ -517,6 +517,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateMarketplaceRequests | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests |
 | CloudWatchApplicationInsightsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess |
 | AdministratorAccess-AWSElasticBeanstalk | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk |
+| AmazonOmicsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsFullAccess |
 | AWSFaultInjectionSimulatorNetworkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess |
 | AmazonSageMakerMechanicalTurkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess |
 | AWSFaultInjectionSimulatorEKSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEKSAccess |

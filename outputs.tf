@@ -2503,6 +2503,11 @@ output "AdministratorAccess-AWSElasticBeanstalk" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk"
 }
 
+output "AmazonOmicsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOmicsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsFullAccess"
+}
+
 output "AWSFaultInjectionSimulatorNetworkAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess"
