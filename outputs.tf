@@ -3833,6 +3833,11 @@ output "AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy"
 }
 
+output "AWSSupplyChainFederationAdminAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSSupplyChainFederationAdminAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSupplyChainFederationAdminAccess"
+}
+
 output "AWSAppMeshFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshFullAccess"
