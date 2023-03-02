@@ -5088,6 +5088,11 @@ output "EC2InstanceConnect" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceConnect"
 }
 
+output "AmazonDetectiveOrganizationsAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDetectiveOrganizationsAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveOrganizationsAccess"
+}
+
 output "AWSPrivateCAReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSPrivateCAReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAReadOnly"
