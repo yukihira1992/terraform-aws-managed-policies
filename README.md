@@ -943,6 +943,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCoreServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy |
 | AmazonCloudWatchRUMReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess |
 | AWSThinkboxDeadlineSpotEventPluginAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy |
+| AmazonChimeSDKMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMessagingServiceRolePolicy |
 | AmazonLookoutMetricsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess |
 | AWSDataExchangeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeFullAccess |
 | AWSDataExchangeProviderFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess |

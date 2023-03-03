@@ -4633,6 +4633,11 @@ output "AWSThinkboxDeadlineSpotEventPluginAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy"
 }
 
+output "AmazonChimeSDKMessagingServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMessagingServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeSDKMessagingServiceRolePolicy"
+}
+
 output "AmazonLookoutMetricsReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess"
