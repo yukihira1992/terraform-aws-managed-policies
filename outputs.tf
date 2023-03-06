@@ -4903,6 +4903,11 @@ output "AWSDirectConnectServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
 }
 
+output "AWSDMSFleetAdvisorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDMSFleetAdvisorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDMSFleetAdvisorServiceRolePolicy"
+}
+
 output "AWSApplicationMigrationEC2Access" {
   value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"

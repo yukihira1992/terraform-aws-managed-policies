@@ -997,6 +997,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTWirelessGatewayCertManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager |
 | AWSPrivateCAAuditor | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAAuditor |
 | AWSDirectConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy |
+| AWSDMSFleetAdvisorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDMSFleetAdvisorServiceRolePolicy |
 | AWSApplicationMigrationEC2Access | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access |
 | AmazonCloudWatchEvidentlyFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess |
 | AWSSupportAppFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppFullAccess |
