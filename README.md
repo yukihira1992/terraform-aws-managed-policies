@@ -715,6 +715,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateCAUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAUser |
 | AwsGlueSessionUserRestrictedNotebookServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AwsGlueSessionUserRestrictedNotebookServiceRole |
 | AppIntegrationsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy |
+| CustomerProfilesServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy |
 | AWSServiceRoleForCodeGuru-Profiler | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler |
 | AmazonChimeVoiceConnectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy |
 | AmazonPrometheusQueryAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess |

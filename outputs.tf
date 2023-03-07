@@ -3493,6 +3493,11 @@ output "AppIntegrationsServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy"
 }
 
+output "CustomerProfilesServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy"
+}
+
 output "AWSServiceRoleForCodeGuru-Profiler" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler"
