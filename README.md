@@ -809,6 +809,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSForFargateServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy |
 | ElementalActivationsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess |
 | MigrationHubSMSAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy |
+| AWSDataSyncDiscoveryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncDiscoveryServiceRolePolicy |
 | CloudFormationStackSetsOrgAdminServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy |
 | AWSIPAMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMServiceRolePolicy |
 | AmazonEventBridgeSchemasFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess |
