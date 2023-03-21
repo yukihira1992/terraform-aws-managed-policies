@@ -3353,6 +3353,11 @@ output "AWSApplicationAutoscalingKafkaClusterPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy"
 }
 
+output "AmazonDataZoneProjectRolePermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary"
+}
+
 output "AWSSystemsManagerOpsDataSyncServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy"
@@ -4996,6 +5001,11 @@ output "AWSApplicationMigrationConversionServerPolicy" {
 output "AWSSavingsPlansReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess"
+}
+
+output "AmazonDataZoneProjectDeploymentPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary"
 }
 
 output "AWSMigrationHubRefactorSpacesFullAccess" {

@@ -687,6 +687,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCleanRoomsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsReadOnlyAccess |
 | AWSElasticDisasterRecoveryFailbackPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryFailbackPolicy |
 | AWSApplicationAutoscalingKafkaClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy |
+| AmazonDataZoneProjectRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary |
 | AWSSystemsManagerOpsDataSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy |
 | AmazonCodeGuruProfilerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess |
 | AWSVPCVerifiedAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy |
@@ -1016,6 +1017,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonManagedBlockchainConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess |
 | AWSApplicationMigrationConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy |
 | AWSSavingsPlansReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess |
+| AmazonDataZoneProjectDeploymentPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary |
 | AWSMigrationHubRefactorSpacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess |
 | AmazonHoneycodeWorkbookFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess |
 | AWSIoTDeviceTesterForGreengrassFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess |
