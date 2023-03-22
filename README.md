@@ -765,6 +765,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSLakeFormationCrossAccountManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager |
 | AWSGlueDataBrewServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSGlueDataBrewServiceRole |
 | AmazonBraketFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess |
+| MediaConnectGatewayInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy |
 | AWSElasticBeanstalkManagedUpdatesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy |
 | AmazonLexChannelsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess |
 | AmazonAppStreamPCAAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAppStreamPCAAccess |

@@ -3743,6 +3743,11 @@ output "AmazonBraketFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess"
 }
 
+output "MediaConnectGatewayInstanceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy"
+}
+
 output "AWSElasticBeanstalkManagedUpdatesServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy"
