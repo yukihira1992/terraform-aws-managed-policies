@@ -5063,6 +5063,11 @@ output "AWSLakeFormationDataAdmin" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationDataAdmin"
 }
 
+output "AWSManagedServices_ContactsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_ContactsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_ContactsServiceRolePolicy"
+}
+
 output "AWSElasticBeanstalkRoleCore" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore"

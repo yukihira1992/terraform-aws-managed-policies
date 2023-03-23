@@ -1029,6 +1029,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIotRoboRunnerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy |
 | CloudWatch-CrossAccountAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess |
 | AWSLakeFormationDataAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationDataAdmin |
+| AWSManagedServices_ContactsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_ContactsServiceRolePolicy |
 | AWSElasticBeanstalkRoleCore | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore |
 | AWSLambda_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambda_FullAccess |
 | AmazonEMRContainersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy |
