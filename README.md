@@ -774,6 +774,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonOpenSearchServiceCognitoAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceCognitoAccess |
 | AWSCleanRoomsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsFullAccess |
 | AmazonTimestreamReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess |
+| AmazonSageMakerCanvasAIServicesAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess |
 | AWSPanoramaFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess |
 | AmazonInspector2ReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ReadOnlyAccess |
 | AmazonQLDBReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBReadOnly |

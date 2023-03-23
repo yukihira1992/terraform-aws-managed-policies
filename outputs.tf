@@ -3788,6 +3788,11 @@ output "AmazonTimestreamReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess"
 }
 
+output "AmazonSageMakerCanvasAIServicesAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess"
+}
+
 output "AWSPanoramaFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSPanoramaFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPanoramaFullAccess"
