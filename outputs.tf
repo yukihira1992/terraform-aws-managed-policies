@@ -4698,6 +4698,11 @@ output "CloudWatchApplicationInsightsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess"
 }
 
+output "AWSServiceRoleForCodeWhispererPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeWhispererPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeWhispererPolicy"
+}
+
 output "AWSControlTowerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy"
