@@ -4813,6 +4813,11 @@ output "AmazonOpenSearchServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy"
 }
 
+output "AmazonGrafanaCloudWatchAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonGrafanaCloudWatchAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaCloudWatchAccess"
+}
+
 output "AmazonBraketServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy"

@@ -979,6 +979,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticDisasterRecoveryRecoveryInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryRecoveryInstancePolicy |
 | AWSVendorInsightsVendorReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSVendorInsightsVendorReadOnly |
 | AmazonOpenSearchServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchServiceRolePolicy |
+| AmazonGrafanaCloudWatchAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaCloudWatchAccess |
 | AmazonBraketServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy |
 | AmazonCodeGuruProfilerAgentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess |
 | AmazonLookoutVisionConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess |
