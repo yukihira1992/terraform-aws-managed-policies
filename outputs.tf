@@ -4708,6 +4708,11 @@ output "AWSControlTowerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy"
 }
 
+output "AmazonDataZonePortalFullAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZonePortalFullAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePortalFullAccessPolicy"
+}
+
 output "AmazonSageMakerNotebooksServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy"
