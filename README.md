@@ -851,6 +851,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTSiteWiseConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTSiteWiseConsoleFullAccess |
 | AmazonElasticFileSystemClientFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess |
 | AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction |
+| AmazonDataZonePreviewConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess |
 | AWSThinkboxAssetServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy |
 | AWSForWordPressPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy |
 | KafkaConnectServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KafkaConnectServiceRolePolicy |

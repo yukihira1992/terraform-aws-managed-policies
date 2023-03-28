@@ -4173,6 +4173,11 @@ output "AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction"
 }
 
+output "AmazonDataZonePreviewConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess"
+}
+
 output "AWSThinkboxAssetServerPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy"
