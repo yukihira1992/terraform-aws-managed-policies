@@ -3498,6 +3498,11 @@ output "AppIntegrationsServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppIntegrationsServiceLinkedRolePolicy"
 }
 
+output "AWSGroundStationAgentInstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy"
+}
+
 output "CustomerProfilesServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy"
