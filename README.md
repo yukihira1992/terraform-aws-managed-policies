@@ -607,6 +607,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonRDSCustomPreviewServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomPreviewServiceRolePolicy |
 | AmazonRoute53RecoveryControlConfigReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryControlConfigReadOnlyAccess |
 | AmazonChimeTranscriptionServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeTranscriptionServiceLinkedRolePolicy |
+| VPCLatticeServicesInvokeAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/VPCLatticeServicesInvokeAccess |
 | AWSNetworkFirewallServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy |
 | ElementalAppliancesSoftwareFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess |
 | AmazonMachineLearningRoleforRedshiftDataSourceV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3 |
@@ -946,6 +947,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonHealthLakeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess |
 | AmazonWorkSpacesSelfServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess |
 | AmazonManagedBlockchainServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy |
+| VPCLatticeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/VPCLatticeFullAccess |
 | AmazonRoute53RecoveryClusterFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryClusterFullAccess |
 | AmazonSageMakerCoreServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy |
 | AmazonCloudWatchRUMReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess |
@@ -1017,6 +1019,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSGrafanaConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess |
 | AWSMarketplaceMeteringRegisterUsage | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage |
 | AmazonManagedBlockchainReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonManagedBlockchainReadOnlyAccess |
+| VPCLatticeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/VPCLatticeReadOnlyAccess |
 | AmazonLookoutVisionReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutVisionReadOnlyAccess |
 | AmazonRekognitionCustomLabelsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess |
 | AmazonHealthLakeFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess |
