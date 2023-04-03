@@ -757,6 +757,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkSpacesWebReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesWebReadOnly |
 | AmazonAugmentedAIFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess |
 | AWSDeepRacerAccountAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess |
+| AWSMediaConnectServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaConnectServicePolicy |
 | AWSEC2CapacityReservationFleetRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy |
 | AmazonKeyspacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess |
 | ROSAManageSubscription | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSAManageSubscription |

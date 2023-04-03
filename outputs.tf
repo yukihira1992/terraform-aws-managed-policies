@@ -3703,6 +3703,11 @@ output "AWSDeepRacerAccountAdminAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeepRacerAccountAdminAccess"
 }
 
+output "AWSMediaConnectServicePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMediaConnectServicePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaConnectServicePolicy"
+}
+
 output "AWSEC2CapacityReservationFleetRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2CapacityReservationFleetRolePolicy"
