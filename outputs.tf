@@ -3433,6 +3433,11 @@ output "DynamoDBCloudWatchContributorInsightsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy"
 }
 
+output "AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpaces-EnvironmentsWithoutBridgesFullAccess"
+}
+
 output "AmazonDetectiveServiceLinkedRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonDetectiveServiceLinkedRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonDetectiveServiceLinkedRolePolicy"
