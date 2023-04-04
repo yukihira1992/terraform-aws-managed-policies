@@ -3948,6 +3948,11 @@ output "MigrationHubDMSAccessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubDMSAccessServiceRolePolicy"
 }
 
+output "AWSProtonServiceGitSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSProtonServiceGitSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSProtonServiceGitSyncServiceRolePolicy"
+}
+
 output "AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupGatewayServiceRolePolicyForVirtualMachineMetadataSync"
