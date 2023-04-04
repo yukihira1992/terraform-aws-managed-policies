@@ -3778,11 +3778,6 @@ output "AmazonLexChannelsAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess"
 }
 
-output "AWSProtonServiceSyncServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/AWSProtonServiceSyncServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonServiceSyncServiceRolePolicy"
-}
-
 output "AmazonAppStreamPCAAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonAppStreamPCAAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAppStreamPCAAccess"
