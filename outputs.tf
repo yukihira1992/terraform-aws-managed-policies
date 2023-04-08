@@ -1823,11 +1823,6 @@ output "ApplicationDiscoveryServiceContinuousExportServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy"
 }
 
-output "AmazonSumerianFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonSumerianFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSumerianFullAccess"
-}
-
 output "AWSWAFFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSWAFFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFFullAccess"

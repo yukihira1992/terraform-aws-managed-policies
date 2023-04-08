@@ -381,7 +381,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonTranscribeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTranscribeReadOnlyAccess |
 | AmazonESFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonESFullAccess |
 | ApplicationDiscoveryServiceContinuousExportServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy |
-| AmazonSumerianFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSumerianFullAccess |
 | AWSWAFFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSWAFFullAccess |
 | ElasticLoadBalancingReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElasticLoadBalancingReadOnly |
 | AWSArtifactAccountSync | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSArtifactAccountSync |
