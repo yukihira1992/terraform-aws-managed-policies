@@ -3008,6 +3008,11 @@ output "AWSElasticDisasterRecoveryEc2InstancePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryEc2InstancePolicy"
 }
 
+output "AWSServiceCatalogOrgsDataSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogOrgsDataSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogOrgsDataSyncServiceRolePolicy"
+}
+
 output "AWSProtonReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess"
