@@ -2468,6 +2468,11 @@ output "AmazonRoute53RecoveryReadinessFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53RecoveryReadinessFullAccess"
 }
 
+output "AmazonSageMakerModelRegistryFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerModelRegistryFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelRegistryFullAccess"
+}
+
 output "AWSNetworkManagerFullAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess"
