@@ -695,6 +695,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSVPCVerifiedAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy |
 | AWSProtonDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess |
 | AmazonElasticFileSystemServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy |
+| AmazonCodeCatalystSupportAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess |
 | AmazonEventBridgePipesOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
 | AWSResourceAccessManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess |

@@ -3393,6 +3393,11 @@ output "AmazonElasticFileSystemServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
 }
 
+output "AmazonCodeCatalystSupportAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess"
+}
+
 output "AmazonEventBridgePipesOperatorAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess"
