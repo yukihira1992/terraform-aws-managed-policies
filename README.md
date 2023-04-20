@@ -671,6 +671,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerGeospatialFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerGeospatialFullAccess |
 | AWSLambdaMSKExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole |
 | ComputeOptimizerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess |
+| AmazonCodeCatalystFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeCatalystFullAccess |
 | AlexaForBusinessPolyDelegatedAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy |
 | AWSMarketplaceProcurementSystemAdminFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceProcurementSystemAdminFullAccess |
 | AWSAccountManagementReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountManagementReadOnlyAccess |
@@ -889,6 +890,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCostAndUsageReportAutomationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCostAndUsageReportAutomationPolicy |
 | MemoryDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MemoryDBServiceRolePolicy |
 | AWSLicenseManagerConsumptionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy |
+| AmazonCodeCatalystReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeCatalystReadOnlyAccess |
 | AWSTransferConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess |
 | AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerLinuxSubscriptionsServiceRolePolicy |
 | AmazonEKSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy |

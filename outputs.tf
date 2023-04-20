@@ -3273,6 +3273,11 @@ output "ComputeOptimizerReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess"
 }
 
+output "AmazonCodeCatalystFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCodeCatalystFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeCatalystFullAccess"
+}
+
 output "AlexaForBusinessPolyDelegatedAccessPolicy" {
   value       = "arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy"
@@ -4361,6 +4366,11 @@ output "MemoryDBServiceRolePolicy" {
 output "AWSLicenseManagerConsumptionPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLicenseManagerConsumptionPolicy"
+}
+
+output "AmazonCodeCatalystReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCodeCatalystReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeCatalystReadOnlyAccess"
 }
 
 output "AWSTransferConsoleFullAccess" {
