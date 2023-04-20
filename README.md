@@ -614,6 +614,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonAugmentedAIHumanLoopFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess |
 | AmazonLookoutEquipmentReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess |
 | AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy |
+| ROSAIngressOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAIngressOperatorPolicy |
 | AmazonCloudWatchRUMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess |
 | AWSDataExchangeReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeReadOnly |
 | AWSMarketplaceSellerProductsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsFullAccess |
@@ -658,6 +659,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | Health_OrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy |
 | AWSMigrationHubStrategyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubStrategyServiceRolePolicy |
 | AWSApplicationMigrationVCenterClientPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy |
+| ROSAAmazonEBSCSIDriverOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAAmazonEBSCSIDriverOperatorPolicy |
 | AmazonRDSCustomServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonRDSCustomServiceRolePolicy |
 | AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForGroundStationDataflowEndpointGroupPolicy |
 | AmazonElasticContainerRegistryPublicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess |
@@ -872,6 +874,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationAutoscalingLambdaConcurrencyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy |
 | AmazonEventBridgeSchedulerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerFullAccess |
 | AWSBackupRestoreAccessForSAPHANA | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupRestoreAccessForSAPHANA |
+| ROSAWorkerInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAWorkerInstancePolicy |
 | AWSIoTDeviceDefenderUpdateCACertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction |
 | AWSBackupServiceLinkedRolePolicyForBackupTest | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest |
 | AmazonEventBridgeSchedulerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchedulerReadOnlyAccess |
@@ -949,6 +952,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCodeArtifactAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodeArtifactAdminAccess |
 | AWSServiceCatalogAdminReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogAdminReadOnlyAccess |
 | AWSQuickSightSageMakerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy |
+| ROSACloudNetworkConfigOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSACloudNetworkConfigOperatorPolicy |
 | AWSDataLifecycleManagerServiceRoleForAMIManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement |
 | AwsGlueSessionUserRestrictedPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedPolicy |
 | AmazonMonitronFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMonitronFullAccess |

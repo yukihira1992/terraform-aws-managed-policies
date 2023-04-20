@@ -2988,6 +2988,11 @@ output "AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy"
 }
 
+output "ROSAIngressOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAIngressOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAIngressOperatorPolicy"
+}
+
 output "AmazonCloudWatchRUMFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess"
@@ -3206,6 +3211,11 @@ output "AWSMigrationHubStrategyServiceRolePolicy" {
 output "AWSApplicationMigrationVCenterClientPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationVCenterClientPolicy"
+}
+
+output "ROSAAmazonEBSCSIDriverOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAAmazonEBSCSIDriverOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAAmazonEBSCSIDriverOperatorPolicy"
 }
 
 output "AmazonRDSCustomServiceRolePolicy" {
@@ -4278,6 +4288,11 @@ output "AWSBackupRestoreAccessForSAPHANA" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupRestoreAccessForSAPHANA"
 }
 
+output "ROSAWorkerInstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAWorkerInstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAWorkerInstancePolicy"
+}
+
 output "AWSIoTDeviceDefenderUpdateCACertMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction"
@@ -4661,6 +4676,11 @@ output "AWSServiceCatalogAdminReadOnlyAccess" {
 output "AWSQuickSightSageMakerPolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy"
+}
+
+output "ROSACloudNetworkConfigOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSACloudNetworkConfigOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSACloudNetworkConfigOperatorPolicy"
 }
 
 output "AWSDataLifecycleManagerServiceRoleForAMIManagement" {
