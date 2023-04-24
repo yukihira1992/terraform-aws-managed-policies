@@ -860,6 +860,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceSellerProductsReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly |
 | AmazonMCSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMCSFullAccess |
 | AWSIoTSiteWiseConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTSiteWiseConsoleFullAccess |
+| ROSAControlPlaneOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAControlPlaneOperatorPolicy |
 | AmazonElasticFileSystemClientFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess |
 | AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction |
 | AmazonDataZonePreviewConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess |

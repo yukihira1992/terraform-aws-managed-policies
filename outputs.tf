@@ -4218,6 +4218,11 @@ output "AWSIoTSiteWiseConsoleFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTSiteWiseConsoleFullAccess"
 }
 
+output "ROSAControlPlaneOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAControlPlaneOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAControlPlaneOperatorPolicy"
+}
+
 output "AmazonElasticFileSystemClientFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess"
