@@ -698,6 +698,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSVPCVerifiedAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCVerifiedAccessServiceRolePolicy |
 | AWSProtonDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSProtonDeveloperAccess |
 | AmazonElasticFileSystemServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy |
+| AmazonOpenSearchIngestionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchIngestionFullAccess |
 | AmazonCodeCatalystSupportAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess |
 | AmazonEventBridgePipesOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
@@ -713,6 +714,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkRoleRDS | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS |
 | AmazonRedshiftQueryEditorV2ReadSharing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftQueryEditorV2ReadSharing |
 | AWSECRPullThroughCache_ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy |
+| AmazonOpenSearchIngestionReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchIngestionReadOnlyAccess |
 | AWSPanoramaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy |
 | AWSElasticDisasterRecoveryConversionServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryConversionServerPolicy |
 | AWSPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAPrivilegedUser |

@@ -3408,6 +3408,11 @@ output "AmazonElasticFileSystemServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy"
 }
 
+output "AmazonOpenSearchIngestionFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchIngestionFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchIngestionFullAccess"
+}
+
 output "AmazonCodeCatalystSupportAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonCodeCatalystSupportAccess"
@@ -3481,6 +3486,11 @@ output "AmazonRedshiftQueryEditorV2ReadSharing" {
 output "AWSECRPullThroughCache_ServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy"
+}
+
+output "AmazonOpenSearchIngestionReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchIngestionReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchIngestionReadOnlyAccess"
 }
 
 output "AWSPanoramaServiceRolePolicy" {
