@@ -613,6 +613,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMachineLearningRoleforRedshiftDataSourceV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3 |
 | AmazonAugmentedAIHumanLoopFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess |
 | AmazonLookoutEquipmentReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess |
+| AWSWellArchitectedDiscoveryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedDiscoveryServiceRolePolicy |
 | AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy |
 | ROSAIngressOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAIngressOperatorPolicy |
 | AmazonCloudWatchRUMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMFullAccess |

@@ -2983,6 +2983,11 @@ output "AmazonLookoutEquipmentReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess"
 }
 
+output "AWSWellArchitectedDiscoveryServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedDiscoveryServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedDiscoveryServiceRolePolicy"
+}
+
 output "AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsGlueServiceRolePolicy"
