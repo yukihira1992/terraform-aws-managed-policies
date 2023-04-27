@@ -854,6 +854,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuicksightOpenSearchPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuicksightOpenSearchPolicy |
 | AmazonSageMakerModelGovernanceUseAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelGovernanceUseAccess |
 | AWSElasticDisasterRecoveryFailbackInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy |
+| ROSAKubeControllerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKubeControllerPolicy |
 | AmazonConnect_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess |
 | CloudWatchInternetMonitorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchInternetMonitorServiceRolePolicy |
 | AWSResourceExplorerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResourceExplorerServiceRolePolicy |
@@ -1081,6 +1082,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3OutpostsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess |
 | CloudWatchCrossAccountSharingConfiguration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchCrossAccountSharingConfiguration |
 | AWSCompromisedKeyQuarantine | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine |
+| ROSAKMSProviderPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKMSProviderPolicy |
 | AWSAppMeshEnvoyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess |
 | AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayServiceRolePolicy |
 | AWSAppRunnerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppRunnerReadOnlyAccess |

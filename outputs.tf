@@ -4188,6 +4188,11 @@ output "AWSElasticDisasterRecoveryFailbackInstallationPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryFailbackInstallationPolicy"
 }
 
+output "ROSAKubeControllerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAKubeControllerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKubeControllerPolicy"
+}
+
 output "AmazonConnect_FullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonConnect_FullAccess"
@@ -5321,6 +5326,11 @@ output "CloudWatchCrossAccountSharingConfiguration" {
 output "AWSCompromisedKeyQuarantine" {
   value       = "arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
+}
+
+output "ROSAKMSProviderPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAKMSProviderPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKMSProviderPolicy"
 }
 
 output "AWSAppMeshEnvoyAccess" {
