@@ -919,6 +919,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationMigrationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy |
 | AmazonMemoryDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMemoryDBFullAccess |
 | AmazonKeyspacesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess |
+| ROSAImageRegistryOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAImageRegistryOperatorPolicy |
 | AWSElasticDisasterRecoveryAgentInstallationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy |
 | AWSMigrationHubStrategyCollector | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubStrategyCollector |
 | CloudFormationStackSetsOrgMemberServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy |

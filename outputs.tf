@@ -4513,6 +4513,11 @@ output "AmazonKeyspacesReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess"
 }
 
+output "ROSAImageRegistryOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAImageRegistryOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAImageRegistryOperatorPolicy"
+}
+
 output "AWSElasticDisasterRecoveryAgentInstallationPolicy" {
   value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryAgentInstallationPolicy"
