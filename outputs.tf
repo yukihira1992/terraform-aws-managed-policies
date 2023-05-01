@@ -5023,6 +5023,11 @@ output "AWSPanoramaSageMakerRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy"
 }
 
+output "AmazonVPCReachabilityAnalyzerPathComponentReadPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonVPCReachabilityAnalyzerPathComponentReadPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCReachabilityAnalyzerPathComponentReadPolicy"
+}
+
 output "AWSFaultInjectionSimulatorECSAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess"

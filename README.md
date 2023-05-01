@@ -1021,6 +1021,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCanvasForecastAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess |
 | AWSServiceRoleForMonitronPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy |
 | AWSPanoramaSageMakerRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy |
+| AmazonVPCReachabilityAnalyzerPathComponentReadPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCReachabilityAnalyzerPathComponentReadPolicy |
 | AWSFaultInjectionSimulatorECSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorECSAccess |
 | AWSPanoramaApplianceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceServiceRolePolicy |
 | AWSOutpostsAuthorizeServerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOutpostsAuthorizeServerPolicy |
