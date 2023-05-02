@@ -558,6 +558,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | OAMReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/OAMReadOnlyAccess |
 | AWSElasticBeanstalkReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly |
 | AwsGlueSessionUserRestrictedNotebookPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedNotebookPolicy |
+| KeyspacesReplicationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KeyspacesReplicationServiceRolePolicy |
 | EC2InstanceProfileForImageBuilderECRContainerBuilds | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds |
 | AWSCodeDeployRoleForLambdaLimited | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited |
 | AWSAuditManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy |

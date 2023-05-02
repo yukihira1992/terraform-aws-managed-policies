@@ -2708,6 +2708,11 @@ output "AwsGlueSessionUserRestrictedNotebookPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueSessionUserRestrictedNotebookPolicy"
 }
 
+output "KeyspacesReplicationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/KeyspacesReplicationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KeyspacesReplicationServiceRolePolicy"
+}
+
 output "EC2InstanceProfileForImageBuilderECRContainerBuilds" {
   value       = "arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds"
