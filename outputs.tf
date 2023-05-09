@@ -3443,6 +3443,11 @@ output "AWSResourceAccessManagerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess"
 }
 
+output "AmazonCodeGuruSecurityScanAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess"
+}
+
 output "CertificateManagerServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy"
@@ -4116,6 +4121,11 @@ output "AmazonEventBridgeSchemasReadOnlyAccess" {
 output "AmazonFISServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy"
+}
+
+output "AmazonCodeGuruSecurityFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonCodeGuruSecurityFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityFullAccess"
 }
 
 output "AWSUserNotificationsServiceLinkedRolePolicy" {

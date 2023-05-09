@@ -705,6 +705,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgePipesOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
 | AWSResourceAccessManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess |
+| AmazonCodeGuruSecurityScanAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess |
 | CertificateManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy |
 | AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction |
 | AWSGrafanaWorkspacePermissionManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement |
@@ -840,6 +841,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDevOpsGuruReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess |
 | AmazonEventBridgeSchemasReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess |
 | AmazonFISServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy |
+| AmazonCodeGuruSecurityFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityFullAccess |
 | AWSUserNotificationsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSUserNotificationsServiceLinkedRolePolicy |
 | AWSSupportAppReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSupportAppReadOnlyAccess |
 | AWSTrustedAdvisorPriorityReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTrustedAdvisorPriorityReadOnlyAccess |
