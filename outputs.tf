@@ -3958,6 +3958,11 @@ output "ElementalActivationsDownloadSoftwareAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess"
 }
 
+output "AWSFinSpaceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSFinSpaceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSFinSpaceServiceRolePolicy"
+}
+
 output "AWSPanoramaGreengrassGroupRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy"
