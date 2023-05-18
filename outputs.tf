@@ -2428,6 +2428,11 @@ output "AWSBudgetsActionsWithAWSResourceControlAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess"
 }
 
+output "AWSDMSServerlessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDMSServerlessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDMSServerlessServiceRolePolicy"
+}
+
 output "AWSManagedServicesDeploymentToolkitPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSManagedServicesDeploymentToolkitPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServicesDeploymentToolkitPolicy"
