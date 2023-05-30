@@ -2913,6 +2913,11 @@ output "GroundTruthSyntheticConsoleReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess"
 }
 
+output "AmazonSecurityLakeAdministrator" {
+  value       = "arn:aws:iam::aws:policy/AmazonSecurityLakeAdministrator"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSecurityLakeAdministrator"
+}
+
 output "AWSPanoramaApplianceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy"
