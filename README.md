@@ -824,6 +824,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceCatalogEndUserReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess |
 | AWSIotRoboRunnerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess |
 | ElementalActivationsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsFullAccess |
+| ROSASRESupportPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSASRESupportPolicy |
 | AWSCleanRoomsFullAccessNoQuerying | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsFullAccessNoQuerying |
 | AWSIQPermissionServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQPermissionServiceRolePolicy |
 | Route53RecoveryReadinessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53RecoveryReadinessServiceRolePolicy |

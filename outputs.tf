@@ -4038,6 +4038,11 @@ output "ElementalActivationsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ElementalActivationsFullAccess"
 }
 
+output "ROSASRESupportPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSASRESupportPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSASRESupportPolicy"
+}
+
 output "AWSCleanRoomsFullAccessNoQuerying" {
   value       = "arn:aws:iam::aws:policy/AWSCleanRoomsFullAccessNoQuerying"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsFullAccessNoQuerying"
