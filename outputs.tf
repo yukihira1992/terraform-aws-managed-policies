@@ -3993,6 +3993,11 @@ output "AWSTransferReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess"
 }
 
+output "AWSControlTowerAccountServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSControlTowerAccountServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSControlTowerAccountServiceRolePolicy"
+}
+
 output "ServiceQuotasReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess"
