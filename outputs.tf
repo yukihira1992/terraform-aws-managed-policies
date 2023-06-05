@@ -5423,6 +5423,11 @@ output "AWS_ConfigRole" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
 }
 
+output "AmazonDocDBElasticFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDocDBElasticFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBElasticFullAccess"
+}
+
 output "AmazonOpenSearchServiceReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchServiceReadOnlyAccess"
