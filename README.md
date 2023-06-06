@@ -748,6 +748,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonGrafanaAthenaAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaAthenaAccess |
 | IAMAccessAnalyzerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess |
 | AmazonCloudWatchRUMServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchRUMServiceRolePolicy |
+| ROSAInstallerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAInstallerPolicy |
 | AmazonEventBridgeSchemasServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy |
 | AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction |
 | AmazonQLDBConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQLDBConsoleFullAccess |

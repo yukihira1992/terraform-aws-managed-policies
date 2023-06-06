@@ -3658,6 +3658,11 @@ output "AmazonCloudWatchRUMServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchRUMServiceRolePolicy"
 }
 
+output "ROSAInstallerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAInstallerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAInstallerPolicy"
+}
+
 output "AmazonEventBridgeSchemasServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy"
