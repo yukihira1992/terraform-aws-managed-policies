@@ -2573,6 +2573,11 @@ output "AmazonEventBridgeReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess"
 }
 
+output "AmazonDocDBElasticReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDocDBElasticReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBElasticReadOnlyAccess"
+}
+
 output "AWSCodeStarNotificationsServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy"

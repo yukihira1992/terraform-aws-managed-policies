@@ -531,6 +531,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSConfigRemediationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigRemediationServiceRolePolicy |
 | ConfigConformsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ConfigConformsServiceRolePolicy |
 | AmazonEventBridgeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess |
+| AmazonDocDBElasticReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBElasticReadOnlyAccess |
 | AWSCodeStarNotificationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy |
 | AWSMarketplacePurchaseOrdersServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplacePurchaseOrdersServiceRolePolicy |
 | AWSVpcLatticeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVpcLatticeServiceRolePolicy |
