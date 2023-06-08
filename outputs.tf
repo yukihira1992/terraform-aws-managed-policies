@@ -2518,6 +2518,11 @@ output "AWSFaultInjectionSimulatorNetworkAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess"
 }
 
+output "ROSANodePoolManagementPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSANodePoolManagementPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSANodePoolManagementPolicy"
+}
+
 output "AmazonSageMakerMechanicalTurkAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess"

@@ -520,6 +520,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AdministratorAccess-AWSElasticBeanstalk | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk |
 | AmazonOmicsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsFullAccess |
 | AWSFaultInjectionSimulatorNetworkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorNetworkAccess |
+| ROSANodePoolManagementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSANodePoolManagementPolicy |
 | AmazonSageMakerMechanicalTurkAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess |
 | AWSFaultInjectionSimulatorEKSAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorEKSAccess |
 | AmazonTimestreamConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess |
