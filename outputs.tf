@@ -5123,6 +5123,11 @@ output "AWSDMSFleetAdvisorServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDMSFleetAdvisorServiceRolePolicy"
 }
 
+output "AWSElasticDisasterRecoveryNetworkReplicationPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryNetworkReplicationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSElasticDisasterRecoveryNetworkReplicationPolicy"
+}
+
 output "AWSApplicationMigrationEC2Access" {
   value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access"
