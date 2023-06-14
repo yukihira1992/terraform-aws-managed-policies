@@ -4688,6 +4688,11 @@ output "AWSFaultInjectionSimulatorSSMAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSFaultInjectionSimulatorSSMAccess"
 }
 
+output "AmazonVPCReachabilityAnalyzerFullAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonVPCReachabilityAnalyzerFullAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCReachabilityAnalyzerFullAccessPolicy"
+}
+
 output "AWSNetworkManagerReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess"
