@@ -3598,6 +3598,11 @@ output "AmazonChimeVoiceConnectorServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy"
 }
 
+output "AmazonVPCNetworkAccessAnalyzerFullAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonVPCNetworkAccessAnalyzerFullAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCNetworkAccessAnalyzerFullAccessPolicy"
+}
+
 output "AmazonPrometheusQueryAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess"

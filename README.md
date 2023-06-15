@@ -736,6 +736,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | CustomerProfilesServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy |
 | AWSServiceRoleForCodeGuru-Profiler | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler |
 | AmazonChimeVoiceConnectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy |
+| AmazonVPCNetworkAccessAnalyzerFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVPCNetworkAccessAnalyzerFullAccessPolicy |
 | AmazonPrometheusQueryAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess |
 | AmazonGrafanaRedshiftAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess |
 | AmazonDevOpsGuruConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDevOpsGuruConsoleFullAccess |
