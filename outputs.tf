@@ -4548,6 +4548,11 @@ output "AmazonCloudWatchEvidentlyServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy"
 }
 
+output "AmazonMacieReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonMacieReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMacieReadOnlyAccess"
+}
+
 output "AmazonMQServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy"
