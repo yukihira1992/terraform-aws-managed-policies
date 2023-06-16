@@ -3073,6 +3073,11 @@ output "AWSMigrationHubOrchestratorInstanceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy"
 }
 
+output "EMRDescribeClusterPolicyForEMRWAL" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/EMRDescribeClusterPolicyForEMRWAL"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EMRDescribeClusterPolicyForEMRWAL"
+}
+
 output "AWSIQContractServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy"

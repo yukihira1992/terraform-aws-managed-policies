@@ -631,6 +631,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonLexV2BotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy |
 | AmazonGuardDutyMalwareProtectionServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyMalwareProtectionServiceRolePolicy |
 | AWSMigrationHubOrchestratorInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubOrchestratorInstanceRolePolicy |
+| EMRDescribeClusterPolicyForEMRWAL | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EMRDescribeClusterPolicyForEMRWAL |
 | AWSIQContractServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy |
 | AWSStorageGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy |
 | AWSBackupOrganizationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess |
