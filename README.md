@@ -605,6 +605,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPanoramaApplianceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy |
 | SecurityLakeServiceLinkedRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SecurityLakeServiceLinkedRole |
 | AWSProtonCodeBuildProvisioningServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSProtonCodeBuildProvisioningServiceRolePolicy |
+| AWSAppFabricServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppFabricServiceRolePolicy |
 | AmazonLookoutMetricsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess |
 | AWSBillingConductorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBillingConductorFullAccess |
 | AWSApplicationMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy |

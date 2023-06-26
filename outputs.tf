@@ -2943,6 +2943,11 @@ output "AWSProtonCodeBuildProvisioningServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSProtonCodeBuildProvisioningServiceRolePolicy"
 }
 
+output "AWSAppFabricServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAppFabricServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppFabricServiceRolePolicy"
+}
+
 output "AmazonLookoutMetricsFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess"
