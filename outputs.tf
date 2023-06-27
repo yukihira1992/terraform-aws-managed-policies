@@ -3478,6 +3478,11 @@ output "AWSResourceAccessManagerFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess"
 }
 
+output "AWSAppFabricFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAppFabricFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricFullAccess"
+}
+
 output "AmazonCodeGuruSecurityScanAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess"
@@ -3956,6 +3961,11 @@ output "S3StorageLensServiceRolePolicy" {
 output "ServerMigrationServiceConsoleFullAccess" {
   value       = "arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess"
+}
+
+output "AWSAppFabricReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAppFabricReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricReadOnlyAccess"
 }
 
 output "AWSAppSyncServiceRolePolicy" {

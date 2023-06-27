@@ -712,6 +712,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEventBridgePipesOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEventBridgePipesOperatorAccess |
 | AmazonSageMakerGroundTruthExecution | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution |
 | AWSResourceAccessManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess |
+| AWSAppFabricFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricFullAccess |
 | AmazonCodeGuruSecurityScanAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCodeGuruSecurityScanAccess |
 | CertificateManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy |
 | AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction |
@@ -808,6 +809,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateNetworksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPrivateNetworksServiceRolePolicy |
 | S3StorageLensServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy |
 | ServerMigrationServiceConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess |
+| AWSAppFabricReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricReadOnlyAccess |
 | AWSAppSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy |
 | AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerServiceCatalogProductsCodeBuildServiceRolePolicy |
 | AWSSupplyChainFederationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSupplyChainFederationAdminAccess |
