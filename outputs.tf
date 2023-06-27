@@ -2378,6 +2378,11 @@ output "AmazonFraudDetectorFullAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy"
 }
 
+output "AWSResilienceHubAsssessmentExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSResilienceHubAsssessmentExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubAsssessmentExecutionPolicy"
+}
+
 output "AmazonLaunchWizard_Fullaccess" {
   value       = "arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"

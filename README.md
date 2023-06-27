@@ -492,6 +492,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticDisasterRecoveryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryReadOnlyAccess |
 | AmazonDetectiveMemberAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveMemberAccess |
 | AmazonFraudDetectorFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy |
+| AWSResilienceHubAsssessmentExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubAsssessmentExecutionPolicy |
 | AmazonLaunchWizard_Fullaccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess |
 | AmazonChimeSDK | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonChimeSDK |
 | AwsGlueDataBrewFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy |
