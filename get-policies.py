@@ -18,7 +18,8 @@ def get_managed_policies():
         if marker is not None:
             kwargs.update(Marker=marker)
         response = client.list_policies(**kwargs)
-        policies.extend(response.get('Policies', []))
+        fetched_policies = response.get('Policies', [])
+        policies.extend([p for p in fetched_policies if p['IsAttachable']])
         is_truncated = response['IsTruncated']
         marker = response.get('Marker', None)
     return policies
