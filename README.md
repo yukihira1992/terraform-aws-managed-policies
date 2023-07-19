@@ -1122,3 +1122,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResilienceHubAsssessmentExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubAsssessmentExecutionPolicy |
 | AWSAppFabricFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricFullAccess |
 | AWSAppFabricReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricReadOnlyAccess |
+| AmazonCognitoUnAuthedIdentitiesSessionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoUnAuthedIdentitiesSessionPolicy |
