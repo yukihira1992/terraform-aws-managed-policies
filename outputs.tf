@@ -5533,3 +5533,18 @@ output "AmazonCognitoUnAuthedIdentitiesSessionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoUnAuthedIdentitiesSessionPolicy"
 }
 
+output "AmazonEFSCSIDriverPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonEFSCSIDriverPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEFSCSIDriverPolicy"
+}
+
+output "AWSElementalMediaPackageV2FullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaPackageV2FullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2FullAccess"
+}
+
+output "AWSElementalMediaPackageV2ReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaPackageV2ReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2ReadOnly"
+}
+

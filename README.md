@@ -1123,3 +1123,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAppFabricFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricFullAccess |
 | AWSAppFabricReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAppFabricReadOnlyAccess |
 | AmazonCognitoUnAuthedIdentitiesSessionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCognitoUnAuthedIdentitiesSessionPolicy |
+| AmazonEFSCSIDriverPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEFSCSIDriverPolicy |
+| AWSElementalMediaPackageV2FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2FullAccess |
+| AWSElementalMediaPackageV2ReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2ReadOnly |
