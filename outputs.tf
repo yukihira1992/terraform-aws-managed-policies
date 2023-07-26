@@ -5548,3 +5548,13 @@ output "AWSElementalMediaPackageV2ReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2ReadOnly"
 }
 
+output "AWSHealthImagingFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSHealthImagingFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSHealthImagingFullAccess"
+}
+
+output "AWSHealthImagingReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSHealthImagingReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSHealthImagingReadOnlyAccess"
+}
+

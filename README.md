@@ -1126,3 +1126,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEFSCSIDriverPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEFSCSIDriverPolicy |
 | AWSElementalMediaPackageV2FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2FullAccess |
 | AWSElementalMediaPackageV2ReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaPackageV2ReadOnly |
+| AWSHealthImagingFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSHealthImagingFullAccess |
+| AWSHealthImagingReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSHealthImagingReadOnlyAccess |
