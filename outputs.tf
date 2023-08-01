@@ -5563,3 +5563,18 @@ output "CloudWatchFullAccessV2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchFullAccessV2"
 }
 
+output "AmazonSageMakerPartnerServiceCatalogProductsLambdaServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsLambdaServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsLambdaServiceRolePolicy"
+}
+
+output "AmazonSageMakerPartnerServiceCatalogProductsApiGatewayServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsApiGatewayServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsApiGatewayServiceRolePolicy"
+}
+
+output "AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy"
+}
+
