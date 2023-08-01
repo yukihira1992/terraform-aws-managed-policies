@@ -5558,3 +5558,8 @@ output "AWSHealthImagingReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSHealthImagingReadOnlyAccess"
 }
 
+output "CloudWatchFullAccessV2" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchFullAccessV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchFullAccessV2"
+}
+
