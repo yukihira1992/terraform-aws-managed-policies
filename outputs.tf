@@ -5578,3 +5578,8 @@ output "AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePol
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy"
 }
 
+output "AWSMigrationHubRefactorSpaces-SSMAutomationPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSMigrationHubRefactorSpaces-SSMAutomationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMigrationHubRefactorSpaces-SSMAutomationPolicy"
+}
+
