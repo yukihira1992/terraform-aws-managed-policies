@@ -1133,3 +1133,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerPartnerServiceCatalogProductsApiGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsApiGatewayServiceRolePolicy |
 | AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerPartnerServiceCatalogProductsCloudFormationServiceRolePolicy |
 | AWSMigrationHubRefactorSpaces-SSMAutomationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMigrationHubRefactorSpaces-SSMAutomationPolicy |
+| AmazonRDSPerformanceInsightsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess |

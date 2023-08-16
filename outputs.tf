@@ -5583,3 +5583,8 @@ output "AWSMigrationHubRefactorSpaces-SSMAutomationPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMigrationHubRefactorSpaces-SSMAutomationPolicy"
 }
 
+output "AmazonRDSPerformanceInsightsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess"
+}
+
