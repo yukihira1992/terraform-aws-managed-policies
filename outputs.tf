@@ -5588,3 +5588,8 @@ output "AmazonRDSPerformanceInsightsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess"
 }
 
+output "AWSEntityResolutionConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess"
+}
+
