@@ -1135,3 +1135,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMigrationHubRefactorSpaces-SSMAutomationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMigrationHubRefactorSpaces-SSMAutomationPolicy |
 | AmazonRDSPerformanceInsightsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess |
 | AWSEntityResolutionConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess |
+| AWSEntityResolutionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleReadOnlyAccess |

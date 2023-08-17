@@ -5593,3 +5593,8 @@ output "AWSEntityResolutionConsoleFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess"
 }
 
+output "AWSEntityResolutionConsoleReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSEntityResolutionConsoleReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleReadOnlyAccess"
+}
+
