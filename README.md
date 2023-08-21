@@ -1136,3 +1136,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonRDSPerformanceInsightsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSPerformanceInsightsFullAccess |
 | AWSEntityResolutionConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleFullAccess |
 | AWSEntityResolutionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleReadOnlyAccess |
+| AWSArtifactServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSArtifactServiceRolePolicy |
