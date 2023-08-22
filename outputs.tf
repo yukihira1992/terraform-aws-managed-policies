@@ -5603,3 +5603,8 @@ output "AWSArtifactServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSArtifactServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationServiceEc2InstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationServiceEc2InstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationServiceEc2InstancePolicy"
+}
+
