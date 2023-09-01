@@ -1138,3 +1138,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSEntityResolutionConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEntityResolutionConsoleReadOnlyAccess |
 | AWSArtifactServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSArtifactServiceRolePolicy |
 | AWSApplicationMigrationServiceEc2InstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationServiceEc2InstancePolicy |
+| AmazonLaunchWizardFullAccessV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizardFullAccessV2 |

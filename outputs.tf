@@ -5608,3 +5608,8 @@ output "AWSApplicationMigrationServiceEc2InstancePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationServiceEc2InstancePolicy"
 }
 
+output "AmazonLaunchWizardFullAccessV2" {
+  value       = "arn:aws:iam::aws:policy/AmazonLaunchWizardFullAccessV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizardFullAccessV2"
+}
+
