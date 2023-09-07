@@ -5613,3 +5613,8 @@ output "AmazonLaunchWizardFullAccessV2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizardFullAccessV2"
 }
 
+output "AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy"
+}
+
