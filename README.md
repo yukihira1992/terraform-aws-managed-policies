@@ -167,8 +167,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEC2ContainerRegistryReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly |
 | AmazonEC2ContainerRegistryPowerUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPowerUser |
 | AmazonEC2ContainerRegistryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess |
-| AWSMobileHub_ReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly |
-| AWSMobileHub_FullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMobileHub_FullAccess |
 | AmazonDMSCloudWatchLogsRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDMSCloudWatchLogsRole |
 | CloudWatchEventsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchEventsReadOnlyAccess |
 | CloudWatchEventsBuiltInTargetExecutionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/CloudWatchEventsBuiltInTargetExecutionAccess |

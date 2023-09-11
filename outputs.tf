@@ -753,16 +753,6 @@ output "AmazonEC2ContainerRegistryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess"
 }
 
-output "AWSMobileHub_ReadOnly" {
-  value       = "arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly"
-}
-
-output "AWSMobileHub_FullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSMobileHub_FullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMobileHub_FullAccess"
-}
-
 output "AmazonDMSCloudWatchLogsRole" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonDMSCloudWatchLogsRole"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDMSCloudWatchLogsRole"
