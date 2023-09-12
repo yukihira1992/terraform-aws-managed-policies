@@ -1138,3 +1138,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationMigrationServiceEc2InstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationServiceEc2InstancePolicy |
 | AmazonLaunchWizardFullAccessV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizardFullAccessV2 |
 | AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy |
+| AmazonDataZoneEnvironmentRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneEnvironmentRolePermissionsBoundary |

@@ -5608,3 +5608,8 @@ output "AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy"
 }
 
+output "AmazonDataZoneEnvironmentRolePermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneEnvironmentRolePermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneEnvironmentRolePermissionsBoundary"
+}
+
