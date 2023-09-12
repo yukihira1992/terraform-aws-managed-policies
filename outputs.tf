@@ -5613,3 +5613,8 @@ output "AmazonDataZoneEnvironmentRolePermissionsBoundary" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneEnvironmentRolePermissionsBoundary"
 }
 
+output "AmazonKeyspacesReadOnlyAccess_v2" {
+  value       = "arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess_v2"
+}
+
