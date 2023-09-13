@@ -1140,3 +1140,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchMetrics_DbPerfInsightsServiceRolePolicy |
 | AmazonDataZoneEnvironmentRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneEnvironmentRolePermissionsBoundary |
 | AmazonKeyspacesReadOnlyAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess_v2 |
+| AWSElasticDisasterRecoveryLaunchActionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryLaunchActionsPolicy |

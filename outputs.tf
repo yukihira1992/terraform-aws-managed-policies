@@ -5618,3 +5618,8 @@ output "AmazonKeyspacesReadOnlyAccess_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess_v2"
 }
 
+output "AWSElasticDisasterRecoveryLaunchActionsPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryLaunchActionsPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryLaunchActionsPolicy"
+}
+
