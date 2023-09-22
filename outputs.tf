@@ -5623,3 +5623,8 @@ output "AWSElasticDisasterRecoveryLaunchActionsPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryLaunchActionsPolicy"
 }
 
+output "AmazonDataZoneFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullAccess"
+}
+
