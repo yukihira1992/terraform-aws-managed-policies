@@ -1142,3 +1142,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonKeyspacesReadOnlyAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess_v2 |
 | AWSElasticDisasterRecoveryLaunchActionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryLaunchActionsPolicy |
 | AmazonDataZoneFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullAccess |
+| AmazonDataZoneRedshiftManageAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneRedshiftManageAccessRolePolicy |
+| AmazonDataZoneRedshiftGlueProvisioningPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneRedshiftGlueProvisioningPolicy |
+| AmazonDataZoneGlueManageAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneGlueManageAccessRolePolicy |
+| AmazonDataZoneFullUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess |

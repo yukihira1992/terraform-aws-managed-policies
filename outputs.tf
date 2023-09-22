@@ -5628,3 +5628,23 @@ output "AmazonDataZoneFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullAccess"
 }
 
+output "AmazonDataZoneRedshiftManageAccessRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonDataZoneRedshiftManageAccessRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneRedshiftManageAccessRolePolicy"
+}
+
+output "AmazonDataZoneRedshiftGlueProvisioningPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneRedshiftGlueProvisioningPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneRedshiftGlueProvisioningPolicy"
+}
+
+output "AmazonDataZoneGlueManageAccessRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonDataZoneGlueManageAccessRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneGlueManageAccessRolePolicy"
+}
+
+output "AmazonDataZoneFullUserAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess"
+}
+
