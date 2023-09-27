@@ -1146,3 +1146,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDataZoneRedshiftGlueProvisioningPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneRedshiftGlueProvisioningPolicy |
 | AmazonDataZoneGlueManageAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneGlueManageAccessRolePolicy |
 | AmazonDataZoneFullUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess |
+| AmazonDataZoneDomainExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneDomainExecutionRolePolicy |

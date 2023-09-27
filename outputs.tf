@@ -5648,3 +5648,8 @@ output "AmazonDataZoneFullUserAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess"
 }
 
+output "AmazonDataZoneDomainExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonDataZoneDomainExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneDomainExecutionRolePolicy"
+}
+
