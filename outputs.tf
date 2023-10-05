@@ -5273,16 +5273,6 @@ output "AmazonGrafanaCloudWatchAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaCloudWatchAccess"
 }
 
-output "AmazonDataZonePortalFullAccessPolicy" {
-  value       = "arn:aws:iam::aws:policy/AmazonDataZonePortalFullAccessPolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePortalFullAccessPolicy"
-}
-
-output "AmazonDataZonePreviewConsoleFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess"
-}
-
 output "AWSGroundStationAgentInstancePolicy" {
   value       = "arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy"

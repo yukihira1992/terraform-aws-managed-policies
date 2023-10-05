@@ -1071,8 +1071,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCanvasAIServicesAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess |
 | AWSServiceRoleForCodeWhispererPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeWhispererPolicy |
 | AmazonGrafanaCloudWatchAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaCloudWatchAccess |
-| AmazonDataZonePortalFullAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePortalFullAccessPolicy |
-| AmazonDataZonePreviewConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZonePreviewConsoleFullAccess |
 | AWSGroundStationAgentInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGroundStationAgentInstancePolicy |
 | VPCLatticeServicesInvokeAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/VPCLatticeServicesInvokeAccess |
 | VPCLatticeReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/VPCLatticeReadOnlyAccess |
