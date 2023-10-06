@@ -5648,3 +5648,8 @@ output "AWSS3OnOutpostsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSS3OnOutpostsServiceRolePolicy"
 }
 
+output "AmazonSageMakerCanvasDirectDeployAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasDirectDeployAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasDirectDeployAccess"
+}
+

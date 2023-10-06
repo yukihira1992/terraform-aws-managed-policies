@@ -1146,3 +1146,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDataZoneFullUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneFullUserAccess |
 | AmazonDataZoneDomainExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneDomainExecutionRolePolicy |
 | AWSS3OnOutpostsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSS3OnOutpostsServiceRolePolicy |
+| AmazonSageMakerCanvasDirectDeployAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasDirectDeployAccess |
