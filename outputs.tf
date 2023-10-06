@@ -5653,3 +5653,8 @@ output "AmazonSageMakerCanvasDirectDeployAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasDirectDeployAccess"
 }
 
+output "AmplifyBackendDeployFullAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess"
+}
+
