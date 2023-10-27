@@ -1148,3 +1148,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSS3OnOutpostsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSS3OnOutpostsServiceRolePolicy |
 | AmazonSageMakerCanvasDirectDeployAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasDirectDeployAccess |
 | AmplifyBackendDeployFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess |
+| AmazonConnectSynchronizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonConnectSynchronizationServiceRolePolicy |
+| AmazonSageMakerCanvasDataPrepFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess |

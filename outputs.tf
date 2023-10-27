@@ -5658,3 +5658,13 @@ output "AmplifyBackendDeployFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess"
 }
 
+output "AmazonConnectSynchronizationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonConnectSynchronizationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonConnectSynchronizationServiceRolePolicy"
+}
+
+output "AmazonSageMakerCanvasDataPrepFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess"
+}
+
