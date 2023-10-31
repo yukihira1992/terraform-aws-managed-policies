@@ -1150,3 +1150,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmplifyBackendDeployFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyBackendDeployFullAccess |
 | AmazonConnectSynchronizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonConnectSynchronizationServiceRolePolicy |
 | AmazonSageMakerCanvasDataPrepFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess |
+| AWSDataLifecycleManagerSSMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerSSMFullAccess |

@@ -5668,3 +5668,8 @@ output "AmazonSageMakerCanvasDataPrepFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess"
 }
 
+output "AWSDataLifecycleManagerSSMFullAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerSSMFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerSSMFullAccess"
+}
+
