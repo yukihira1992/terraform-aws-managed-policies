@@ -5673,3 +5673,8 @@ output "AWSDataLifecycleManagerSSMFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerSSMFullAccess"
 }
 
+output "AWSIAMIdentityCenterAllowListForIdentityContext" {
+  value       = "arn:aws:iam::aws:policy/AWSIAMIdentityCenterAllowListForIdentityContext"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIAMIdentityCenterAllowListForIdentityContext"
+}
+
