@@ -1152,3 +1152,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCanvasDataPrepFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasDataPrepFullAccess |
 | AWSDataLifecycleManagerSSMFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerSSMFullAccess |
 | AWSIAMIdentityCenterAllowListForIdentityContext | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIAMIdentityCenterAllowListForIdentityContext |
+| CloudWatchApplicationSignalsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchApplicationSignalsServiceRolePolicy |

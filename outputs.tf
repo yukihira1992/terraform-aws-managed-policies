@@ -5678,3 +5678,8 @@ output "AWSIAMIdentityCenterAllowListForIdentityContext" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIAMIdentityCenterAllowListForIdentityContext"
 }
 
+output "CloudWatchApplicationSignalsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CloudWatchApplicationSignalsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchApplicationSignalsServiceRolePolicy"
+}
+
