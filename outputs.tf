@@ -5683,3 +5683,8 @@ output "CloudWatchApplicationSignalsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchApplicationSignalsServiceRolePolicy"
 }
 
+output "PartnerCentralAccountManagementUserRoleAssociation" {
+  value       = "arn:aws:iam::aws:policy/PartnerCentralAccountManagementUserRoleAssociation"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralAccountManagementUserRoleAssociation"
+}
+
