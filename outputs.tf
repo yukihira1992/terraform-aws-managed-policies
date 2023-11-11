@@ -5688,3 +5688,8 @@ output "PartnerCentralAccountManagementUserRoleAssociation" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralAccountManagementUserRoleAssociation"
 }
 
+output "AWSServiceRolePolicyForBackupRestoreTesting" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupRestoreTesting"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupRestoreTesting"
+}
+
