@@ -5693,3 +5693,8 @@ output "AWSServiceRolePolicyForBackupRestoreTesting" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupRestoreTesting"
 }
 
+output "AWSIncidentManagerIncidentAccessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSIncidentManagerIncidentAccessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerIncidentAccessServiceRolePolicy"
+}
+

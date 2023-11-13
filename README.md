@@ -1155,3 +1155,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchApplicationSignalsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchApplicationSignalsServiceRolePolicy |
 | PartnerCentralAccountManagementUserRoleAssociation | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralAccountManagementUserRoleAssociation |
 | AWSServiceRolePolicyForBackupRestoreTesting | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForBackupRestoreTesting |
+| AWSIncidentManagerIncidentAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIncidentManagerIncidentAccessServiceRolePolicy |
