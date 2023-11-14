@@ -5703,3 +5703,8 @@ output "AWSIoTTwinMakerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTTwinMakerServiceRolePolicy"
 }
 
+output "AWSResourceExplorerOrganizationsAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSResourceExplorerOrganizationsAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerOrganizationsAccess"
+}
+
