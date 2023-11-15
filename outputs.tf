@@ -5708,3 +5708,8 @@ output "AWSResourceExplorerOrganizationsAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerOrganizationsAccess"
 }
 
+output "AWSrePostPrivateCloudWatchAccess" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSrePostPrivateCloudWatchAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSrePostPrivateCloudWatchAccess"
+}
+
