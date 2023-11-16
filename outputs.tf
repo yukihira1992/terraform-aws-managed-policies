@@ -5718,3 +5718,8 @@ output "AWSMarketplaceDeploymentServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceDeploymentServiceRolePolicy"
 }
 
+output "AWSGitSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSGitSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSGitSyncServiceRolePolicy"
+}
+
