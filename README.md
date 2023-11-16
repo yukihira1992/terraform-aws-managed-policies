@@ -1159,3 +1159,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTTwinMakerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTTwinMakerServiceRolePolicy |
 | AWSResourceExplorerOrganizationsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResourceExplorerOrganizationsAccess |
 | AWSrePostPrivateCloudWatchAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSrePostPrivateCloudWatchAccess |
+| AWSMarketplaceDeploymentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceDeploymentServiceRolePolicy |
