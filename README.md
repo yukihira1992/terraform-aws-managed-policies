@@ -1161,3 +1161,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSrePostPrivateCloudWatchAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSrePostPrivateCloudWatchAccess |
 | AWSMarketplaceDeploymentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceDeploymentServiceRolePolicy |
 | AWSGitSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSGitSyncServiceRolePolicy |
+| EC2ImageBuilderLifecycleExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/EC2ImageBuilderLifecycleExecutionPolicy |
