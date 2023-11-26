@@ -1165,3 +1165,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2AgentlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AgentlessServiceRolePolicy |
 | CostOptimizationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CostOptimizationHubServiceRolePolicy |
 | AmazonPrometheusScraperServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonPrometheusScraperServiceRolePolicy |
+| AWSRepostSpaceSupportOperationsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRepostSpaceSupportOperationsPolicy |
