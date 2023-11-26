@@ -1163,3 +1163,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSGitSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSGitSyncServiceRolePolicy |
 | EC2ImageBuilderLifecycleExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/EC2ImageBuilderLifecycleExecutionPolicy |
 | AmazonInspector2AgentlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AgentlessServiceRolePolicy |
+| CostOptimizationHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CostOptimizationHubServiceRolePolicy |

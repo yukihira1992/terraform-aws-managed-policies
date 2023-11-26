@@ -5733,3 +5733,8 @@ output "AmazonInspector2AgentlessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AgentlessServiceRolePolicy"
 }
 
+output "CostOptimizationHubServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CostOptimizationHubServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CostOptimizationHubServiceRolePolicy"
+}
+
