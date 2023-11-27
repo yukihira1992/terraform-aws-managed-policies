@@ -5748,3 +5748,8 @@ output "AWSRepostSpaceSupportOperationsPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRepostSpaceSupportOperationsPolicy"
 }
 
+output "AWSElasticDisasterRecoveryConsoleFullAccess_v2" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess_v2"
+}
+
