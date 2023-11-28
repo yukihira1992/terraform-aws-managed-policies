@@ -1170,3 +1170,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonOneEnterpriseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseFullAccess |
 | AmazonOneEnterpriseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseReadOnlyAccess |
 | AmazonOneEnterpriseInstallerAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseInstallerAccess |
+| AmazonQFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQFullAccess |

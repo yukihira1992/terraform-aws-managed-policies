@@ -5768,3 +5768,8 @@ output "AmazonOneEnterpriseInstallerAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseInstallerAccess"
 }
 
+output "AmazonQFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonQFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQFullAccess"
+}
+
