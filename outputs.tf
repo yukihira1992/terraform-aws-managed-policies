@@ -5753,3 +5753,18 @@ output "AWSElasticDisasterRecoveryConsoleFullAccess_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess_v2"
 }
 
+output "AmazonOneEnterpriseFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOneEnterpriseFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseFullAccess"
+}
+
+output "AmazonOneEnterpriseReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOneEnterpriseReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseReadOnlyAccess"
+}
+
+output "AmazonOneEnterpriseInstallerAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOneEnterpriseInstallerAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseInstallerAccess"
+}
+

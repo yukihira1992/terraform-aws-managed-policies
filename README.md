@@ -1167,3 +1167,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonPrometheusScraperServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonPrometheusScraperServiceRolePolicy |
 | AWSRepostSpaceSupportOperationsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRepostSpaceSupportOperationsPolicy |
 | AWSElasticDisasterRecoveryConsoleFullAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticDisasterRecoveryConsoleFullAccess_v2 |
+| AmazonOneEnterpriseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseFullAccess |
+| AmazonOneEnterpriseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseReadOnlyAccess |
+| AmazonOneEnterpriseInstallerAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOneEnterpriseInstallerAccess |
