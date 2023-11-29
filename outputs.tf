@@ -5783,3 +5783,8 @@ output "AmazonSageMakerClusterInstanceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerClusterInstanceRolePolicy"
 }
 
+output "AWSZonalAutoshiftPracticeRunSLRPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSZonalAutoshiftPracticeRunSLRPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZonalAutoshiftPracticeRunSLRPolicy"
+}
+
