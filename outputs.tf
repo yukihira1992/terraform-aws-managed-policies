@@ -5778,3 +5778,8 @@ output "AWSServiceRoleForNeptuneGraphPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForNeptuneGraphPolicy"
 }
 
+output "AmazonSageMakerClusterInstanceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerClusterInstanceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerClusterInstanceRolePolicy"
+}
+
