@@ -5788,3 +5788,13 @@ output "AWSZonalAutoshiftPracticeRunSLRPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZonalAutoshiftPracticeRunSLRPolicy"
 }
 
+output "AWSCleanRoomsMLReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCleanRoomsMLReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsMLReadOnlyAccess"
+}
+
+output "AWSCleanRoomsMLFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSCleanRoomsMLFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsMLFullAccess"
+}
+

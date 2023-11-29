@@ -1174,3 +1174,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceRoleForNeptuneGraphPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForNeptuneGraphPolicy |
 | AmazonSageMakerClusterInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerClusterInstanceRolePolicy |
 | AWSZonalAutoshiftPracticeRunSLRPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZonalAutoshiftPracticeRunSLRPolicy |
+| AWSCleanRoomsMLReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsMLReadOnlyAccess |
+| AWSCleanRoomsMLFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsMLFullAccess |
