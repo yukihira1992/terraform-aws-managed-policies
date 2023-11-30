@@ -5798,3 +5798,8 @@ output "AWSCleanRoomsMLFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCleanRoomsMLFullAccess"
 }
 
+output "NeptuneGraphReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/NeptuneGraphReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/NeptuneGraphReadOnlyAccess"
+}
+
