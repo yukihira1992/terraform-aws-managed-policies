@@ -1064,8 +1064,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDMSFleetAdvisorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDMSFleetAdvisorServiceRolePolicy |
 | CustomerProfilesServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CustomerProfilesServiceLinkedRolePolicy |
 | AWSDataSyncDiscoveryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncDiscoveryServiceRolePolicy |
-| AmazonDataZoneProjectRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary |
-| AmazonDataZoneProjectDeploymentPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary |
 | MediaConnectGatewayInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy |
 | AWSManagedServices_ContactsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_ContactsServiceRolePolicy |
 | AmazonSageMakerCanvasAIServicesAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasAIServicesAccess |

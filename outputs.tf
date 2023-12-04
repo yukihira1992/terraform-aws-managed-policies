@@ -5238,16 +5238,6 @@ output "AWSDataSyncDiscoveryServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncDiscoveryServiceRolePolicy"
 }
 
-output "AmazonDataZoneProjectRolePermissionsBoundary" {
-  value       = "arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectRolePermissionsBoundary"
-}
-
-output "AmazonDataZoneProjectDeploymentPermissionsBoundary" {
-  value       = "arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneProjectDeploymentPermissionsBoundary"
-}
-
 output "MediaConnectGatewayInstanceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MediaConnectGatewayInstanceRolePolicy"
