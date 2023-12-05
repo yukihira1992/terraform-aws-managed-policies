@@ -5793,3 +5793,8 @@ output "NeptuneGraphReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/NeptuneGraphReadOnlyAccess"
 }
 
+output "IVSReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/IVSReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IVSReadOnlyAccess"
+}
+
