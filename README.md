@@ -1177,3 +1177,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | NeptuneGraphReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/NeptuneGraphReadOnlyAccess |
 | IVSReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IVSReadOnlyAccess |
 | AWSMSKReplicatorExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMSKReplicatorExecutionRole |
+| AmazonBedrockFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockFullAccess |
+| AmazonBedrockReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockReadOnly |

@@ -5803,3 +5803,13 @@ output "AWSMSKReplicatorExecutionRole" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMSKReplicatorExecutionRole"
 }
 
+output "AmazonBedrockFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockFullAccess"
+}
+
+output "AmazonBedrockReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockReadOnly"
+}
+
