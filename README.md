@@ -1179,3 +1179,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMSKReplicatorExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMSKReplicatorExecutionRole |
 | AmazonBedrockFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockFullAccess |
 | AmazonBedrockReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockReadOnly |
+| CostOptimizationHubReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubReadOnlyAccess |

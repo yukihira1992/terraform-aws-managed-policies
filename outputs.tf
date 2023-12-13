@@ -5813,3 +5813,8 @@ output "AmazonBedrockReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockReadOnly"
 }
 
+output "CostOptimizationHubReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/CostOptimizationHubReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubReadOnlyAccess"
+}
+
