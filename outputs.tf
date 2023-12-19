@@ -5823,3 +5823,8 @@ output "IVSFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IVSFullAccess"
 }
 
+output "CostOptimizationHubAdminAccess" {
+  value       = "arn:aws:iam::aws:policy/CostOptimizationHubAdminAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubAdminAccess"
+}
+

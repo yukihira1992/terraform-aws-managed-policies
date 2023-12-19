@@ -1181,3 +1181,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBedrockReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockReadOnly |
 | CostOptimizationHubReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubReadOnlyAccess |
 | IVSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IVSFullAccess |
+| CostOptimizationHubAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubAdminAccess |
