@@ -5828,3 +5828,8 @@ output "CostOptimizationHubAdminAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CostOptimizationHubAdminAccess"
 }
 
+output "CloudWatchNetworkMonitorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkMonitorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkMonitorServiceRolePolicy"
+}
+
