@@ -5838,3 +5838,8 @@ output "AmazonOpenSearchDashboardsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchDashboardsServiceRolePolicy"
 }
 
+output "AWSArtifactReportsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSArtifactReportsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactReportsReadOnlyAccess"
+}
+
