@@ -5843,3 +5843,8 @@ output "AWSArtifactReportsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactReportsReadOnlyAccess"
 }
 
+output "AWSGrafanaWorkspacePermissionManagementV2" {
+  value       = "arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagementV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagementV2"
+}
+
