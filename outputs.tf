@@ -5848,3 +5848,8 @@ output "AWSGrafanaWorkspacePermissionManagementV2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagementV2"
 }
 
+output "AmazonECSInfrastructureRolePolicyForVolumes" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes"
+}
+

@@ -1186,3 +1186,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonOpenSearchDashboardsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonOpenSearchDashboardsServiceRolePolicy |
 | AWSArtifactReportsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactReportsReadOnlyAccess |
 | AWSGrafanaWorkspacePermissionManagementV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagementV2 |
+| AmazonECSInfrastructureRolePolicyForVolumes | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes |
