@@ -5853,3 +5853,8 @@ output "AmazonECSInfrastructureRolePolicyForVolumes" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes"
 }
 
+output "AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity"
+}
+
