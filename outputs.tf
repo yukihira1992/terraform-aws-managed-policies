@@ -5858,3 +5858,8 @@ output "AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity"
 }
 
+output "AmazonSecurityLakeMetastoreManager" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSecurityLakeMetastoreManager"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSecurityLakeMetastoreManager"
+}
+
