@@ -1189,3 +1189,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonECSInfrastructureRolePolicyForVolumes | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForVolumes |
 | AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRolePolicyForServiceConnectTransportLayerSecurity |
 | AmazonSecurityLakeMetastoreManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSecurityLakeMetastoreManager |
+| AmazonInspector2ManagedCisPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedCisPolicy |

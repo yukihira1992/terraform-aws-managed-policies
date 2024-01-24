@@ -5863,3 +5863,8 @@ output "AmazonSecurityLakeMetastoreManager" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSecurityLakeMetastoreManager"
 }
 
+output "AmazonInspector2ManagedCisPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonInspector2ManagedCisPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedCisPolicy"
+}
+
