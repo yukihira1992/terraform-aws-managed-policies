@@ -3308,11 +3308,6 @@ output "AWSLakeFormationCrossAccountManager" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager"
 }
 
-output "AmazonLaunchWizard_Fullaccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess"
-}
-
 output "AmazonBraketFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonBraketFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess"
