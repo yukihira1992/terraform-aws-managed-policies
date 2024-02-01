@@ -5863,3 +5863,8 @@ output "AmazonInspector2ManagedCisPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedCisPolicy"
 }
 
+output "AmazonLexReplicationPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonLexReplicationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexReplicationPolicy"
+}
+
