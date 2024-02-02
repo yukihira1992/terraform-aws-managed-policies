@@ -5868,3 +5868,8 @@ output "AmazonLexReplicationPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexReplicationPolicy"
 }
 
+output "AmazonSageMakerCanvasBedrockAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasBedrockAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasBedrockAccess"
+}
+
