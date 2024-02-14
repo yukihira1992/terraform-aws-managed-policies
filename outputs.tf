@@ -5873,3 +5873,8 @@ output "AmazonSageMakerCanvasBedrockAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasBedrockAccess"
 }
 
+output "AWSServiceRoleForPrivateMarketplaceAdminPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForPrivateMarketplaceAdminPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForPrivateMarketplaceAdminPolicy"
+}
+

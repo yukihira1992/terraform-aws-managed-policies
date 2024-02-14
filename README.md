@@ -1191,3 +1191,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2ManagedCisPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedCisPolicy |
 | AmazonLexReplicationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonLexReplicationPolicy |
 | AmazonSageMakerCanvasBedrockAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasBedrockAccess |
+| AWSServiceRoleForPrivateMarketplaceAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForPrivateMarketplaceAdminPolicy |
