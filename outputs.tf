@@ -5878,3 +5878,8 @@ output "AWSServiceRoleForPrivateMarketplaceAdminPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForPrivateMarketplaceAdminPolicy"
 }
 
+output "AmazonRDSCustomInstanceProfileRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonRDSCustomInstanceProfileRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSCustomInstanceProfileRolePolicy"
+}
+
