@@ -1194,3 +1194,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceRoleForPrivateMarketplaceAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForPrivateMarketplaceAdminPolicy |
 | AmazonRDSCustomInstanceProfileRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRDSCustomInstanceProfileRolePolicy |
 | AWSMarketplaceResaleAuthorizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceResaleAuthorizationServiceRolePolicy |
+| AmazonTimestreamInfluxDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonTimestreamInfluxDBServiceRolePolicy |
