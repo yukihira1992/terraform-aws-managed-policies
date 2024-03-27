@@ -5898,3 +5898,8 @@ output "AmazonTimestreamInfluxDBFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccess"
 }
 
+output "AWSEC2VssSnapshotPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy"
+}
+

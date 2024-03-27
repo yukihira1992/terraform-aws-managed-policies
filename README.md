@@ -1196,3 +1196,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceResaleAuthorizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceResaleAuthorizationServiceRolePolicy |
 | AmazonTimestreamInfluxDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonTimestreamInfluxDBServiceRolePolicy |
 | AmazonTimestreamInfluxDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccess |
+| AWSEC2VssSnapshotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy |
