@@ -1197,3 +1197,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonTimestreamInfluxDBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonTimestreamInfluxDBServiceRolePolicy |
 | AmazonTimestreamInfluxDBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccess |
 | AWSEC2VssSnapshotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy |
+| AWSQuickSightAssetBundleExportPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleExportPolicy |
+| AWSQuickSightAssetBundleImportPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleImportPolicy |

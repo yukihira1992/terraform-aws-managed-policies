@@ -5903,3 +5903,13 @@ output "AWSEC2VssSnapshotPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy"
 }
 
+output "AWSQuickSightAssetBundleExportPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSightAssetBundleExportPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleExportPolicy"
+}
+
+output "AWSQuickSightAssetBundleImportPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSightAssetBundleImportPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleImportPolicy"
+}
+
