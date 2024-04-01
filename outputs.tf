@@ -5913,3 +5913,23 @@ output "AWSQuickSightAssetBundleImportPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleImportPolicy"
 }
 
+output "AWSDeadlineCloud-UserAccessFarms" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFarms"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFarms"
+}
+
+output "AWSDeadlineCloud-UserAccessFleets" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFleets"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFleets"
+}
+
+output "AWSDeadlineCloud-UserAccessJobs" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessJobs"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessJobs"
+}
+
+output "AWSDeadlineCloud-UserAccessQueues" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessQueues"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessQueues"
+}
+

@@ -1199,3 +1199,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSEC2VssSnapshotPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssSnapshotPolicy |
 | AWSQuickSightAssetBundleExportPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleExportPolicy |
 | AWSQuickSightAssetBundleImportPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightAssetBundleImportPolicy |
+| AWSDeadlineCloud-UserAccessFarms | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFarms |
+| AWSDeadlineCloud-UserAccessFleets | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFleets |
+| AWSDeadlineCloud-UserAccessJobs | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessJobs |
+| AWSDeadlineCloud-UserAccessQueues | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessQueues |
