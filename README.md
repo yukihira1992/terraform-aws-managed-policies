@@ -1203,3 +1203,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeadlineCloud-UserAccessFleets | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessFleets |
 | AWSDeadlineCloud-UserAccessJobs | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessJobs |
 | AWSDeadlineCloud-UserAccessQueues | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessQueues |
+| AWSDeadlineCloud-FleetWorker | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-FleetWorker |
+| AWSDeadlineCloud-WorkerHost | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost |

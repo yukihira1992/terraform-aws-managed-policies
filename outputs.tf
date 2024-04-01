@@ -5933,3 +5933,13 @@ output "AWSDeadlineCloud-UserAccessQueues" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-UserAccessQueues"
 }
 
+output "AWSDeadlineCloud-FleetWorker" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-FleetWorker"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-FleetWorker"
+}
+
+output "AWSDeadlineCloud-WorkerHost" {
+  value       = "arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost"
+}
+
