@@ -4443,16 +4443,6 @@ output "AmazonGrafanaRedshiftAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess"
 }
 
-output "AWSIotRoboRunnerReadOnly" {
-  value       = "arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly"
-}
-
-output "AWSIotRoboRunnerFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess"
-}
-
 output "AWSMigrationHubRefactorSpacesServiceRolePolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubRefactorSpacesServiceRolePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubRefactorSpacesServiceRolePolicy"
@@ -5191,11 +5181,6 @@ output "AWSPrivateCAReadOnly" {
 output "AWSPrivateCAAuditor" {
   value       = "arn:aws:iam::aws:policy/AWSPrivateCAAuditor"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAAuditor"
-}
-
-output "AWSIotRoboRunnerServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy"
 }
 
 output "AmazonOmicsFullAccess" {

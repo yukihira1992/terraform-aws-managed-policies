@@ -905,8 +905,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBraketJobsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketJobsExecutionPolicy |
 | AWSECRPullThroughCache_ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSECRPullThroughCache_ServiceRolePolicy |
 | AmazonGrafanaRedshiftAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonGrafanaRedshiftAccess |
-| AWSIotRoboRunnerReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerReadOnly |
-| AWSIotRoboRunnerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIotRoboRunnerFullAccess |
 | AWSMigrationHubRefactorSpacesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMigrationHubRefactorSpacesServiceRolePolicy |
 | AWSMigrationHubRefactorSpacesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess |
 | AmazonCloudWatchEvidentlyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess |
@@ -1055,7 +1053,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAPrivilegedUser |
 | AWSPrivateCAReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAReadOnly |
 | AWSPrivateCAAuditor | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAAuditor |
-| AWSIotRoboRunnerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIotRoboRunnerServiceRolePolicy |
 | AmazonOmicsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOmicsFullAccess |
 | AWSSupplyChainFederationAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSupplyChainFederationAdminAccess |
 | AmazonDetectiveOrganizationsAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDetectiveOrganizationsAccess |
