@@ -5928,3 +5928,8 @@ output "AWSDeadlineCloud-WorkerHost" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost"
 }
 
+output "SplitCostAllocationDataServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy"
+}
+
