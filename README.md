@@ -1203,3 +1203,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeadlineCloud-FleetWorker | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-FleetWorker |
 | AWSDeadlineCloud-WorkerHost | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost |
 | SplitCostAllocationDataServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy |
+| AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary |

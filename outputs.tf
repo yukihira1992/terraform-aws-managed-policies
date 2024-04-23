@@ -5933,3 +5933,8 @@ output "SplitCostAllocationDataServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy"
 }
 
+output "AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary"
+}
+
