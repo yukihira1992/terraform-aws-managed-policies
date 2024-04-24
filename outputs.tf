@@ -5938,3 +5938,13 @@ output "AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary"
 }
 
+output "AmazonDataZoneSageMakerProvisioningRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneSageMakerProvisioningRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerProvisioningRolePolicy"
+}
+
+output "AmazonDataZoneSageMakerManageAccessRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy"
+}
+

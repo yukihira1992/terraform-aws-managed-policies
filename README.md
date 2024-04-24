@@ -1204,3 +1204,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDeadlineCloud-WorkerHost | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDeadlineCloud-WorkerHost |
 | SplitCostAllocationDataServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SplitCostAllocationDataServiceRolePolicy |
 | AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerEnvironmentRolePermissionsBoundary |
+| AmazonDataZoneSageMakerProvisioningRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerProvisioningRolePolicy |
+| AmazonDataZoneSageMakerManageAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy |
