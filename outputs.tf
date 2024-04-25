@@ -5948,3 +5948,8 @@ output "AmazonDataZoneSageMakerManageAccessRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy"
 }
 
+output "AWSServiceRoleForAmazonQDeveloper" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonQDeveloper"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonQDeveloper"
+}
+
