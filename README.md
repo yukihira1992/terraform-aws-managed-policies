@@ -1207,3 +1207,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDataZoneSageMakerProvisioningRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerProvisioningRolePolicy |
 | AmazonDataZoneSageMakerManageAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDataZoneSageMakerManageAccessRolePolicy |
 | AWSServiceRoleForAmazonQDeveloper | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonQDeveloper |
+| AWSServiceRoleForUserSubscriptions | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForUserSubscriptions |
