@@ -5958,3 +5958,8 @@ output "AWSServiceRoleForUserSubscriptions" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForUserSubscriptions"
 }
 
+output "QBusinessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/QBusinessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QBusinessServiceRolePolicy"
+}
+
