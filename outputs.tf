@@ -5963,3 +5963,13 @@ output "QBusinessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QBusinessServiceRolePolicy"
 }
 
+output "AmazonRoute53ProfilesReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53ProfilesReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ProfilesReadOnlyAccess"
+}
+
+output "AmazonRoute53ProfilesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53ProfilesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ProfilesFullAccess"
+}
+
