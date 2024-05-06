@@ -5973,3 +5973,8 @@ output "AmazonRoute53ProfilesFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ProfilesFullAccess"
 }
 
+output "AmazonOpenSearchDirectQueryGlueCreateAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonOpenSearchDirectQueryGlueCreateAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchDirectQueryGlueCreateAccess"
+}
+

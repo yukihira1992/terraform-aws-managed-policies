@@ -1211,3 +1211,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | QBusinessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QBusinessServiceRolePolicy |
 | AmazonRoute53ProfilesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ProfilesReadOnlyAccess |
 | AmazonRoute53ProfilesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53ProfilesFullAccess |
+| AmazonOpenSearchDirectQueryGlueCreateAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonOpenSearchDirectQueryGlueCreateAccess |
