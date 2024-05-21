@@ -5983,3 +5983,8 @@ output "EC2FastLaunchFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2FastLaunchFullAccess"
 }
 
+output "AmazonSESServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSESServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSESServiceRolePolicy"
+}
+
