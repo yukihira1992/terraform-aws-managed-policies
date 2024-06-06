@@ -5988,3 +5988,13 @@ output "AmazonSESServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSESServiceRolePolicy"
 }
 
+output "CloudWatchApplicationSignalsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchApplicationSignalsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsReadOnlyAccess"
+}
+
+output "CloudWatchApplicationSignalsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchApplicationSignalsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsFullAccess"
+}
+
