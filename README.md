@@ -1216,3 +1216,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSESServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSESServiceRolePolicy |
 | CloudWatchApplicationSignalsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsReadOnlyAccess |
 | CloudWatchApplicationSignalsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsFullAccess |
+| AWSBCMDataExportsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy |

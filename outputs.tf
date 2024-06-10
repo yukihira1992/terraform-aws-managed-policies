@@ -5998,3 +5998,8 @@ output "CloudWatchApplicationSignalsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsFullAccess"
 }
 
+output "AWSBCMDataExportsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy"
+}
+
