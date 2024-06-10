@@ -6003,3 +6003,8 @@ output "AWSBCMDataExportsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy"
 }
 
+output "OpensearchIngestionSelfManagedVpcePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/OpensearchIngestionSelfManagedVpcePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/OpensearchIngestionSelfManagedVpcePolicy"
+}
+
