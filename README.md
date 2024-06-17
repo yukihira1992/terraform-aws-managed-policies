@@ -1218,3 +1218,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchApplicationSignalsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchApplicationSignalsFullAccess |
 | AWSBCMDataExportsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBCMDataExportsServiceRolePolicy |
 | OpensearchIngestionSelfManagedVpcePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/OpensearchIngestionSelfManagedVpcePolicy |
+| AWSApplicationAutoscalingWorkSpacesPoolPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingWorkSpacesPoolPolicy |
