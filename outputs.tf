@@ -6013,3 +6013,8 @@ output "AWSApplicationAutoscalingWorkSpacesPoolPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingWorkSpacesPoolPolicy"
 }
 
+output "ECRTemplateServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/ECRTemplateServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRTemplateServiceRolePolicy"
+}
+
