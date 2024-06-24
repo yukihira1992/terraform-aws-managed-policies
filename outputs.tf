@@ -6018,3 +6018,8 @@ output "ECRTemplateServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRTemplateServiceRolePolicy"
 }
 
+output "AmazonWorkSpacesSecureBrowserReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesSecureBrowserReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSecureBrowserReadOnly"
+}
+
