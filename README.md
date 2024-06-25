@@ -1221,3 +1221,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationAutoscalingWorkSpacesPoolPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingWorkSpacesPoolPolicy |
 | ECRTemplateServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRTemplateServiceRolePolicy |
 | AmazonWorkSpacesSecureBrowserReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSecureBrowserReadOnly |
+| SSMQuickSetupRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SSMQuickSetupRolePolicy |
