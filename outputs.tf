@@ -6028,3 +6028,58 @@ output "SSMQuickSetupRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SSMQuickSetupRolePolicy"
 }
 
+output "AWSQuickSetupPatchPolicyBaselineAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyBaselineAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyBaselineAccess"
+}
+
+output "AWSSystemsManagerEnableConfigRecordingExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerEnableConfigRecordingExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerEnableConfigRecordingExecutionPolicy"
+}
+
+output "AWSSystemsManagerEnableExplorerExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerEnableExplorerExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerEnableExplorerExecutionPolicy"
+}
+
+output "AWSQuickSetupDevOpsGuruPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupDevOpsGuruPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDevOpsGuruPermissionsBoundary"
+}
+
+output "AWSQuickSetupPatchPolicyPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyPermissionsBoundary"
+}
+
+output "AWSQuickSetupSSMHostMgmtPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSSMHostMgmtPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMHostMgmtPermissionsBoundary"
+}
+
+output "AWSQuickSetupDistributorPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupDistributorPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDistributorPermissionsBoundary"
+}
+
+output "AWSQuickSetupCFGCPacksPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupCFGCPacksPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupCFGCPacksPermissionsBoundary"
+}
+
+output "AWSQuickSetupSchedulerPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSchedulerPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSchedulerPermissionsBoundary"
+}
+
+output "AWSQuickSetupDeploymentRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupDeploymentRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDeploymentRolePolicy"
+}
+
+output "AWSQuickSetupPatchPolicyDeploymentRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyDeploymentRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyDeploymentRolePolicy"
+}
+

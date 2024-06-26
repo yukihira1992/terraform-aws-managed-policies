@@ -1222,3 +1222,14 @@ data "aws_iam_policy" "ec2_full_access" {
 | ECRTemplateServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ECRTemplateServiceRolePolicy |
 | AmazonWorkSpacesSecureBrowserReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesSecureBrowserReadOnly |
 | SSMQuickSetupRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SSMQuickSetupRolePolicy |
+| AWSQuickSetupPatchPolicyBaselineAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyBaselineAccess |
+| AWSSystemsManagerEnableConfigRecordingExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerEnableConfigRecordingExecutionPolicy |
+| AWSSystemsManagerEnableExplorerExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerEnableExplorerExecutionPolicy |
+| AWSQuickSetupDevOpsGuruPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDevOpsGuruPermissionsBoundary |
+| AWSQuickSetupPatchPolicyPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyPermissionsBoundary |
+| AWSQuickSetupSSMHostMgmtPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMHostMgmtPermissionsBoundary |
+| AWSQuickSetupDistributorPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDistributorPermissionsBoundary |
+| AWSQuickSetupCFGCPacksPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupCFGCPacksPermissionsBoundary |
+| AWSQuickSetupSchedulerPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSchedulerPermissionsBoundary |
+| AWSQuickSetupDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDeploymentRolePolicy |
+| AWSQuickSetupPatchPolicyDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyDeploymentRolePolicy |
