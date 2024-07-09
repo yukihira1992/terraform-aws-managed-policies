@@ -1234,3 +1234,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSetupDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupDeploymentRolePolicy |
 | AWSQuickSetupPatchPolicyDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyDeploymentRolePolicy |
 | AmazonWorkSpacesPoolServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesPoolServiceAccess |
+| AmazonQDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQDeveloperAccess |

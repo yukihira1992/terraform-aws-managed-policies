@@ -6088,3 +6088,8 @@ output "AmazonWorkSpacesPoolServiceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesPoolServiceAccess"
 }
 
+output "AmazonQDeveloperAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonQDeveloperAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQDeveloperAccess"
+}
+
