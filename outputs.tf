@@ -6093,3 +6093,8 @@ output "AmazonQDeveloperAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQDeveloperAccess"
 }
 
+output "AppStudioServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AppStudioServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppStudioServiceRolePolicy"
+}
+
