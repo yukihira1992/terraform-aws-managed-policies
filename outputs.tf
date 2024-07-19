@@ -6098,3 +6098,8 @@ output "AppStudioServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppStudioServiceRolePolicy"
 }
 
+output "AmazonWorkSpacesThinClientReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientReadOnlyAccess"
+}
+

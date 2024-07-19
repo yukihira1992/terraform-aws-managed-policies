@@ -1236,3 +1236,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkSpacesPoolServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesPoolServiceAccess |
 | AmazonQDeveloperAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonQDeveloperAccess |
 | AppStudioServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppStudioServiceRolePolicy |
+| AmazonWorkSpacesThinClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientReadOnlyAccess |
