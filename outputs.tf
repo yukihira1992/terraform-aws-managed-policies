@@ -6103,3 +6103,8 @@ output "AmazonWorkSpacesThinClientReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientReadOnlyAccess"
 }
 
+output "AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy"
+}
+
