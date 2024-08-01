@@ -1238,3 +1238,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AppStudioServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AppStudioServiceRolePolicy |
 | AmazonWorkSpacesThinClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientReadOnlyAccess |
 | AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy |
+| AmazonBedrockStudioPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockStudioPermissionsBoundary |

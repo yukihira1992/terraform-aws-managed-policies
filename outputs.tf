@@ -6108,3 +6108,8 @@ output "AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy"
 }
 
+output "AmazonBedrockStudioPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockStudioPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockStudioPermissionsBoundary"
+}
+
