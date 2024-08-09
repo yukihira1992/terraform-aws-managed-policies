@@ -6113,3 +6113,8 @@ output "AmazonBedrockStudioPermissionsBoundary" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockStudioPermissionsBoundary"
 }
 
+output "AmazonWorkSpacesThinClientFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientFullAccess"
+}
+
