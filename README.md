@@ -1240,3 +1240,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasEMRServerlessExecutionRolePolicy |
 | AmazonBedrockStudioPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockStudioPermissionsBoundary |
 | AmazonWorkSpacesThinClientFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientFullAccess |
+| AWSCompromisedKeyQuarantineV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV3 |

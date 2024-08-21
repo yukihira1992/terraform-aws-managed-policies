@@ -6118,3 +6118,8 @@ output "AmazonWorkSpacesThinClientFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonWorkSpacesThinClientFullAccess"
 }
 
+output "AWSCompromisedKeyQuarantineV3" {
+  value       = "arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV3"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV3"
+}
+
