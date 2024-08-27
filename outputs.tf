@@ -6123,3 +6123,8 @@ output "AWSCompromisedKeyQuarantineV3" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV3"
 }
 
+output "AWSPCSServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSPCSServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPCSServiceRolePolicy"
+}
+
