@@ -6128,3 +6128,8 @@ output "AWSPCSServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPCSServiceRolePolicy"
 }
 
+output "AmazonSageMakerHyperPodServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerHyperPodServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerHyperPodServiceRolePolicy"
+}
+
