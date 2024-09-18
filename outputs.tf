@@ -6133,3 +6133,13 @@ output "AmazonSageMakerHyperPodServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerHyperPodServiceRolePolicy"
 }
 
+output "AWSDirectoryServiceDataFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDirectoryServiceDataFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceDataFullAccess"
+}
+
+output "AWSDirectoryServiceDataReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDirectoryServiceDataReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceDataReadOnlyAccess"
+}
+

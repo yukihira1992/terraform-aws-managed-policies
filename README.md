@@ -1243,3 +1243,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCompromisedKeyQuarantineV3 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV3 |
 | AWSPCSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPCSServiceRolePolicy |
 | AmazonSageMakerHyperPodServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerHyperPodServiceRolePolicy |
+| AWSDirectoryServiceDataFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceDataFullAccess |
+| AWSDirectoryServiceDataReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceDataReadOnlyAccess |
