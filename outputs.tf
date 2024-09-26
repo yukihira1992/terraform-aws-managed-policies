@@ -6143,3 +6143,8 @@ output "AWSDirectoryServiceDataReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDirectoryServiceDataReadOnlyAccess"
 }
 
+output "QAppsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/QAppsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QAppsServiceRolePolicy"
+}
+
