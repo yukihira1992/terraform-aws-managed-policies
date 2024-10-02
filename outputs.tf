@@ -6148,3 +6148,8 @@ output "QAppsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QAppsServiceRolePolicy"
 }
 
+output "AmazonEKSWorkerNodeMinimalPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSWorkerNodeMinimalPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSWorkerNodeMinimalPolicy"
+}
+
