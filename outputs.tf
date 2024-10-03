@@ -6153,3 +6153,8 @@ output "AmazonEKSWorkerNodeMinimalPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSWorkerNodeMinimalPolicy"
 }
 
+output "AWSServiceRoleForProcurementInsightsPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForProcurementInsightsPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForProcurementInsightsPolicy"
+}
+
