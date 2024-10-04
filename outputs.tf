@@ -6158,3 +6158,8 @@ output "AWSServiceRoleForProcurementInsightsPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForProcurementInsightsPolicy"
 }
 
+output "AmazonEC2ContainerRegistryPullOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPullOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPullOnly"
+}
+

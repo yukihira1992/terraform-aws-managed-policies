@@ -1248,3 +1248,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | QAppsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/QAppsServiceRolePolicy |
 | AmazonEKSWorkerNodeMinimalPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSWorkerNodeMinimalPolicy |
 | AWSServiceRoleForProcurementInsightsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForProcurementInsightsPolicy |
+| AmazonEC2ContainerRegistryPullOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPullOnly |
