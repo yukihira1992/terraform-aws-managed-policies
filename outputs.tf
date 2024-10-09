@@ -6163,3 +6163,8 @@ output "AmazonEC2ContainerRegistryPullOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPullOnly"
 }
 
+output "AWSDataSyncServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncServiceRolePolicy"
+}
+
