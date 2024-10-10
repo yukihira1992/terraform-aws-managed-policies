@@ -6168,3 +6168,13 @@ output "AWSDataSyncServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncServiceRolePolicy"
 }
 
+output "AWSDataExchangeServiceRolePolicyForOrganizationDiscovery" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForOrganizationDiscovery"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForOrganizationDiscovery"
+}
+
+output "AWSDataExchangeServiceRolePolicyForLicenseManagement" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForLicenseManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForLicenseManagement"
+}
+
