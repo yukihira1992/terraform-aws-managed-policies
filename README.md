@@ -1252,3 +1252,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDataSyncServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataSyncServiceRolePolicy |
 | AWSDataExchangeServiceRolePolicyForOrganizationDiscovery | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForOrganizationDiscovery |
 | AWSDataExchangeServiceRolePolicyForLicenseManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForLicenseManagement |
+| AWSSocialMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSocialMessagingServiceRolePolicy |
