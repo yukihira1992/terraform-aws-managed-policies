@@ -6188,3 +6188,13 @@ output "ResourceGroupsTaggingAPITagUntagSupportedResources" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ResourceGroupsTaggingAPITagUntagSupportedResources"
 }
 
+output "AmazonVerifiedPermissionsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonVerifiedPermissionsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsFullAccess"
+}
+
+output "AmazonVerifiedPermissionsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonVerifiedPermissionsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsReadOnlyAccess"
+}
+
