@@ -1253,3 +1253,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSDataExchangeServiceRolePolicyForOrganizationDiscovery | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForOrganizationDiscovery |
 | AWSDataExchangeServiceRolePolicyForLicenseManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDataExchangeServiceRolePolicyForLicenseManagement |
 | AWSSocialMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSocialMessagingServiceRolePolicy |
+| ResourceGroupsTaggingAPITagUntagSupportedResources | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ResourceGroupsTaggingAPITagUntagSupportedResources |
