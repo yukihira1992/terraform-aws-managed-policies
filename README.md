@@ -1256,3 +1256,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | ResourceGroupsTaggingAPITagUntagSupportedResources | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ResourceGroupsTaggingAPITagUntagSupportedResources |
 | AmazonVerifiedPermissionsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsFullAccess |
 | AmazonVerifiedPermissionsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsReadOnlyAccess |
+| CloudWatchLambdaApplicationSignalsExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaApplicationSignalsExecutionRolePolicy |

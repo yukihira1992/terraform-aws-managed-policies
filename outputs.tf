@@ -6198,3 +6198,8 @@ output "AmazonVerifiedPermissionsReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsReadOnlyAccess"
 }
 
+output "CloudWatchLambdaApplicationSignalsExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchLambdaApplicationSignalsExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaApplicationSignalsExecutionRolePolicy"
+}
+
