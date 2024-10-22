@@ -1257,3 +1257,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonVerifiedPermissionsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsFullAccess |
 | AmazonVerifiedPermissionsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonVerifiedPermissionsReadOnlyAccess |
 | CloudWatchLambdaApplicationSignalsExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaApplicationSignalsExecutionRolePolicy |
+| CloudWatchInternetMonitorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess |

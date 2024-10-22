@@ -6203,3 +6203,8 @@ output "CloudWatchLambdaApplicationSignalsExecutionRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLambdaApplicationSignalsExecutionRolePolicy"
 }
 
+output "CloudWatchInternetMonitorFullAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess"
+}
+
