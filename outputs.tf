@@ -6218,3 +6218,8 @@ output "AWSDataExchangeDataGrantReceiverFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeDataGrantReceiverFullAccess"
 }
 
+output "AWSCloudFrontVPCOriginServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontVPCOriginServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontVPCOriginServiceRolePolicy"
+}
+

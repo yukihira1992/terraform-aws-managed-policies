@@ -1260,3 +1260,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchInternetMonitorFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess |
 | AWSDataExchangeDataGrantOwnerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeDataGrantOwnerFullAccess |
 | AWSDataExchangeDataGrantReceiverFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeDataGrantReceiverFullAccess |
+| AWSCloudFrontVPCOriginServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontVPCOriginServiceRolePolicy |
