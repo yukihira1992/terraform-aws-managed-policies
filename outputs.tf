@@ -6208,3 +6208,13 @@ output "CloudWatchInternetMonitorFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorFullAccess"
 }
 
+output "AWSDataExchangeDataGrantOwnerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDataExchangeDataGrantOwnerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeDataGrantOwnerFullAccess"
+}
+
+output "AWSDataExchangeDataGrantReceiverFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSDataExchangeDataGrantReceiverFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDataExchangeDataGrantReceiverFullAccess"
+}
+
