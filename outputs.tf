@@ -6223,3 +6223,8 @@ output "AWSCloudFrontVPCOriginServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontVPCOriginServiceRolePolicy"
 }
 
+output "AmazonEKSNetworkingPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSNetworkingPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSNetworkingPolicy"
+}
+
