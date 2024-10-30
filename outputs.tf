@@ -6228,3 +6228,13 @@ output "AmazonEKSNetworkingPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSNetworkingPolicy"
 }
 
+output "AmazonEKSLoadBalancingPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSLoadBalancingPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSLoadBalancingPolicy"
+}
+
+output "AmazonEKSBlockStoragePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy"
+}
+
