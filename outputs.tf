@@ -6238,3 +6238,8 @@ output "AmazonEKSBlockStoragePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy"
 }
 
+output "AmazonEKSComputePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSComputePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSComputePolicy"
+}
+

@@ -1264,3 +1264,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSNetworkingPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSNetworkingPolicy |
 | AmazonEKSLoadBalancingPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSLoadBalancingPolicy |
 | AmazonEKSBlockStoragePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy |
+| AmazonEKSComputePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSComputePolicy |
