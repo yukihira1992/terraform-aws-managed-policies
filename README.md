@@ -1266,3 +1266,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSBlockStoragePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicy |
 | AmazonEKSComputePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSComputePolicy |
 | GameLiftContainerFleetPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftContainerFleetPolicy |
+| AmazonDataZoneBedrockModelManagementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelManagementPolicy |
+| AmazonDataZoneBedrockModelConsumptionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelConsumptionPolicy |
+| CloudWatchInternetMonitorReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorReadOnlyAccess |

@@ -6248,3 +6248,18 @@ output "GameLiftContainerFleetPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftContainerFleetPolicy"
 }
 
+output "AmazonDataZoneBedrockModelManagementPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelManagementPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelManagementPolicy"
+}
+
+output "AmazonDataZoneBedrockModelConsumptionPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelConsumptionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelConsumptionPolicy"
+}
+
+output "CloudWatchInternetMonitorReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchInternetMonitorReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorReadOnlyAccess"
+}
+
