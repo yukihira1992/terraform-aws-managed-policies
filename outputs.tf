@@ -6243,3 +6243,8 @@ output "AmazonEKSComputePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSComputePolicy"
 }
 
+output "GameLiftContainerFleetPolicy" {
+  value       = "arn:aws:iam::aws:policy/GameLiftContainerFleetPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GameLiftContainerFleetPolicy"
+}
+
