@@ -6263,3 +6263,8 @@ output "CloudWatchInternetMonitorReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorReadOnlyAccess"
 }
 
+output "AmazonODBServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy"
+}
+
