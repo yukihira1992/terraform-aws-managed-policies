@@ -1274,3 +1274,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerCentralOpportunityManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement |
 | AWSPartnerCentralSandboxFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSandboxFullAccess |
 | SecurityLakeResourceManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SecurityLakeResourceManagementServiceRolePolicy |
+| SQSUnlockQueuePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/SQSUnlockQueuePolicy |
+| S3UnlockBucketPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/S3UnlockBucketPolicy |
+| IAMAuditRootUserCredentials | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMAuditRootUserCredentials |
+| IAMCreateRootUserPassword | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMCreateRootUserPassword |
+| IAMDeleteRootUserCredentials | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials |

@@ -6288,3 +6288,28 @@ output "SecurityLakeResourceManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SecurityLakeResourceManagementServiceRolePolicy"
 }
 
+output "SQSUnlockQueuePolicy" {
+  value       = "arn:aws:iam::aws:policy/root-task/SQSUnlockQueuePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/SQSUnlockQueuePolicy"
+}
+
+output "S3UnlockBucketPolicy" {
+  value       = "arn:aws:iam::aws:policy/root-task/S3UnlockBucketPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/S3UnlockBucketPolicy"
+}
+
+output "IAMAuditRootUserCredentials" {
+  value       = "arn:aws:iam::aws:policy/root-task/IAMAuditRootUserCredentials"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMAuditRootUserCredentials"
+}
+
+output "IAMCreateRootUserPassword" {
+  value       = "arn:aws:iam::aws:policy/root-task/IAMCreateRootUserPassword"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMCreateRootUserPassword"
+}
+
+output "IAMDeleteRootUserCredentials" {
+  value       = "arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials"
+}
+
