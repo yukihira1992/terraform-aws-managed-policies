@@ -6268,3 +6268,8 @@ output "AmazonODBServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy"
 }
 
+output "SMSVoiceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy"
+}
+

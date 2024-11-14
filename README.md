@@ -1270,3 +1270,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDataZoneBedrockModelConsumptionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonDataZoneBedrockModelConsumptionPolicy |
 | CloudWatchInternetMonitorReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchInternetMonitorReadOnlyAccess |
 | AmazonODBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy |
+| SMSVoiceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy |
