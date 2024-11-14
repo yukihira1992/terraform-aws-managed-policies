@@ -6273,3 +6273,8 @@ output "SMSVoiceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy"
 }
 
+output "AWSPartnerCentralOpportunityManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement"
+}
+
