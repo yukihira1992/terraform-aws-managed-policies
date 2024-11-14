@@ -1273,3 +1273,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | SMSVoiceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy |
 | AWSPartnerCentralOpportunityManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement |
 | AWSPartnerCentralSandboxFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSandboxFullAccess |
+| SecurityLakeResourceManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SecurityLakeResourceManagementServiceRolePolicy |
