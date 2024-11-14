@@ -1272,3 +1272,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonODBServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonODBServiceRolePolicy |
 | SMSVoiceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/SMSVoiceServiceRolePolicy |
 | AWSPartnerCentralOpportunityManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement |
+| AWSPartnerCentralSandboxFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSandboxFullAccess |

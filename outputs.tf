@@ -6278,3 +6278,8 @@ output "AWSPartnerCentralOpportunityManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralOpportunityManagement"
 }
 
+output "AWSPartnerCentralSandboxFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralSandboxFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSandboxFullAccess"
+}
+
