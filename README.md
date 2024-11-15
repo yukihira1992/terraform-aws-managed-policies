@@ -1280,3 +1280,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | IAMCreateRootUserPassword | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMCreateRootUserPassword |
 | IAMDeleteRootUserCredentials | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials |
 | AmazonECSInfrastructureRolePolicyForVpcLattice | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForVpcLattice |
+| AWSQuickSetupEnableDHMCExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupEnableDHMCExecutionPolicy |
+| AWSQuickSetupManagedInstanceProfileExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManagedInstanceProfileExecutionPolicy |
+| AWSQuickSetupSSMLifecycleManagementExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMLifecycleManagementExecutionPolicy |
+| AWSQuickSetupSSMDeploymentS3BucketRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentS3BucketRolePolicy |

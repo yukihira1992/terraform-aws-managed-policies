@@ -6318,3 +6318,23 @@ output "AmazonECSInfrastructureRolePolicyForVpcLattice" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForVpcLattice"
 }
 
+output "AWSQuickSetupEnableDHMCExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupEnableDHMCExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupEnableDHMCExecutionPolicy"
+}
+
+output "AWSQuickSetupManagedInstanceProfileExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupManagedInstanceProfileExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManagedInstanceProfileExecutionPolicy"
+}
+
+output "AWSQuickSetupSSMLifecycleManagementExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSSMLifecycleManagementExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMLifecycleManagementExecutionPolicy"
+}
+
+output "AWSQuickSetupSSMDeploymentS3BucketRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentS3BucketRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentS3BucketRolePolicy"
+}
+
