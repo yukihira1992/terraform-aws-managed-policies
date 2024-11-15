@@ -6313,3 +6313,8 @@ output "IAMDeleteRootUserCredentials" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials"
 }
 
+output "AmazonECSInfrastructureRolePolicyForVpcLattice" {
+  value       = "arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForVpcLattice"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForVpcLattice"
+}
+

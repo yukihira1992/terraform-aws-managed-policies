@@ -1279,3 +1279,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | IAMAuditRootUserCredentials | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMAuditRootUserCredentials |
 | IAMCreateRootUserPassword | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMCreateRootUserPassword |
 | IAMDeleteRootUserCredentials | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/root-task/IAMDeleteRootUserCredentials |
+| AmazonECSInfrastructureRolePolicyForVpcLattice | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForVpcLattice |
