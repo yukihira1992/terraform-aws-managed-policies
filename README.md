@@ -1284,3 +1284,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSetupManagedInstanceProfileExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManagedInstanceProfileExecutionPolicy |
 | AWSQuickSetupSSMLifecycleManagementExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMLifecycleManagementExecutionPolicy |
 | AWSQuickSetupSSMDeploymentS3BucketRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentS3BucketRolePolicy |
+| AWSQuickSetupEnableAREXExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupEnableAREXExecutionPolicy |
+| AWSQuickSetupSSMManageResourcesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMManageResourcesExecutionPolicy |
+| AWSQuickSetupSSMDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentRolePolicy |

@@ -6338,3 +6338,18 @@ output "AWSQuickSetupSSMDeploymentS3BucketRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentS3BucketRolePolicy"
 }
 
+output "AWSQuickSetupEnableAREXExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupEnableAREXExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupEnableAREXExecutionPolicy"
+}
+
+output "AWSQuickSetupSSMManageResourcesExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSSMManageResourcesExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMManageResourcesExecutionPolicy"
+}
+
+output "AWSQuickSetupSSMDeploymentRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentRolePolicy"
+}
+
