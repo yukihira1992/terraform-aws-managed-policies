@@ -6353,3 +6353,38 @@ output "AWSQuickSetupSSMDeploymentRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentRolePolicy"
 }
 
+output "AWS-SSM-Automation-DiagnosisBucketPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-Automation-DiagnosisBucketPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-Automation-DiagnosisBucketPolicy"
+}
+
+output "AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy"
+}
+
+output "AWS-SSM-DiagnosisAutomation-ExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-ExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-ExecutionRolePolicy"
+}
+
+output "AWS-SSM-DiagnosisAutomation-OperationalAccountAdministrationRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-OperationalAccountAdministrationRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-OperationalAccountAdministrationRolePolicy"
+}
+
+output "AWS-SSM-RemediationAutomation-AdministrationRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-AdministrationRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-AdministrationRolePolicy"
+}
+
+output "AWS-SSM-RemediationAutomation-ExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-ExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-ExecutionRolePolicy"
+}
+
+output "AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy"
+}
+

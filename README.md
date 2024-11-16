@@ -1287,3 +1287,10 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSetupEnableAREXExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupEnableAREXExecutionPolicy |
 | AWSQuickSetupSSMManageResourcesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMManageResourcesExecutionPolicy |
 | AWSQuickSetupSSMDeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupSSMDeploymentRolePolicy |
+| AWS-SSM-Automation-DiagnosisBucketPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-Automation-DiagnosisBucketPolicy |
+| AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-AdministrationRolePolicy |
+| AWS-SSM-DiagnosisAutomation-ExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-ExecutionRolePolicy |
+| AWS-SSM-DiagnosisAutomation-OperationalAccountAdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-DiagnosisAutomation-OperationalAccountAdministrationRolePolicy |
+| AWS-SSM-RemediationAutomation-AdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-AdministrationRolePolicy |
+| AWS-SSM-RemediationAutomation-ExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-ExecutionRolePolicy |
+| AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy |
