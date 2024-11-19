@@ -6388,3 +6388,13 @@ output "AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy"
 }
 
+output "AWSPartnerCentralFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralFullAccess"
+}
+
+output "AWSMarketplaceSellerOfferManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSMarketplaceSellerOfferManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerOfferManagement"
+}
+

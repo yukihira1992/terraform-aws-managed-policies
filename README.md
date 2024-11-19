@@ -1294,3 +1294,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWS-SSM-RemediationAutomation-AdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-AdministrationRolePolicy |
 | AWS-SSM-RemediationAutomation-ExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-ExecutionRolePolicy |
 | AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy |
+| AWSPartnerCentralFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralFullAccess |
+| AWSMarketplaceSellerOfferManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerOfferManagement |
