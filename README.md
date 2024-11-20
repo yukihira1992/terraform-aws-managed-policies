@@ -1296,3 +1296,9 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWS-SSM-RemediationAutomation-OperationalAccountAdministrationRolePolicy |
 | AWSPartnerCentralFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralFullAccess |
 | AWSMarketplaceSellerOfferManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerOfferManagement |
+| SageMakerStudioProjectRoleMachineLearningPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectRoleMachineLearningPolicy |
+| SageMakerStudioDomainServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainServiceRolePolicy |
+| SageMakerStudioDomainExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainExecutionRolePolicy |
+| SageMakerStudioProjectUserRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePermissionsBoundary |
+| SageMakerStudioProjectProvisioningRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioProjectProvisioningRolePolicy |
+| SageMakerStudioProjectUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePolicy |

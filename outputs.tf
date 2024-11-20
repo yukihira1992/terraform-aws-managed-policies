@@ -6398,3 +6398,33 @@ output "AWSMarketplaceSellerOfferManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceSellerOfferManagement"
 }
 
+output "SageMakerStudioProjectRoleMachineLearningPolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioProjectRoleMachineLearningPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectRoleMachineLearningPolicy"
+}
+
+output "SageMakerStudioDomainServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainServiceRolePolicy"
+}
+
+output "SageMakerStudioDomainExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainExecutionRolePolicy"
+}
+
+output "SageMakerStudioProjectUserRolePermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePermissionsBoundary"
+}
+
+output "SageMakerStudioProjectProvisioningRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioProjectProvisioningRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioProjectProvisioningRolePolicy"
+}
+
+output "SageMakerStudioProjectUserRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePolicy"
+}
+
