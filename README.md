@@ -681,7 +681,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBraketFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBraketFullAccess |
 | AWSLambdaMSKExecutionRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole |
 | AWSCompromisedKeyQuarantine | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine |
-| ServerMigration_ServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole |
 | AmazonEKSVPCResourceController | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController |
 | Route53ResolverServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy |
 | ClientVPNServiceConnectionsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy |

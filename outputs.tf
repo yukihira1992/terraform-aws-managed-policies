@@ -3323,11 +3323,6 @@ output "AWSCompromisedKeyQuarantine" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine"
 }
 
-output "ServerMigration_ServiceRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole"
-}
-
 output "AmazonEKSVPCResourceController" {
   value       = "arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSVPCResourceController"
