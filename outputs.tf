@@ -6423,3 +6423,18 @@ output "SageMakerStudioProjectUserRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePolicy"
 }
 
+output "AWSArtifactAgreementsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSArtifactAgreementsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsFullAccess"
+}
+
+output "AWSArtifactAgreementsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSArtifactAgreementsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsReadOnlyAccess"
+}
+
+output "AWSPartnerLedSupportReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerLedSupportReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerLedSupportReadOnlyAccess"
+}
+

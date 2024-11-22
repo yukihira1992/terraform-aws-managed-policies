@@ -1301,3 +1301,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | SageMakerStudioProjectUserRolePermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePermissionsBoundary |
 | SageMakerStudioProjectProvisioningRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioProjectProvisioningRolePolicy |
 | SageMakerStudioProjectUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioProjectUserRolePolicy |
+| AWSArtifactAgreementsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsFullAccess |
+| AWSArtifactAgreementsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsReadOnlyAccess |
+| AWSPartnerLedSupportReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerLedSupportReadOnlyAccess |
