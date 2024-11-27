@@ -1304,3 +1304,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSArtifactAgreementsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsFullAccess |
 | AWSArtifactAgreementsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactAgreementsReadOnlyAccess |
 | AWSPartnerLedSupportReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerLedSupportReadOnlyAccess |
+| AWSObservabilityAdminServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminServiceRolePolicy |
