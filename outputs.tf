@@ -6443,3 +6443,8 @@ output "AWSObservabilityAdminServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminServiceRolePolicy"
 }
 
+output "SageMakerStudioFullAccess" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioFullAccess"
+}
+
