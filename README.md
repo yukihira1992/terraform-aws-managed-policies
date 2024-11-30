@@ -1306,3 +1306,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerLedSupportReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerLedSupportReadOnlyAccess |
 | AWSObservabilityAdminServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminServiceRolePolicy |
 | SageMakerStudioFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioFullAccess |
+| DeclarativePoliciesEC2Report | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report |

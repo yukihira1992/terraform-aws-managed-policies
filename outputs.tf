@@ -6448,3 +6448,8 @@ output "SageMakerStudioFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioFullAccess"
 }
 
+output "DeclarativePoliciesEC2Report" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report"
+}
+
