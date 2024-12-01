@@ -1311,3 +1311,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecurityIncidentResponseTriageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseTriageServiceRolePolicy |
 | CloudWatchOpenSearchDashboardsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardsFullAccess |
 | CloudWatchOpenSearchDashboardAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardAccess |
+| CloudWatchNetworkFlowMonitorServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorServiceRolePolicy |
+| CloudWatchNetworkFlowMonitorAgentPublishPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchNetworkFlowMonitorAgentPublishPolicy |
+| CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy |
+| AWSSecurityIncidentResponseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess |

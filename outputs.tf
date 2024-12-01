@@ -6473,3 +6473,23 @@ output "CloudWatchOpenSearchDashboardAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardAccess"
 }
 
+output "CloudWatchNetworkFlowMonitorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorServiceRolePolicy"
+}
+
+output "CloudWatchNetworkFlowMonitorAgentPublishPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchNetworkFlowMonitorAgentPublishPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchNetworkFlowMonitorAgentPublishPolicy"
+}
+
+output "CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy"
+}
+
+output "AWSSecurityIncidentResponseReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess"
+}
+
