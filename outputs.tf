@@ -6463,3 +6463,13 @@ output "AWSSecurityIncidentResponseTriageServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseTriageServiceRolePolicy"
 }
 
+output "CloudWatchOpenSearchDashboardsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardsFullAccess"
+}
+
+output "CloudWatchOpenSearchDashboardAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardAccess"
+}
+

@@ -1309,3 +1309,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | DeclarativePoliciesEC2Report | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report |
 | AWSSecurityIncidentResponseServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseServiceRolePolicy |
 | AWSSecurityIncidentResponseTriageServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseTriageServiceRolePolicy |
+| CloudWatchOpenSearchDashboardsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardsFullAccess |
+| CloudWatchOpenSearchDashboardAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOpenSearchDashboardAccess |
