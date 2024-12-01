@@ -6453,3 +6453,13 @@ output "DeclarativePoliciesEC2Report" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DeclarativePoliciesEC2Report"
 }
 
+output "AWSSecurityIncidentResponseServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseServiceRolePolicy"
+}
+
+output "AWSSecurityIncidentResponseTriageServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseTriageServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityIncidentResponseTriageServiceRolePolicy"
+}
+
