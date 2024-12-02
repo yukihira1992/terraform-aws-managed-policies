@@ -6503,3 +6503,8 @@ output "AWSSecurityIncidentResponseFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseFullAccess"
 }
 
+output "AIOpsAssistantPolicy" {
+  value       = "arn:aws:iam::aws:policy/AIOpsAssistantPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsAssistantPolicy"
+}
+

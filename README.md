@@ -1317,3 +1317,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecurityIncidentResponseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess |
 | AWSSecurityIncidentResponseCaseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseCaseFullAccess |
 | AWSSecurityIncidentResponseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseFullAccess |
+| AIOpsAssistantPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsAssistantPolicy |
