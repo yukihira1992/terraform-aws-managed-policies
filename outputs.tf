@@ -6493,3 +6493,13 @@ output "AWSSecurityIncidentResponseReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess"
 }
 
+output "AWSSecurityIncidentResponseCaseFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSecurityIncidentResponseCaseFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseCaseFullAccess"
+}
+
+output "AWSSecurityIncidentResponseFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSecurityIncidentResponseFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseFullAccess"
+}
+

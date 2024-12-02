@@ -1315,3 +1315,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchNetworkFlowMonitorAgentPublishPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchNetworkFlowMonitorAgentPublishPolicy |
 | CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudWatchNetworkFlowMonitorTopologyServiceRolePolicy |
 | AWSSecurityIncidentResponseReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseReadOnlyAccess |
+| AWSSecurityIncidentResponseCaseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseCaseFullAccess |
+| AWSSecurityIncidentResponseFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityIncidentResponseFullAccess |
