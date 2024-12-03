@@ -1322,3 +1322,9 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIOpsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsReadOnlyAccess |
 | AIOpsOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsOperatorAccess |
 | AuroraDsqlServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy |
+| AmazonS3TablesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3TablesReadOnlyAccess |
+| AmazonAuroraDSQLReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLReadOnlyAccess |
+| AmazonS3TablesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3TablesFullAccess |
+| QBusinessQuicksightPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/QBusinessQuicksightPluginPolicy |
+| AmazonAuroraDSQLConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLConsoleFullAccess |
+| AmazonAuroraDSQLFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess |

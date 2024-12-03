@@ -6528,3 +6528,33 @@ output "AuroraDsqlServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy"
 }
 
+output "AmazonS3TablesReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3TablesReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3TablesReadOnlyAccess"
+}
+
+output "AmazonAuroraDSQLReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonAuroraDSQLReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLReadOnlyAccess"
+}
+
+output "AmazonS3TablesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3TablesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3TablesFullAccess"
+}
+
+output "QBusinessQuicksightPluginPolicy" {
+  value       = "arn:aws:iam::aws:policy/QBusinessQuicksightPluginPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/QBusinessQuicksightPluginPolicy"
+}
+
+output "AmazonAuroraDSQLConsoleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonAuroraDSQLConsoleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLConsoleFullAccess"
+}
+
+output "AmazonAuroraDSQLFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess"
+}
+
