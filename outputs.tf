@@ -6508,3 +6508,18 @@ output "AIOpsAssistantPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsAssistantPolicy"
 }
 
+output "AIOpsConsoleAdminPolicy" {
+  value       = "arn:aws:iam::aws:policy/AIOpsConsoleAdminPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsConsoleAdminPolicy"
+}
+
+output "AIOpsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AIOpsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsReadOnlyAccess"
+}
+
+output "AIOpsOperatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AIOpsOperatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsOperatorAccess"
+}
+
