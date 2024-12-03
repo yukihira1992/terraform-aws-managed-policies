@@ -1321,3 +1321,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIOpsConsoleAdminPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsConsoleAdminPolicy |
 | AIOpsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsReadOnlyAccess |
 | AIOpsOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsOperatorAccess |
+| AuroraDsqlServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy |

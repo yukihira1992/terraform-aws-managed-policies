@@ -6523,3 +6523,8 @@ output "AIOpsOperatorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsOperatorAccess"
 }
 
+output "AuroraDsqlServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AuroraDsqlServiceLinkedRolePolicy"
+}
+
