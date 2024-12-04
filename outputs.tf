@@ -6563,3 +6563,8 @@ output "AmazonSageMakerTrainingPlanCreateAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess"
 }
 
+output "AmazonSageMakerCanvasSMDataScienceAssistantAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasSMDataScienceAssistantAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasSMDataScienceAssistantAccess"
+}
+
