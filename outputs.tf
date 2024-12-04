@@ -6558,3 +6558,8 @@ output "AmazonAuroraDSQLFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess"
 }
 
+output "AmazonSageMakerTrainingPlanCreateAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess"
+}
+

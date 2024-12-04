@@ -1328,3 +1328,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | QBusinessQuicksightPluginPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/QBusinessQuicksightPluginPolicy |
 | AmazonAuroraDSQLConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLConsoleFullAccess |
 | AmazonAuroraDSQLFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess |
+| AmazonSageMakerTrainingPlanCreateAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess |
