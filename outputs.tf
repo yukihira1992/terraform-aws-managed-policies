@@ -6568,3 +6568,8 @@ output "AmazonSageMakerCanvasSMDataScienceAssistantAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasSMDataScienceAssistantAccess"
 }
 
+output "AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy"
+}
+

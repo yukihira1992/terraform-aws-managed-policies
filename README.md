@@ -1330,3 +1330,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonAuroraDSQLFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAuroraDSQLFullAccess |
 | AmazonSageMakerTrainingPlanCreateAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess |
 | AmazonSageMakerCanvasSMDataScienceAssistantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasSMDataScienceAssistantAccess |
+| AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy |
