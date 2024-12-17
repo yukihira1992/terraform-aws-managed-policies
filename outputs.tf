@@ -6573,3 +6573,13 @@ output "AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy"
 }
 
+output "AWSBackupServiceRolePolicyForIndexing" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForIndexing"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForIndexing"
+}
+
+output "AWSBackupServiceRolePolicyForItemRestores" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores"
+}
+

@@ -1331,3 +1331,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerTrainingPlanCreateAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingPlanCreateAccess |
 | AmazonSageMakerCanvasSMDataScienceAssistantAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasSMDataScienceAssistantAccess |
 | AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralSellingResourceSnapshotJobExecutionRolePolicy |
+| AWSBackupServiceRolePolicyForIndexing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForIndexing |
+| AWSBackupServiceRolePolicyForItemRestores | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores |
