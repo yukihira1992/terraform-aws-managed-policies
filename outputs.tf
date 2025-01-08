@@ -6583,3 +6583,8 @@ output "AWSBackupServiceRolePolicyForItemRestores" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores"
 }
 
+output "AWSManagedServices_SelfServiceReporting_ServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_SelfServiceReporting_ServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_SelfServiceReporting_ServiceRolePolicy"
+}
+
