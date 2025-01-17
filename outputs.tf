@@ -6588,3 +6588,8 @@ output "AWSManagedServices_SelfServiceReporting_ServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_SelfServiceReporting_ServiceRolePolicy"
 }
 
+output "AmazonSageMakerPartnerAppsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess"
+}
+

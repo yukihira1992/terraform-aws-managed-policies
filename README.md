@@ -1334,3 +1334,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBackupServiceRolePolicyForIndexing | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForIndexing |
 | AWSBackupServiceRolePolicyForItemRestores | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores |
 | AWSManagedServices_SelfServiceReporting_ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_SelfServiceReporting_ServiceRolePolicy |
+| AmazonSageMakerPartnerAppsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess |
