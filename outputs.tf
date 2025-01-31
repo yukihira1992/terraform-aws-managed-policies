@@ -6593,3 +6593,13 @@ output "AmazonSageMakerPartnerAppsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess"
 }
 
+output "SageMakerStudioQueryExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioQueryExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioQueryExecutionRolePolicy"
+}
+
+output "SageMakerStudioEMRServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy"
+}
+

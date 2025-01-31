@@ -1335,3 +1335,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBackupServiceRolePolicyForItemRestores | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForItemRestores |
 | AWSManagedServices_SelfServiceReporting_ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSManagedServices_SelfServiceReporting_ServiceRolePolicy |
 | AmazonSageMakerPartnerAppsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess |
+| SageMakerStudioQueryExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioQueryExecutionRolePolicy |
+| SageMakerStudioEMRServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy |
