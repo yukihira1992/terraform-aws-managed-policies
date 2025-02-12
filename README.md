@@ -1337,3 +1337,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerPartnerAppsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerPartnerAppsFullAccess |
 | SageMakerStudioQueryExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioQueryExecutionRolePolicy |
 | SageMakerStudioEMRServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy |
+| AWSElementalMediaConnectReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectReadOnlyAccess |
+| AWSElementalMediaConnectFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectFullAccess |

@@ -6603,3 +6603,13 @@ output "SageMakerStudioEMRServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy"
 }
 
+output "AWSElementalMediaConnectReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectReadOnlyAccess"
+}
+
+output "AWSElementalMediaConnectFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectFullAccess"
+}
+
