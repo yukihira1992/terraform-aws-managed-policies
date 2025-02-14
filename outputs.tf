@@ -6613,3 +6613,28 @@ output "AWSElementalMediaConnectFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectFullAccess"
 }
 
+output "SageMakerStudioBedrockAgentServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockAgentServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockAgentServiceRolePolicy"
+}
+
+output "SageMakerStudioBedrockChatAgentUserRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockChatAgentUserRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockChatAgentUserRolePolicy"
+}
+
+output "SageMakerStudioBedrockFlowServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFlowServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFlowServiceRolePolicy"
+}
+
+output "SageMakerStudioBedrockPromptUserRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockPromptUserRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockPromptUserRolePolicy"
+}
+
+output "SageMakerStudioBedrockEvaluationJobServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockEvaluationJobServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockEvaluationJobServiceRolePolicy"
+}
+

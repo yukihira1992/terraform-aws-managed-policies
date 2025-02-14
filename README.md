@@ -1339,3 +1339,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | SageMakerStudioEMRServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRServiceRolePolicy |
 | AWSElementalMediaConnectReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectReadOnlyAccess |
 | AWSElementalMediaConnectFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectFullAccess |
+| SageMakerStudioBedrockAgentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockAgentServiceRolePolicy |
+| SageMakerStudioBedrockChatAgentUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockChatAgentUserRolePolicy |
+| SageMakerStudioBedrockFlowServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFlowServiceRolePolicy |
+| SageMakerStudioBedrockPromptUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockPromptUserRolePolicy |
+| SageMakerStudioBedrockEvaluationJobServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockEvaluationJobServiceRolePolicy |
