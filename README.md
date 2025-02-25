@@ -1345,3 +1345,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | SageMakerStudioBedrockPromptUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockPromptUserRolePolicy |
 | SageMakerStudioBedrockEvaluationJobServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockEvaluationJobServiceRolePolicy |
 | SageMakerStudioBedrockKnowledgeBaseServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockKnowledgeBaseServiceRolePolicy |
+| SageMakerStudioBedrockKnowledgeBaseCustomResourcePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockKnowledgeBaseCustomResourcePolicy |
+| SageMakerStudioBedrockFunctionExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFunctionExecutionRolePolicy |
