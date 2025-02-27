@@ -6658,3 +6658,8 @@ output "SageMakerStudioEMRInstanceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRInstanceRolePolicy"
 }
 
+output "AWSBackupSearchOperatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupSearchOperatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupSearchOperatorAccess"
+}
+
