@@ -1349,3 +1349,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | SageMakerStudioBedrockFunctionExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioBedrockFunctionExecutionRolePolicy |
 | SageMakerStudioEMRInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRInstanceRolePolicy |
 | AWSBackupSearchOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupSearchOperatorAccess |
+| AWSIoTManagedIntegrationsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTManagedIntegrationsFullAccess |
