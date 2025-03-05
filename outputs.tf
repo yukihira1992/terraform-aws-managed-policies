@@ -6668,3 +6668,8 @@ output "AWSIoTManagedIntegrationsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTManagedIntegrationsFullAccess"
 }
 
+output "AWSIoTManagedIntegrationsRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIoTManagedIntegrationsRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTManagedIntegrationsRolePolicy"
+}
+
