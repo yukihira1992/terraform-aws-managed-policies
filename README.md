@@ -1351,3 +1351,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBackupSearchOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupSearchOperatorAccess |
 | AWSIoTManagedIntegrationsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTManagedIntegrationsFullAccess |
 | AWSIoTManagedIntegrationsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTManagedIntegrationsRolePolicy |
+| AmazonECSComputeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonECSComputeServiceRolePolicy |

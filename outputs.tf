@@ -6673,3 +6673,8 @@ output "AWSIoTManagedIntegrationsRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTManagedIntegrationsRolePolicy"
 }
 
+output "AmazonECSComputeServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonECSComputeServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonECSComputeServiceRolePolicy"
+}
+
