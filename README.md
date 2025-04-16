@@ -1353,3 +1353,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIoTManagedIntegrationsRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIoTManagedIntegrationsRolePolicy |
 | AmazonECSComputeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonECSComputeServiceRolePolicy |
 | AWSMediaLiveAnywhereServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaLiveAnywhereServiceRolePolicy |
+| GitLabDuoWithAmazonQPermissionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy |

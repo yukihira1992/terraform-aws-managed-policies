@@ -6683,3 +6683,8 @@ output "AWSMediaLiveAnywhereServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaLiveAnywhereServiceRolePolicy"
 }
 
+output "GitLabDuoWithAmazonQPermissionsPolicy" {
+  value       = "arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy"
+}
+
