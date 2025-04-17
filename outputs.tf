@@ -6688,3 +6688,8 @@ output "GitLabDuoWithAmazonQPermissionsPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy"
 }
 
+output "AWSQuickSetupJITNADeploymentRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy"
+}
+

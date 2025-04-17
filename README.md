@@ -1354,3 +1354,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonECSComputeServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonECSComputeServiceRolePolicy |
 | AWSMediaLiveAnywhereServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaLiveAnywhereServiceRolePolicy |
 | GitLabDuoWithAmazonQPermissionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy |
+| AWSQuickSetupJITNADeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy |
