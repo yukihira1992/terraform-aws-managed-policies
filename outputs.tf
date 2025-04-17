@@ -6713,3 +6713,8 @@ output "AWSSystemsManagerJustInTimeAccessTokenPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy"
 }
 
+output "AWSQuickSetupManageJITNAResourcesExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupManageJITNAResourcesExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManageJITNAResourcesExecutionPolicy"
+}
+

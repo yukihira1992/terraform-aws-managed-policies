@@ -1359,3 +1359,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSystemsManagerNotificationsServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerNotificationsServicePolicy |
 | AWSSystemsManagerJustInTimeAccessTokenSessionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenSessionPolicy |
 | AWSSystemsManagerJustInTimeAccessTokenPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy |
+| AWSQuickSetupManageJITNAResourcesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManageJITNAResourcesExecutionPolicy |
