@@ -1356,3 +1356,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | GitLabDuoWithAmazonQPermissionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy |
 | AWSQuickSetupJITNADeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy |
 | AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess |
+| AWSSystemsManagerNotificationsServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerNotificationsServicePolicy |
+| AWSSystemsManagerJustInTimeAccessTokenSessionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenSessionPolicy |
+| AWSSystemsManagerJustInTimeAccessTokenPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy |

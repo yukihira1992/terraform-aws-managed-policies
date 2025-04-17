@@ -6698,3 +6698,18 @@ output "AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess"
 }
 
+output "AWSSystemsManagerNotificationsServicePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerNotificationsServicePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerNotificationsServicePolicy"
+}
+
+output "AWSSystemsManagerJustInTimeAccessTokenSessionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenSessionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenSessionPolicy"
+}
+
+output "AWSSystemsManagerJustInTimeAccessTokenPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeAccessTokenPolicy"
+}
+
