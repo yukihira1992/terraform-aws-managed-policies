@@ -1355,3 +1355,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMediaLiveAnywhereServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMediaLiveAnywhereServiceRolePolicy |
 | GitLabDuoWithAmazonQPermissionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GitLabDuoWithAmazonQPermissionsPolicy |
 | AWSQuickSetupJITNADeploymentRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupJITNADeploymentRolePolicy |
+| AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonTimestreamInfluxDBFullAccessWithoutMarketplaceAccess |
