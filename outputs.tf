@@ -6723,3 +6723,8 @@ output "AWSSystemsManagerJustInTimeAccessServicePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerJustInTimeAccessServicePolicy"
 }
 
+output "AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy"
+}
+
