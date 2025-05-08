@@ -1362,3 +1362,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSetupManageJITNAResourcesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupManageJITNAResourcesExecutionPolicy |
 | AWSSystemsManagerJustInTimeAccessServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerJustInTimeAccessServicePolicy |
 | AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy |
+| AmazonEKSDashboardServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSDashboardServiceRolePolicy |
