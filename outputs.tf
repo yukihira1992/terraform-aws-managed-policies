@@ -6733,3 +6733,8 @@ output "AmazonEKSDashboardServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSDashboardServiceRolePolicy"
 }
 
+output "AWSQuickSightSecretsManagerWritePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSightSecretsManagerWritePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightSecretsManagerWritePolicy"
+}
+
