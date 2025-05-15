@@ -6738,3 +6738,13 @@ output "AWSQuickSightSecretsManagerWritePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightSecretsManagerWritePolicy"
 }
 
+output "AWSServiceRoleForAWSTransform" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransform"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransform"
+}
+
+output "CloudTrailEventContext" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CloudTrailEventContext"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudTrailEventContext"
+}
+

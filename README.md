@@ -1364,3 +1364,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSystemsManagerJustInTimeNodeAccessRolePropagationPolicy |
 | AmazonEKSDashboardServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSDashboardServiceRolePolicy |
 | AWSQuickSightSecretsManagerWritePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSightSecretsManagerWritePolicy |
+| AWSServiceRoleForAWSTransform | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransform |
+| CloudTrailEventContext | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudTrailEventContext |
