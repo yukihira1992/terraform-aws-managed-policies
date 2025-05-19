@@ -6753,3 +6753,8 @@ output "AmazonEVSServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEVSServiceRolePolicy"
 }
 
+output "AWSPrivateCAConnectorForKubernetesPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy"
+}
+

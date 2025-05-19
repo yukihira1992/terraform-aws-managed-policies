@@ -1367,3 +1367,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceRoleForAWSTransform | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransform |
 | CloudTrailEventContext | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudTrailEventContext |
 | AmazonEVSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEVSServiceRolePolicy |
+| AWSPrivateCAConnectorForKubernetesPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy |
