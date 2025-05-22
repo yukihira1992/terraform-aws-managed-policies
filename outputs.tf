@@ -6758,3 +6758,8 @@ output "AWSPrivateCAConnectorForKubernetesPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy"
 }
 
+output "AWSQuickSightSecretsManagerWriteAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSQuickSightSecretsManagerWriteAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSecretsManagerWriteAccess"
+}
+

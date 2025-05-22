@@ -1368,3 +1368,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudTrailEventContext | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CloudTrailEventContext |
 | AmazonEVSServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEVSServiceRolePolicy |
 | AWSPrivateCAConnectorForKubernetesPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy |
+| AWSQuickSightSecretsManagerWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSecretsManagerWriteAccess |
