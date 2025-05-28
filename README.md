@@ -974,8 +974,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSLocalOutpostServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonEKSLocalOutpostServiceRolePolicy |
 | AmazonSageMakerCanvasForecastAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerCanvasForecastAccess |
 | AmazonEKSLocalOutpostClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSLocalOutpostClusterPolicy |
-| GroundTruthSyntheticConsoleReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess |
-| GroundTruthSyntheticConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess |
 | AmazonSSMManagedEC2InstanceDefaultPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy |
 | AmazonSageMakerCanvasFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess |
 | AmazonCloudWatchEvidentlyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy |

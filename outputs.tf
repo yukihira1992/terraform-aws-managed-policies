@@ -4788,16 +4788,6 @@ output "AmazonEKSLocalOutpostClusterPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSLocalOutpostClusterPolicy"
 }
 
-output "GroundTruthSyntheticConsoleReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleReadOnlyAccess"
-}
-
-output "GroundTruthSyntheticConsoleFullAccess" {
-  value       = "arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/GroundTruthSyntheticConsoleFullAccess"
-}
-
 output "AmazonSSMManagedEC2InstanceDefaultPolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSSMManagedEC2InstanceDefaultPolicy"
