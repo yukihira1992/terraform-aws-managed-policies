@@ -388,7 +388,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMacieHandshakeRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonMacieHandshakeRole |
 | AWSDataLifecycleManagerServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRole |
 | AWSIoTDeviceDefenderAudit | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAudit |
-| AWSMarketplaceImageBuildFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceImageBuildFullAccess |
 | AWSDiscoveryContinuousExportFirehosePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDiscoveryContinuousExportFirehosePolicy |
 | ApplicationDiscoveryServiceContinuousExportServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy |
 | AWSAutoScalingPlansEC2AutoScalingPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy |

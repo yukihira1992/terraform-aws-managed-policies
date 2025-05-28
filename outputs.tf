@@ -1858,11 +1858,6 @@ output "AWSIoTDeviceDefenderAudit" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAudit"
 }
 
-output "AWSMarketplaceImageBuildFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSMarketplaceImageBuildFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceImageBuildFullAccess"
-}
-
 output "AWSDiscoveryContinuousExportFirehosePolicy" {
   value       = "arn:aws:iam::aws:policy/AWSDiscoveryContinuousExportFirehosePolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSDiscoveryContinuousExportFirehosePolicy"
