@@ -6753,3 +6753,8 @@ output "AmazonDynamoDBFullAccess_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess_v2"
 }
 
+output "AmazonSageMakerQuickSightVPCPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonSageMakerQuickSightVPCPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerQuickSightVPCPolicy"
+}
+

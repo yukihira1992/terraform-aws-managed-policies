@@ -1367,3 +1367,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPrivateCAConnectorForKubernetesPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPrivateCAConnectorForKubernetesPolicy |
 | AWSQuickSightSecretsManagerWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSQuickSightSecretsManagerWriteAccess |
 | AmazonDynamoDBFullAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess_v2 |
+| AmazonSageMakerQuickSightVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerQuickSightVPCPolicy |
