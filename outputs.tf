@@ -6758,3 +6758,8 @@ output "AmazonSageMakerQuickSightVPCPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerQuickSightVPCPolicy"
 }
 
+output "AmazonGuardDutyFullAccess_v2" {
+  value       = "arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess_v2"
+}
+
