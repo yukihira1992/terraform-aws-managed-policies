@@ -6768,3 +6768,13 @@ output "AWSSecurityHubV2ServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityHubV2ServiceRolePolicy"
 }
 
+output "AWSNetworkFirewallReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSNetworkFirewallReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallReadOnlyAccess"
+}
+
+output "AWSNetworkFirewallFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSNetworkFirewallFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallFullAccess"
+}
+

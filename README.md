@@ -1370,3 +1370,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerQuickSightVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonSageMakerQuickSightVPCPolicy |
 | AmazonGuardDutyFullAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess_v2 |
 | AWSSecurityHubV2ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityHubV2ServiceRolePolicy |
+| AWSNetworkFirewallReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallReadOnlyAccess |
+| AWSNetworkFirewallFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallFullAccess |
