@@ -6783,3 +6783,13 @@ output "AWSServiceRolePolicyForWorkspacesInstances" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForWorkspacesInstances"
 }
 
+output "AmazonWorkSpacesThinClientMonitoringServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesThinClientMonitoringServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesThinClientMonitoringServiceRolePolicy"
+}
+
+output "NetworkSecurityDirectorServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityDirectorServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityDirectorServiceLinkedRolePolicy"
+}
+

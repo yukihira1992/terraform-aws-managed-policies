@@ -1373,3 +1373,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSNetworkFirewallReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallReadOnlyAccess |
 | AWSNetworkFirewallFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSNetworkFirewallFullAccess |
 | AWSServiceRolePolicyForWorkspacesInstances | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRolePolicyForWorkspacesInstances |
+| AmazonWorkSpacesThinClientMonitoringServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesThinClientMonitoringServiceRolePolicy |
+| NetworkSecurityDirectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityDirectorServiceLinkedRolePolicy |
