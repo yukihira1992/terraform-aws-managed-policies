@@ -6798,3 +6798,8 @@ output "MultiPartyApprovalReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MultiPartyApprovalReadOnlyAccess"
 }
 
+output "MultiPartyApprovalFullAccess" {
+  value       = "arn:aws:iam::aws:policy/MultiPartyApprovalFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MultiPartyApprovalFullAccess"
+}
+

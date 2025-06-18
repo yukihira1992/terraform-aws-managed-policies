@@ -1376,3 +1376,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonWorkSpacesThinClientMonitoringServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonWorkSpacesThinClientMonitoringServiceRolePolicy |
 | NetworkSecurityDirectorServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityDirectorServiceLinkedRolePolicy |
 | MultiPartyApprovalReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MultiPartyApprovalReadOnlyAccess |
+| MultiPartyApprovalFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MultiPartyApprovalFullAccess |
