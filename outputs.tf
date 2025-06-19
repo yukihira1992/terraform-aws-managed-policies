@@ -6808,3 +6808,8 @@ output "AmazonEKSDashboardConsoleReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSDashboardConsoleReadOnly"
 }
 
+output "AmazonS3TablesLakeFormationServiceRole" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonS3TablesLakeFormationServiceRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3TablesLakeFormationServiceRole"
+}
+
