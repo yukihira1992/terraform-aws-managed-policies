@@ -6803,3 +6803,8 @@ output "MultiPartyApprovalFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/MultiPartyApprovalFullAccess"
 }
 
+output "AmazonEKSDashboardConsoleReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSDashboardConsoleReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSDashboardConsoleReadOnly"
+}
+
