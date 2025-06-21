@@ -6813,3 +6813,8 @@ output "AmazonS3TablesLakeFormationServiceRole" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3TablesLakeFormationServiceRole"
 }
 
+output "KeyspacesCDCServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/KeyspacesCDCServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KeyspacesCDCServiceRolePolicy"
+}
+
