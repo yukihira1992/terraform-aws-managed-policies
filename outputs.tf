@@ -6818,3 +6818,8 @@ output "KeyspacesCDCServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KeyspacesCDCServiceRolePolicy"
 }
 
+output "AWSPCSComputeNodePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSPCSComputeNodePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPCSComputeNodePolicy"
+}
+
