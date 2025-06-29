@@ -1381,3 +1381,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3TablesLakeFormationServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3TablesLakeFormationServiceRole |
 | KeyspacesCDCServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/KeyspacesCDCServiceRolePolicy |
 | AWSPCSComputeNodePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPCSComputeNodePolicy |
+| AmazonBedrockLimitedAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess |
+| AmazonBedrockMarketplaceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess |

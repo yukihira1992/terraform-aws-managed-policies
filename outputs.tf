@@ -6823,3 +6823,13 @@ output "AWSPCSComputeNodePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPCSComputeNodePolicy"
 }
 
+output "AmazonBedrockLimitedAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess"
+}
+
+output "AmazonBedrockMarketplaceAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess"
+}
+
