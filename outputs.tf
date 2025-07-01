@@ -6833,3 +6833,8 @@ output "AmazonBedrockMarketplaceAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess"
 }
 
+output "AWSZoneGroupAccessManagementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSZoneGroupAccessManagementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZoneGroupAccessManagementServiceRolePolicy"
+}
+

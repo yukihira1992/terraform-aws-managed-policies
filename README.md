@@ -1383,3 +1383,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPCSComputeNodePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPCSComputeNodePolicy |
 | AmazonBedrockLimitedAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess |
 | AmazonBedrockMarketplaceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess |
+| AWSZoneGroupAccessManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZoneGroupAccessManagementServiceRolePolicy |
