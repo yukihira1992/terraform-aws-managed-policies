@@ -1384,3 +1384,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBedrockLimitedAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockLimitedAccess |
 | AmazonBedrockMarketplaceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMarketplaceAccess |
 | AWSZoneGroupAccessManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZoneGroupAccessManagementServiceRolePolicy |
+| AmazonInspector2FullAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2 |

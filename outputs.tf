@@ -6838,3 +6838,8 @@ output "AWSZoneGroupAccessManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSZoneGroupAccessManagementServiceRolePolicy"
 }
 
+output "AmazonInspector2FullAccess_v2" {
+  value       = "arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2"
+}
+
