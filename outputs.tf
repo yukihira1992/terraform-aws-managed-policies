@@ -6843,3 +6843,8 @@ output "AmazonInspector2FullAccess_v2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2"
 }
 
+output "SageMakerStudioAdminProjectUserRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioAdminProjectUserRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminProjectUserRolePolicy"
+}
+
