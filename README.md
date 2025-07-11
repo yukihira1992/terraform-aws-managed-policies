@@ -1387,3 +1387,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2FullAccess_v2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2FullAccess_v2 |
 | SageMakerStudioAdminProjectUserRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminProjectUserRolePolicy |
 | AmazonSageMakerHyperPodObservabilityAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodObservabilityAdminAccess |
+| AWSDirectoryServiceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectoryServiceServiceRolePolicy |

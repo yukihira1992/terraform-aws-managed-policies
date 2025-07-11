@@ -6853,3 +6853,8 @@ output "AmazonSageMakerHyperPodObservabilityAdminAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodObservabilityAdminAccess"
 }
 
+output "AWSDirectoryServiceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSDirectoryServiceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectoryServiceServiceRolePolicy"
+}
+
