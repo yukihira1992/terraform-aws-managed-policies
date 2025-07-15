@@ -6858,3 +6858,8 @@ output "AWSDirectoryServiceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectoryServiceServiceRolePolicy"
 }
 
+output "AWSBatchServiceRolePolicyForSageMaker" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBatchServiceRolePolicyForSageMaker"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBatchServiceRolePolicyForSageMaker"
+}
+
