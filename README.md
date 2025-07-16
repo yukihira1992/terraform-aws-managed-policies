@@ -1389,3 +1389,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerHyperPodObservabilityAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodObservabilityAdminAccess |
 | AWSDirectoryServiceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectoryServiceServiceRolePolicy |
 | AWSBatchServiceRolePolicyForSageMaker | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBatchServiceRolePolicyForSageMaker |
+| AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy |
+| BedrockAgentCoreFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess |

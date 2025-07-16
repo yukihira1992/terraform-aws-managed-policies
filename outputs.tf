@@ -6863,3 +6863,13 @@ output "AWSBatchServiceRolePolicyForSageMaker" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBatchServiceRolePolicyForSageMaker"
 }
 
+output "AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy"
+}
+
+output "BedrockAgentCoreFullAccess" {
+  value       = "arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess"
+}
+
