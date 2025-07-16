@@ -1391,3 +1391,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBatchServiceRolePolicyForSageMaker | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBatchServiceRolePolicyForSageMaker |
 | AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockAgentCoreMemoryBedrockModelInferenceExecutionRolePolicy |
 | BedrockAgentCoreFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess |
+| AWSRolesAnywhereFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess |
+| AWSRolesAnywhereReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly |

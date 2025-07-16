@@ -6873,3 +6873,13 @@ output "BedrockAgentCoreFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess"
 }
 
+output "AWSRolesAnywhereFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess"
+}
+
+output "AWSRolesAnywhereReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly"
+}
+
