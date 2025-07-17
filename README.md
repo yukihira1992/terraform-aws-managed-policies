@@ -1393,3 +1393,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | BedrockAgentCoreFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess |
 | AWSRolesAnywhereFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess |
 | AWSRolesAnywhereReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly |
+| AmazonECSInfrastructureRolePolicyForLoadBalancers | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers |

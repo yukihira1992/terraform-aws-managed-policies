@@ -6883,3 +6883,8 @@ output "AWSRolesAnywhereReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly"
 }
 
+output "AmazonECSInfrastructureRolePolicyForLoadBalancers" {
+  value       = "arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers"
+}
+
