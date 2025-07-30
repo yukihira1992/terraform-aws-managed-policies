@@ -1394,3 +1394,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSRolesAnywhereFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereFullAccess |
 | AWSRolesAnywhereReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRolesAnywhereReadOnly |
 | AmazonECSInfrastructureRolePolicyForLoadBalancers | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers |
+| BudgetsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BudgetsServiceRolePolicy |

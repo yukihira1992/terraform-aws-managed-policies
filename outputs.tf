@@ -6888,3 +6888,8 @@ output "AmazonECSInfrastructureRolePolicyForLoadBalancers" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers"
 }
 
+output "BudgetsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/BudgetsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BudgetsServiceRolePolicy"
+}
+
