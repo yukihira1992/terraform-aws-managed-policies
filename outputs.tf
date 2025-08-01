@@ -6893,3 +6893,8 @@ output "BudgetsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BudgetsServiceRolePolicy"
 }
 
+output "AWSObservabilityAdminTelemetryEnablementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminTelemetryEnablementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminTelemetryEnablementServiceRolePolicy"
+}
+
