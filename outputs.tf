@@ -6898,3 +6898,13 @@ output "AWSObservabilityAdminTelemetryEnablementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminTelemetryEnablementServiceRolePolicy"
 }
 
+output "AWSQuickSetupStartStopInstancesExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupStartStopInstancesExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartStopInstancesExecutionPolicy"
+}
+
+output "AWSQuickSetupStartSSMAssociationsExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy"
+}
+

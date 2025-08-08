@@ -1396,3 +1396,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonECSInfrastructureRolePolicyForLoadBalancers | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForLoadBalancers |
 | BudgetsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BudgetsServiceRolePolicy |
 | AWSObservabilityAdminTelemetryEnablementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminTelemetryEnablementServiceRolePolicy |
+| AWSQuickSetupStartStopInstancesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartStopInstancesExecutionPolicy |
+| AWSQuickSetupStartSSMAssociationsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy |
