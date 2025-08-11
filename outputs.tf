@@ -6908,3 +6908,13 @@ output "AWSQuickSetupStartSSMAssociationsExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy"
 }
 
+output "ROSASharedVPCRoute53Policy" {
+  value       = "arn:aws:iam::aws:policy/ROSASharedVPCRoute53Policy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCRoute53Policy"
+}
+
+output "ROSASharedVPCEndpointPolicy" {
+  value       = "arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy"
+}
+

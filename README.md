@@ -1398,3 +1398,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSObservabilityAdminTelemetryEnablementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminTelemetryEnablementServiceRolePolicy |
 | AWSQuickSetupStartStopInstancesExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartStopInstancesExecutionPolicy |
 | AWSQuickSetupStartSSMAssociationsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy |
+| ROSASharedVPCRoute53Policy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCRoute53Policy |
+| ROSASharedVPCEndpointPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy |
