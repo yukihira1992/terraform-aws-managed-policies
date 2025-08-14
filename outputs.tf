@@ -6888,3 +6888,8 @@ output "AWSManagementConsoleBasicUserAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess"
 }
 
+output "AWSManagementConsoleAdministratorAccess" {
+  value       = "arn:aws:iam::aws:policy/job-function/AWSManagementConsoleAdministratorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AWSManagementConsoleAdministratorAccess"
+}
+
