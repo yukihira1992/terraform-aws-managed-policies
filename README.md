@@ -1393,3 +1393,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSQuickSetupStartSSMAssociationsExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupStartSSMAssociationsExecutionPolicy |
 | ROSASharedVPCRoute53Policy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCRoute53Policy |
 | ROSASharedVPCEndpointPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy |
+| AWSManagementConsoleBasicUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess |

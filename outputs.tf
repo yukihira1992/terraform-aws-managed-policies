@@ -6883,3 +6883,8 @@ output "ROSASharedVPCEndpointPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy"
 }
 
+output "AWSManagementConsoleBasicUserAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess"
+}
+
