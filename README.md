@@ -187,7 +187,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationDiscoveryServiceFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryServiceFullAccess |
 | AWSApplicationDiscoveryAgentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentAccess |
 | AmazonEC2ContainerServiceAutoscaleRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceAutoscaleRole |
-| AWSOpsWorksInstanceRegistration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksInstanceRegistration |
 | AWSCodePipelineApproverAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess |
 | AWSAgentlessDiscoveryService | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAgentlessDiscoveryService |
 | AmazonEC2SpotFleetAutoscaleRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetAutoscaleRole |
@@ -204,8 +203,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | IAMUserChangePassword | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/IAMUserChangePassword |
 | AmazonElasticMapReduceforAutoScalingRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforAutoScalingRole |
 | AmazonAppStreamServiceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAppStreamServiceAccess |
-| AWSOpsWorksCMInstanceProfileRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole |
-| AWSOpsWorksCMServiceRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSOpsWorksCMServiceRole |
 | AmazonRekognitionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionFullAccess |
 | AmazonRekognitionReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRekognitionReadOnlyAccess |
 | AmazonAthenaFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonAthenaFullAccess |
@@ -240,7 +237,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonCloudDirectoryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudDirectoryFullAccess |
 | AmazonCloudDirectoryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudDirectoryReadOnlyAccess |
 | AWSMarketplaceGetEntitlements | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceGetEntitlements |
-| AWSOpsWorksCloudWatchLogs | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCloudWatchLogs |
 | AmazonLexRunBotsOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLexRunBotsOnly |
 | AmazonLexReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLexReadOnly |
 | AmazonLexFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonLexFullAccess |
@@ -499,8 +495,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | MigrationHubDMSAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubDMSAccessServiceRolePolicy |
 | MigrationHubSMSAccessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy |
 | AWSConfigMultiAccountSetupPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy |
-| AWSOpsWorksRegisterCLI_OnPremises | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises |
-| AWSOpsWorksRegisterCLI_EC2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2 |
 | AWSConfigRemediationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigRemediationServiceRolePolicy |
 | AWSAppMeshPreviewServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy |
 | AWSCertificateManagerPrivateCAPrivilegedUser | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser |

@@ -853,11 +853,6 @@ output "AmazonEC2ContainerServiceAutoscaleRole" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceAutoscaleRole"
 }
 
-output "AWSOpsWorksInstanceRegistration" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksInstanceRegistration"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksInstanceRegistration"
-}
-
 output "AWSCodePipelineApproverAccess" {
   value       = "arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess"
@@ -936,16 +931,6 @@ output "AmazonElasticMapReduceforAutoScalingRole" {
 output "AmazonAppStreamServiceAccess" {
   value       = "arn:aws:iam::aws:policy/service-role/AmazonAppStreamServiceAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonAppStreamServiceAccess"
-}
-
-output "AWSOpsWorksCMInstanceProfileRole" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole"
-}
-
-output "AWSOpsWorksCMServiceRole" {
-  value       = "arn:aws:iam::aws:policy/service-role/AWSOpsWorksCMServiceRole"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSOpsWorksCMServiceRole"
 }
 
 output "AmazonRekognitionFullAccess" {
@@ -1116,11 +1101,6 @@ output "AmazonCloudDirectoryReadOnlyAccess" {
 output "AWSMarketplaceGetEntitlements" {
   value       = "arn:aws:iam::aws:policy/AWSMarketplaceGetEntitlements"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceGetEntitlements"
-}
-
-output "AWSOpsWorksCloudWatchLogs" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksCloudWatchLogs"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksCloudWatchLogs"
 }
 
 output "AmazonLexRunBotsOnly" {
@@ -2411,16 +2391,6 @@ output "MigrationHubSMSAccessServiceRolePolicy" {
 output "AWSConfigMultiAccountSetupPolicy" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy"
-}
-
-output "AWSOpsWorksRegisterCLI_OnPremises" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises"
-}
-
-output "AWSOpsWorksRegisterCLI_EC2" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2"
 }
 
 output "AWSConfigRemediationServiceRolePolicy" {
