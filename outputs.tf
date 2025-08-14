@@ -3803,11 +3803,6 @@ output "AWSDirectConnectServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy"
 }
 
-output "AWSOpsWorks_FullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess"
-}
-
 output "AWSElasticBeanstalkReadOnly" {
   value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly"
