@@ -6913,3 +6913,13 @@ output "SageMakerStudioUserIAMPermissiveExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy"
 }
 
+output "SageMakerStudioUserIAMConsolePolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioUserIAMConsolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMConsolePolicy"
+}
+
+output "SageMakerStudioAdminIAMConsolePolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioAdminIAMConsolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMConsolePolicy"
+}
+

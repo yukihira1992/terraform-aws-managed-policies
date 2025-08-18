@@ -1399,3 +1399,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | SageMakerStudioAdminIAMPermissiveExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMPermissiveExecutionPolicy |
 | SageMakerStudioAdminIAMDefaultExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMDefaultExecutionPolicy |
 | SageMakerStudioUserIAMPermissiveExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy |
+| SageMakerStudioUserIAMConsolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMConsolePolicy |
+| SageMakerStudioAdminIAMConsolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMConsolePolicy |
