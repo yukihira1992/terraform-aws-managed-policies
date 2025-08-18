@@ -6893,3 +6893,23 @@ output "AWSManagementConsoleAdministratorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AWSManagementConsoleAdministratorAccess"
 }
 
+output "SageMakerStudioUserIAMDefaultExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioUserIAMDefaultExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMDefaultExecutionPolicy"
+}
+
+output "SageMakerStudioAdminIAMPermissiveExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioAdminIAMPermissiveExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMPermissiveExecutionPolicy"
+}
+
+output "SageMakerStudioAdminIAMDefaultExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioAdminIAMDefaultExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMDefaultExecutionPolicy"
+}
+
+output "SageMakerStudioUserIAMPermissiveExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy"
+}
+

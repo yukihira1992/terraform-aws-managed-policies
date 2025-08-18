@@ -1395,3 +1395,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | ROSASharedVPCEndpointPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ROSASharedVPCEndpointPolicy |
 | AWSManagementConsoleBasicUserAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagementConsoleBasicUserAccess |
 | AWSManagementConsoleAdministratorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AWSManagementConsoleAdministratorAccess |
+| SageMakerStudioUserIAMDefaultExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMDefaultExecutionPolicy |
+| SageMakerStudioAdminIAMPermissiveExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMPermissiveExecutionPolicy |
+| SageMakerStudioAdminIAMDefaultExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMDefaultExecutionPolicy |
+| SageMakerStudioUserIAMPermissiveExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioUserIAMPermissiveExecutionPolicy |
