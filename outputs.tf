@@ -6923,3 +6923,8 @@ output "SageMakerStudioAdminIAMConsolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SageMakerStudioAdminIAMConsolePolicy"
 }
 
+output "AmazonSageMakerHyperPodTrainingOperatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodTrainingOperatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodTrainingOperatorAccess"
+}
+
