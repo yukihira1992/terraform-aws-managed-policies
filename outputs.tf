@@ -6928,3 +6928,8 @@ output "AmazonSageMakerHyperPodTrainingOperatorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodTrainingOperatorAccess"
 }
 
+output "AmazonEC2ImageReferencesAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEC2ImageReferencesAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ImageReferencesAccessPolicy"
+}
+
