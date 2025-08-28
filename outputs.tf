@@ -6933,3 +6933,8 @@ output "AmazonEC2ImageReferencesAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ImageReferencesAccessPolicy"
 }
 
+output "AWSTransformApplicationDeploymentPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSTransformApplicationDeploymentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransformApplicationDeploymentPolicy"
+}
+
