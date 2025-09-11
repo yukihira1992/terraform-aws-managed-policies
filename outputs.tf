@@ -6938,3 +6938,8 @@ output "AWSTransformApplicationDeploymentPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransformApplicationDeploymentPolicy"
 }
 
+output "AWSBillingServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBillingServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingServiceRolePolicy"
+}
+
