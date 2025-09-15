@@ -1405,3 +1405,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEC2ImageReferencesAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEC2ImageReferencesAccessPolicy |
 | AWSTransformApplicationDeploymentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransformApplicationDeploymentPolicy |
 | AWSBillingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingServiceRolePolicy |
+| AWSObservabilityAdminLogsCentralizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminLogsCentralizationServiceRolePolicy |
