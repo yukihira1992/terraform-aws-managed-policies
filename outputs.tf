@@ -1698,11 +1698,6 @@ output "AWSFMMemberReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMMemberReadOnlyAccess"
 }
 
-output "AWSIoT1ClickFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSIoT1ClickFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoT1ClickFullAccess"
-}
-
 output "AmazonEKSClusterPolicy" {
   value       = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"

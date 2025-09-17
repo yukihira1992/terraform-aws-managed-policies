@@ -356,7 +356,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSFMAdminFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMAdminFullAccess |
 | AWSFMAdminReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMAdminReadOnlyAccess |
 | AWSFMMemberReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSFMMemberReadOnlyAccess |
-| AWSIoT1ClickFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoT1ClickFullAccess |
 | AmazonEKSClusterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSClusterPolicy |
 | AmazonEKS_CNI_Policy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy |
 | AmazonEKSServicePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSServicePolicy |
