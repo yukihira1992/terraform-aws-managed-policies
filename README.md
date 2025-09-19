@@ -1404,3 +1404,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSTransformApplicationDeploymentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransformApplicationDeploymentPolicy |
 | AWSBillingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingServiceRolePolicy |
 | AWSObservabilityAdminLogsCentralizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSObservabilityAdminLogsCentralizationServiceRolePolicy |
+| BedrockAgentCoreNetworkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreNetworkServiceRolePolicy |
