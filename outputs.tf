@@ -6943,3 +6943,8 @@ output "BedrockAgentCoreNetworkServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreNetworkServiceRolePolicy"
 }
 
+output "AmazonECSInfrastructureRolePolicyForManagedInstances" {
+  value       = "arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForManagedInstances"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForManagedInstances"
+}
+
