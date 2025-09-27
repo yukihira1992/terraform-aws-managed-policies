@@ -6948,3 +6948,8 @@ output "AmazonECSInfrastructureRolePolicyForManagedInstances" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRolePolicyForManagedInstances"
 }
 
+output "AmazonECSInstanceRolePolicyForManagedInstances" {
+  value       = "arn:aws:iam::aws:policy/AmazonECSInstanceRolePolicyForManagedInstances"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInstanceRolePolicyForManagedInstances"
+}
+
