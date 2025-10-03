@@ -6958,3 +6958,8 @@ output "AWSTransformApplicationECSDeploymentPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransformApplicationECSDeploymentPolicy"
 }
 
+output "AWSControlTowerIdentityCenterManagementPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSControlTowerIdentityCenterManagementPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerIdentityCenterManagementPolicy"
+}
+
