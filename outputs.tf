@@ -6973,3 +6973,8 @@ output "AIOpsAssistantIncidentReportPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIOpsAssistantIncidentReportPolicy"
 }
 
+output "BedrockAgentCoreRuntimeIdentityServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreRuntimeIdentityServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreRuntimeIdentityServiceRolePolicy"
+}
+
