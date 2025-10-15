@@ -6978,3 +6978,8 @@ output "BedrockAgentCoreRuntimeIdentityServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/BedrockAgentCoreRuntimeIdentityServiceRolePolicy"
 }
 
+output "DynamoDBGlobalTableSettingsManagementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/DynamoDBGlobalTableSettingsManagementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBGlobalTableSettingsManagementServiceRolePolicy"
+}
+
