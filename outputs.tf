@@ -6983,3 +6983,8 @@ output "DynamoDBGlobalTableSettingsManagementServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBGlobalTableSettingsManagementServiceRolePolicy"
 }
 
+output "RTBFabricServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/RTBFabricServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/RTBFabricServiceRolePolicy"
+}
+
