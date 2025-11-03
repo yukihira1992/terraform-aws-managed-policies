@@ -1415,3 +1415,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | DynamoDBGlobalTableSettingsManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/DynamoDBGlobalTableSettingsManagementServiceRolePolicy |
 | RTBFabricServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/RTBFabricServiceRolePolicy |
 | SageMakerStudioEMRContainersSystemNamespaceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRContainersSystemNamespaceRolePolicy |
+| AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy |
