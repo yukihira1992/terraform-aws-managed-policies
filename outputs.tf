@@ -7008,3 +7008,8 @@ output "AWSSecretsManagerClientReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecretsManagerClientReadOnlyAccess"
 }
 
+output "AWSControlTowerCloudTrailRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSControlTowerCloudTrailRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerCloudTrailRolePolicy"
+}
+

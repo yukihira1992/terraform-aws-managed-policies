@@ -1418,3 +1418,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy |
 | AWSApplicationMigrationNetworkMigrationCustomResource | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationCustomResource |
 | AWSSecretsManagerClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecretsManagerClientReadOnlyAccess |
+| AWSControlTowerCloudTrailRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerCloudTrailRolePolicy |
