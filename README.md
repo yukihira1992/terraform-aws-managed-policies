@@ -1416,3 +1416,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | RTBFabricServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/RTBFabricServiceRolePolicy |
 | SageMakerStudioEMRContainersSystemNamespaceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioEMRContainersSystemNamespaceRolePolicy |
 | AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy |
+| AWSApplicationMigrationNetworkMigrationCustomResource | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationCustomResource |

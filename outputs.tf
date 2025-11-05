@@ -6998,3 +6998,8 @@ output "AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonApplicationRecoveryControllerRegionSwitchPlanExecutionPolicy"
 }
 
+output "AWSApplicationMigrationNetworkMigrationCustomResource" {
+  value       = "arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationCustomResource"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationCustomResource"
+}
+
