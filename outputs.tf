@@ -7003,3 +7003,8 @@ output "AWSApplicationMigrationNetworkMigrationCustomResource" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationCustomResource"
 }
 
+output "AWSSecretsManagerClientReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSSecretsManagerClientReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecretsManagerClientReadOnlyAccess"
+}
+
