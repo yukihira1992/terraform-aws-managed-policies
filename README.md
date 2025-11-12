@@ -1420,3 +1420,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecretsManagerClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecretsManagerClientReadOnlyAccess |
 | AWSControlTowerCloudTrailRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSControlTowerCloudTrailRolePolicy |
 | AWSApplicationMigrationNetworkMigrationMultiAccount | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSApplicationMigrationNetworkMigrationMultiAccount |
+| AmazonECSInfrastructureRoleforExpressGatewayServices | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRoleforExpressGatewayServices |
