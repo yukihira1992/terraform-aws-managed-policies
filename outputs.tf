@@ -7023,3 +7023,13 @@ output "AmazonECSInfrastructureRoleforExpressGatewayServices" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRoleforExpressGatewayServices"
 }
 
+output "AWSEC2SqlHaServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSEC2SqlHaServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2SqlHaServiceRolePolicy"
+}
+
+output "AWSEC2SqlHaInstancePolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSEC2SqlHaInstancePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2SqlHaInstancePolicy"
+}
+
