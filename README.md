@@ -1423,3 +1423,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonECSInfrastructureRoleforExpressGatewayServices | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRoleforExpressGatewayServices |
 | AWSEC2SqlHaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSEC2SqlHaServiceRolePolicy |
 | AWSEC2SqlHaInstancePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2SqlHaInstancePolicy |
+| AWSNATGatewayServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNATGatewayServiceRolePolicy |

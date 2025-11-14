@@ -7033,3 +7033,8 @@ output "AWSEC2SqlHaInstancePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2SqlHaInstancePolicy"
 }
 
+output "AWSNATGatewayServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNATGatewayServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNATGatewayServiceRolePolicy"
+}
+
