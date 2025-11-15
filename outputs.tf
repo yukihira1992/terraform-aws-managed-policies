@@ -7048,3 +7048,8 @@ output "ComputeOptimizerAutomationServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerAutomationServiceRolePolicy"
 }
 
+output "AmazonMWAAServerlessServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServerlessServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServerlessServiceRolePolicy"
+}
+
