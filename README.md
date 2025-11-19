@@ -1429,3 +1429,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMWAAServerlessServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServerlessServiceRolePolicy |
 | AmazonSageMakerSpacesRouterPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerSpacesRouterPolicy |
 | AmazonSageMakerSpacesControllerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerSpacesControllerPolicy |
+| AWSPartnerCentralChannelHandshakeApprovalManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelHandshakeApprovalManagement |
+| AWSPartnerCentralChannelManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelManagement |

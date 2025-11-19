@@ -7063,3 +7063,13 @@ output "AmazonSageMakerSpacesControllerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerSpacesControllerPolicy"
 }
 
+output "AWSPartnerCentralChannelHandshakeApprovalManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralChannelHandshakeApprovalManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelHandshakeApprovalManagement"
+}
+
+output "AWSPartnerCentralChannelManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralChannelManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelManagement"
+}
+
