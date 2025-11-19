@@ -7053,3 +7053,13 @@ output "AmazonMWAAServerlessServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServerlessServiceRolePolicy"
 }
 
+output "AmazonSageMakerSpacesRouterPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerSpacesRouterPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerSpacesRouterPolicy"
+}
+
+output "AmazonSageMakerSpacesControllerPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerSpacesControllerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerSpacesControllerPolicy"
+}
+
