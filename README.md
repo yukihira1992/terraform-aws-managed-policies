@@ -1432,3 +1432,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerCentralChannelHandshakeApprovalManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelHandshakeApprovalManagement |
 | AWSPartnerCentralChannelManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralChannelManagement |
 | SignInLocalDevelopmentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SignInLocalDevelopmentAccess |
+| AWSBackupServiceRolePolicyForScans | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForScans |
+| AWSBackupGuardDutyRolePolicyForScans | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans |

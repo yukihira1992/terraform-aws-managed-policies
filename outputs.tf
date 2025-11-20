@@ -7078,3 +7078,13 @@ output "SignInLocalDevelopmentAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SignInLocalDevelopmentAccess"
 }
 
+output "AWSBackupServiceRolePolicyForScans" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForScans"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupServiceRolePolicyForScans"
+}
+
+output "AWSBackupGuardDutyRolePolicyForScans" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans"
+}
+
