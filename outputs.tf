@@ -7088,3 +7088,8 @@ output "AWSBackupGuardDutyRolePolicyForScans" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans"
 }
 
+output "AmazonEKSMCPReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSMCPReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSMCPReadOnlyAccess"
+}
+
