@@ -7093,3 +7093,8 @@ output "AmazonEKSMCPReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSMCPReadOnlyAccess"
 }
 
+output "AWSMcpServiceActionsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSMcpServiceActionsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMcpServiceActionsFullAccess"
+}
+
