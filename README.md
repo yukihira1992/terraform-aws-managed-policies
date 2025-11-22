@@ -1436,3 +1436,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBackupGuardDutyRolePolicyForScans | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupGuardDutyRolePolicyForScans |
 | AmazonEKSMCPReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSMCPReadOnlyAccess |
 | AWSMcpServiceActionsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMcpServiceActionsFullAccess |
+| AmazonRedshiftFederatedAuthorization | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftFederatedAuthorization |
+| AWSIdentityCenterExternalManagementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy |

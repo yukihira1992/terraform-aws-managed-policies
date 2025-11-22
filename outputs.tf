@@ -7098,3 +7098,13 @@ output "AWSMcpServiceActionsFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMcpServiceActionsFullAccess"
 }
 
+output "AmazonRedshiftFederatedAuthorization" {
+  value       = "arn:aws:iam::aws:policy/AmazonRedshiftFederatedAuthorization"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftFederatedAuthorization"
+}
+
+output "AWSIdentityCenterExternalManagementPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy"
+}
+
