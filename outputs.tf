@@ -7108,3 +7108,8 @@ output "AWSIdentityCenterExternalManagementPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy"
 }
 
+output "NovaActServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/NovaActServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NovaActServiceRolePolicy"
+}
+

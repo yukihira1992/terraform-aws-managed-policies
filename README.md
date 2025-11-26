@@ -1438,3 +1438,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMcpServiceActionsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMcpServiceActionsFullAccess |
 | AmazonRedshiftFederatedAuthorization | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRedshiftFederatedAuthorization |
 | AWSIdentityCenterExternalManagementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy |
+| NovaActServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NovaActServiceRolePolicy |
