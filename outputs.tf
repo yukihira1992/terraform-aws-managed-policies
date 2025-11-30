@@ -7113,3 +7113,8 @@ output "NovaActServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NovaActServiceRolePolicy"
 }
 
+output "AWSLambdaServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSLambdaServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLambdaServiceRolePolicy"
+}
+
