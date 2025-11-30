@@ -1440,3 +1440,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIdentityCenterExternalManagementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIdentityCenterExternalManagementPolicy |
 | NovaActServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NovaActServiceRolePolicy |
 | AWSLambdaServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLambdaServiceRolePolicy |
+| AWSLambdaManagedEC2ResourceOperator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator |

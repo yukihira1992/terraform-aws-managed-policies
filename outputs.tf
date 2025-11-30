@@ -7118,3 +7118,8 @@ output "AWSLambdaServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSLambdaServiceRolePolicy"
 }
 
+output "AWSLambdaManagedEC2ResourceOperator" {
+  value       = "arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator"
+}
+
