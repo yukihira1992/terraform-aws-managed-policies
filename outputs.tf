@@ -7123,3 +7123,8 @@ output "AWSLambdaManagedEC2ResourceOperator" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaManagedEC2ResourceOperator"
 }
 
+output "AWSPartnerCentralMarketingManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralMarketingManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralMarketingManagement"
+}
+
