@@ -7128,3 +7128,13 @@ output "AWSPartnerCentralMarketingManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralMarketingManagement"
 }
 
+output "SecurityAgentWebAppAPIPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SecurityAgentWebAppAPIPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SecurityAgentWebAppAPIPolicy"
+}
+
+output "AWSLambdaBasicDurableExecutionRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicDurableExecutionRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaBasicDurableExecutionRolePolicy"
+}
+
