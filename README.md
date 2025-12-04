@@ -1444,3 +1444,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerCentralMarketingManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralMarketingManagement |
 | SecurityAgentWebAppAPIPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SecurityAgentWebAppAPIPolicy |
 | AWSLambdaBasicDurableExecutionRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaBasicDurableExecutionRolePolicy |
+| AmazonBedrockMantleInferenceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleInferenceAccess |
+| AmazonBedrockMantleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleFullAccess |
+| AmazonBedrockMantleReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleReadOnly |

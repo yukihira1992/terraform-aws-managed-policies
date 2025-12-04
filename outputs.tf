@@ -7138,3 +7138,18 @@ output "AWSLambdaBasicDurableExecutionRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSLambdaBasicDurableExecutionRolePolicy"
 }
 
+output "AmazonBedrockMantleInferenceAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockMantleInferenceAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleInferenceAccess"
+}
+
+output "AmazonBedrockMantleFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockMantleFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleFullAccess"
+}
+
+output "AmazonBedrockMantleReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockMantleReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleReadOnly"
+}
+
