@@ -7153,3 +7153,18 @@ output "AmazonBedrockMantleReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleReadOnly"
 }
 
+output "AWSTransformCustomFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformCustomFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomFullAccess"
+}
+
+output "AWSTransformCustomExecuteTransformations" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformCustomExecuteTransformations"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomExecuteTransformations"
+}
+
+output "AWSTransformCustomManageTransformations" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations"
+}
+

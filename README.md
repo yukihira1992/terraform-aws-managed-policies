@@ -1447,3 +1447,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBedrockMantleInferenceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleInferenceAccess |
 | AmazonBedrockMantleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleFullAccess |
 | AmazonBedrockMantleReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockMantleReadOnly |
+| AWSTransformCustomFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomFullAccess |
+| AWSTransformCustomExecuteTransformations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomExecuteTransformations |
+| AWSTransformCustomManageTransformations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations |
