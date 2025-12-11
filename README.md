@@ -1450,3 +1450,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSTransformCustomFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomFullAccess |
 | AWSTransformCustomExecuteTransformations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomExecuteTransformations |
 | AWSTransformCustomManageTransformations | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations |
+| AccountManagementFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AccountManagementFromVercel |
+| ConsoleFullAccessFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleFullAccessFromVercel |
+| ConsoleViewOnlyAccessFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel |

@@ -7168,3 +7168,18 @@ output "AWSTransformCustomManageTransformations" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformCustomManageTransformations"
 }
 
+output "AccountManagementFromVercel" {
+  value       = "arn:aws:iam::aws:policy/AccountManagementFromVercel"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AccountManagementFromVercel"
+}
+
+output "ConsoleFullAccessFromVercel" {
+  value       = "arn:aws:iam::aws:policy/ConsoleFullAccessFromVercel"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleFullAccessFromVercel"
+}
+
+output "ConsoleViewOnlyAccessFromVercel" {
+  value       = "arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel"
+}
+
