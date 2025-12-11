@@ -1453,3 +1453,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AccountManagementFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AccountManagementFromVercel |
 | ConsoleFullAccessFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleFullAccessFromVercel |
 | ConsoleViewOnlyAccessFromVercel | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel |
+| AWSAccountSettingsManagementRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountSettingsManagementRole |

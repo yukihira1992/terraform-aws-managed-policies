@@ -7183,3 +7183,8 @@ output "ConsoleViewOnlyAccessFromVercel" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ConsoleViewOnlyAccessFromVercel"
 }
 
+output "AWSAccountSettingsManagementRole" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountSettingsManagementRole"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountSettingsManagementRole"
+}
+
