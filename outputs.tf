@@ -7193,3 +7193,8 @@ output "AWSUserAttributeCostAllocationPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSUserAttributeCostAllocationPolicy"
 }
 
+output "AWSCleanRoomsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCleanRoomsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCleanRoomsServiceRolePolicy"
+}
+
