@@ -7198,3 +7198,8 @@ output "AWSCleanRoomsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCleanRoomsServiceRolePolicy"
 }
 
+output "AmazonSageMakerHyperPodGatedModelAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodGatedModelAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodGatedModelAccess"
+}
+

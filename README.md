@@ -1456,3 +1456,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAccountSettingsManagementRole | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountSettingsManagementRole |
 | AWSUserAttributeCostAllocationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSUserAttributeCostAllocationPolicy |
 | AWSCleanRoomsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCleanRoomsServiceRolePolicy |
+| AmazonSageMakerHyperPodGatedModelAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodGatedModelAccess |
