@@ -7203,3 +7203,8 @@ output "AmazonSageMakerHyperPodGatedModelAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodGatedModelAccess"
 }
 
+output "AmazonSageMakerHyperPodInferenceAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceAccess"
+}
+
