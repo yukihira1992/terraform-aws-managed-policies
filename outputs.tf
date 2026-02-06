@@ -7218,3 +7218,8 @@ output "SecurityAgentWebAppPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SecurityAgentWebAppPolicy"
 }
 
+output "AWSSecurityAgentWebAppPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy"
+}
+

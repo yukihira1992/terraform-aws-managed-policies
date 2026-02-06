@@ -1460,3 +1460,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerHyperPodInferenceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceAccess |
 | AWSHealthImagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealthImagingServiceRolePolicy |
 | SecurityAgentWebAppPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SecurityAgentWebAppPolicy |
+| AWSSecurityAgentWebAppPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy |
