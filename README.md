@@ -1461,3 +1461,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSHealthImagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealthImagingServiceRolePolicy |
 | SecurityAgentWebAppPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/SecurityAgentWebAppPolicy |
 | AWSSecurityAgentWebAppPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy |
+| PartnerCentralIncentiveBenefitManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralIncentiveBenefitManagement |

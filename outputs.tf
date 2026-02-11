@@ -7223,3 +7223,8 @@ output "AWSSecurityAgentWebAppPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy"
 }
 
+output "PartnerCentralIncentiveBenefitManagement" {
+  value       = "arn:aws:iam::aws:policy/PartnerCentralIncentiveBenefitManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralIncentiveBenefitManagement"
+}
+
