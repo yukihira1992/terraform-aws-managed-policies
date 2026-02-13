@@ -7228,3 +7228,8 @@ output "PartnerCentralIncentiveBenefitManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralIncentiveBenefitManagement"
 }
 
+output "AmazonInspector2ManagedTelemetryPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy"
+}
+
