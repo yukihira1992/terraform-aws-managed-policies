@@ -7233,3 +7233,8 @@ output "AmazonInspector2ManagedTelemetryPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy"
 }
 
+output "AWSServiceRoleForAIDevOpsPolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAIDevOpsPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAIDevOpsPolicy"
+}
+

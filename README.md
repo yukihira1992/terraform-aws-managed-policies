@@ -1463,3 +1463,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecurityAgentWebAppPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSSecurityAgentWebAppPolicy |
 | PartnerCentralIncentiveBenefitManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PartnerCentralIncentiveBenefitManagement |
 | AmazonInspector2ManagedTelemetryPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy |
+| AWSServiceRoleForAIDevOpsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAIDevOpsPolicy |
