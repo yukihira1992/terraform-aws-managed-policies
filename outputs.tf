@@ -7243,3 +7243,8 @@ output "CloudWatchLogsAPIKeyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLogsAPIKeyAccess"
 }
 
+output "AWSTransformSecretsManagerConnectorPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformSecretsManagerConnectorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecretsManagerConnectorPolicy"
+}
+

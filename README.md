@@ -1465,3 +1465,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2ManagedTelemetryPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonInspector2ManagedTelemetryPolicy |
 | AWSServiceRoleForAIDevOpsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAIDevOpsPolicy |
 | CloudWatchLogsAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLogsAPIKeyAccess |
+| AWSTransformSecretsManagerConnectorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecretsManagerConnectorPolicy |
