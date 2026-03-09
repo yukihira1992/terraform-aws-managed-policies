@@ -7253,3 +7253,13 @@ output "AWSHealthOmicsServiceLinkedRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealthOmicsServiceLinkedRolePolicy"
 }
 
+output "AmazonRoute53GlobalResolverFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverFullAccess"
+}
+
+output "AmazonRoute53GlobalResolverReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess"
+}
+

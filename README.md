@@ -1467,3 +1467,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchLogsAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchLogsAPIKeyAccess |
 | AWSTransformSecretsManagerConnectorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecretsManagerConnectorPolicy |
 | AWSHealthOmicsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealthOmicsServiceLinkedRolePolicy |
+| AmazonRoute53GlobalResolverFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverFullAccess |
+| AmazonRoute53GlobalResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess |
