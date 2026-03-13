@@ -295,7 +295,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonMQReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonMQReadOnlyAccess |
 | AmazonGuardDutyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyServiceRolePolicy |
 | AmazonGuardDutyReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyReadOnlyAccess |
-| AmazonGuardDutyFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess |
 | AmazonSageMakerReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerReadOnly |
 | AmazonSageMakerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFullAccess |
 | AmazonFreeRTOSFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonFreeRTOSFullAccess |

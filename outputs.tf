@@ -1393,11 +1393,6 @@ output "AmazonGuardDutyReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyReadOnlyAccess"
 }
 
-output "AmazonGuardDutyFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess"
-}
-
 output "AmazonSageMakerReadOnly" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerReadOnly"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerReadOnly"
