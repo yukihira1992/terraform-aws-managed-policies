@@ -7258,3 +7258,13 @@ output "AmazonRoute53GlobalResolverReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess"
 }
 
+output "AWSElementalMediaConnectCreateFlow" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateFlow"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateFlow"
+}
+
+output "AWSElementalMediaConnectCreateBridge" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateBridge"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateBridge"
+}
+

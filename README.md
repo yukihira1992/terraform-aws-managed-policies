@@ -1468,3 +1468,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSHealthOmicsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSHealthOmicsServiceLinkedRolePolicy |
 | AmazonRoute53GlobalResolverFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverFullAccess |
 | AmazonRoute53GlobalResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess |
+| AWSElementalMediaConnectCreateFlow | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateFlow |
+| AWSElementalMediaConnectCreateBridge | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateBridge |
