@@ -7268,3 +7268,13 @@ output "AWSElementalMediaConnectCreateBridge" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateBridge"
 }
 
+output "AWSElementalMediaConnectDeleteFlow" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteFlow"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteFlow"
+}
+
+output "AWSElementalMediaConnectDeleteBridge" {
+  value       = "arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteBridge"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteBridge"
+}
+

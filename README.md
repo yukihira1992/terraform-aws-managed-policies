@@ -1470,3 +1470,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonRoute53GlobalResolverReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonRoute53GlobalResolverReadOnlyAccess |
 | AWSElementalMediaConnectCreateFlow | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateFlow |
 | AWSElementalMediaConnectCreateBridge | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectCreateBridge |
+| AWSElementalMediaConnectDeleteFlow | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteFlow |
+| AWSElementalMediaConnectDeleteBridge | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteBridge |
