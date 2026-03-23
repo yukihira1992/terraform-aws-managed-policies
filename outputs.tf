@@ -7278,3 +7278,18 @@ output "AWSElementalMediaConnectDeleteBridge" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElementalMediaConnectDeleteBridge"
 }
 
+output "AWSPartnerProServeToolsIndividualContributor" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerProServeToolsIndividualContributor"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsIndividualContributor"
+}
+
+output "AWSPartnerProServeToolsFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerProServeToolsFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsFullAccess"
+}
+
+output "AWSPartnerProServeToolsOrganizationReaderIndividualContributor" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerProServeToolsOrganizationReaderIndividualContributor"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsOrganizationReaderIndividualContributor"
+}
+
