@@ -7298,3 +7298,8 @@ output "AWSServiceRoleForAWSTransformCustom" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransformCustom"
 }
 
+output "DBModDiscoveryAndAssessment" {
+  value       = "arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment"
+}
+

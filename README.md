@@ -1476,3 +1476,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerProServeToolsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsFullAccess |
 | AWSPartnerProServeToolsOrganizationReaderIndividualContributor | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsOrganizationReaderIndividualContributor |
 | AWSServiceRoleForAWSTransformCustom | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransformCustom |
+| DBModDiscoveryAndAssessment | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment |
