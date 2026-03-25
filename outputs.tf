@@ -7303,3 +7303,8 @@ output "DBModDiscoveryAndAssessment" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment"
 }
 
+output "DBModProvisioningAndMigration" {
+  value       = "arn:aws:iam::aws:policy/DBModProvisioningAndMigration"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModProvisioningAndMigration"
+}
+
