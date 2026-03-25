@@ -7293,3 +7293,8 @@ output "AWSPartnerProServeToolsOrganizationReaderIndividualContributor" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerProServeToolsOrganizationReaderIndividualContributor"
 }
 
+output "AWSServiceRoleForAWSTransformCustom" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransformCustom"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransformCustom"
+}
+
