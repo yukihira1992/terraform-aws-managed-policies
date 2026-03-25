@@ -1478,3 +1478,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSServiceRoleForAWSTransformCustom | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAWSTransformCustom |
 | DBModDiscoveryAndAssessment | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment |
 | DBModProvisioningAndMigration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModProvisioningAndMigration |
+| AWSEC2VssRestorePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssRestorePolicy |
