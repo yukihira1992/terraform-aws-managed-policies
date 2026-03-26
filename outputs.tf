@@ -7313,3 +7313,23 @@ output "AWSEC2VssRestorePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssRestorePolicy"
 }
 
+output "AIDevOpsAgentReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AIDevOpsAgentReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentReadOnlyAccess"
+}
+
+output "AIDevOpsAgentAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AIDevOpsAgentAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentAccessPolicy"
+}
+
+output "AIDevOpsOperatorAppAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AIDevOpsOperatorAppAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsOperatorAppAccessPolicy"
+}
+
+output "AIDevOpsAgentFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess"
+}
+

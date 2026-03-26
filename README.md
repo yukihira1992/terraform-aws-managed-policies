@@ -1479,3 +1479,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | DBModDiscoveryAndAssessment | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModDiscoveryAndAssessment |
 | DBModProvisioningAndMigration | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModProvisioningAndMigration |
 | AWSEC2VssRestorePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSEC2VssRestorePolicy |
+| AIDevOpsAgentReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentReadOnlyAccess |
+| AIDevOpsAgentAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentAccessPolicy |
+| AIDevOpsOperatorAppAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsOperatorAppAccessPolicy |
+| AIDevOpsAgentFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess |
