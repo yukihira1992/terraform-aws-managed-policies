@@ -7333,3 +7333,8 @@ output "AIDevOpsAgentFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess"
 }
 
+output "AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy"
+}
+

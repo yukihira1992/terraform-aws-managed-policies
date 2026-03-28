@@ -1483,3 +1483,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIDevOpsAgentAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentAccessPolicy |
 | AIDevOpsOperatorAppAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsOperatorAppAccessPolicy |
 | AIDevOpsAgentFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess |
+| AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy |
