@@ -7358,3 +7358,13 @@ output "AnthropicFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicFullAccess"
 }
 
+output "AmazonS3ExpressReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3ExpressReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressReadOnlyAccess"
+}
+
+output "AmazonS3ExpressFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3ExpressFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressFullAccess"
+}
+

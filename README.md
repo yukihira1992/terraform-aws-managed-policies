@@ -1488,3 +1488,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AnthropicInferenceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicInferenceAccess |
 | AnthropicLimitedAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicLimitedAccess |
 | AnthropicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicFullAccess |
+| AmazonS3ExpressReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressReadOnlyAccess |
+| AmazonS3ExpressFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressFullAccess |
