@@ -1495,3 +1495,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3FilesClientReadWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadWriteAccess |
 | AmazonS3FilesClientFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientFullAccess |
 | AmazonS3FilesClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadOnlyAccess |
+| AmazonS3FilesCSIDriverPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3FilesCSIDriverPolicy |

@@ -7393,3 +7393,8 @@ output "AmazonS3FilesClientReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadOnlyAccess"
 }
 
+output "AmazonS3FilesCSIDriverPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonS3FilesCSIDriverPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3FilesCSIDriverPolicy"
+}
+
