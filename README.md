@@ -1490,3 +1490,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | AnthropicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicFullAccess |
 | AmazonS3ExpressReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressReadOnlyAccess |
 | AmazonS3ExpressFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressFullAccess |
+| AmazonS3FilesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesFullAccess |
+| AmazonS3FilesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesReadOnlyAccess |
+| AmazonS3FilesClientReadWriteAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadWriteAccess |
+| AmazonS3FilesClientFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientFullAccess |
+| AmazonS3FilesClientReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadOnlyAccess |

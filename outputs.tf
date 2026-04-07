@@ -7368,3 +7368,28 @@ output "AmazonS3ExpressFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressFullAccess"
 }
 
+output "AmazonS3FilesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3FilesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesFullAccess"
+}
+
+output "AmazonS3FilesReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3FilesReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesReadOnlyAccess"
+}
+
+output "AmazonS3FilesClientReadWriteAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3FilesClientReadWriteAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadWriteAccess"
+}
+
+output "AmazonS3FilesClientFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3FilesClientFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientFullAccess"
+}
+
+output "AmazonS3FilesClientReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonS3FilesClientReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3FilesClientReadOnlyAccess"
+}
+
