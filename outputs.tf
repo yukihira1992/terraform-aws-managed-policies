@@ -7403,8 +7403,3 @@ output "AmazonSageMakerCapacityReservationServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCapacityReservationServiceRolePolicy"
 }
 
-output "NAPSPropagatorIntegTestManagedPolicy07" {
-  value       = "arn:aws:iam::aws:policy/NAPSPropagatorIntegTestManagedPolicy07"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/NAPSPropagatorIntegTestManagedPolicy07"
-}
-
