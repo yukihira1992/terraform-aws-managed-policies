@@ -7408,3 +7408,13 @@ output "AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy"
 }
 
+output "AmazonEBSCSIDriverPolicyV2" {
+  value       = "arn:aws:iam::aws:policy/AmazonEBSCSIDriverPolicyV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEBSCSIDriverPolicyV2"
+}
+
+output "AmazonEBSCSIDriverEKSClusterScopedPolicy" {
+  value       = "arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy"
+}
+

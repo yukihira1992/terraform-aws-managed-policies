@@ -1498,3 +1498,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonS3FilesCSIDriverPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonS3FilesCSIDriverPolicy |
 | AmazonSageMakerCapacityReservationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCapacityReservationServiceRolePolicy |
 | AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy |
+| AmazonEBSCSIDriverPolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEBSCSIDriverPolicyV2 |
+| AmazonEBSCSIDriverEKSClusterScopedPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy |
