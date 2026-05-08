@@ -7428,3 +7428,8 @@ output "AWSMarketplaceDiscoveryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceDiscoveryFullAccess"
 }
 
+output "CloudWatchAPIKeyAccess" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess"
+}
+

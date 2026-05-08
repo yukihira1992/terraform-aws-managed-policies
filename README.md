@@ -1502,3 +1502,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEBSCSIDriverEKSClusterScopedPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy |
 | EC2ApplicationStatusChecksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EC2ApplicationStatusChecksServiceRolePolicy |
 | AWSMarketplaceDiscoveryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceDiscoveryFullAccess |
+| CloudWatchAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess |
