@@ -7433,3 +7433,8 @@ output "CloudWatchAPIKeyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess"
 }
 
+output "AWSAppConfigServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy"
+}
+
