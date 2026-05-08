@@ -1485,7 +1485,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIDevOpsAgentFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentFullAccess |
 | AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreGatewayNetworkServiceRolePolicy |
 | AnthropicReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicReadOnlyAccess |
-| AnthropicInferenceAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicInferenceAccess |
 | AnthropicLimitedAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicLimitedAccess |
 | AnthropicFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicFullAccess |
 | AmazonS3ExpressReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonS3ExpressReadOnlyAccess |

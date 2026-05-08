@@ -7343,11 +7343,6 @@ output "AnthropicReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicReadOnlyAccess"
 }
 
-output "AnthropicInferenceAccess" {
-  value       = "arn:aws:iam::aws:policy/AnthropicInferenceAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicInferenceAccess"
-}
-
 output "AnthropicLimitedAccess" {
   value       = "arn:aws:iam::aws:policy/AnthropicLimitedAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicLimitedAccess"
