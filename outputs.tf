@@ -7433,3 +7433,13 @@ output "AWSAppConfigServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy"
 }
 
+output "AWSVPCFlowLogsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSVPCFlowLogsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCFlowLogsServiceRolePolicy"
+}
+
+output "AmazonEKSBlockStoragePolicyV2" {
+  value       = "arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2"
+}
+

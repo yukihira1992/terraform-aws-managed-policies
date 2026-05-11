@@ -1503,3 +1503,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceDiscoveryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMarketplaceDiscoveryFullAccess |
 | CloudWatchAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess |
 | AWSAppConfigServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy |
+| AWSVPCFlowLogsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCFlowLogsServiceRolePolicy |
+| AmazonEKSBlockStoragePolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2 |
