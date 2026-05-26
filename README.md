@@ -1505,3 +1505,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAppConfigServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy |
 | AWSVPCFlowLogsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCFlowLogsServiceRolePolicy |
 | AmazonEKSBlockStoragePolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2 |
+| AmazonSageMakerModelCustomizationCoreAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess |

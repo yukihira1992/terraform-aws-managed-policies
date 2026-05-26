@@ -7443,3 +7443,8 @@ output "AmazonEKSBlockStoragePolicyV2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2"
 }
 
+output "AmazonSageMakerModelCustomizationCoreAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess"
+}
+
