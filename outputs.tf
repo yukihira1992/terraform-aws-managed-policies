@@ -7448,3 +7448,8 @@ output "AmazonSageMakerModelCustomizationCoreAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess"
 }
 
+output "AWSResilienceHubServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy"
+}
+
