@@ -7453,3 +7453,13 @@ output "AWSResilienceHubServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy"
 }
 
+output "AWSApplicationMigrationFSxProxyPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy"
+}
+
+output "AWSApplicationMigrationFSxProxyVPCPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy"
+}
+

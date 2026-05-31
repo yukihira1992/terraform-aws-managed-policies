@@ -1507,3 +1507,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonEKSBlockStoragePolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2 |
 | AmazonSageMakerModelCustomizationCoreAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess |
 | AWSResilienceHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy |
+| AWSApplicationMigrationFSxProxyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy |
+| AWSApplicationMigrationFSxProxyVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy |
