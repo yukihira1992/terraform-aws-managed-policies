@@ -7463,3 +7463,13 @@ output "AWSApplicationMigrationFSxProxyVPCPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy"
 }
 
+output "AmazonSageMakerJobRuntimeAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerJobRuntimeAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobRuntimeAccess"
+}
+
+output "AmazonSageMakerJobFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess"
+}
+

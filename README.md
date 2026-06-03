@@ -1509,3 +1509,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResilienceHubServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy |
 | AWSApplicationMigrationFSxProxyPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy |
 | AWSApplicationMigrationFSxProxyVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy |
+| AmazonSageMakerJobRuntimeAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobRuntimeAccess |
+| AmazonSageMakerJobFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess |
