@@ -1511,3 +1511,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSApplicationMigrationFSxProxyVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy |
 | AmazonSageMakerJobRuntimeAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobRuntimeAccess |
 | AmazonSageMakerJobFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess |
+| AWSQuickSetupPatchPolicyTagManagementExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyTagManagementExecutionPolicy |
+| AWSQuickSetupPatchPolicyLambdaExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy |

@@ -7473,3 +7473,13 @@ output "AmazonSageMakerJobFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess"
 }
 
+output "AWSQuickSetupPatchPolicyTagManagementExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyTagManagementExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyTagManagementExecutionPolicy"
+}
+
+output "AWSQuickSetupPatchPolicyLambdaExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy"
+}
+
