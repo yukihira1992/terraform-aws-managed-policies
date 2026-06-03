@@ -7483,3 +7483,13 @@ output "AWSQuickSetupPatchPolicyLambdaExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy"
 }
 
+output "FinOpsAgentOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/FinOpsAgentOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentOperatorPolicy"
+}
+
+output "FinOpsAgentAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy"
+}
+

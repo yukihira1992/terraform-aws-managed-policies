@@ -1513,3 +1513,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerJobFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess |
 | AWSQuickSetupPatchPolicyTagManagementExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyTagManagementExecutionPolicy |
 | AWSQuickSetupPatchPolicyLambdaExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy |
+| FinOpsAgentOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentOperatorPolicy |
+| FinOpsAgentAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy |
