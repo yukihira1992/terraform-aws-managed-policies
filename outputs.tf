@@ -7493,3 +7493,8 @@ output "FinOpsAgentAgentPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy"
 }
 
+output "EC2ImageBuilderExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy"
+}
+
