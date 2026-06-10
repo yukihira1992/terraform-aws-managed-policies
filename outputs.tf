@@ -7498,3 +7498,8 @@ output "EC2ImageBuilderExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy"
 }
 
+output "ReInventTicketApprovalAccess" {
+  value       = "arn:aws:iam::aws:policy/ReInventTicketApprovalAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReInventTicketApprovalAccess"
+}
+
