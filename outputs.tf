@@ -7508,3 +7508,8 @@ output "AWSSecurityAgentServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy"
 }
 
+output "AnthropicSelfHostedEnvironmentAccess" {
+  value       = "arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess"
+}
+
