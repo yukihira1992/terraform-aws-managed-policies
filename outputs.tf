@@ -7503,3 +7503,8 @@ output "ReInventTicketApprovalAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReInventTicketApprovalAccess"
 }
 
+output "AWSSecurityAgentServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy"
+}
+

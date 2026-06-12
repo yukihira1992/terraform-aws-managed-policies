@@ -1517,3 +1517,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | FinOpsAgentAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy |
 | EC2ImageBuilderExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy |
 | ReInventTicketApprovalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReInventTicketApprovalAccess |
+| AWSSecurityAgentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy |
