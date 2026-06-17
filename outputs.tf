@@ -7513,3 +7513,8 @@ output "AnthropicSelfHostedEnvironmentAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess"
 }
 
+output "AWSResilienceHubV2AssessmentExecutionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy"
+}
+

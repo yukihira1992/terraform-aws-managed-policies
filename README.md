@@ -1519,3 +1519,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | ReInventTicketApprovalAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/ReInventTicketApprovalAccess |
 | AWSSecurityAgentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy |
 | AnthropicSelfHostedEnvironmentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess |
+| AWSResilienceHubV2AssessmentExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy |
