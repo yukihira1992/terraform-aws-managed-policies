@@ -1520,3 +1520,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecurityAgentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy |
 | AnthropicSelfHostedEnvironmentAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess |
 | AWSResilienceHubV2AssessmentExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy |
+| AWSLambdaNetworkConnectorOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaNetworkConnectorOperatorPolicy |
+| AWSConfigThirdPartyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy |

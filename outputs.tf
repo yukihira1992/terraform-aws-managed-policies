@@ -7518,3 +7518,13 @@ output "AWSResilienceHubV2AssessmentExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy"
 }
 
+output "AWSLambdaNetworkConnectorOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSLambdaNetworkConnectorOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaNetworkConnectorOperatorPolicy"
+}
+
+output "AWSConfigThirdPartyServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy"
+}
+
