@@ -1522,3 +1522,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSResilienceHubV2AssessmentExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy |
 | AWSLambdaNetworkConnectorOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaNetworkConnectorOperatorPolicy |
 | AWSConfigThirdPartyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy |
+| AmazonEMRServicePolicyForSessions | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions |

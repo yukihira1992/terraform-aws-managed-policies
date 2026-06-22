@@ -7528,3 +7528,8 @@ output "AWSConfigThirdPartyServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy"
 }
 
+output "AmazonEMRServicePolicyForSessions" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions"
+}
+
