@@ -7533,3 +7533,8 @@ output "AmazonEMRServicePolicyForSessions" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions"
 }
 
+output "AIDevOpsAgentActionsPolicy" {
+  value       = "arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy"
+}
+
