@@ -7538,3 +7538,8 @@ output "AIDevOpsAgentActionsPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy"
 }
 
+output "AmazonInspector2ThirdPartyServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ThirdPartyServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ThirdPartyServiceRolePolicy"
+}
+

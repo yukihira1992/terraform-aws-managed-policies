@@ -1524,3 +1524,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSConfigThirdPartyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy |
 | AmazonEMRServicePolicyForSessions | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions |
 | AIDevOpsAgentActionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy |
+| AmazonInspector2ThirdPartyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ThirdPartyServiceRolePolicy |
