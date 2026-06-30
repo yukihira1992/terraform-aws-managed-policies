@@ -1530,3 +1530,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSPartnerCentralRevenueAttributionManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralRevenueAttributionManagement |
 | AWSArtifactComplianceInquiriesFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesFullAccess |
 | AWSArtifactComplianceInquiriesReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesReadOnlyAccess |
+| AWSTransformSecurityAgentExecutorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecurityAgentExecutorAccess |

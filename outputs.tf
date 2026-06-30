@@ -7568,3 +7568,8 @@ output "AWSArtifactComplianceInquiriesReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesReadOnlyAccess"
 }
 
+output "AWSTransformSecurityAgentExecutorAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformSecurityAgentExecutorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecurityAgentExecutorAccess"
+}
+
