@@ -7553,3 +7553,18 @@ output "AWSRevenueAttributionManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRevenueAttributionManagement"
 }
 
+output "AWSPartnerCentralRevenueAttributionManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralRevenueAttributionManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralRevenueAttributionManagement"
+}
+
+output "AWSArtifactComplianceInquiriesFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesFullAccess"
+}
+
+output "AWSArtifactComplianceInquiriesReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesReadOnlyAccess"
+}
+
