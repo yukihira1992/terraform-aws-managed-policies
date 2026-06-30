@@ -1526,3 +1526,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIDevOpsAgentActionsPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy |
 | AmazonInspector2ThirdPartyServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ThirdPartyServiceRolePolicy |
 | AccountAccessManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AccountAccessManagerServiceRolePolicy |
+| AWSRevenueAttributionManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSRevenueAttributionManagement |
