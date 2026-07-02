@@ -7573,3 +7573,18 @@ output "AWSTransformSecurityAgentExecutorAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformSecurityAgentExecutorAccess"
 }
 
+output "AWSElasticBeanstalkEKSObservability" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSObservability"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSObservability"
+}
+
+output "AWSElasticBeanstalkEKSTagging" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSTagging"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSTagging"
+}
+
+output "AWSElasticBeanstalkEKSImageBuild" {
+  value       = "arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSImageBuild"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSImageBuild"
+}
+
