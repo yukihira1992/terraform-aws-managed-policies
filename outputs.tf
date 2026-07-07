@@ -7593,3 +7593,8 @@ output "DBModVirtualSource" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModVirtualSource"
 }
 
+output "AWSTransformRevenueAttributionPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformRevenueAttributionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformRevenueAttributionPolicy"
+}
+
