@@ -1534,3 +1534,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSElasticBeanstalkEKSObservability | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSObservability |
 | AWSElasticBeanstalkEKSTagging | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSTagging |
 | AWSElasticBeanstalkEKSImageBuild | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSImageBuild |
+| DBModVirtualSource | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModVirtualSource |
