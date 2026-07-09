@@ -7598,3 +7598,8 @@ output "AWSTransformRevenueAttributionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformRevenueAttributionPolicy"
 }
 
+output "AWSMCPSignInOAuthAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSMCPSignInOAuthAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMCPSignInOAuthAccessPolicy"
+}
+
