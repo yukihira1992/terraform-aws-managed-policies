@@ -7608,3 +7608,8 @@ output "AWSIAMRoleManagerServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIAMRoleManagerServiceRolePolicy"
 }
 
+output "WellArchitectedAgentResourceScanning" {
+  value       = "arn:aws:iam::aws:policy/WellArchitectedAgentResourceScanning"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/WellArchitectedAgentResourceScanning"
+}
+
