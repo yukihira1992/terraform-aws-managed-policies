@@ -1537,3 +1537,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | DBModVirtualSource | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/DBModVirtualSource |
 | AWSTransformRevenueAttributionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformRevenueAttributionPolicy |
 | AWSMCPSignInOAuthAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMCPSignInOAuthAccessPolicy |
+| AWSIAMRoleManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIAMRoleManagerServiceRolePolicy |
