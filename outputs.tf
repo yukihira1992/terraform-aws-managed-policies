@@ -7613,3 +7613,13 @@ output "WellArchitectedAgentResourceScanning" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/WellArchitectedAgentResourceScanning"
 }
 
+output "AWSManagedBudgetsSpendLimitManagementAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedBudgetsSpendLimitManagementAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedBudgetsSpendLimitManagementAccess"
+}
+
+output "AWSManagedAccountUserEntitlementAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedAccountUserEntitlementAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountUserEntitlementAccess"
+}
+
