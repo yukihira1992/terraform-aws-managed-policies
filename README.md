@@ -1541,3 +1541,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | WellArchitectedAgentResourceScanning | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/WellArchitectedAgentResourceScanning |
 | AWSManagedBudgetsSpendLimitManagementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedBudgetsSpendLimitManagementAccess |
 | AWSManagedAccountUserEntitlementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountUserEntitlementAccess |
+| AWSBudgetsSpendLimitMemberRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsSpendLimitMemberRolePolicy |

@@ -7623,3 +7623,8 @@ output "AWSManagedAccountUserEntitlementAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountUserEntitlementAccess"
 }
 
+output "AWSBudgetsSpendLimitMemberRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsSpendLimitMemberRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsSpendLimitMemberRolePolicy"
+}
+
