@@ -1543,3 +1543,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSManagedAccountUserEntitlementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountUserEntitlementAccess |
 | AWSBudgetsSpendLimitMemberRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsSpendLimitMemberRolePolicy |
 | AWSManagedSignUpAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedSignUpAdminAccess |
+| AWSManagedAccountManagementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountManagementAccess |
+| AWSTransformInfrastructureExecutorAccessBatch | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessBatch |
+| AWSTransformInfrastructureExecutorAccessEC2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessEC2 |

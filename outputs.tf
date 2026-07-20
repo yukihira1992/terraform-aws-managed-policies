@@ -7633,3 +7633,18 @@ output "AWSManagedSignUpAdminAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedSignUpAdminAccess"
 }
 
+output "AWSManagedAccountManagementAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedAccountManagementAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAccountManagementAccess"
+}
+
+output "AWSTransformInfrastructureExecutorAccessBatch" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessBatch"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessBatch"
+}
+
+output "AWSTransformInfrastructureExecutorAccessEC2" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessEC2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessEC2"
+}
+
