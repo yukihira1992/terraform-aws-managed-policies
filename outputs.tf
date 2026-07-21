@@ -7658,3 +7658,8 @@ output "AWSManagedControlPolicyManagementAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedControlPolicyManagementAccess"
 }
 
+output "AWSManagedServiceAccessManagementAccess" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess"
+}
+
