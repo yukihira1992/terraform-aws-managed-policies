@@ -7648,3 +7648,13 @@ output "AWSTransformInfrastructureExecutorAccessEC2" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformInfrastructureExecutorAccessEC2"
 }
 
+output "AWSManagedAdvancedFeaturesActivationAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedAdvancedFeaturesActivationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAdvancedFeaturesActivationAccess"
+}
+
+output "AWSManagedControlPolicyManagementAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedControlPolicyManagementAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedControlPolicyManagementAccess"
+}
+
