@@ -7663,3 +7663,13 @@ output "AWSManagedServiceAccessManagementAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess"
 }
 
+output "AWSManagedSettingsReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedSettingsReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsReadOnlyAccess"
+}
+
+output "AWSManagedSettingsAdminAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess"
+}
+

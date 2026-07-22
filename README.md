@@ -1549,3 +1549,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSManagedAdvancedFeaturesActivationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedAdvancedFeaturesActivationAccess |
 | AWSManagedControlPolicyManagementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedControlPolicyManagementAccess |
 | AWSManagedServiceAccessManagementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess |
+| AWSManagedSettingsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsReadOnlyAccess |
+| AWSManagedSettingsAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess |
