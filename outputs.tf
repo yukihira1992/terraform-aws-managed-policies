@@ -7673,3 +7673,8 @@ output "AWSManagedSettingsAdminAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess"
 }
 
+output "AmazonODBFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonODBFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBFullAccess"
+}
+

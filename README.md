@@ -1551,3 +1551,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSManagedServiceAccessManagementAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSManagedServiceAccessManagementAccess |
 | AWSManagedSettingsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsReadOnlyAccess |
 | AWSManagedSettingsAdminAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSManagedSettingsAdminAccess |
+| AmazonODBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBFullAccess |
