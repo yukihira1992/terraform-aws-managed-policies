@@ -7678,3 +7678,8 @@ output "AmazonODBFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBFullAccess"
 }
 
+output "AWSSDMPServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSDMPServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSDMPServiceRolePolicy"
+}
+
