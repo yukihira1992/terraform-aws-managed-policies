@@ -7683,3 +7683,8 @@ output "AWSSDMPServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSDMPServiceRolePolicy"
 }
 
+output "ROSAKarpenterControllerPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy"
+}
+
