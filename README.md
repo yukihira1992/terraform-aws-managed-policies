@@ -1556,3 +1556,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | ROSAKarpenterControllerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy |
 | PricingPlanManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerFullAccess |
 | PricingPlanManagerReadonlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess |
+| AmazonInspector2AmiScanServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy |

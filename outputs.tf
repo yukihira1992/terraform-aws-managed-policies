@@ -7698,3 +7698,8 @@ output "PricingPlanManagerReadonlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess"
 }
 
+output "AmazonInspector2AmiScanServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy"
+}
+
