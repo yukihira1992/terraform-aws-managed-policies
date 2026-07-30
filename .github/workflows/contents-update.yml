@@ -21,7 +21,7 @@ jobs:
       - name: setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.13'
       - name: cache pip
         uses: actions/cache@v3
         with:
