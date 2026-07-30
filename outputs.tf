@@ -7703,3 +7703,8 @@ output "AmazonInspector2AmiScanServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy"
 }
 
+output "AmazonSageMakerInferenceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy"
+}
+
