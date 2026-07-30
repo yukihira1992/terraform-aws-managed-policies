@@ -7688,3 +7688,13 @@ output "ROSAKarpenterControllerPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy"
 }
 
+output "PricingPlanManagerFullAccess" {
+  value       = "arn:aws:iam::aws:policy/PricingPlanManagerFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerFullAccess"
+}
+
+output "PricingPlanManagerReadonlyAccess" {
+  value       = "arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess"
+}
+

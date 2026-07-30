@@ -1554,3 +1554,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonODBFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBFullAccess |
 | AWSSDMPServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSDMPServiceRolePolicy |
 | ROSAKarpenterControllerPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ROSAKarpenterControllerPolicy |
+| PricingPlanManagerFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerFullAccess |
+| PricingPlanManagerReadonlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess |
