@@ -1559,3 +1559,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonInspector2AmiScanServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy |
 | AmazonSageMakerInferenceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy |
 | AWSSupportPlansServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSupportPlansServiceRolePolicy |
+| AWSResilienceHubResilienceTestingPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubResilienceTestingPolicy |
