@@ -7708,3 +7708,8 @@ output "AmazonSageMakerInferenceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy"
 }
 
+output "AWSSupportPlansServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSSupportPlansServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSupportPlansServiceRolePolicy"
+}
+

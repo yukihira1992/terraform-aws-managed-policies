@@ -1558,3 +1558,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | PricingPlanManagerReadonlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/PricingPlanManagerReadonlyAccess |
 | AmazonInspector2AmiScanServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2AmiScanServiceRolePolicy |
 | AmazonSageMakerInferenceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy |
+| AWSSupportPlansServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSupportPlansServiceRolePolicy |
