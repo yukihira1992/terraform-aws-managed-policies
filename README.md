@@ -1560,3 +1560,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerInferenceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerInferenceServiceRolePolicy |
 | AWSSupportPlansServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSSupportPlansServiceRolePolicy |
 | AWSResilienceHubResilienceTestingPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubResilienceTestingPolicy |
+| AmazonBedrockWebSearchFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchFullAccess |
+| AmazonBedrockExternalWebSearchReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchReadOnly |
+| AmazonBedrockExternalWebSearchFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchFullAccess |
+| AmazonBedrockWebSearchReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly |

@@ -7718,3 +7718,23 @@ output "AWSResilienceHubResilienceTestingPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSResilienceHubResilienceTestingPolicy"
 }
 
+output "AmazonBedrockWebSearchFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockWebSearchFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchFullAccess"
+}
+
+output "AmazonBedrockExternalWebSearchReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchReadOnly"
+}
+
+output "AmazonBedrockExternalWebSearchFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchFullAccess"
+}
+
+output "AmazonBedrockWebSearchReadOnly" {
+  value       = "arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly"
+}
+
