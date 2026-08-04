@@ -7738,3 +7738,8 @@ output "AmazonBedrockWebSearchReadOnly" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly"
 }
 
+output "AWSWellArchitectedAgentResourceScanningServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentResourceScanningServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentResourceScanningServiceRolePolicy"
+}
+

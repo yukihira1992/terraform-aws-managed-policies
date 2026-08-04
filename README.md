@@ -1564,3 +1564,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBedrockExternalWebSearchReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchReadOnly |
 | AmazonBedrockExternalWebSearchFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockExternalWebSearchFullAccess |
 | AmazonBedrockWebSearchReadOnly | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBedrockWebSearchReadOnly |
+| AWSWellArchitectedAgentResourceScanningServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentResourceScanningServiceRolePolicy |
