@@ -7753,3 +7753,8 @@ output "BedrockAgentCoreRuntimeInstancesOperatorRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesOperatorRolePolicy"
 }
 
+output "BedrockAgentCoreRuntimeInstancesInstanceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesInstanceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesInstanceRolePolicy"
+}
+

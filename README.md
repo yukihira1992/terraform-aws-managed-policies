@@ -1567,3 +1567,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSWellArchitectedAgentResourceScanningServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentResourceScanningServiceRolePolicy |
 | AWSBedrockAgentCoreRuntimeInstancesServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreRuntimeInstancesServiceRolePolicy |
 | BedrockAgentCoreRuntimeInstancesOperatorRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesOperatorRolePolicy |
+| BedrockAgentCoreRuntimeInstancesInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesInstanceRolePolicy |
