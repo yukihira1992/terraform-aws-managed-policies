@@ -1569,3 +1569,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | BedrockAgentCoreRuntimeInstancesOperatorRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesOperatorRolePolicy |
 | BedrockAgentCoreRuntimeInstancesInstanceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/BedrockAgentCoreRuntimeInstancesInstanceRolePolicy |
 | AIDevOpsConstellationAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AIDevOpsConstellationAccessPolicy |
+| AWSAgentRegistryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAgentRegistryServiceRolePolicy |
+| AWSTransformLandingZoneAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformLandingZoneAgentPolicy |
+| AWSTransformServerMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformServerMigrationAgentPolicy |
+| AWSTransformNetworkMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformNetworkMigrationAgentPolicy |

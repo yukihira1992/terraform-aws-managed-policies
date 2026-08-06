@@ -7763,3 +7763,23 @@ output "AIDevOpsConstellationAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AIDevOpsConstellationAccessPolicy"
 }
 
+output "AWSAgentRegistryServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAgentRegistryServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAgentRegistryServiceRolePolicy"
+}
+
+output "AWSTransformLandingZoneAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformLandingZoneAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformLandingZoneAgentPolicy"
+}
+
+output "AWSTransformServerMigrationAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformServerMigrationAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformServerMigrationAgentPolicy"
+}
+
+output "AWSTransformNetworkMigrationAgentPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSTransformNetworkMigrationAgentPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformNetworkMigrationAgentPolicy"
+}
+
