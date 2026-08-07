@@ -1576,3 +1576,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBackupAccessPointOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupAccessPointOperatorAccess |
 | AgentRegistryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryFullAccess |
 | AgentRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryReadOnlyAccess |
+| AmazonODBReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBReadOnlyAccess |
+| AmazonODBNetworkAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBNetworkAdmin |
+| AmazonODBExadataInfrastructureAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataInfrastructureAdmin |
+| AmazonODBAutonomousVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousVmClusterAdmin |

@@ -7798,3 +7798,23 @@ output "AgentRegistryReadOnlyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryReadOnlyAccess"
 }
 
+output "AmazonODBReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonODBReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonODBReadOnlyAccess"
+}
+
+output "AmazonODBNetworkAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBNetworkAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBNetworkAdmin"
+}
+
+output "AmazonODBExadataInfrastructureAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBExadataInfrastructureAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataInfrastructureAdmin"
+}
+
+output "AmazonODBAutonomousVmClusterAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousVmClusterAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousVmClusterAdmin"
+}
+
