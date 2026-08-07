@@ -1573,3 +1573,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSTransformLandingZoneAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformLandingZoneAgentPolicy |
 | AWSTransformServerMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformServerMigrationAgentPolicy |
 | AWSTransformNetworkMigrationAgentPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformNetworkMigrationAgentPolicy |
+| AWSBackupAccessPointOperatorAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupAccessPointOperatorAccess |
+| AgentRegistryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryFullAccess |
+| AgentRegistryReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryReadOnlyAccess |

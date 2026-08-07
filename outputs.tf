@@ -7783,3 +7783,18 @@ output "AWSTransformNetworkMigrationAgentPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSTransformNetworkMigrationAgentPolicy"
 }
 
+output "AWSBackupAccessPointOperatorAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSBackupAccessPointOperatorAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSBackupAccessPointOperatorAccess"
+}
+
+output "AgentRegistryFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AgentRegistryFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryFullAccess"
+}
+
+output "AgentRegistryReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AgentRegistryReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AgentRegistryReadOnlyAccess"
+}
+
