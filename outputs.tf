@@ -7823,3 +7823,8 @@ output "AmazonBioDiscoveryFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryFullAccess"
 }
 
+output "AmazonBioDiscoveryInAppFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBioDiscoveryInAppFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryInAppFullAccess"
+}
+

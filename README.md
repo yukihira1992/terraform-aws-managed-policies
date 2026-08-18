@@ -1581,3 +1581,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonODBExadataInfrastructureAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataInfrastructureAdmin |
 | AmazonODBAutonomousVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousVmClusterAdmin |
 | AmazonBioDiscoveryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryFullAccess |
+| AmazonBioDiscoveryInAppFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryInAppFullAccess |
