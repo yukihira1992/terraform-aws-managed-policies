@@ -7818,3 +7818,8 @@ output "AmazonODBAutonomousVmClusterAdmin" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousVmClusterAdmin"
 }
 
+output "AmazonBioDiscoveryFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonBioDiscoveryFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryFullAccess"
+}
+
