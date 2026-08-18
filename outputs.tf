@@ -7828,3 +7828,8 @@ output "AmazonBioDiscoveryInAppFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryInAppFullAccess"
 }
 
+output "NetworkSecurityManagerServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityManagerServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityManagerServiceRolePolicy"
+}
+
