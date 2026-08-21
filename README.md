@@ -1583,3 +1583,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBioDiscoveryFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryFullAccess |
 | AmazonBioDiscoveryInAppFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonBioDiscoveryInAppFullAccess |
 | NetworkSecurityManagerServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/NetworkSecurityManagerServiceRolePolicy |
+| AIDevOpsReleaseManagementVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsReleaseManagementVPCPolicy |
