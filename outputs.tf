@@ -7838,3 +7838,13 @@ output "AIDevOpsReleaseManagementVPCPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsReleaseManagementVPCPolicy"
 }
 
+output "AIDevOpsChannelAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AIDevOpsChannelAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AIDevOpsChannelAccessPolicy"
+}
+
+output "AssuranceServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AssuranceServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AssuranceServiceRolePolicy"
+}
+
