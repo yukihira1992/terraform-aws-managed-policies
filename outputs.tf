@@ -7848,3 +7848,23 @@ output "AssuranceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AssuranceServiceRolePolicy"
 }
 
+output "AmazonODBExascaleVmClusterAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBExascaleVmClusterAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExascaleVmClusterAdmin"
+}
+
+output "AmazonODBExascaleStorageVaultAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBExascaleStorageVaultAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExascaleStorageVaultAdmin"
+}
+
+output "AmazonODBExadataVmClusterAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBExadataVmClusterAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataVmClusterAdmin"
+}
+
+output "AmazonODBAutonomousDatabaseAdmin" {
+  value       = "arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin"
+}
+

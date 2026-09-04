@@ -1586,3 +1586,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AIDevOpsReleaseManagementVPCPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsReleaseManagementVPCPolicy |
 | AIDevOpsChannelAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AIDevOpsChannelAccessPolicy |
 | AssuranceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AssuranceServiceRolePolicy |
+| AmazonODBExascaleVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExascaleVmClusterAdmin |
+| AmazonODBExascaleStorageVaultAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExascaleStorageVaultAdmin |
+| AmazonODBExadataVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataVmClusterAdmin |
+| AmazonODBAutonomousDatabaseAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin |
