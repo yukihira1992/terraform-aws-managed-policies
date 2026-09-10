@@ -1590,3 +1590,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonODBExascaleStorageVaultAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExascaleStorageVaultAdmin |
 | AmazonODBExadataVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataVmClusterAdmin |
 | AmazonODBAutonomousDatabaseAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin |
+| AmazonSageMakerHyperPodInferenceGatewayAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess |

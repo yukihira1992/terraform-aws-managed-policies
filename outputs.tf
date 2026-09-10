@@ -7868,3 +7868,8 @@ output "AmazonODBAutonomousDatabaseAdmin" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin"
 }
 
+output "AmazonSageMakerHyperPodInferenceGatewayAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess"
+}
+
