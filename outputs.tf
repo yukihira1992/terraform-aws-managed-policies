@@ -7873,3 +7873,8 @@ output "AmazonSageMakerHyperPodInferenceGatewayAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess"
 }
 
+output "AWSWellArchitectedAgentOrganizationsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentOrganizationsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentOrganizationsServiceRolePolicy"
+}
+

@@ -1591,3 +1591,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonODBExadataVmClusterAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBExadataVmClusterAdmin |
 | AmazonODBAutonomousDatabaseAdmin | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/job-function/AmazonODBAutonomousDatabaseAdmin |
 | AmazonSageMakerHyperPodInferenceGatewayAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess |
+| AWSWellArchitectedAgentOrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentOrganizationsServiceRolePolicy |
