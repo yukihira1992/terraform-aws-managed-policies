@@ -7878,3 +7878,8 @@ output "AWSWellArchitectedAgentOrganizationsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentOrganizationsServiceRolePolicy"
 }
 
+output "AWSBillingConductorRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSBillingConductorRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingConductorRolePolicy"
+}
+
