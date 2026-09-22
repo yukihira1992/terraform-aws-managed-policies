@@ -1593,3 +1593,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerHyperPodInferenceGatewayAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayAccess |
 | AWSWellArchitectedAgentOrganizationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSWellArchitectedAgentOrganizationsServiceRolePolicy |
 | AWSBillingConductorRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingConductorRolePolicy |
+| CloudWatchOmniSpaceAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniSpaceAccessPolicy |
+| CloudWatchOmniDomainAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniDomainAccessPolicy |
+| CloudWatchOmniModelInferencePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniModelInferencePolicy |
+| CloudWatchOmniAWSIntegrationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicy |
+| AWSCloudWatchOmniServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy |

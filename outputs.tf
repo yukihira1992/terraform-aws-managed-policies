@@ -7883,3 +7883,28 @@ output "AWSBillingConductorRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBillingConductorRolePolicy"
 }
 
+output "CloudWatchOmniSpaceAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniSpaceAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniSpaceAccessPolicy"
+}
+
+output "CloudWatchOmniDomainAccessPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniDomainAccessPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniDomainAccessPolicy"
+}
+
+output "CloudWatchOmniModelInferencePolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniModelInferencePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniModelInferencePolicy"
+}
+
+output "CloudWatchOmniAWSIntegrationPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicy"
+}
+
+output "AWSCloudWatchOmniServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy"
+}
+
