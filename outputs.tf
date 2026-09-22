@@ -7908,3 +7908,8 @@ output "AWSCloudWatchOmniServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy"
 }
 
+output "AWSTransferServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy"
+}
+

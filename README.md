@@ -1598,3 +1598,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchOmniModelInferencePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniModelInferencePolicy |
 | CloudWatchOmniAWSIntegrationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicy |
 | AWSCloudWatchOmniServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy |
+| AWSTransferServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy |
