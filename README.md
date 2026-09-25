@@ -1599,3 +1599,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchOmniAWSIntegrationPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicy |
 | AWSCloudWatchOmniServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchOmniServiceRolePolicy |
 | AWSTransferServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy |
+| AmazonECSInfrastructureRoleForGatewayHostSharedALB | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB |

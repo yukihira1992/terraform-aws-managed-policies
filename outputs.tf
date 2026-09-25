@@ -7913,3 +7913,8 @@ output "AWSTransferServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy"
 }
 
+output "AmazonECSInfrastructureRoleForGatewayHostSharedALB" {
+  value       = "arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB"
+}
+
