@@ -4393,16 +4393,6 @@ output "AWSMigrationHubRefactorSpacesFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSMigrationHubRefactorSpacesFullAccess"
 }
 
-output "AmazonCloudWatchEvidentlyReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyReadOnlyAccess"
-}
-
-output "AmazonCloudWatchEvidentlyFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchEvidentlyFullAccess"
-}
-
 output "AmazonCloudWatchRUMReadOnlyAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonCloudWatchRUMReadOnlyAccess"
@@ -4741,11 +4731,6 @@ output "AmazonSSMManagedEC2InstanceDefaultPolicy" {
 output "AmazonSageMakerCanvasFullAccess" {
   value       = "arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerCanvasFullAccess"
-}
-
-output "AmazonCloudWatchEvidentlyServiceRolePolicy" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonCloudWatchEvidentlyServiceRolePolicy"
 }
 
 output "AWSDeviceFarmServiceRolePolicy" {
@@ -7916,5 +7901,10 @@ output "AWSTransferServiceRolePolicy" {
 output "AmazonECSInfrastructureRoleForGatewayHostSharedALB" {
   value       = "arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB"
+}
+
+output "EndUserMessagingServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy"
 }
 
