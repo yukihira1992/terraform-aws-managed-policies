@@ -7908,3 +7908,8 @@ output "EndUserMessagingServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy"
 }
 
+output "AWSLambdaInvokeWebFunctionEndpointAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess"
+}
+

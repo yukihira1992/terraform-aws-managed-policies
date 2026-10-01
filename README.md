@@ -1598,3 +1598,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSTransferServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSTransferServiceRolePolicy |
 | AmazonECSInfrastructureRoleForGatewayHostSharedALB | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB |
 | EndUserMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy |
+| AWSLambdaInvokeWebFunctionEndpointAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess |
