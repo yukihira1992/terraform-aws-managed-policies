@@ -1599,3 +1599,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonECSInfrastructureRoleForGatewayHostSharedALB | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonECSInfrastructureRoleForGatewayHostSharedALB |
 | EndUserMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy |
 | AWSLambdaInvokeWebFunctionEndpointAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess |
+| AWSSecurityAgentContinuousPentestPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy |

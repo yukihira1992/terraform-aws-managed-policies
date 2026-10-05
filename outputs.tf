@@ -7913,3 +7913,8 @@ output "AWSLambdaInvokeWebFunctionEndpointAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess"
 }
 
+output "AWSSecurityAgentContinuousPentestPolicy" {
+  value       = "arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy"
+}
+
