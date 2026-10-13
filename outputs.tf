@@ -7928,3 +7928,8 @@ output "AmazonSageMakerTrainingSessionFullAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionFullAccess"
 }
 
+output "SageMakerStudioDataAppsAccessRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/SageMakerStudioDataAppsAccessRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDataAppsAccessRolePolicy"
+}
+

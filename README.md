@@ -1602,3 +1602,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSSecurityAgentContinuousPentestPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy |
 | AmazonSageMakerTrainingSessionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionAccess |
 | AmazonSageMakerTrainingSessionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionFullAccess |
+| SageMakerStudioDataAppsAccessRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDataAppsAccessRolePolicy |
