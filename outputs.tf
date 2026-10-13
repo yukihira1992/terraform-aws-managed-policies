@@ -7918,3 +7918,13 @@ output "AWSSecurityAgentContinuousPentestPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy"
 }
 
+output "AmazonSageMakerTrainingSessionAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionAccess"
+}
+
+output "AmazonSageMakerTrainingSessionFullAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionFullAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionFullAccess"
+}
+

@@ -1600,3 +1600,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | EndUserMessagingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/EndUserMessagingServiceRolePolicy |
 | AWSLambdaInvokeWebFunctionEndpointAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSLambdaInvokeWebFunctionEndpointAccess |
 | AWSSecurityAgentContinuousPentestPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSSecurityAgentContinuousPentestPolicy |
+| AmazonSageMakerTrainingSessionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionAccess |
+| AmazonSageMakerTrainingSessionFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerTrainingSessionFullAccess |
