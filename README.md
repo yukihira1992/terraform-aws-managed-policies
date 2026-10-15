@@ -454,8 +454,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonDocDBReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBReadOnlyAccess |
 | AmazonDocDBConsoleFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonDocDBConsoleFullAccess |
 | AWSBackupServiceRolePolicyForBackup | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForBackup |
-| AWSIoTEventsReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTEventsReadOnlyAccess |
-| AWSIoTEventsFullAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTEventsFullAccess |
 | AWSElasticBeanstalkMaintenance | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkMaintenance |
 | AWSBackupServiceRolePolicyForRestores | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForRestores |
 | AWSTransferLoggingAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSTransferLoggingAccess |

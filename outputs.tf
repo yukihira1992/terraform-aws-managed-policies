@@ -2188,16 +2188,6 @@ output "AWSBackupServiceRolePolicyForBackup" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForBackup"
 }
 
-output "AWSIoTEventsReadOnlyAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSIoTEventsReadOnlyAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTEventsReadOnlyAccess"
-}
-
-output "AWSIoTEventsFullAccess" {
-  value       = "arn:aws:iam::aws:policy/AWSIoTEventsFullAccess"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSIoTEventsFullAccess"
-}
-
 output "AWSElasticBeanstalkMaintenance" {
   value       = "arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkMaintenance"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkMaintenance"
