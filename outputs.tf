@@ -7923,3 +7923,8 @@ output "SageMakerStudioDataAppsAccessRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/SageMakerStudioDataAppsAccessRolePolicy"
 }
 
+output "AWSContinuumCollectorServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSContinuumCollectorServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumCollectorServiceRolePolicy"
+}
+
