@@ -7933,3 +7933,8 @@ output "AmazonQuickSuiteAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonQuickSuiteAccessPolicy"
 }
 
+output "AWSFinOpsAgentServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSFinOpsAgentServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSFinOpsAgentServiceRolePolicy"
+}
+
