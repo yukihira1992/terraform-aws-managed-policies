@@ -7938,3 +7938,8 @@ output "AWSFinOpsAgentServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSFinOpsAgentServiceRolePolicy"
 }
 
+output "AssuranceOperatorPolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AssuranceOperatorPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AssuranceOperatorPolicy"
+}
+
