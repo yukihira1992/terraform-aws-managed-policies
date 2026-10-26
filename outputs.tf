@@ -7943,3 +7943,8 @@ output "AssuranceOperatorPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AssuranceOperatorPolicy"
 }
 
+output "AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy"
+}
+

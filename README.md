@@ -1605,3 +1605,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonQuickSuiteAccessPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmazonQuickSuiteAccessPolicy |
 | AWSFinOpsAgentServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSFinOpsAgentServiceRolePolicy |
 | AssuranceOperatorPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AssuranceOperatorPolicy |
+| AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy |
