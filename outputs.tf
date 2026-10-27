@@ -7948,3 +7948,8 @@ output "AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy"
 }
 
+output "AWSXRayAPIKeyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSXRayAPIKeyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXRayAPIKeyAccess"
+}
+
