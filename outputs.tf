@@ -7953,3 +7953,8 @@ output "AWSXRayAPIKeyAccess" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXRayAPIKeyAccess"
 }
 
+output "AWSIPAMOutboundServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy"
+}
+
