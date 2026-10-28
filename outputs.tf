@@ -7958,3 +7958,8 @@ output "AWSIPAMOutboundServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy"
 }
 
+output "TagsHealthServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy"
+}
+

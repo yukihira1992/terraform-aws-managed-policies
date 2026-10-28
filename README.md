@@ -1608,3 +1608,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSMarketplaceSubsidiaryAuthorizationServiceRolePolicy |
 | AWSXRayAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXRayAPIKeyAccess |
 | AWSIPAMOutboundServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy |
+| TagsHealthServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy |
