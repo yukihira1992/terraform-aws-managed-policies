@@ -7963,3 +7963,8 @@ output "TagsHealthServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy"
 }
 
+output "FinOpsAgentIdentityReaderPolicy" {
+  value       = "arn:aws:iam::aws:policy/FinOpsAgentIdentityReaderPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentIdentityReaderPolicy"
+}
+

@@ -1609,3 +1609,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSXRayAPIKeyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSXRayAPIKeyAccess |
 | AWSIPAMOutboundServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy |
 | TagsHealthServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy |
+| FinOpsAgentIdentityReaderPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentIdentityReaderPolicy |
