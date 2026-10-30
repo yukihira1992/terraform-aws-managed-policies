@@ -1610,3 +1610,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSIPAMOutboundServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSIPAMOutboundServiceRolePolicy |
 | TagsHealthServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/TagsHealthServiceRolePolicy |
 | FinOpsAgentIdentityReaderPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/FinOpsAgentIdentityReaderPolicy |
+| Route53PrivateHealthChecksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53PrivateHealthChecksServiceRolePolicy |
