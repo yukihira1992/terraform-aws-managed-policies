@@ -7973,3 +7973,8 @@ output "Route53PrivateHealthChecksServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53PrivateHealthChecksServiceRolePolicy"
 }
 
+output "AWSPartnerCentralAccountManagementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSPartnerCentralAccountManagementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPartnerCentralAccountManagementServiceRolePolicy"
+}
+
