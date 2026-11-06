@@ -7983,3 +7983,8 @@ output "AWSCompromisedKeyQuarantineV4" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV4"
 }
 
+output "AWSCODAPermissionsBoundary" {
+  value       = "arn:aws:iam::aws:policy/AWSCODAPermissionsBoundary"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCODAPermissionsBoundary"
+}
+

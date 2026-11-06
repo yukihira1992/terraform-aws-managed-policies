@@ -1613,3 +1613,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | Route53PrivateHealthChecksServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/Route53PrivateHealthChecksServiceRolePolicy |
 | AWSPartnerCentralAccountManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPartnerCentralAccountManagementServiceRolePolicy |
 | AWSCompromisedKeyQuarantineV4 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV4 |
+| AWSCODAPermissionsBoundary | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSCODAPermissionsBoundary |
