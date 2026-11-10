@@ -7988,3 +7988,18 @@ output "AIDevOpsOrganizationsAccessPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AIDevOpsOrganizationsAccessPolicy"
 }
 
+output "AWSCODAServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSCODAServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCODAServiceRolePolicy"
+}
+
+output "AWSNotificationsContactAssociationsServiceLinkedRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNotificationsContactAssociationsServiceLinkedRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNotificationsContactAssociationsServiceLinkedRolePolicy"
+}
+
+output "AWSPartnerCentralBusinessPlanManagement" {
+  value       = "arn:aws:iam::aws:policy/AWSPartnerCentralBusinessPlanManagement"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralBusinessPlanManagement"
+}
+
