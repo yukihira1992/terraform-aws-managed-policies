@@ -2493,11 +2493,6 @@ output "AWSVPCS2SVpnServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSVPCS2SVpnServiceRolePolicy"
 }
 
-output "AWSServiceRoleForSMS" {
-  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS"
-  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS"
-}
-
 output "AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction" {
   value       = "arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction"
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction"
