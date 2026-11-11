@@ -1617,3 +1617,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSCODAServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSCODAServiceRolePolicy |
 | AWSNotificationsContactAssociationsServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNotificationsContactAssociationsServiceLinkedRolePolicy |
 | AWSPartnerCentralBusinessPlanManagement | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralBusinessPlanManagement |
+| AWSNetworkFirewallIGWServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallIGWServiceRolePolicy |

@@ -8003,3 +8003,8 @@ output "AWSPartnerCentralBusinessPlanManagement" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSPartnerCentralBusinessPlanManagement"
 }
 
+output "AWSNetworkFirewallIGWServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallIGWServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallIGWServiceRolePolicy"
+}
+
