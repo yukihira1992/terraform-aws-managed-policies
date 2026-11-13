@@ -8018,3 +8018,8 @@ output "AWSMarketplaceAgenticCommerceServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceAgenticCommerceServiceRolePolicy"
 }
 
+output "ContinuumThreatsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/ContinuumThreatsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ContinuumThreatsServiceRolePolicy"
+}
+
