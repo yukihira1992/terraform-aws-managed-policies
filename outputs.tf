@@ -8023,3 +8023,13 @@ output "ContinuumThreatsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ContinuumThreatsServiceRolePolicy"
 }
 
+output "CloudWatchOmniAWSIntegrationPolicyV2" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicyV2"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicyV2"
+}
+
+output "KiroVpcConnectionPolicy" {
+  value       = "arn:aws:iam::aws:policy/KiroVpcConnectionPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/KiroVpcConnectionPolicy"
+}
+

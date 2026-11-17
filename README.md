@@ -1621,3 +1621,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonBioDiscoveryServiceLinkedRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AmazonBioDiscoveryServiceLinkedRolePolicy |
 | AWSMarketplaceAgenticCommerceServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceAgenticCommerceServiceRolePolicy |
 | ContinuumThreatsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/ContinuumThreatsServiceRolePolicy |
+| CloudWatchOmniAWSIntegrationPolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicyV2 |
+| KiroVpcConnectionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/KiroVpcConnectionPolicy |
