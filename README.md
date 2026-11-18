@@ -1624,3 +1624,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | CloudWatchOmniAWSIntegrationPolicyV2 | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniAWSIntegrationPolicyV2 |
 | KiroVpcConnectionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/KiroVpcConnectionPolicy |
 | AWSPartnerCentralMarketingServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPartnerCentralMarketingServiceRolePolicy |
+| AmazonSageMakerHyperPodInferenceGatewayMetricsPublisherAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayMetricsPublisherAccess |
+| AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess |
+| AmazonSageMakerGlobalInferenceGatewayExecutionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGlobalInferenceGatewayExecutionAccess |
+| AWSAPIPortalServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAPIPortalServiceRolePolicy |

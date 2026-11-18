@@ -8038,3 +8038,23 @@ output "AWSPartnerCentralMarketingServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSPartnerCentralMarketingServiceRolePolicy"
 }
 
+output "AmazonSageMakerHyperPodInferenceGatewayMetricsPublisherAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayMetricsPublisherAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayMetricsPublisherAccess"
+}
+
+output "AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess"
+}
+
+output "AmazonSageMakerGlobalInferenceGatewayExecutionAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerGlobalInferenceGatewayExecutionAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGlobalInferenceGatewayExecutionAccess"
+}
+
+output "AWSAPIPortalServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSAPIPortalServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAPIPortalServiceRolePolicy"
+}
+
