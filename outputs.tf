@@ -8073,3 +8073,13 @@ output "AWSAccountAccessManagerAdministrator" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator"
 }
 
+output "CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy"
+}
+
+output "CloudWatchOmniGrantEnforcementPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniGrantEnforcementPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniGrantEnforcementPolicy"
+}
+

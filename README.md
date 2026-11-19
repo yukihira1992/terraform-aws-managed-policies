@@ -1631,3 +1631,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAccountAccessManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerReadOnlyAccess |
 | AWSAccountAccessManagerEntitlementManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerEntitlementManager |
 | AWSAccountAccessManagerAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator |
+| CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy |
+| CloudWatchOmniGrantEnforcementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniGrantEnforcementPolicy |
