@@ -1628,3 +1628,6 @@ data "aws_iam_policy" "ec2_full_access" {
 | AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerHyperPodInferenceGatewayGlobalRoutingAccess |
 | AmazonSageMakerGlobalInferenceGatewayExecutionAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerGlobalInferenceGatewayExecutionAccess |
 | AWSAPIPortalServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAPIPortalServiceRolePolicy |
+| AWSAccountAccessManagerReadOnlyAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerReadOnlyAccess |
+| AWSAccountAccessManagerEntitlementManager | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerEntitlementManager |
+| AWSAccountAccessManagerAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator |

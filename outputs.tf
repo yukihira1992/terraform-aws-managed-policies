@@ -8058,3 +8058,18 @@ output "AWSAPIPortalServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSAPIPortalServiceRolePolicy"
 }
 
+output "AWSAccountAccessManagerReadOnlyAccess" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountAccessManagerReadOnlyAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerReadOnlyAccess"
+}
+
+output "AWSAccountAccessManagerEntitlementManager" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountAccessManagerEntitlementManager"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerEntitlementManager"
+}
+
+output "AWSAccountAccessManagerAdministrator" {
+  value       = "arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator"
+}
+
