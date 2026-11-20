@@ -8083,3 +8083,23 @@ output "CloudWatchOmniGrantEnforcementPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniGrantEnforcementPolicy"
 }
 
+output "CertificateManagerOrganizationManagementServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CertificateManagerOrganizationManagementServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerOrganizationManagementServiceRolePolicy"
+}
+
+output "VirtualEdgeNetworkServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/VirtualEdgeNetworkServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/VirtualEdgeNetworkServiceRolePolicy"
+}
+
+output "CertificateManagerInventoryServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/CertificateManagerInventoryServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerInventoryServiceRolePolicy"
+}
+
+output "ConnectCampaignsInternalReserveRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/ConnectCampaignsInternalReserveRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ConnectCampaignsInternalReserveRolePolicy"
+}
+

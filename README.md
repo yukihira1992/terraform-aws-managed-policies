@@ -1633,3 +1633,7 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSAccountAccessManagerAdministrator | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AWSAccountAccessManagerAdministrator |
 | CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/CloudWatchOmniDevOpsAgentInvestigationServiceRolePolicy |
 | CloudWatchOmniGrantEnforcementPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniGrantEnforcementPolicy |
+| CertificateManagerOrganizationManagementServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerOrganizationManagementServiceRolePolicy |
+| VirtualEdgeNetworkServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/VirtualEdgeNetworkServiceRolePolicy |
+| CertificateManagerInventoryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerInventoryServiceRolePolicy |
+| ConnectCampaignsInternalReserveRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ConnectCampaignsInternalReserveRolePolicy |
