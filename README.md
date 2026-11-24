@@ -1638,3 +1638,4 @@ data "aws_iam_policy" "ec2_full_access" {
 | CertificateManagerInventoryServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/CertificateManagerInventoryServiceRolePolicy |
 | ConnectCampaignsInternalReserveRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/ConnectCampaignsInternalReserveRolePolicy |
 | AWSBudgetsActionExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsActionExecutionPolicy |
+| CloudWatchOmniProvisioningPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniProvisioningPolicy |

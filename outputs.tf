@@ -8108,3 +8108,8 @@ output "AWSBudgetsActionExecutionPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsActionExecutionPolicy"
 }
 
+output "CloudWatchOmniProvisioningPolicy" {
+  value       = "arn:aws:iam::aws:policy/CloudWatchOmniProvisioningPolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniProvisioningPolicy"
+}
+
