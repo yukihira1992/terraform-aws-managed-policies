@@ -8113,3 +8113,8 @@ output "CloudWatchOmniProvisioningPolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniProvisioningPolicy"
 }
 
+output "AWSContinuumConfigurationsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSContinuumConfigurationsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumConfigurationsServiceRolePolicy"
+}
+
