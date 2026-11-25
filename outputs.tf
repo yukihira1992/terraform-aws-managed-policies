@@ -8118,3 +8118,13 @@ output "AWSContinuumConfigurationsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumConfigurationsServiceRolePolicy"
 }
 
+output "AmplifyGen3ServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/service-role/AmplifyGen3ServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyGen3ServiceRolePolicy"
+}
+
+output "AWSContinuumForAgentsServiceRolePolicy" {
+  value       = "arn:aws:iam::aws:policy/aws-service-role/AWSContinuumForAgentsServiceRolePolicy"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumForAgentsServiceRolePolicy"
+}
+

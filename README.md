@@ -1640,3 +1640,5 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSBudgetsActionExecutionPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSBudgetsActionExecutionPolicy |
 | CloudWatchOmniProvisioningPolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/CloudWatchOmniProvisioningPolicy |
 | AWSContinuumConfigurationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumConfigurationsServiceRolePolicy |
+| AmplifyGen3ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyGen3ServiceRolePolicy |
+| AWSContinuumForAgentsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumForAgentsServiceRolePolicy |
