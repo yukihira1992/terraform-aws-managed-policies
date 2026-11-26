@@ -8128,3 +8128,28 @@ output "AWSContinuumForAgentsServiceRolePolicy" {
   description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumForAgentsServiceRolePolicy"
 }
 
+output "AmazonSageMakerAIModelDeploymentAndCustomizationAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerAIModelDeploymentAndCustomizationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIModelDeploymentAndCustomizationAccess"
+}
+
+output "AmazonSageMakerAIDataPreparationAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerAIDataPreparationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIDataPreparationAccess"
+}
+
+output "AmazonSageMakerAIKnowledgeBaseEvaluationAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerAIKnowledgeBaseEvaluationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIKnowledgeBaseEvaluationAccess"
+}
+
+output "AmazonSageMakerAIPromptOptimizationAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerAIPromptOptimizationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIPromptOptimizationAccess"
+}
+
+output "AmazonSageMakerAIUnifiedEvaluationAccess" {
+  value       = "arn:aws:iam::aws:policy/AmazonSageMakerAIUnifiedEvaluationAccess"
+  description = "https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIUnifiedEvaluationAccess"
+}
+

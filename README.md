@@ -1642,3 +1642,8 @@ data "aws_iam_policy" "ec2_full_access" {
 | AWSContinuumConfigurationsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumConfigurationsServiceRolePolicy |
 | AmplifyGen3ServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/service-role/AmplifyGen3ServiceRolePolicy |
 | AWSContinuumForAgentsServiceRolePolicy | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/aws-service-role/AWSContinuumForAgentsServiceRolePolicy |
+| AmazonSageMakerAIModelDeploymentAndCustomizationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIModelDeploymentAndCustomizationAccess |
+| AmazonSageMakerAIDataPreparationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIDataPreparationAccess |
+| AmazonSageMakerAIKnowledgeBaseEvaluationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIKnowledgeBaseEvaluationAccess |
+| AmazonSageMakerAIPromptOptimizationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIPromptOptimizationAccess |
+| AmazonSageMakerAIUnifiedEvaluationAccess | https://console.aws.amazon.com/iam/home?#/policies/arn:aws:iam::aws:policy/AmazonSageMakerAIUnifiedEvaluationAccess |
